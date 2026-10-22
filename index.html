@@ -188,6 +188,26 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 .pin .pdot { display:inline-block; width:14px; height:14px; border-radius:50%; border:2px solid #03130a; vertical-align:middle; }
 .pin .plbl { margin-left:6px; font-size:15px; color:#4dff8f; vertical-align:middle; font-family:var(--font); text-shadow:0 0 3px #03130a, 0 0 6px #03130a, 0 0 6px rgba(77,255,143,.6); }
 
+/* Reminders */
+#remPop { position:absolute; top:0; left:0; right:0; bottom:0; z-index:8; background:rgba(3,19,10,.93); display:none; -webkit-align-items:center; align-items:center; -webkit-justify-content:center; justify-content:center; }
+#remPop.on { display:-webkit-flex; display:flex; }
+#remBox { width:780px; border:3px solid var(--amber); border-radius:14px; padding:34px 40px 30px; text-align:center; color:var(--amber);
+  text-shadow:0 0 6px rgba(255,176,46,.6), 0 0 18px rgba(255,176,46,.3); box-shadow:0 0 30px rgba(255,176,46,.35), inset 0 0 30px rgba(255,176,46,.12);
+  -webkit-animation:rpulse 2s infinite; animation:rpulse 2s infinite; }
+@-webkit-keyframes rpulse { 50% { box-shadow:0 0 55px rgba(255,176,46,.65), inset 0 0 40px rgba(255,176,46,.22); } }
+@keyframes rpulse { 50% { box-shadow:0 0 55px rgba(255,176,46,.65), inset 0 0 40px rgba(255,176,46,.22); } }
+#remBox svg { margin:0 auto 10px; filter:drop-shadow(0 0 6px rgba(255,176,46,.8)) !important; }
+#remTitle { font-size:96px; letter-spacing:6px; line-height:1; }
+#remMsg { font-size:28px; margin-top:16px; }
+#remDone { margin-top:28px; font-size:36px; letter-spacing:4px; border:3px solid var(--amber); border-radius:10px; padding:10px 70px; color:var(--amber); text-align:center; }
+#remMeta { font-size:16px; margin-top:14px; opacity:.75; }
+.fld { background:transparent; border:1px solid var(--line); border-radius:6px; color:var(--ink); font-family:var(--font); font-size:17px; padding:6px 8px; text-shadow:inherit; box-sizing:border-box; -webkit-user-select:text; user-select:text; }
+.fld option { background:#03130a; color:var(--ink); }
+.fld::placeholder { color:var(--ink); opacity:.4; }
+.mini { border:1px solid var(--line); border-radius:6px; padding:3px 12px; font-size:15px; text-align:center; }
+.mini.armed { background:var(--alert); border-color:var(--alert); color:#fff; text-shadow:none; }
+@media (prefers-reduced-motion: reduce) { #remBox { -webkit-animation:none; animation:none; } }
+
 #dim { position:fixed; top:0; left:0; right:0; bottom:0; background:#000; opacity:0; pointer-events:none; z-index:60; -webkit-transition:opacity 2s; transition:opacity 2s; }
 #boot { position:absolute; top:0; left:0; right:0; bottom:0; background:var(--crt-bg); z-index:10; padding:30px; font-size:22px; text-shadow:0 0 3px var(--glow), 0 0 10px var(--glow-soft); }
 .cursor { -webkit-animation:blink 1s steps(1) infinite; animation:blink 1s steps(1) infinite; }
@@ -273,10 +293,10 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
                 <button type="button" class="qbtn" data-go="system" data-sub2="links"><span data-i="signal"></span>LINKS</button>
                 <button type="button" class="qbtn" id="qReload"><span data-i="home"></span>RESTART</button>
               </div>
-              <div class="card grow mt">
-                <div class="ch row mid"><span data-i="note"></span>NOTES</div>
-                <div id="dNotes" style="font-size:16px;"></div>
-              </div>
+              <button type="button" class="card grow mt col" data-go="notes">
+                <div class="ch row mid"><span data-i="note"></span>NOTES<span class="chev">&gt;</span></div>
+                <div id="dNotes" style="font-size:15px; width:100%;"></div>
+              </button>
             </div>
 
           </div>
@@ -380,6 +400,39 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
           <div class="card grow col"><div class="ch row mid"><span data-i="robot"></span><span id="aCap">AI AGENTS + SCHEDULED TASKS</span></div><div id="aList"></div></div>
         </div>
 
+<!-- ================= NOTES + REMINDERS ================= -->
+        <div id="v-notes" class="view">
+          <div class="row grow">
+            <div class="card grow col">
+              <div class="ch row mid"><span data-i="bin"></span>REMINDERS // POP UP FULL SCREEN UNTIL YOU TAP DONE</div>
+              <div id="remList" class="grow" style="overflow:hidden; min-width:0;"></div>
+              <div style="border-top:1px solid var(--line); padding-top:10px;">
+                <div class="meta" style="margin-bottom:6px;">ADD A REMINDER</div>
+                <div class="row mid" style="margin-bottom:8px;">
+                  <input id="rTitle" class="fld" style="width:240px; margin-right:10px;" maxlength="24" placeholder="TITLE, E.G. BIN DAY!">
+                  <input id="rMsg" class="fld grow" maxlength="80" placeholder="MESSAGE, E.G. PUT THE BLUE BIN OUT">
+                </div>
+                <div class="row mid" style="font-size:16px;">
+                  <span style="margin-right:8px;">FROM</span><select id="rSD" class="fld" style="width:140px;"></select><input id="rST" type="time" class="fld" value="18:00" style="width:150px; margin:0 16px 0 6px;">
+                  <span style="margin-right:8px;">UNTIL</span><select id="rED" class="fld" style="width:140px;"></select><input id="rET" type="time" class="fld" value="12:00" style="width:150px; margin-left:6px;">
+                </div>
+                <div class="row mid" style="font-size:16px; margin-top:8px;">
+                  <span style="margin-right:8px;">REPEAT</span><select id="rRep" class="fld grow" style="margin-right:12px;"><option value="1">EVERY WEEK</option><option value="2a">FORTNIGHTLY, STARTING NEXT TIME</option><option value="2b">FORTNIGHTLY, SKIP NEXT TIME</option></select>
+                  <button type="button" id="rAdd" class="btn" style="font-size:17px; margin-right:0;">ADD REMINDER</button>
+                </div>
+                <div id="rErr" class="warnc" style="font-size:15px; margin-top:6px;"></div>
+              </div>
+            </div>
+            <div class="card col ml" style="width:380px;">
+              <div class="ch row mid"><span data-i="note"></span>NOTES</div>
+              <div id="noteList" class="grow" style="overflow:hidden;"></div>
+              <div class="row mid" style="border-top:1px solid var(--line); padding-top:10px;">
+                <input id="noteIn" class="fld grow" maxlength="60" placeholder="ADD A NOTE"><button type="button" id="noteAdd" class="btn" style="font-size:17px; margin:0 0 0 10px;">ADD</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- ================= SYSTEM ================= -->
         <div id="v-system" class="view">
           <div class="row subs" data-subs="system"></div>
@@ -401,6 +454,8 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
         <div id="batt" class="row mid" style="margin-right:4px; font-size:15px;"></div>
         <div class="row mid lampset"><span><i id="lWx" class="dot idle"></i>WX</span><span><i id="lRoads" class="dot idle"></i>ROADS</span><span><i id="lNews" class="dot idle"></i>NEWS</span><span><i id="lDrops" class="dot idle"></i>DROPS</span><span><i id="lAi" class="dot idle"></i>AI</span></div>
       </div>
+
+      <div id="remPop"><div id="remBox"><span id="remIcon"></span><div id="remTitle"></div><div id="remMsg"></div><button type="button" id="remDone">DONE</button><div id="remMeta"></div></div></div>
 
     </div>
     <div class="crtScan"></div><div class="crtSweep"></div><div class="crtGlass"></div>
@@ -439,7 +494,11 @@ var CONFIG = {
   agentsUrl: '',               // { "agents": [ { "name", "job", "status", "lastRun", "result" } ] }
   refreshMinutes: { weather: 15, news: 10, pokemon: 5, agents: 10 },
 
-  notes: ['BINS OUT WEDNESDAY NIGHT', 'CHECK DROP RADAR AT 8AM', 'KEYS, WALLET, PHONE'],
+  // Starting notes and reminders. After first run they're edited on the tablet (tap the Notes panel).
+  notes: ['CHECK DROP RADAR AT 8AM', 'KEYS, WALLET, PHONE'],
+  reminders: [
+    { id: 'bins', title: 'BIN DAY!', message: 'Put the bins out. Collection is Thursday morning.', startDay: 3, startTime: '18:00', endDay: 4, endTime: '12:00', every: 1 }
+  ],
 
   topics: [
     { id: 'uk', name: 'UK NEWS' }, { id: 'local', name: 'NORFOLK' }, { id: 'world', name: 'WORLD' },
@@ -502,7 +561,8 @@ var IP = {
   bolt: '<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>',
   pin: '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>',
   door: '<path d="M6 21V3h12v18"/><path d="M3 21h18"/><circle cx="15" cy="12" r="1"/>',
-  refresh: '<path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 4v5h-5"/>'
+  refresh: '<path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 4v5h-5"/>',
+  bin: '<path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/><path d="M10 11v6M14 11v6"/>'
 };
 function icon(name, size) {
   size = size || 22;
@@ -552,6 +612,7 @@ var TABS = [
   ['news', 'NEWS', [['headlines', 'HEADLINES'], ['topics', 'TOPICS']]],
   ['drops', 'POKEMON', [['radar', 'RADAR'], ['watchlist', 'WATCHLIST'], ['brief', 'SIGNALS + NEWS'], ['calendar', 'RELEASES']]],
   ['ai', 'AI AGENTS', []],
+  ['notes', 'NOTES', [], true],
   ['system', '', [['display', 'DISPLAY'], ['app', 'TABLET APP'], ['links', 'LINKS']]]
 ];
 var current = { tab: 'dash', sub: {} };
@@ -559,6 +620,7 @@ for (var tb = 0; tb < TABS.length; tb++) if (TABS[tb][2].length) current.sub[TAB
 (function () {
   var html = '';
   for (var i = 0; i < TABS.length; i++) {
+    if (TABS[i][3]) continue;   // reached from a panel, not the tab bar
     html += TABS[i][0] === 'system'
       ? '<button type="button" id="gear" class="tab" data-go="system" aria-label="Settings">' + icon('gear', 26) + '</button>'
       : '<button type="button" class="tab" data-go="' + TABS[i][0] + '">' + TABS[i][1] + '</button>';
@@ -1046,7 +1108,125 @@ function renderAgents(list) {
 // =====================================================================
 //  NOTES + SYSTEM
 // =====================================================================
-function renderNotes() { var h = ''; for (var i = 0; i < CONFIG.notes.length; i++) h += '<div class="item">+ ' + esc(CONFIG.notes[i]) + '</div>'; $('dNotes').innerHTML = h || '<div class="dim">NO NOTES</div>'; }
+// ----- notes + reminders (kept on this device) -----
+function loadKey(key, def) { try { var v = localStorage.getItem(key); if (v) return JSON.parse(v); } catch (e) {} return def; }
+function saveKey(key, val) { try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {} }
+var REMINDERS = loadKey('doorway-reminders', null);
+if (!REMINDERS) { REMINDERS = CONFIG.reminders.slice(); saveKey('doorway-reminders', REMINDERS); }
+var MYNOTES = loadKey('doorway-notes', null);
+if (!MYNOTES) { MYNOTES = CONFIG.notes.slice(); saveKey('doorway-notes', MYNOTES); }
+var DONE = loadKey('doorway-done', {});
+var DAY_ORDER = [1, 2, 3, 4, 5, 6, 0];
+function hm(s) { var p = String(s || '00:00').split(':'); return [+p[0] || 0, +p[1] || 0]; }
+function dayStart(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+function remSpan(r, start) {   // the end time that goes with a start time
+  var e = hm(r.endTime), span = (r.endDay - r.startDay + 7) % 7;
+  var end = new Date(start.getFullYear(), start.getMonth(), start.getDate() + span, e[0], e[1]);
+  if (end <= start) end = new Date(end.getFullYear(), end.getMonth(), end.getDate() + 7, e[0], e[1]);
+  return end;
+}
+function latestStart(r, now) {  // most recent start time at or before now
+  var t = hm(r.startTime), back = (now.getDay() - r.startDay + 7) % 7;
+  var s = new Date(now.getFullYear(), now.getMonth(), now.getDate() - back, t[0], t[1]);
+  if (s > now) s = new Date(s.getFullYear(), s.getMonth(), s.getDate() - 7, t[0], t[1]);
+  return s;
+}
+function weekOn(r, start) {
+  if ((r.every || 1) === 1 || !r.anchor) return true;
+  var weeks = Math.round((dayStart(start) - dayStart(parseLocal(r.anchor))) / (7 * 86400000));
+  return ((weeks % 2) + 2) % 2 === 0;
+}
+function plusWeeks(d, n) { return new Date(d.getFullYear(), d.getMonth(), d.getDate() + 7 * n, d.getHours(), d.getMinutes()); }
+function remState(r, now) {     // {active, key, start, end, next}
+  var s = latestStart(r, now), end = remSpan(r, s), active = now < end && weekOn(r, s);
+  var next = plusWeeks(s, 1); if (!weekOn(r, next)) next = plusWeeks(next, 1);
+  return { active: active, key: r.id + '@' + isoLocal(s), start: s, end: end, next: next };
+}
+function activeReminders() {
+  var now = new Date(), out = [];
+  for (var i = 0; i < REMINDERS.length; i++) { var st = remState(REMINDERS[i], now); if (st.active && !DONE[st.key]) out.push({ r: REMINDERS[i], st: st }); }
+  return out;
+}
+function whenText(d) { return DAYS[d.getDay()] + ' ' + pad(d.getDate()) + ' ' + MONTHS[d.getMonth()] + ' ' + hhmm(d); }
+function schedText(r) { return DAYS[r.startDay] + ' ' + r.startTime + ' TO ' + DAYS[r.endDay] + ' ' + r.endTime + ' // ' + ((r.every || 1) === 2 ? 'FORTNIGHTLY' : 'WEEKLY'); }
+var popKey = null;
+function checkReminders() {
+  var act = activeReminders();
+  if (act.length) {
+    var a = act[0]; popKey = a.st.key;
+    $('remIcon').innerHTML = icon(/bin|recycl|rubbish|waste/i.test(a.r.title + ' ' + (a.r.message || '')) ? 'bin' : 'note', 70);
+    $('remTitle').innerHTML = esc(a.r.title);
+    $('remMsg').innerHTML = esc(a.r.message || '');
+    $('remMeta').innerHTML = 'SHOWS UNTIL ' + whenText(a.st.end) + (act.length > 1 ? ' // ' + (act.length - 1) + ' MORE AFTER THIS' : '');
+    $('remPop').className = 'on';
+  } else { popKey = null; $('remPop').className = ''; }
+  renderNotes();
+}
+$('remDone').addEventListener('click', function () {
+  if (!popKey) return;
+  DONE[popKey] = Date.now();
+  var cutoff = Date.now() - 30 * 86400000; for (var k in DONE) if (DONE[k] < cutoff) delete DONE[k];
+  saveKey('doorway-done', DONE);
+  checkReminders();
+});
+function renderNotes() {
+  var now = new Date(), dash = '', list = '', i, soon = null;
+  for (i = 0; i < REMINDERS.length; i++) {
+    var r = REMINDERS[i], st = remState(r, now), showing = st.active && !DONE[st.key];
+    if (showing) dash += '<div class="item warnc">! ' + esc(r.title) + '</div>';
+    var nxt = st.active ? st.start : st.next;
+    if (!showing && (!soon || st.next < soon.d)) soon = { d: st.next, t: r.title };
+    list += '<div class="item row mid" style="padding:9px 0;"><span class="grow"><div style="font-size:20px;"' + (showing ? ' class="warnc"' : '') + '>' + esc(r.title) +
+      (r.message ? ' <span class="dim" style="font-size:15px;">// ' + esc(r.message) + '</span>' : '') + '</div>' +
+      '<div class="meta">' + schedText(r) + ' // ' + (showing ? 'SHOWING NOW' : st.active ? 'DONE FOR THIS TIME' : 'NEXT ' + whenText(st.next)) + '</div></span>' +
+      '<button type="button" class="mini" data-rdel="' + esc(r.id) + '">DELETE</button></div>';
+  }
+  if (soon) dash += '<div class="item meta">NEXT: ' + esc(soon.t) + ' ' + DAYS[soon.d.getDay()] + ' ' + hhmm(soon.d) + '</div>';
+  for (i = 0; i < MYNOTES.length && i < 4; i++) dash += '<div class="item">+ ' + esc(MYNOTES[i]) + '</div>';
+  $('dNotes').innerHTML = dash || '<div class="dim">NO NOTES</div>';
+  $('remList').innerHTML = list || '<div class="dim" style="padding:10px 0;">NO REMINDERS YET</div>';
+  var nl = '';
+  for (i = 0; i < MYNOTES.length; i++) nl += '<div class="item row mid"><span class="grow">+ ' + esc(MYNOTES[i]) + '</span><button type="button" class="mini" data-ndel="' + i + '">DELETE</button></div>';
+  $('noteList').innerHTML = nl || '<div class="dim" style="padding:10px 0;">NO NOTES YET</div>';
+}
+(function () {   // fill the day pickers
+  var o = ''; for (var i = 0; i < DAY_ORDER.length; i++) o += '<option value="' + DAY_ORDER[i] + '">' + DAYS_LONG[DAY_ORDER[i]] + '</option>';
+  $('rSD').innerHTML = o; $('rED').innerHTML = o; $('rSD').value = '3'; $('rED').value = '4';
+})();
+$('rAdd').addEventListener('click', function () {
+  var title = $('rTitle').value.replace(/^\s+|\s+$/g, '').toUpperCase(), msg = $('rMsg').value.replace(/^\s+|\s+$/g, '');
+  if (!title) { $('rErr').innerHTML = 'GIVE THE REMINDER A TITLE FIRST.'; return; }
+  var r = { id: 'r' + Date.now(), title: title, message: msg, startDay: +$('rSD').value, startTime: $('rST').value || '18:00', endDay: +$('rED').value, endTime: $('rET').value || '12:00', every: 1 };
+  var rep = $('rRep').value;
+  if (rep !== '1') {
+    r.every = 2;
+    var now = new Date(), s = latestStart(r, now), e = remSpan(r, s);
+    var upcoming = now < e ? s : plusWeeks(s, 1);         // the next (or current) showing
+    r.anchor = isoLocal(rep === '2b' ? plusWeeks(upcoming, 1) : upcoming);
+  }
+  REMINDERS.push(r); saveKey('doorway-reminders', REMINDERS);
+  $('rTitle').value = ''; $('rMsg').value = ''; $('rErr').innerHTML = '';
+  checkReminders();
+});
+$('noteAdd').addEventListener('click', function () {
+  var t = $('noteIn').value.replace(/^\s+|\s+$/g, '').toUpperCase();
+  if (!t) return;
+  MYNOTES.push(t); saveKey('doorway-notes', MYNOTES); $('noteIn').value = ''; renderNotes();
+});
+document.addEventListener('click', function (e) {   // delete buttons tap twice: DELETE, then SURE?
+  var el = e.target;
+  while (el && el !== document && !(el.getAttribute && (el.getAttribute('data-rdel') || el.getAttribute('data-ndel')))) el = el.parentNode;
+  if (!el || el === document) return;
+  if (!el.getAttribute('data-armed')) {
+    el.setAttribute('data-armed', '1'); el.className = 'mini armed'; el.innerHTML = 'SURE?';
+    setTimeout(function () { if (el.parentNode) { el.removeAttribute('data-armed'); el.className = 'mini'; el.innerHTML = 'DELETE'; } }, 3000);
+    return;
+  }
+  var rid = el.getAttribute('data-rdel'), nid = el.getAttribute('data-ndel'), i;
+  if (rid) { for (i = 0; i < REMINDERS.length; i++) if (REMINDERS[i].id === rid) { REMINDERS.splice(i, 1); break; } saveKey('doorway-reminders', REMINDERS); }
+  if (nid !== null && nid !== undefined && nid !== '') { MYNOTES.splice(+nid, 1); saveKey('doorway-notes', MYNOTES); }
+  checkReminders();
+});
 function applyDisplay() {
   var st = $('stage').style;
   st.webkitFilter = st.filter = SETTINGS.bright === 1 ? '' : 'brightness(' + SETTINGS.bright + ')';
@@ -1171,7 +1351,7 @@ $('dPinIcon').innerHTML = icon('pin', 16);
 $('dPlace').innerHTML = esc(CONFIG.placeName) + ', UK';
 $('wPlace').innerHTML = esc(CONFIG.placeName);
 fillIcons();
-renderNotes();
+checkReminders(); setInterval(checkReminders, 30000);
 var hv0 = homeView(); show(hv0[0], hv0[1]);
 applyDisplay();
 tickClock(); setInterval(tickClock, 1000);
