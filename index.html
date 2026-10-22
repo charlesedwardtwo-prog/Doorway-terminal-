@@ -170,6 +170,8 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 @-webkit-keyframes tick { from { -webkit-transform:translateX(0); } to { -webkit-transform:translateX(-100%); } }
 @keyframes tick { from { transform:translateX(0); } to { transform:translateX(-100%); } }
 .lampset span { margin-left:12px; font-size:14px; letter-spacing:1px; }
+#batt svg, #battBig svg { margin-right:8px; }
+.lowbatt { color:var(--alert); text-shadow:0 0 6px rgba(255,75,58,.6); }
 
 /* Map engine (minimal styles for the Leaflet map library) */
 .leaflet-pane, .leaflet-tile, .leaflet-marker-icon, .leaflet-tile-container, .leaflet-layer { position:absolute; left:0; top:0; }
@@ -375,6 +377,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
         <div id="v-system" class="view">
           <div class="row subs" data-subs="system"></div>
           <div id="p-system-display" class="pane col">
+            <div class="setrow row mid"><div class="name">TABLET BATTERY</div><span id="battBig" class="row mid"></span></div>
             <div class="setrow row mid"><div class="name">BRIGHTNESS</div><button type="button" id="bDown" class="btn">-</button><div id="brightVal" style="width:90px; text-align:center;">100%</div><button type="button" id="bUp" class="btn">+</button></div>
             <div class="setrow row mid"><div class="name">SCREEN EFFECTS</div><button type="button" id="fxOn" class="btn">ON</button><button type="button" id="fxOff" class="btn">OFF</button><span class="dim" style="font-size:16px;">OFF = SMOOTHER ON SLOW DEVICES</span></div>
             <div class="setrow row mid"><div class="name">NIGHT DIMMING</div><button type="button" id="ndOn" class="btn">ON</button><button type="button" id="ndOff" class="btn">OFF</button><span class="dim" style="font-size:16px;" id="ndHours"></span></div>
@@ -387,6 +390,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
       <div id="footer" class="row mid">
         <span data-i="door"></span><span>DOORWAY TERMINAL</span>
         <div class="ticker grow"><span id="tickText">AWAITING TRANSMISSIONS</span></div>
+        <div id="batt" class="row mid" style="margin-right:4px; font-size:15px;"></div>
         <div class="row mid lampset"><span><i id="lWx" class="dot idle"></i>WX</span><span><i id="lRoads" class="dot idle"></i>ROADS</span><span><i id="lNews" class="dot idle"></i>NEWS</span><span><i id="lDrops" class="dot idle"></i>DROPS</span><span><i id="lAi" class="dot idle"></i>AI</span></div>
       </div>
 
@@ -1037,6 +1041,42 @@ function renderLinks() {
 }
 
 // =====================================================================
+//  TABLET BATTERY (Fully Kiosk's battery reading, or the browser's)
+// =====================================================================
+function battIcon(pct, charging, scale) {
+  scale = scale || 1;
+  var fillW = Math.max(1, Math.round(19 * pct / 100));
+  return '<svg width="' + 30 * scale + '" height="' + 16 * scale + '" viewBox="0 0 30 16">' +
+    '<rect x="1" y="2" width="24" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>' +
+    '<rect x="26" y="5.5" width="3" height="5" rx="1" fill="currentColor"/>' +
+    '<rect x="3.5" y="4.5" width="' + fillW + '" height="7" fill="currentColor"/>' +
+    (charging ? '<path d="M14 3l-4 6h3l-2 5 5-7h-3l2-4z" fill="#03130a" stroke="currentColor" stroke-width=".8"/>' : '') + '</svg>';
+}
+function readBattery(cb) {
+  try {
+    if (window.fully && typeof fully.getBatteryLevel === 'function') { cb(Math.round(+fully.getBatteryLevel()), !!(fully.isPlugged && fully.isPlugged())); return; }
+  } catch (e) {}
+  if (navigator.getBattery) {
+    navigator.getBattery().then(function (b) { cb(Math.round(b.level * 100), b.charging); }, function () { cb(null); });
+    return;
+  }
+  cb(null);
+}
+function renderBattery() {
+  readBattery(function (pct, charging) {
+    if (pct === null || isNaN(pct)) {
+      $('batt').innerHTML = '';
+      $('battBig').innerHTML = '<span class="dim" style="font-size:18px;">NOT AVAILABLE ON THIS DEVICE</span>';
+      return;
+    }
+    var low = pct <= 20 && !charging, cls = low ? ' class="lowbatt"' : '';
+    $('batt').innerHTML = '<span' + cls + ' style="display:flex; align-items:center;">' + battIcon(pct, charging) + pct + '%</span>';
+    var note = charging ? (pct >= 78 && pct <= 86 ? 'CHARGING // HELD BY BATTERY PROTECTION' : 'CHARGING') : (low ? 'LOW // CHECK THE CHARGER' : 'ON BATTERY // CHECK THE CHARGER');
+    $('battBig').innerHTML = '<span' + cls + ' style="display:flex; align-items:center;">' + battIcon(pct, charging, 1.6) + '<span style="font-size:28px; margin-right:16px;">' + pct + '%</span><span style="font-size:17px;">' + note + '</span></span>';
+  });
+}
+
+// =====================================================================
 //  Boot + start
 // =====================================================================
 var BOOT = ['DOORWAY TERMINAL MK III', 'DISPLAY ................. OK', 'WEATHER UPLINK .......... OK', 'ROAD SCANNER ............ ' + (CONFIG.tomtomKey ? 'LINKED' : 'SAMPLE'),
@@ -1060,6 +1100,7 @@ loadWeather(); setInterval(loadWeather, CONFIG.refreshMinutes.weather * 60000);
 loadNews(); setInterval(loadNews, CONFIG.refreshMinutes.news * 60000);
 loadPokemon(); setInterval(loadPokemon, CONFIG.refreshMinutes.pokemon * 60000);
 loadAgents(); setInterval(loadAgents, CONFIG.refreshMinutes.agents * 60000);
+renderBattery(); setInterval(renderBattery, 60000);
 loadTraffic(); setInterval(function () { checkRoutes(false); }, 60000);
 boot(0);
 setTimeout(function () { location.reload(); }, 6 * 3600000);
