@@ -298,6 +298,19 @@ body.style-hud .hudRing { display:block; }
 .hLine svg { margin-right:6px; }
 .hNote { font-size:16px; letter-spacing:2px; margin-top:3px; max-width:270px; line-height:1.15; }
 .hNote.alert { color:var(--amber); text-shadow:0 0 6px var(--amber); }
+/* hologram content types */
+.hLabel { font-size:15px; letter-spacing:3px; opacity:.8; }
+.hBig { font-size:64px; line-height:1; letter-spacing:2px; }
+.hMid { font-size:24px; letter-spacing:2px; margin-top:4px; }
+.hSmall { font-size:15px; letter-spacing:2px; margin-top:4px; opacity:.85; }
+.hHead { font-size:21px; line-height:1.2; letter-spacing:1px; max-width:260px; margin-top:6px; }
+.hHours { display:-webkit-flex; display:flex; margin-top:6px; font-size:14px; }
+.hHours > div { margin:0 8px; text-align:center; }
+.hHours svg { margin:2px auto; }
+.hSegs { display:-webkit-flex; display:flex; margin:8px 0 2px; }
+.hSegs i { width:16px; height:14px; margin:0 2px; border:1px solid var(--ink); }
+.hSegs i.on { background:var(--ink); box-shadow:0 0 8px var(--ink); }
+.hCore { width:190px; height:190px; display:block; }
 #holoCtl { position:absolute; left:16px; bottom:16px; display:none; font-family:'Share Tech Mono', monospace; z-index:2; }
 #holoCtl.on { display:block; }
 #holoCtl .btn { display:block; margin:0 0 8px; min-width:150px; font-size:16px; background:#000; color:var(--ink); border-color:var(--ink); }
@@ -611,6 +624,7 @@ body.style-hud .hudRing { display:block; }
             <div class="setrow row mid"><div class="name">COLOUR</div><div id="colourBtns" class="row mid"></div></div>
             <div class="setrow row mid"><div class="name">STYLE</div><div id="styleBtns" class="row mid"></div></div>
             <div class="setrow row mid"><div class="name">HOLOGRAM (BETA)</div><button type="button" class="btn" data-holo="start-pyramid">PYRAMID</button><button type="button" class="btn" data-holo="start-single">SINGLE PANE</button><span class="dim" style="font-size:16px;">TAP THE SCREEN FOR CONTROLS AND EXIT</span></div>
+            <div class="setrow row mid"><div class="name">HOLOGRAM SHOWS</div><div id="holoPick" class="row mid" style="-webkit-flex-wrap:wrap; flex-wrap:wrap;"></div></div>
             <div class="setrow row mid"><div class="name">BRIGHTNESS</div><button type="button" id="bDown" class="btn">-</button><div id="brightVal" style="width:90px; text-align:center;">100%</div><button type="button" id="bUp" class="btn">+</button></div>
             <div class="setrow row mid"><div class="name">SCREEN EFFECTS</div><button type="button" id="fxOn" class="btn">ON</button><button type="button" id="fxOff" class="btn">OFF</button><span class="dim" style="font-size:16px;">OFF = SMOOTHER ON SLOW DEVICES</span></div>
             <div class="setrow row mid"><div class="name">NIGHT DIMMING</div><button type="button" id="ndOn" class="btn">ON</button><button type="button" id="ndOff" class="btn">OFF</button><span class="dim" style="font-size:16px;" id="ndHours"></span></div>
@@ -638,6 +652,7 @@ body.style-hud .hudRing { display:block; }
 <div id="holo"><div id="holoGuide"></div><div id="holoViews"></div>
   <div id="holoCtl">
     <button type="button" class="btn" data-holo="exit">EXIT HOLOGRAM</button>
+    <button type="button" class="btn" data-holo="content">SHOWING: CLOCK</button>
     <button type="button" class="btn" data-holo="mode">MODE: PYRAMID</button>
     <button type="button" class="btn" data-holo="bigger">SIZE +</button>
     <button type="button" class="btn" data-holo="smaller">SIZE -</button>
@@ -908,9 +923,11 @@ function loadWeather() {
     function () { renderWeather(sampleWeather()); SOURCE.weather = 'SAMPLE'; updateStatus(); });
 }
 var WXNOW = null;
+function hourIndexOf(d) { var now = d.current.time.substr(0, 13); for (var i = 0; i < d.hourly.time.length; i++) if (d.hourly.time[i].substr(0, 13) === now) return i; return 0; }
 function renderWeather(d) {
   var c = d.current, dl = d.daily, h = d.hourly, w = wx(c.weather_code), i, html;
-  WXNOW = { temp: Math.round(c.temperature_2m), desc: w.t, icon: w.i };
+  WXNOW = { temp: Math.round(c.temperature_2m), desc: w.t, icon: w.i, hi: Math.round(dl.temperature_2m_max[0]), lo: Math.round(dl.temperature_2m_min[0]), rain: dl.precipitation_probability_max[0] || 0, hours: [] };
+  for (var hh = 1; hh <= 3; hh++) { var hi2 = hourIndexOf(d) + hh * 2; if (h.time[hi2]) WXNOW.hours.push([h.time[hi2].substr(11, 5), Math.round(h.temperature_2m[hi2]), wx(h.weather_code[hi2]).i]); }
   var start = 0, now = c.time.substr(0, 13);
   for (i = 0; i < h.time.length; i++) if (h.time[i].substr(0, 13) === now) { start = i; break; }
   var hi = Math.round(dl.temperature_2m_max[0]), lo = Math.round(dl.temperature_2m_min[0]);
@@ -1225,7 +1242,9 @@ function samplePokemon() {
 var LEVEL_SEGS = { low: 3, medium: 6, high: 9 };
 function segs(n, big) { var h = ''; for (var i = 0; i < 10; i++) h += '<div class="s' + (i < n ? ' on' : '') + '"' + (big ? ' style="width:56px; height:40px; margin-right:8px;"' : '') + '></div>'; return h; }
 function levelHtml(level) { var L = String(level || '---').toUpperCase(); return L === 'HIGH' ? '<span class="hl">HIGH</span>' : L; }
+var POKE = null;
 function renderPokemon(d) {
+  POKE = d;
   var risk = d.risk || {}, lvl = String(risk.level || '').toLowerCase(), n = LEVEL_SEGS[lvl] || 0, i, html;
   var upd = d.updatedAt ? new Date(Date.parse(d.updatedAt)) : null, updTxt = upd && !isNaN(upd) ? 'UPDATED ' + DAYS[upd.getDay()] + ' ' + hhmm(upd) : '';
   var checks = d.checks || [], alert = d.alert && d.alert.text ? d.alert : null;
@@ -1509,7 +1528,7 @@ function freshReload() {
 }
 $('qReload').addEventListener('click', freshReload);
 // Auto-update: every 5 minutes, check whether a newer dashboard has been published and load it.
-var BUILD = '20261022213709';
+var BUILD = '20261022214803';
 if (CONFIG.autoUpdate && /^https?:/.test(location.protocol)) {
   setInterval(function () {
     var x = new XMLHttpRequest();
@@ -1833,7 +1852,15 @@ $('rainPlay').addEventListener('click', function () {
 //  4-sided pyramid laid on the flat tablet. Single pane: one large copy for a 45-degree sheet.
 // =====================================================================
 function holoS() { if (!SETTINGS.holo) SETTINGS.holo = { on: false, mode: 'pyramid', size: 1, mirror: true, flip: false, guide: false }; return SETTINGS.holo; }
-function holoViewHtml() {
+var HOLO_CONTENT = [['clock', 'CLOCK'], ['weather', 'WEATHER'], ['traffic', 'TRAFFIC'], ['news', 'NEWS'], ['drops', 'POKEMON'], ['core', 'AI CORE'], ['cycle', 'CYCLE ALL']];
+var holoShowing = 'clock', holoCycleAt = 0, holoNewsIdx = 0, holoNewsAt = 0;
+function holoContent() { var c = holoS().content || 'clock'; return c === 'cycle' ? holoShowing : c; }
+function holoViewHtml(c) {
+  if (c === 'weather') return '<div class="hvIn"><div class="hLabel">' + esc(CONFIG.placeName) + ' NOW</div><div class="hLine"><span class="hIcon"></span><span class="hBig hTemp">--&deg;</span></div><div class="hMid hDesc"></div><div class="hSmall hHiLo"></div><div class="hHours"></div></div>';
+  if (c === 'traffic') return '<div class="hvIn"><div class="hLabel hRouteName">TO WORK</div><div class="hBig hMins">--</div><div class="hMid hDelay"></div><div class="hSmall hArrive"></div></div>';
+  if (c === 'news') return '<div class="hvIn"><div class="hLabel hSrc">NEWS</div><div class="hHead">---</div></div>';
+  if (c === 'drops') return '<div class="hvIn"><div class="hLabel">POKEMON DROPS</div><div class="hBig hLevel">---</div><div class="hSegs"></div><div class="hSmall hWin"></div></div>';
+  if (c === 'core') return '<div class="hvIn"><canvas class="hCore" width="260" height="260"></canvas><div class="hSmall hCoreTxt">CORE ONLINE</div></div>';
   return '<div class="hvIn"><div class="hBot">' + doorbot('sign') + '</div><div class="hTime">--:--</div><div class="hLine"><span class="hIcon"></span><span class="hTemp">--&deg;</span>&nbsp;<span class="hDesc"></span></div><div class="hNote"></div></div>';
 }
 function layoutHolo() {
@@ -1842,7 +1869,7 @@ function layoutHolo() {
   else { var D = 230 * sz; defs = [[0, -D, 0, sz], [D, 0, 90, sz], [0, D, 180, sz], [-D, 0, -90, sz]]; }
   for (i = 0; i < defs.length; i++) {
     var t = 'translate(' + defs[i][0] + 'px,' + defs[i][1] + 'px) rotate(' + defs[i][2] + 'deg) scale(' + (defs[i][3] * mir) + ',' + defs[i][3] + ')';
-    views += '<div class="hv" style="-webkit-transform:' + t + '; transform:' + t + ';">' + holoViewHtml() + '</div>';
+    views += '<div class="hv" style="-webkit-transform:' + t + '; transform:' + t + ';">' + holoViewHtml(holoContent()) + '</div>';
   }
   $('holoViews').innerHTML = views;
   var g = '';
@@ -1855,28 +1882,132 @@ function layoutHolo() {
     if (a === 'mirror') b[i].innerHTML = 'MIRROR: ' + (s.mirror ? 'ON' : 'OFF');
     if (a === 'rotate') b[i].style.display = s.mode === 'single' ? 'block' : 'none';
     if (a === 'guide') b[i].innerHTML = 'GUIDE LINES: ' + (s.guide ? 'ON' : 'OFF');
+    if (a === 'content') { for (var q = 0; q < HOLO_CONTENT.length; q++) if (HOLO_CONTENT[q][0] === (s.content || 'clock')) b[i].innerHTML = 'SHOWING: ' + HOLO_CONTENT[q][1]; }
   }
-  holoIconNow = null; updateHolo();
+  holoIconNow = null; renderHoloPick(); updateHolo(); coreLoop();
 }
 var holoIconNow = null;
 function updateHolo() {
   if (!holoS().on) return;
-  var d = new Date(), i, note = '', alert = false;
-  var act = activeReminders();
-  if (act.length) { note = '! ' + act[0].r.title; alert = true; }
-  else {
-    var soon = null, now = new Date();
-    for (i = 0; i < REMINDERS.length; i++) { var st = remState(REMINDERS[i], now); if (!soon || st.next < soon.d) soon = { d: st.next, t: REMINDERS[i].title }; }
-    note = soon ? 'NEXT: ' + soon.t + ' ' + DAYS[soon.d.getDay()] : 'ALL CLEAR';
+  var s = holoS(), d = new Date(), i, el;
+  if (s.content === 'cycle' && Date.now() - holoCycleAt > 12000) {
+    holoCycleAt = Date.now();
+    var order = ['clock', 'weather', 'traffic', 'news', 'drops', 'core'], k = order.indexOf(holoShowing);
+    holoShowing = order[(k + 1) % order.length]; layoutHolo(); return;
   }
-  var setAll = function (cls, html) { var els = document.querySelectorAll('#holo .' + cls); for (var k = 0; k < els.length; k++) els[k].innerHTML = html; };
+  var setAll = function (cls, html) { var els = document.querySelectorAll('#holo .' + cls); for (var n = 0; n < els.length; n++) els[n].innerHTML = html; };
+  var c = holoContent();
   setAll('hTime', hhmm(d));
   if (WXNOW) {
-    setAll('hTemp', WXNOW.temp + '&deg;C'); setAll('hDesc', WXNOW.desc);
-    if (holoIconNow !== WXNOW.icon) { holoIconNow = WXNOW.icon; setAll('hIcon', icon(WXNOW.icon, 26)); }
+    setAll('hTemp', WXNOW.temp + '&deg;' + (c === 'clock' ? 'C' : '')); setAll('hDesc', WXNOW.desc);
+    setAll('hHiLo', 'HIGH ' + WXNOW.hi + '&deg; // LOW ' + WXNOW.lo + '&deg; // RAIN ' + WXNOW.rain + '%');
+    if (holoIconNow !== WXNOW.icon + c) { holoIconNow = WXNOW.icon + c; setAll('hIcon', icon(WXNOW.icon, c === 'weather' ? 56 : 26)); }
+    var hrs = ''; for (i = 0; i < WXNOW.hours.length; i++) hrs += '<div>' + WXNOW.hours[i][0] + icon(WXNOW.hours[i][2], 22) + WXNOW.hours[i][1] + '&deg;</div>';
+    if (c === 'weather') { var hh = document.querySelectorAll('#holo .hHours'); if (hh.length && hh[0].getAttribute('data-k') !== hrs.length + '') for (i = 0; i < hh.length; i++) { hh[i].innerHTML = hrs; hh[i].setAttribute('data-k', hrs.length + ''); } }
   }
-  var notes = document.querySelectorAll('#holo .hNote');
-  for (i = 0; i < notes.length; i++) { notes[i].innerHTML = esc(note); notes[i].className = 'hNote' + (alert ? ' alert' : ''); }
+  if (c === 'clock') {
+    var note = '', alert = false, act = activeReminders();
+    if (act.length) { note = '! ' + act[0].r.title; alert = true; }
+    else {
+      var soon = null, now = new Date();
+      for (i = 0; i < REMINDERS.length; i++) { var st = remState(REMINDERS[i], now); if (!soon || st.next < soon.d) soon = { d: st.next, t: REMINDERS[i].title }; }
+      note = soon ? 'NEXT: ' + soon.t + ' ' + DAYS[soon.d.getDay()] : 'ALL CLEAR';
+    }
+    var notes = document.querySelectorAll('#holo .hNote');
+    for (i = 0; i < notes.length; i++) { notes[i].innerHTML = esc(note); notes[i].className = 'hNote' + (alert ? ' alert' : ''); }
+  }
+  if (c === 'traffic') {
+    var r = ROUTES && ROUTES[0];
+    if (r && r.mins !== null) {
+      setAll('hRouteName', 'TO ' + esc(r.name)); setAll('hMins', r.mins + '<span style="font-size:26px;"> MIN</span>');
+      setAll('hDelay', r.delay >= 3 ? '+' + r.delay + ' MIN TRAFFIC' : 'ROADS CLEAR');
+      setAll('hArrive', 'ARRIVE ' + hhmm(new Date(Date.now() + r.mins * 60000)) + (routesAt ? ' // CHECKED ' + hhmm(routesAt) : ''));
+    } else { setAll('hMins', '--'); setAll('hDelay', 'NO TRAFFIC DATA'); }
+  }
+  if (c === 'news') {
+    var shown = []; for (i = 0; i < NEWS.length; i++) if (SETTINGS.topics[NEWS[i].topic] !== false) shown.push(NEWS[i]);
+    if (shown.length) {
+      if (Date.now() - holoNewsAt > 9000) { holoNewsAt = Date.now(); holoNewsIdx = (holoNewsIdx + 1) % Math.min(shown.length, 8); }
+      var n = shown[holoNewsIdx % shown.length];
+      setAll('hSrc', esc(topicName(n.topic)) + ' // ' + esc(n.source || '')); setAll('hHead', esc(n.title));
+    }
+  }
+  if (c === 'drops' && POKE) {
+    var lvl = String((POKE.risk || {}).level || '---').toUpperCase(), on = LEVEL_SEGS[lvl.toLowerCase()] || 0, sg = '';
+    for (i = 0; i < 10; i++) sg += '<i' + (i < on ? ' class="on"' : '') + '></i>';
+    setAll('hLevel', POKE.alert && POKE.alert.text ? 'ALERT' : lvl); setAll('hSegs', sg);
+    setAll('hWin', POKE.alert && POKE.alert.text ? esc(POKE.alert.text) : 'WATCH ' + esc(((POKE.risk || {}).nextWindow || '').split(';')[0]));
+  }
+  if (c === 'core') setAll('hCoreTxt', 'CORE ONLINE // ' + hhmm(d));
+}
+function renderHoloPick() {
+  var s = holoS(), h2 = '';
+  for (var i = 0; i < HOLO_CONTENT.length; i++) h2 += '<button type="button" class="btn' + ((s.content || 'clock') === HOLO_CONTENT[i][0] ? ' on' : '') + '" data-holo="show-' + HOLO_CONTENT[i][0] + '" style="margin-bottom:6px;">' + HOLO_CONTENT[i][1] + '</button>';
+  $('holoPick').innerHTML = h2;
+}
+
+// ----- AI CORE: a rotating cloud of nodes with sparks running along the links -----
+var CORE = null;
+function coreInit() {
+  var nodes = [], edges = [], N = 110, i, j;
+  for (i = 0; i < N; i++) {   // points spread over an egg shape, slightly squashed like a brain
+    var y = 1 - (i / (N - 1)) * 2, r = Math.sqrt(1 - y * y), th = i * 2.39996;
+    nodes.push([Math.cos(th) * r * 1.15, y * 0.85, Math.sin(th) * r * 0.95]);
+  }
+  for (i = 0; i < N; i++) {
+    var dists = [];
+    for (j = 0; j < N; j++) if (j !== i) { var dx = nodes[i][0] - nodes[j][0], dy = nodes[i][1] - nodes[j][1], dz = nodes[i][2] - nodes[j][2]; dists.push([dx * dx + dy * dy + dz * dz, j]); }
+    dists.sort(function (a, b) { return a[0] - b[0]; });
+    for (j = 0; j < 3; j++) { var a2 = Math.min(i, dists[j][1]), b2 = Math.max(i, dists[j][1]); edges.push(a2 * 1000 + b2); }
+  }
+  var uniq = {}, E = []; for (i = 0; i < edges.length; i++) if (!uniq[edges[i]]) { uniq[edges[i]] = 1; E.push([Math.floor(edges[i] / 1000), edges[i] % 1000]); }
+  var c = document.createElement('canvas'); c.width = c.height = 260;
+  CORE = { nodes: nodes, edges: E, sparks: [], angle: 0, canvas: c, ctx: c.getContext('2d'), raf: null, last: 0 };
+}
+function coreDraw(ts) {
+  var x = CORE.ctx, W = 260, cx = 130, cy = 124, t = themeNow(), rgb = t.rgb, i;
+  x.clearRect(0, 0, W, W);
+  CORE.angle += 0.008;
+  var ca = Math.cos(CORE.angle), sa = Math.sin(CORE.angle), tilt = 0.35, ct = Math.cos(tilt), st = Math.sin(tilt), P = [];
+  for (i = 0; i < CORE.nodes.length; i++) {
+    var n = CORE.nodes[i], X = n[0] * ca + n[2] * sa, Z = -n[0] * sa + n[2] * ca, Y = n[1] * ct - Z * st; Z = n[1] * st + Z * ct;
+    var f = 3 / (3 + Z); P.push([cx + X * 78 * f, cy + Y * 78 * f, Z]);
+  }
+  var glow = x.createRadialGradient(cx, cy, 4, cx, cy, 95);
+  glow.addColorStop(0, 'rgba(' + rgb + ',.35)'); glow.addColorStop(1, 'rgba(' + rgb + ',0)');
+  x.fillStyle = glow; x.fillRect(0, 0, W, W);
+  x.lineWidth = 1;
+  for (i = 0; i < CORE.edges.length; i++) {
+    var a = P[CORE.edges[i][0]], b = P[CORE.edges[i][1]], depth = (2 - (a[2] + b[2]) / 2) / 3;
+    x.strokeStyle = 'rgba(' + rgb + ',' + (0.12 + depth * 0.35).toFixed(2) + ')';
+    x.beginPath(); x.moveTo(a[0], a[1]); x.lineTo(b[0], b[1]); x.stroke();
+  }
+  for (i = 0; i < P.length; i++) { var dd = (2 - P[i][2]) / 3; x.fillStyle = 'rgba(' + rgb + ',' + (0.35 + dd * 0.6).toFixed(2) + ')'; x.beginPath(); x.arc(P[i][0], P[i][1], 1.2 + dd * 1.6, 0, 6.283); x.fill(); }
+  if (Math.random() < 0.35) CORE.sparks.push({ e: Math.floor(Math.random() * CORE.edges.length), p: 0, v: 0.04 + Math.random() * 0.05 });
+  x.shadowColor = t.ink; x.shadowBlur = 10; x.fillStyle = '#ffffff';
+  for (i = CORE.sparks.length - 1; i >= 0; i--) {
+    var sp = CORE.sparks[i], A = P[CORE.edges[sp.e][0]], B = P[CORE.edges[sp.e][1]];
+    sp.p += sp.v; if (sp.p >= 1) { CORE.sparks.splice(i, 1); continue; }
+    x.beginPath(); x.arc(A[0] + (B[0] - A[0]) * sp.p, A[1] + (B[1] - A[1]) * sp.p, 2, 0, 6.283); x.fill();
+  }
+  x.shadowBlur = 0;
+  // orbiting rings
+  x.strokeStyle = 'rgba(' + rgb + ',.55)'; x.lineWidth = 2;
+  for (i = 0; i < 2; i++) {
+    x.save(); x.translate(cx, cy); x.rotate(i ? -CORE.angle * 1.7 : CORE.angle * 1.2); x.scale(1, 0.32);
+    x.setLineDash(i ? [30, 12, 4, 12] : [60, 20]); x.beginPath(); x.arc(0, 0, i ? 112 : 102, 0, 6.283); x.stroke(); x.restore();
+  }
+  x.setLineDash([]);
+  var outs = document.querySelectorAll('#holo .hCore');
+  for (i = 0; i < outs.length; i++) { var o = outs[i].getContext('2d'); o.clearRect(0, 0, 260, 260); o.drawImage(CORE.canvas, 0, 0); }
+}
+function coreLoop() {
+  var want = holoS().on && holoContent() === 'core';
+  if (!want) { if (CORE && CORE.raf) { cancelAnimationFrame(CORE.raf); CORE.raf = null; } return; }
+  if (!CORE) coreInit();
+  if (CORE.raf) return;
+  var step = function (ts) { if (!(holoS().on && holoContent() === 'core')) { CORE.raf = null; return; } if (ts - CORE.last > 33) { CORE.last = ts; coreDraw(ts); } CORE.raf = requestAnimationFrame(step); };
+  CORE.raf = requestAnimationFrame(step);
 }
 var holoCtlTimer = null;
 function holoControls() {
@@ -1886,7 +2017,7 @@ function holoControls() {
 function setHolo(on) {
   var s = holoS(); s.on = on; saveSettings();
   $('holo').className = on ? 'on' : '';
-  if (on) { layoutHolo(); holoControls(); }
+  if (on) { layoutHolo(); holoControls(); } else coreLoop();
 }
 $('holo').addEventListener('click', function (e) { if (!(e.target.getAttribute && e.target.getAttribute('data-holo'))) holoControls(); });
 document.addEventListener('click', function (e) {
@@ -1903,6 +2034,8 @@ document.addEventListener('click', function (e) {
   if (a === 'mirror') s.mirror = !s.mirror;
   if (a === 'rotate') s.flip = !s.flip;
   if (a === 'guide') s.guide = !s.guide;
+  if (a === 'content') { var ids = []; for (var q = 0; q < HOLO_CONTENT.length; q++) ids.push(HOLO_CONTENT[q][0]); s.content = ids[(ids.indexOf(s.content || 'clock') + 1) % ids.length]; holoShowing = 'clock'; holoCycleAt = Date.now(); }
+  if (a.indexOf('show-') === 0) { s.content = a.substr(5); holoShowing = 'clock'; holoCycleAt = Date.now(); saveSettings(); renderHoloPick(); if (s.on) layoutHolo(); return; }
   saveSettings(); layoutHolo(); holoControls();
 });
 setInterval(updateHolo, 1000);
@@ -1925,6 +2058,7 @@ $('wPlace').innerHTML = esc(CONFIG.placeName);
 fillIcons();
 checkReminders(); setInterval(checkReminders, 30000);
 var hv0 = homeView(); show(hv0[0], hv0[1]);
+renderHoloPick();
 if (holoS().on) setHolo(true);
 applyDisplay();
 tickClock(); setInterval(tickClock, 1000);
