@@ -191,22 +191,39 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 /* Reminders */
 #remPop { position:absolute; top:0; left:0; right:0; bottom:0; z-index:8; background:rgba(3,19,10,.93); display:none; -webkit-align-items:center; align-items:center; -webkit-justify-content:center; justify-content:center; }
 #remPop.on { display:-webkit-flex; display:flex; }
-#remBox { width:780px; border:3px solid var(--amber); border-radius:14px; padding:34px 40px 30px; text-align:center; color:var(--amber);
+#remBox { width:1130px; height:640px; box-sizing:border-box; border:4px solid var(--amber); border-radius:18px; padding:30px 44px; color:var(--amber);
+  display:-webkit-flex; display:flex; -webkit-align-items:center; align-items:center;
   text-shadow:0 0 6px rgba(255,176,46,.6), 0 0 18px rgba(255,176,46,.3); box-shadow:0 0 30px rgba(255,176,46,.35), inset 0 0 30px rgba(255,176,46,.12);
   -webkit-animation:rpulse 2s infinite; animation:rpulse 2s infinite; }
-@-webkit-keyframes rpulse { 50% { box-shadow:0 0 55px rgba(255,176,46,.65), inset 0 0 40px rgba(255,176,46,.22); } }
-@keyframes rpulse { 50% { box-shadow:0 0 55px rgba(255,176,46,.65), inset 0 0 40px rgba(255,176,46,.22); } }
-#remBox svg { margin:0 auto 10px; filter:drop-shadow(0 0 6px rgba(255,176,46,.8)) !important; }
-#remTitle { font-size:96px; letter-spacing:6px; line-height:1; }
-#remMsg { font-size:28px; margin-top:16px; }
-#remDone { margin-top:28px; font-size:36px; letter-spacing:4px; border:3px solid var(--amber); border-radius:10px; padding:10px 70px; color:var(--amber); text-align:center; }
-#remMeta { font-size:16px; margin-top:14px; opacity:.75; }
+@-webkit-keyframes rpulse { 50% { box-shadow:0 0 60px rgba(255,176,46,.7), inset 0 0 45px rgba(255,176,46,.24); } }
+@keyframes rpulse { 50% { box-shadow:0 0 60px rgba(255,176,46,.7), inset 0 0 45px rgba(255,176,46,.24); } }
+#remBot { width:340px; -webkit-flex:none; flex:none; }
+#remText { -webkit-flex:1; flex:1; min-width:0; text-align:center; }
+#remTitle { font-size:128px; letter-spacing:6px; line-height:1; overflow-wrap:break-word; }
+#remMsg { font-size:36px; margin-top:22px; line-height:1.25; }
+#remDone { margin-top:40px; font-size:52px; letter-spacing:8px; border:4px solid var(--amber); border-radius:14px; padding:14px 90px; color:var(--amber); text-align:center; text-shadow:inherit; }
+#remMeta { font-size:18px; margin-top:20px; opacity:.75; letter-spacing:1px; }
+/* Doorbot: original mascot */
+.bot { width:100%; height:auto; overflow:visible; filter:drop-shadow(0 0 6px rgba(255,176,46,.75)); }
+.bot .all { -webkit-animation:botbob 2.4s ease-in-out infinite; animation:botbob 2.4s ease-in-out infinite; }
+.bot .wave { transform-box:view-box; transform-origin:150px 150px; -webkit-animation:botwave 1.1s ease-in-out infinite; animation:botwave 1.1s ease-in-out infinite; }
+.bot .eye { transform-box:fill-box; transform-origin:center; -webkit-animation:botblink 4s infinite; animation:botblink 4s infinite; }
+.bot .tip { -webkit-animation:blink 1s steps(1) infinite; animation:blink 1s steps(1) infinite; }
+.bot .scan { -webkit-animation:botscan 2s linear infinite; animation:botscan 2s linear infinite; }
+@-webkit-keyframes botbob { 50% { -webkit-transform:translateY(-8px); } }
+@keyframes botbob { 50% { transform:translateY(-8px); } }
+@-webkit-keyframes botwave { 0%,100% { -webkit-transform:rotate(-18deg); } 50% { -webkit-transform:rotate(22deg); } }
+@keyframes botwave { 0%,100% { transform:rotate(-18deg); } 50% { transform:rotate(22deg); } }
+@-webkit-keyframes botblink { 0%,92%,100% { -webkit-transform:scaleY(1); } 95% { -webkit-transform:scaleY(.1); } }
+@keyframes botblink { 0%,92%,100% { transform:scaleY(1); } 95% { transform:scaleY(.1); } }
+@-webkit-keyframes botscan { from { -webkit-transform:translateY(0); } to { -webkit-transform:translateY(44px); } }
+@keyframes botscan { from { transform:translateY(0); } to { transform:translateY(44px); } }
 .fld { background:transparent; border:1px solid var(--line); border-radius:6px; color:var(--ink); font-family:var(--font); font-size:17px; padding:6px 8px; text-shadow:inherit; box-sizing:border-box; -webkit-user-select:text; user-select:text; }
 .fld option { background:#03130a; color:var(--ink); }
 .fld::placeholder { color:var(--ink); opacity:.4; }
 .mini { border:1px solid var(--line); border-radius:6px; padding:3px 12px; font-size:15px; text-align:center; }
 .mini.armed { background:var(--alert); border-color:var(--alert); color:#fff; text-shadow:none; }
-@media (prefers-reduced-motion: reduce) { #remBox { -webkit-animation:none; animation:none; } }
+@media (prefers-reduced-motion: reduce) { #remBox, .bot .all, .bot .wave, .bot .eye, .bot .tip, .bot .scan { -webkit-animation:none !important; animation:none !important; } }
 
 #dim { position:fixed; top:0; left:0; right:0; bottom:0; background:#000; opacity:0; pointer-events:none; z-index:60; -webkit-transition:opacity 2s; transition:opacity 2s; }
 #boot { position:absolute; top:0; left:0; right:0; bottom:0; background:var(--crt-bg); z-index:10; padding:30px; font-size:22px; text-shadow:0 0 3px var(--glow), 0 0 10px var(--glow-soft); }
@@ -404,7 +421,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
         <div id="v-notes" class="view">
           <div class="row grow">
             <div class="card grow col">
-              <div class="ch row mid"><span data-i="bin"></span>REMINDERS // POP UP FULL SCREEN UNTIL YOU TAP DONE</div>
+              <div class="ch row mid"><span data-i="bin"></span>REMINDERS<span class="meta" style="margin-left:12px;">POP UP FULL SCREEN UNTIL YOU TAP DONE</span><button type="button" id="remTest" class="mini" style="margin-left:auto; white-space:nowrap;">TEST POP-UP</button></div>
               <div id="remList" class="grow" style="overflow:hidden; min-width:0;"></div>
               <div style="border-top:1px solid var(--line); padding-top:10px;">
                 <div class="meta" style="margin-bottom:6px;">ADD A REMINDER</div>
@@ -455,7 +472,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
         <div class="row mid lampset"><span><i id="lWx" class="dot idle"></i>WX</span><span><i id="lRoads" class="dot idle"></i>ROADS</span><span><i id="lNews" class="dot idle"></i>NEWS</span><span><i id="lDrops" class="dot idle"></i>DROPS</span><span><i id="lAi" class="dot idle"></i>AI</span></div>
       </div>
 
-      <div id="remPop"><div id="remBox"><span id="remIcon"></span><div id="remTitle"></div><div id="remMsg"></div><button type="button" id="remDone">DONE</button><div id="remMeta"></div></div></div>
+      <div id="remPop"><div id="remBox"><div id="remBot"></div><div id="remText"><div id="remTitle"></div><div id="remMsg"></div><button type="button" id="remDone">DONE</button><div id="remMeta"></div></div></div></div>
 
     </div>
     <div class="crtScan"></div><div class="crtSweep"></div><div class="crtGlass"></div>
@@ -478,6 +495,7 @@ var CONFIG = {
   windUnit: 'mph',
   nightStart: 23, nightEnd: 6, nightDimLevel: 0.6,
   returnHomeSeconds: 90,       // go back to the home view after this long untouched
+  autoUpdate: true,            // load newer versions of this page automatically (on for the tablet)
   morningTraffic: [7, 9],      // between these hours the screen rests on the traffic map
 
   // TomTom key (free at developer.tomtom.com). Blank = sample map.
@@ -1149,20 +1167,53 @@ function activeReminders() {
 }
 function whenText(d) { return DAYS[d.getDay()] + ' ' + pad(d.getDate()) + ' ' + MONTHS[d.getMonth()] + ' ' + hhmm(d); }
 function schedText(r) { return DAYS[r.startDay] + ' ' + r.startTime + ' TO ' + DAYS[r.endDay] + ' ' + r.endTime + ' // ' + ((r.every || 1) === 2 ? 'FORTNIGHTLY' : 'WEEKLY'); }
-var popKey = null;
+// Doorbot: the dashboard's own mascot. Holds a bin for bin reminders, a sign for anything else.
+function doorbot(prop) {
+  var held = prop === 'bin'
+    ? '<g><path d="M14 168h44"/><path d="M28 168v-6h16v6"/><path d="M18 168l4 46h28l4-46"/><path d="M30 178v26M42 178v26"/></g>'
+    : '<g><rect x="12" y="160" width="46" height="52" rx="4"/><path d="M20 174h30M20 186h30M20 198h20"/></g>';
+  return '<svg class="bot" viewBox="0 0 220 280" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><g class="all">' +
+    '<path d="M110 22v26"/><circle class="tip" cx="110" cy="16" r="7" fill="currentColor"/>' +
+    '<rect x="58" y="48" width="104" height="80" rx="16"/>' +
+    '<rect x="72" y="61" width="76" height="54" rx="9" stroke-width="3"/>' +
+    '<g clip-path="inset(0)"><path class="scan" d="M74 64h72" stroke-width="2" opacity=".35"/></g>' +
+    '<rect class="eye" x="88" y="76" width="11" height="15" rx="3" fill="currentColor" stroke="none"/>' +
+    '<rect class="eye" x="121" y="76" width="11" height="15" rx="3" fill="currentColor" stroke="none"/>' +
+    '<path d="M94 101q16 10 32 0" stroke-width="4"/>' +
+    '<path d="M102 128v10h16v-10"/>' +
+    '<rect x="66" y="138" width="88" height="78" rx="12"/>' +
+    '<circle cx="90" cy="162" r="6"/><circle cx="110" cy="162" r="6" fill="currentColor"/><circle cx="130" cy="162" r="6"/>' +
+    '<path d="M84 186h52M84 198h36" stroke-width="3"/>' +
+    '<path d="M66 152l-26 30"/>' + held +
+    '<g class="wave"><path d="M154 150l30-34l6-28"/><circle cx="191" cy="80" r="9"/></g>' +
+    '<path d="M86 216v34M134 216v34"/><path d="M74 252h26M122 252h26" stroke-width="7"/>' +
+    '</g></svg>';
+}
+var popKey = null, popTest = false;
+function showPop(r, meta, key, test) {
+  popKey = key; popTest = !!test;
+  $('remBot').innerHTML = doorbot(/bin|recycl|rubbish|waste/i.test(r.title + ' ' + (r.message || '')) ? 'bin' : 'sign');
+  $('remTitle').innerHTML = esc(r.title);
+  $('remTitle').style.fontSize = r.title.length > 10 ? (r.title.length > 16 ? '72px' : '96px') : '128px';
+  $('remMsg').innerHTML = esc(r.message || '');
+  $('remMeta').innerHTML = meta;
+  $('remPop').className = 'on';
+  if (window.doorway && doorway.wakeNow) { try { doorway.wakeNow(); } catch (e) {} }
+}
 function checkReminders() {
+  if (popTest) { renderNotes(); return; }
   var act = activeReminders();
   if (act.length) {
-    var a = act[0]; popKey = a.st.key;
-    $('remIcon').innerHTML = icon(/bin|recycl|rubbish|waste/i.test(a.r.title + ' ' + (a.r.message || '')) ? 'bin' : 'note', 70);
-    $('remTitle').innerHTML = esc(a.r.title);
-    $('remMsg').innerHTML = esc(a.r.message || '');
-    $('remMeta').innerHTML = 'SHOWS UNTIL ' + whenText(a.st.end) + (act.length > 1 ? ' // ' + (act.length - 1) + ' MORE AFTER THIS' : '');
-    $('remPop').className = 'on';
+    var a = act[0];
+    showPop(a.r, 'SHOWS UNTIL ' + whenText(a.st.end) + (act.length > 1 ? ' // ' + (act.length - 1) + ' MORE AFTER THIS' : ''), a.st.key, false);
   } else { popKey = null; $('remPop').className = ''; }
   renderNotes();
 }
+$('remTest').addEventListener('click', function () {
+  showPop({ title: 'BIN DAY!', message: 'This is a test. Tap DONE to close it.' }, 'TEST // THE REAL ONE SHOWS UNTIL ITS END TIME OR UNTIL YOU TAP DONE', 'test', true);
+});
 $('remDone').addEventListener('click', function () {
+  if (popTest) { popTest = false; popKey = null; $('remPop').className = ''; checkReminders(); return; }
   if (!popKey) return;
   DONE[popKey] = Date.now();
   var cutoff = Date.now() - 30 * 86400000; for (var k in DONE) if (DONE[k] < cutoff) delete DONE[k];
@@ -1246,7 +1297,27 @@ $('fxOff').addEventListener('click', function () { SETTINGS.fx = false; saveSett
 $('ndOn').addEventListener('click', function () { SETTINGS.night = true; saveSettings(); applyDisplay(); });
 $('ndOff').addEventListener('click', function () { SETTINGS.night = false; saveSettings(); applyDisplay(); });
 $('qNight').addEventListener('click', function () { SETTINGS.night = !SETTINGS.night; saveSettings(); applyDisplay(); });
-$('qReload').addEventListener('click', function () { location.reload(); });
+function freshReload() {
+  var b = document.querySelector('#qReload span:last-child') || $('qReload');
+  try { $('qReload').lastChild.nodeValue = 'RESTARTING...'; } catch (e) {}
+  // A new address each time skips the browser's saved copy, so changes show straight away.
+  location.replace(location.href.split('?')[0].split('#')[0] + '?r=' + Date.now());
+}
+$('qReload').addEventListener('click', freshReload);
+// Auto-update: every 5 minutes, check whether a newer dashboard has been published and load it.
+var BUILD = '20261022210252';
+if (CONFIG.autoUpdate && /^https?:/.test(location.protocol)) {
+  setInterval(function () {
+    var x = new XMLHttpRequest();
+    x.open('GET', location.href.split('?')[0].split('#')[0] + '?check=' + Date.now(), true);
+    x.onreadystatechange = function () {
+      if (x.readyState !== 4 || x.status !== 200) return;
+      var m = /var BUILD = '([^']+)'/.exec(x.responseText);
+      if (m && m[1] !== BUILD && $('remPop').className !== 'on') freshReload();
+    };
+    try { x.send(); } catch (e) {}
+  }, 5 * 60000);
+}
 $('rRefresh').addEventListener('click', refreshTraffic);
 function renderLinks() {
   var rows = [['WEATHER', 'OPEN-METEO', SOURCE.weather], ['TRAFFIC', CONFIG.tomtomKey ? 'TOMTOM TRAFFIC' : 'NO TOMTOM KEY SET', SOURCE.traffic], ['NEWS', CONFIG.newsUrl || 'NOT SET', SOURCE.news], ['POKEMON DROPS', CONFIG.pokemonUrl || 'NOT SET', SOURCE.pokemon], ['AI AGENTS', CONFIG.agentsUrl || 'NOT SET', SOURCE.agents]];
