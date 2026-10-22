@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Doorway Terminal</title>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <!--
   DOORWAY TERMINAL MK III — green-phosphor home dashboard in a rugged metal frame.
   Plain ES5 JavaScript so it runs on older tablets and small PCs.
@@ -17,15 +17,19 @@
   --frame-hi: #4a463c;
   --frame-lo: #24221d;
   --crt-bg: #03130a;
-  --panel-bg: rgba(70,255,140,.035);
+  --panel-bg: rgba(var(--ink-rgb),.035);
+  --ink-rgb: 77,255,143;
+  --bg-rgb: 3,19,10;
+  --amber-rgb: 255,176,46;
+  --tile-filter: grayscale(1) sepia(1) hue-rotate(80deg) saturate(2.6) brightness(1.15);
   --ink: #4dff8f;
   --ink-soft: #3fd879;
   --ink-dark: #03130a;
-  --glow: rgba(77,255,143,.65);
-  --glow-soft: rgba(77,255,143,.22);
-  --line: rgba(77,255,143,.6);
-  --line-faint: rgba(77,255,143,.22);
-  --fill: rgba(77,255,143,.14);
+  --glow: rgba(var(--ink-rgb),.65);
+  --glow-soft: rgba(var(--ink-rgb),.22);
+  --line: rgba(var(--ink-rgb),.6);
+  --line-faint: rgba(var(--ink-rgb),.22);
+  --fill: rgba(var(--ink-rgb),.14);
   --amber: #ffb02e;
   --alert: #ff4b3a;
   --noise: none;
@@ -45,7 +49,7 @@ svg { display:block; }
 .between { -webkit-justify-content:space-between; justify-content:space-between; }
 .dim { opacity:.62; }
 .hl { background:var(--ink); color:var(--ink-dark); text-shadow:none; padding:0 6px; }
-.warnc { color:var(--amber); text-shadow:0 0 6px rgba(255,176,46,.6); }
+.warnc { color:var(--amber); text-shadow:0 0 6px rgba(var(--amber-rgb),.6); }
 .mt { margin-top:12px; }
 .ml { margin-left:12px; }
 
@@ -63,7 +67,7 @@ svg { display:block; }
 
 /* CRT */
 #crt { position:relative; height:100%; border-radius:22px; overflow:hidden; background:var(--crt-bg);
-  box-shadow:inset 0 0 0 3px #090908, inset 0 0 50px rgba(0,0,0,.9), inset 0 0 120px rgba(77,255,143,.06); }
+  box-shadow:inset 0 0 0 3px #090908, inset 0 0 50px rgba(0,0,0,.9), inset 0 0 120px rgba(var(--ink-rgb),.06); }
 #crtInner { position:absolute; top:0; left:0; right:0; bottom:0; padding:16px 20px 12px; box-sizing:border-box;
   display:-webkit-flex; display:flex; -webkit-flex-direction:column; flex-direction:column;
   font-size:19px; line-height:1.2; text-shadow:0 0 3px var(--glow), 0 0 10px var(--glow-soft);
@@ -72,7 +76,7 @@ svg { display:block; }
 .crtScan { position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none; z-index:20;
   background:repeating-linear-gradient(to bottom, transparent 0px, transparent 2px, rgba(0,0,0,.17) 3px, transparent 4px); }
 .crtSweep { position:absolute; left:0; right:0; height:140px; top:-140px; pointer-events:none; z-index:21;
-  background:linear-gradient(to bottom, rgba(77,255,143,0), rgba(77,255,143,.05), rgba(77,255,143,0));
+  background:linear-gradient(to bottom, rgba(var(--ink-rgb),0), rgba(var(--ink-rgb),.05), rgba(var(--ink-rgb),0));
   -webkit-animation:sweep 9s linear infinite; animation:sweep 9s linear infinite; }
 .crtGlass { position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none; z-index:22; border-radius:22px;
   background:radial-gradient(ellipse at 25% 10%, rgba(255,255,255,.05), transparent 40%), radial-gradient(ellipse at center, transparent 65%, rgba(0,0,0,.5) 100%); }
@@ -150,7 +154,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 #mapCard { padding:0; }
 #gmap, #mapSample { position:absolute; top:0; left:0; width:100%; height:100%; }
 #mapSample { display:none; }
-#mapNote { position:absolute; left:8px; bottom:8px; z-index:5; font-size:13px; padding:2px 8px; background:rgba(3,19,10,.85); border:1px solid var(--line-faint); border-radius:4px; }
+#mapNote { position:absolute; left:8px; bottom:8px; z-index:5; font-size:13px; padding:2px 8px; background:rgba(var(--bg-rgb),.85); border:1px solid var(--line-faint); border-radius:4px; }
 .lg { font-size:15px; margin-top:6px; }
 .chip { display:inline-block; width:22px; height:6px; margin-right:10px; vertical-align:middle; }
 
@@ -183,22 +187,22 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 .leaflet-overlay-pane { z-index:400; }
 .leaflet-marker-pane { z-index:600; }
 .leaflet-pane > svg { position:absolute; left:0; top:0; }
-.baseTiles { -webkit-filter:grayscale(1) sepia(1) hue-rotate(80deg) saturate(2.6) brightness(1.15); filter:grayscale(1) sepia(1) hue-rotate(80deg) saturate(2.6) brightness(1.15); }
+.baseTiles { -webkit-filter:var(--tile-filter); filter:var(--tile-filter); }
 .pin { white-space:nowrap; }
-.pin .pdot { display:inline-block; width:14px; height:14px; border-radius:50%; border:2px solid #03130a; vertical-align:middle; }
-.pin .plbl { margin-left:6px; font-size:15px; color:#4dff8f; vertical-align:middle; font-family:var(--font); text-shadow:0 0 3px #03130a, 0 0 6px #03130a, 0 0 6px rgba(77,255,143,.6); }
+.pin .pdot { display:inline-block; width:14px; height:14px; border-radius:50%; border:2px solid var(--crt-bg); vertical-align:middle; }
+.pin .plbl { margin-left:6px; font-size:15px; color:var(--ink); vertical-align:middle; font-family:var(--font); text-shadow:0 0 3px var(--crt-bg), 0 0 6px var(--crt-bg), 0 0 6px rgba(var(--ink-rgb),.6); }
 
 /* UK weather map */
 #ukCard { padding:0; }
 #ukmap { position:absolute; top:0; left:0; width:100%; height:100%; background:
-  repeating-linear-gradient(0deg, transparent 0 59px, rgba(77,255,143,.06) 59px 60px), repeating-linear-gradient(90deg, transparent 0 59px, rgba(77,255,143,.06) 59px 60px); }
-#ukNote { position:absolute; left:8px; bottom:8px; z-index:500; font-size:13px; padding:2px 8px; background:rgba(3,19,10,.85); border:1px solid var(--line-faint); border-radius:4px; }
-#ukHead { position:absolute; right:8px; top:8px; z-index:500; font-size:16px; letter-spacing:2px; padding:3px 10px; background:rgba(3,19,10,.85); border:1px solid var(--line); border-radius:6px; }
-.wxm { text-align:center; color:var(--ink); line-height:1; cursor:pointer; text-shadow:0 0 3px #03130a, 0 0 6px #03130a, 0 0 8px rgba(77,255,143,.5); }
+  repeating-linear-gradient(0deg, transparent 0 59px, rgba(var(--ink-rgb),.06) 59px 60px), repeating-linear-gradient(90deg, transparent 0 59px, rgba(var(--ink-rgb),.06) 59px 60px); }
+#ukNote { position:absolute; left:8px; bottom:8px; z-index:500; font-size:13px; padding:2px 8px; background:rgba(var(--bg-rgb),.85); border:1px solid var(--line-faint); border-radius:4px; }
+#ukHead { position:absolute; right:8px; top:8px; z-index:500; font-size:16px; letter-spacing:2px; padding:3px 10px; background:rgba(var(--bg-rgb),.85); border:1px solid var(--line); border-radius:6px; }
+.wxm { text-align:center; color:var(--ink); line-height:1; cursor:pointer; text-shadow:0 0 3px var(--crt-bg), 0 0 6px var(--crt-bg), 0 0 8px rgba(var(--ink-rgb),.5); }
 .wxm svg { margin:0 auto 2px; }
 .wxm b { display:block; font-size:20px; font-weight:normal; }
 .wxm i { display:block; font-style:normal; font-size:10px; letter-spacing:1px; opacity:.85; margin-top:1px; }
-.wxm.home { color:var(--amber); text-shadow:0 0 3px #03130a, 0 0 6px #03130a, 0 0 8px rgba(255,176,46,.6); }
+.wxm.home { color:var(--amber); text-shadow:0 0 3px var(--crt-bg), 0 0 6px var(--crt-bg), 0 0 8px rgba(var(--amber-rgb),.6); }
 .wxm.sel i { text-decoration:underline; opacity:1; }
 .ukbtn { border:1px solid var(--line-faint); border-radius:6px; padding:4px 0; font-size:15px; text-align:center; margin:0 6px 6px 0; }
 .ukbtn.on { border-color:var(--ink); background:var(--fill); }
@@ -208,27 +212,61 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 /* Rain radar + forecast */
 #rainCard { padding:0; }
 #rainmap { position:absolute; top:0; left:0; right:0; bottom:76px; background:
-  repeating-linear-gradient(0deg, transparent 0 59px, rgba(77,255,143,.06) 59px 60px), repeating-linear-gradient(90deg, transparent 0 59px, rgba(77,255,143,.06) 59px 60px); }
-#rainHead { position:absolute; right:8px; top:8px; z-index:500; font-size:20px; letter-spacing:2px; padding:4px 12px; background:rgba(3,19,10,.88); border:1px solid var(--line); border-radius:6px; text-align:right; }
+  repeating-linear-gradient(0deg, transparent 0 59px, rgba(var(--ink-rgb),.06) 59px 60px), repeating-linear-gradient(90deg, transparent 0 59px, rgba(var(--ink-rgb),.06) 59px 60px); }
+#rainHead { position:absolute; right:8px; top:8px; z-index:500; font-size:20px; letter-spacing:2px; padding:4px 12px; background:rgba(var(--bg-rgb),.88); border:1px solid var(--line); border-radius:6px; text-align:right; }
 #rainHead .meta { display:block; font-size:13px; }
-#rainLegend { position:absolute; left:8px; top:8px; z-index:500; font-size:13px; padding:6px 10px; background:rgba(3,19,10,.88); border:1px solid var(--line-faint); border-radius:6px; }
+#rainLegend { position:absolute; left:8px; top:8px; z-index:500; font-size:13px; padding:6px 10px; background:rgba(var(--bg-rgb),.88); border:1px solid var(--line-faint); border-radius:6px; }
 #rainLegend div { margin:2px 0; }
-#rainNote { position:absolute; left:8px; bottom:84px; z-index:500; font-size:13px; padding:2px 8px; background:rgba(3,19,10,.85); border:1px solid var(--line-faint); border-radius:4px; }
+#rainNote { position:absolute; left:8px; bottom:84px; z-index:500; font-size:13px; padding:2px 8px; background:rgba(var(--bg-rgb),.85); border:1px solid var(--line-faint); border-radius:4px; }
 #rainBar { position:absolute; left:0; right:0; bottom:0; height:76px; border-top:1px solid var(--line); padding:0 16px 22px; box-sizing:border-box; }
 #rainPlay { width:90px; margin-right:16px; text-align:center; }
 #rainSlider { -webkit-flex:1; flex:1; accent-color:var(--ink); height:28px; }
 #rainTicks { position:absolute; left:122px; right:16px; bottom:8px; height:14px; font-size:12px; opacity:.75; }
 #rainTicks span { position:absolute; -webkit-transform:translateX(-50%); transform:translateX(-50%); white-space:nowrap; }
 
+/* ===== UI styles (System > Display > Style) ===== */
+/* RUST BUCKET: weathered console, square corners, chunky double borders */
+body.style-console #frame { border-radius:4px; padding:22px; background-color:#2a2119;
+  background-image:var(--noise), radial-gradient(ellipse at 20% 85%, rgba(140,70,20,.5), transparent 45%), radial-gradient(ellipse at 85% 15%, rgba(130,64,18,.45), transparent 40%), linear-gradient(170deg, #5d4b36, #2b2219 55%, #1b150f); }
+body.style-console #frame:after { content:''; position:absolute; left:42%; right:42%; bottom:6px; height:9px; border-radius:2px; opacity:.85;
+  background:repeating-linear-gradient(45deg, #c9a227 0 9px, #1a1813 9px 18px); }
+body.style-console #crt { border-radius:8px; box-shadow:inset 0 0 0 4px #0b0907, inset 0 0 60px rgba(0,0,0,.95), inset 0 0 140px rgba(var(--ink-rgb),.07); }
+body.style-console .crtGlass { border-radius:8px; }
+body.style-console #crtInner { font-family:'VT323', var(--font); font-size:22px; }
+body.style-console .card, body.style-console .tab, body.style-console .sub, body.style-console .qbtn, body.style-console .btn, body.style-console #brand,
+body.style-console #footer, body.style-console .topic, body.style-console .ukbtn, body.style-console .mini, body.style-console .fld { border-radius:0; }
+body.style-console .card { border-width:3px; border-style:double; }
+body.style-console .crtScan { background:repeating-linear-gradient(to bottom, transparent 0px, transparent 2px, rgba(0,0,0,.28) 3px, transparent 4px); }
+/* MAINFRAME: beige 80s computer casing with a deep curved screen */
+body.style-mainframe #frame { border-radius:26px; padding:24px 24px 28px; background:linear-gradient(180deg, #e2d9c1, #c9bfa4 55%, #ada385);
+  box-shadow:inset 0 3px 0 rgba(255,255,255,.65), inset 0 -5px 0 rgba(0,0,0,.25); }
+body.style-mainframe .bolt { display:none; }
+body.style-mainframe #frame:after { content:'DOORWAY  DT-2000'; position:absolute; bottom:6px; left:0; right:0; text-align:center;
+  font:bold 12px 'Share Tech Mono', monospace; letter-spacing:6px; color:#7a7058; text-shadow:0 1px 0 rgba(255,255,255,.6); }
+body.style-mainframe #crt { border-radius:40px / 32px; box-shadow:0 0 0 6px #1d1c19, 0 0 0 9px #8f866d, inset 0 0 70px rgba(0,0,0,.95), inset 0 0 160px rgba(var(--ink-rgb),.08); }
+body.style-mainframe .crtGlass { border-radius:40px / 32px; background:radial-gradient(ellipse at 30% 12%, rgba(255,255,255,.09), transparent 42%), radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,.7) 100%); }
+body.style-mainframe #crtInner { font-family:'VT323', var(--font); font-size:22px; padding:16px 18px 12px; }
+body.style-mainframe .card { border-style:dashed; }
+/* CLEAN: no frame, no screen effects, crisp text */
+body.style-clean #frame { background:#000; padding:0; border-radius:0; box-shadow:none; }
+body.style-clean .bolt { display:none; }
+body.style-clean #crt { border-radius:0; box-shadow:none; }
+body.style-clean .crtScan, body.style-clean .crtSweep, body.style-clean .crtGlass { display:none; }
+body.style-clean #crtInner { text-shadow:none; -webkit-animation:none; animation:none; font-family:'IBM Plex Mono', var(--font); }
+body.style-clean .card { border-width:1px; background:transparent; }
+body.style-clean .tab.active { box-shadow:none; }
+body.style-clean #crtInner svg { filter:none !important; }
+.swatch { margin-right:10px; }
+
 /* Reminders */
-#remPop { position:absolute; top:0; left:0; right:0; bottom:0; z-index:8; background:rgba(3,19,10,.93); display:none; -webkit-align-items:center; align-items:center; -webkit-justify-content:center; justify-content:center; }
+#remPop { position:absolute; top:0; left:0; right:0; bottom:0; z-index:8; background:rgba(var(--bg-rgb),.93); display:none; -webkit-align-items:center; align-items:center; -webkit-justify-content:center; justify-content:center; }
 #remPop.on { display:-webkit-flex; display:flex; }
 #remBox { width:1130px; height:640px; box-sizing:border-box; border:4px solid var(--amber); border-radius:18px; padding:30px 44px; color:var(--amber);
   display:-webkit-flex; display:flex; -webkit-align-items:center; align-items:center;
-  text-shadow:0 0 6px rgba(255,176,46,.6), 0 0 18px rgba(255,176,46,.3); box-shadow:0 0 30px rgba(255,176,46,.35), inset 0 0 30px rgba(255,176,46,.12);
+  text-shadow:0 0 6px rgba(var(--amber-rgb),.6), 0 0 18px rgba(var(--amber-rgb),.3); box-shadow:0 0 30px rgba(var(--amber-rgb),.35), inset 0 0 30px rgba(var(--amber-rgb),.12);
   -webkit-animation:rpulse 2s infinite; animation:rpulse 2s infinite; }
-@-webkit-keyframes rpulse { 50% { box-shadow:0 0 60px rgba(255,176,46,.7), inset 0 0 45px rgba(255,176,46,.24); } }
-@keyframes rpulse { 50% { box-shadow:0 0 60px rgba(255,176,46,.7), inset 0 0 45px rgba(255,176,46,.24); } }
+@-webkit-keyframes rpulse { 50% { box-shadow:0 0 60px rgba(var(--amber-rgb),.7), inset 0 0 45px rgba(var(--amber-rgb),.24); } }
+@keyframes rpulse { 50% { box-shadow:0 0 60px rgba(var(--amber-rgb),.7), inset 0 0 45px rgba(var(--amber-rgb),.24); } }
 #remBot { width:340px; -webkit-flex:none; flex:none; }
 #remText { -webkit-flex:1; flex:1; min-width:0; text-align:center; }
 #remTitle { font-size:128px; letter-spacing:6px; line-height:1; overflow-wrap:break-word; }
@@ -236,7 +274,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 #remDone { margin-top:40px; font-size:52px; letter-spacing:8px; border:4px solid var(--amber); border-radius:14px; padding:14px 90px; color:var(--amber); text-align:center; text-shadow:inherit; }
 #remMeta { font-size:18px; margin-top:20px; opacity:.75; letter-spacing:1px; }
 /* Doorbot: original mascot */
-.bot { width:100%; height:auto; overflow:visible; filter:drop-shadow(0 0 6px rgba(255,176,46,.75)); }
+.bot { width:100%; height:auto; overflow:visible; filter:drop-shadow(0 0 6px rgba(var(--amber-rgb),.75)); }
 .bot .all { -webkit-animation:botbob 2.4s ease-in-out infinite; animation:botbob 2.4s ease-in-out infinite; }
 .bot .wave { transform-box:view-box; transform-origin:150px 150px; -webkit-animation:botwave 1.1s ease-in-out infinite; animation:botwave 1.1s ease-in-out infinite; }
 .bot .eye { transform-box:fill-box; transform-origin:center; -webkit-animation:botblink 4s infinite; animation:botblink 4s infinite; }
@@ -251,7 +289,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 @-webkit-keyframes botscan { from { -webkit-transform:translateY(0); } to { -webkit-transform:translateY(44px); } }
 @keyframes botscan { from { transform:translateY(0); } to { transform:translateY(44px); } }
 .fld { background:transparent; border:1px solid var(--line); border-radius:6px; color:var(--ink); font-family:var(--font); font-size:17px; padding:6px 8px; text-shadow:inherit; box-sizing:border-box; -webkit-user-select:text; user-select:text; }
-.fld option { background:#03130a; color:var(--ink); }
+.fld option { background:var(--crt-bg); color:var(--ink); }
 .fld::placeholder { color:var(--ink); opacity:.4; }
 .mini { border:1px solid var(--line); border-radius:6px; padding:3px 12px; font-size:15px; text-align:center; }
 .mini.armed { background:var(--alert); border-color:var(--alert); color:#fff; text-shadow:none; }
@@ -517,6 +555,8 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
           <div class="row subs" data-subs="system"></div>
           <div id="p-system-display" class="pane col">
             <div class="setrow row mid"><div class="name">TABLET BATTERY</div><span id="battBig" class="row mid"></span></div>
+            <div class="setrow row mid"><div class="name">COLOUR</div><div id="colourBtns" class="row mid"></div></div>
+            <div class="setrow row mid"><div class="name">STYLE</div><div id="styleBtns" class="row mid"></div></div>
             <div class="setrow row mid"><div class="name">BRIGHTNESS</div><button type="button" id="bDown" class="btn">-</button><div id="brightVal" style="width:90px; text-align:center;">100%</div><button type="button" id="bUp" class="btn">+</button></div>
             <div class="setrow row mid"><div class="name">SCREEN EFFECTS</div><button type="button" id="fxOn" class="btn">ON</button><button type="button" id="fxOff" class="btn">OFF</button><span class="dim" style="font-size:16px;">OFF = SMOOTHER ON SLOW DEVICES</span></div>
             <div class="setrow row mid"><div class="name">NIGHT DIMMING</div><button type="button" id="ndOn" class="btn">ON</button><button type="button" id="ndOff" class="btn">OFF</button><span class="dim" style="font-size:16px;" id="ndHours"></span></div>
@@ -613,7 +653,7 @@ var MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OC
 function parseLocal(s) { var p = s.split(/[-T:]/); return new Date(+p[0], +p[1] - 1, +p[2], +(p[3] || 12), +(p[4] || 0)); }
 function isoLocal(d, t) { var s = d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); return t ? s + 'T' + pad(d.getHours()) + ':' + pad(d.getMinutes()) : s; }
 
-var SETTINGS = { bright: 1, fx: true, night: true, topics: null };
+var SETTINGS = { bright: 1, fx: true, night: true, topics: null, colour: 'green', style: 'rugged' };
 try { var saved = JSON.parse(localStorage.getItem('doorway-settings') || 'null'); if (saved) for (var k in saved) SETTINGS[k] = saved[k]; } catch (e) {}
 if (!SETTINGS.topics) { SETTINGS.topics = {}; for (var ti = 0; ti < CONFIG.topics.length; ti++) SETTINGS.topics[CONFIG.topics[ti].id] = true; }
 function saveSettings() { try { localStorage.setItem('doorway-settings', JSON.stringify(SETTINGS)); } catch (e) {} }
@@ -646,7 +686,7 @@ var IP = {
 };
 function icon(name, size) {
   size = size || 22;
-  return '<svg width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="filter:drop-shadow(0 0 3px rgba(77,255,143,.7))">' + (IP[name] || '') + '</svg>';
+  return '<svg width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="filter:drop-shadow(0 0 3px rgba(var(--ink-rgb),.7))">' + (IP[name] || '') + '</svg>';
 }
 function fillIcons() {
   var els = document.querySelectorAll('[data-i]');
@@ -903,7 +943,7 @@ function openMap() {
       maxZoom: 18, opacity: 0.95, pane: 'flowPane', t: function () { return lastRouteCheck; }
     }).addTo(lMap);
     addPin(CONFIG.latitude, CONFIG.longitude, 'HOME', '#ffb02e');
-    for (var i = 0; i < CONFIG.commutes.length; i++) addPin(CONFIG.commutes[i].lat, CONFIG.commutes[i].lon, CONFIG.commutes[i].name, '#4dff8f');
+    for (var i = 0; i < CONFIG.commutes.length; i++) addPin(CONFIG.commutes[i].lat, CONFIG.commutes[i].lon, CONFIG.commutes[i].name, themeNow().ink);
     mapMode = 'LIVE';
     drawRoutes();
     $('mapNote').innerHTML = 'MAP + LIVE TRAFFIC &copy; TOMTOM';
@@ -922,9 +962,10 @@ function useSampleMap() {
   drawSampleMap();
 }
 function drawSampleMap() {
+  var T = themeNow();
   var c = $('mapSample'), x = c.getContext('2d'), seed = 7, i;
   x.setTransform(1, 0, 0, 1, 0, 0);
-  x.fillStyle = '#03130a'; x.fillRect(0, 0, c.width, c.height);
+  x.fillStyle = T.bg; x.fillRect(0, 0, c.width, c.height);
   x.scale(c.width / 600, c.height / 400);
   function rnd() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
   function q(p, t) { var u = 1 - t; return [u * u * p[0][0] + 2 * u * t * p[1][0] + t * t * p[2][0], u * u * p[0][1] + 2 * u * t * p[1][1] + t * t * p[2][1]]; }
@@ -933,21 +974,21 @@ function drawSampleMap() {
     for (var s = 0; s <= 40; s++) { var pt = q(p, a + (b - a) * s / 40); if (s) x.lineTo(pt[0], pt[1]); else x.moveTo(pt[0], pt[1]); }
     x.stroke(); x.restore();
   }
-  x.strokeStyle = 'rgba(77,255,143,.14)'; x.lineWidth = 1;
+  x.strokeStyle = 'rgba(' + T.rgb + ',.14)'; x.lineWidth = 1;
   for (var gx = 10; gx < 600; gx += 26) { x.beginPath(); var o = rnd() * 8 - 4; x.moveTo(gx + o, 0); x.lineTo(gx + o + rnd() * 26 - 13, 400); x.stroke(); }
   for (var gy = 10; gy < 400; gy += 24) { x.beginPath(); var o2 = rnd() * 8 - 4; x.moveTo(0, gy + o2); x.lineTo(600, gy + o2 + rnd() * 20 - 10); x.stroke(); }
   var river = [[0, 330], [320, 240], [600, 330]];
-  stroke(river, 0, 1, '#03130a', 28); stroke(river, 0, 1, 'rgba(77,255,143,.08)', 24);
+  stroke(river, 0, 1, T.bg, 28); stroke(river, 0, 1, 'rgba(' + T.rgb + ',.08)', 24);
   var dual = [[0, 70], [250, 200], [600, 250]], ring = [[140, 400], [180, 90], [600, 60]], radial = [[330, 0], [290, 200], [350, 400]];
   var roads = [dual, ring, radial];
   stroke(ring, 0.05, 0.75, 'rgba(94,200,255,.5)', 11, 6);
   stroke(dual, 0.2, 0.8, 'rgba(255,176,46,.85)', 13, 10);
-  for (i = 0; i < roads.length; i++) stroke(roads[i], 0, 1, '#63d471', 4.5, 6);
+  for (i = 0; i < roads.length; i++) stroke(roads[i], 0, 1, T.ink, 4.5, 6);
   stroke(dual, 0.48, 0.7, '#ff3b30', 5.5, 10); stroke(dual, 0.7, 0.82, '#ff9f1c', 5.5, 8);
   stroke(radial, 0.3, 0.45, '#ff9f1c', 5.5, 8); stroke(ring, 0.2, 0.32, '#9b1c14', 6, 8);
   x.save(); x.fillStyle = '#ffb02e'; x.shadowColor = '#ffb02e'; x.shadowBlur = 10; x.beginPath(); x.arc(110, 120, 7, 0, 2 * Math.PI); x.fill(); x.restore();
-  x.save(); x.fillStyle = '#4dff8f'; x.shadowColor = '#4dff8f'; x.shadowBlur = 10; x.beginPath(); x.arc(470, 250, 6, 0, 2 * Math.PI); x.fill(); x.restore();
-  x.fillStyle = '#4dff8f'; x.font = '15px "Share Tech Mono", monospace';
+  x.save(); x.fillStyle = T.ink; x.shadowColor = T.ink; x.shadowBlur = 10; x.beginPath(); x.arc(470, 250, 6, 0, 2 * Math.PI); x.fill(); x.restore();
+  x.fillStyle = T.ink; x.font = '15px "Share Tech Mono", monospace';
   x.fillText('HOME', 122, 116); x.fillText('WORK', 482, 246);
 }
 function sampleRoutes() {
@@ -1343,10 +1384,40 @@ document.addEventListener('click', function (e) {   // delete buttons tap twice:
   if (nid !== null && nid !== undefined && nid !== '') { MYNOTES.splice(+nid, 1); saveKey('doorway-notes', MYNOTES); }
   checkReminders();
 });
+var THEMES = {
+  green: { name: 'GREEN', ink: '#4dff8f', rgb: '77,255,143', bg: '#03130a', bgrgb: '3,19,10', acc: '#ffb02e', accrgb: '255,176,46', tiles: 'grayscale(1) sepia(1) hue-rotate(80deg) saturate(2.6) brightness(1.15)' },
+  amber: { name: 'AMBER', ink: '#ffb02e', rgb: '255,176,46', bg: '#140c02', bgrgb: '20,12,2', acc: '#ff6b4a', accrgb: '255,107,74', tiles: 'grayscale(1) sepia(1) saturate(3) brightness(1.1)' },
+  cyan:  { name: 'CYAN',  ink: '#5ed6ff', rgb: '94,214,255', bg: '#02101a', bgrgb: '2,16,26', acc: '#ffb02e', accrgb: '255,176,46', tiles: 'grayscale(1) sepia(1) hue-rotate(160deg) saturate(2.6) brightness(1.1)' },
+  white: { name: 'WHITE', ink: '#e6eef5', rgb: '230,238,245', bg: '#0b0d10', bgrgb: '11,13,16', acc: '#ffb02e', accrgb: '255,176,46', tiles: 'grayscale(1) brightness(1.35) contrast(1.05)' },
+  red:   { name: 'RED',   ink: '#ff5d52', rgb: '255,93,82', bg: '#170505', bgrgb: '23,5,5', acc: '#ffd23f', accrgb: '255,210,63', tiles: 'grayscale(1) sepia(1) hue-rotate(-40deg) saturate(3) brightness(1.05)' }
+};
+var STYLES = [['rugged', 'RUGGED STEEL'], ['console', 'RUST BUCKET'], ['mainframe', 'MAINFRAME'], ['clean', 'CLEAN']];
+function themeNow() { return THEMES[SETTINGS.colour] || THEMES.green; }
+function applyTheme() {
+  var t = themeNow(), r = document.documentElement.style;
+  r.setProperty('--ink', t.ink); r.setProperty('--ink-rgb', t.rgb); r.setProperty('--crt-bg', t.bg); r.setProperty('--ink-dark', t.bg); r.setProperty('--bg-rgb', t.bgrgb);
+  r.setProperty('--glow', 'rgba(' + t.rgb + ',.65)'); r.setProperty('--glow-soft', 'rgba(' + t.rgb + ',.22)'); r.setProperty('--line', 'rgba(' + t.rgb + ',.6)');
+  r.setProperty('--line-faint', 'rgba(' + t.rgb + ',.22)'); r.setProperty('--fill', 'rgba(' + t.rgb + ',.14)'); r.setProperty('--tile-filter', t.tiles);
+  r.setProperty('--amber', t.acc); r.setProperty('--amber-rgb', t.accrgb);
+  var cb = '', k;
+  for (k in THEMES) { var on = SETTINGS.colour === k; cb += '<button type="button" class="btn swatch" data-colour="' + k + '" style="border-color:' + THEMES[k].ink + '; color:' + (on ? '#000' : THEMES[k].ink) + '; background:' + (on ? THEMES[k].ink : 'transparent') + '; text-shadow:none;">' + THEMES[k].name + '</button>'; }
+  $('colourBtns').innerHTML = cb;
+  var sb = ''; for (k = 0; k < STYLES.length; k++) sb += '<button type="button" class="btn' + (SETTINGS.style === STYLES[k][0] ? ' on' : '') + '" data-style="' + STYLES[k][0] + '">' + STYLES[k][1] + '</button>';
+  $('styleBtns').innerHTML = sb;
+  if (typeof mapMode !== 'undefined' && mapMode === 'SAMPLE') drawSampleMap();
+}
+document.addEventListener('click', function (e) {
+  var el = e.target;
+  while (el && el !== document && !(el.getAttribute && (el.getAttribute('data-colour') || el.getAttribute('data-style')))) el = el.parentNode;
+  if (!el || el === document) return;
+  if (el.getAttribute('data-colour')) SETTINGS.colour = el.getAttribute('data-colour'); else SETTINGS.style = el.getAttribute('data-style');
+  saveSettings(); applyDisplay();
+});
 function applyDisplay() {
   var st = $('stage').style;
   st.webkitFilter = st.filter = SETTINGS.bright === 1 ? '' : 'brightness(' + SETTINGS.bright + ')';
-  document.body.className = SETTINGS.fx ? '' : 'lite';
+  document.body.className = (SETTINGS.fx ? '' : 'lite ') + 'style-' + (SETTINGS.style || 'rugged');
+  applyTheme();
   $('brightVal').innerHTML = Math.round(SETTINGS.bright * 100) + '%';
   $('fxOn').className = 'btn' + (SETTINGS.fx ? ' on' : ''); $('fxOff').className = 'btn' + (SETTINGS.fx ? '' : ' on');
   $('ndOn').className = 'btn' + (SETTINGS.night ? ' on' : ''); $('ndOff').className = 'btn' + (SETTINGS.night ? '' : ' on');
@@ -1370,7 +1441,7 @@ function freshReload() {
 }
 $('qReload').addEventListener('click', freshReload);
 // Auto-update: every 5 minutes, check whether a newer dashboard has been published and load it.
-var BUILD = '20261022211903';
+var BUILD = '20261022212911';
 if (CONFIG.autoUpdate && /^https?:/.test(location.protocol)) {
   setInterval(function () {
     var x = new XMLHttpRequest();
@@ -1404,7 +1475,7 @@ function battIcon(pct, charging, scale) {
     '<rect x="1" y="2" width="24" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>' +
     '<rect x="26" y="5.5" width="3" height="5" rx="1" fill="currentColor"/>' +
     '<rect x="3.5" y="4.5" width="' + fillW + '" height="7" fill="currentColor"/>' +
-    (charging ? '<path d="M14 3l-4 6h3l-2 5 5-7h-3l2-4z" fill="#03130a" stroke="currentColor" stroke-width=".8"/>' : '') + '</svg>';
+    (charging ? '<path d="M14 3l-4 6h3l-2 5 5-7h-3l2-4z" style="fill:var(--crt-bg)" stroke="currentColor" stroke-width=".8"/>' : '') + '</svg>';
 }
 function readBattery(cb) {
   try {
