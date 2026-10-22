@@ -22,6 +22,7 @@
   --bg-rgb: 3,19,10;
   --amber-rgb: 255,176,46;
   --tile-filter: grayscale(1) sepia(1) hue-rotate(80deg) saturate(2.6) brightness(1.15);
+  --holo-ink: #b8ffd4;
   --ink: #4dff8f;
   --ink-soft: #3fd879;
   --ink-dark: #03130a;
@@ -291,7 +292,8 @@ body.style-hud .hudRing { display:block; }
 #holo.on { display:block; }
 .hv { position:absolute; left:500px; top:280px; width:280px; height:240px; -webkit-transform-origin:140px 120px; transform-origin:140px 120px; }
 .hvIn { width:280px; height:240px; display:-webkit-flex; display:flex; -webkit-flex-direction:column; flex-direction:column; -webkit-align-items:center; align-items:center; -webkit-justify-content:center; justify-content:center;
-  font-family:'Rajdhani', 'Share Tech Mono', monospace; font-weight:600; text-align:center; text-shadow:0 0 6px var(--ink), 0 0 18px var(--glow); }
+  font-family:'Rajdhani', 'Share Tech Mono', monospace; font-weight:700; text-align:center; color:var(--holo-ink);
+  text-shadow:0 0 2px #fff, 0 0 8px var(--ink), 0 0 20px var(--ink), 0 0 36px var(--glow); }
 .hBot { width:78px; }
 .hTime { font-size:50px; line-height:1; letter-spacing:3px; margin-top:2px; }
 .hLine { font-size:19px; letter-spacing:2px; display:-webkit-flex; display:flex; -webkit-align-items:center; align-items:center; }
@@ -308,9 +310,9 @@ body.style-hud .hudRing { display:block; }
 .hHours > div { margin:0 8px; text-align:center; }
 .hHours svg { margin:2px auto; }
 .hSegs { display:-webkit-flex; display:flex; margin:8px 0 2px; }
-.hSegs i { width:16px; height:14px; margin:0 2px; border:1px solid var(--ink); }
-.hSegs i.on { background:var(--ink); box-shadow:0 0 8px var(--ink); }
-.hCore { width:190px; height:190px; display:block; }
+.hSegs i { width:16px; height:14px; margin:0 2px; border:2px solid var(--holo-ink); }
+.hSegs i.on { background:var(--holo-ink); box-shadow:0 0 10px var(--ink); }
+.hCore { width:215px; height:215px; display:block; }
 #holoCtl { position:absolute; left:16px; bottom:16px; display:none; font-family:'Share Tech Mono', monospace; z-index:2; }
 #holoCtl.on { display:block; }
 #holoCtl .btn { display:block; margin:0 0 8px; min-width:150px; font-size:16px; background:#000; color:var(--ink); border-color:var(--ink); }
@@ -334,7 +336,9 @@ body.style-hud .hudRing { display:block; }
 #remMeta { font-size:18px; margin-top:20px; opacity:.75; letter-spacing:1px; }
 /* Doorbot: original mascot */
 .bot { width:100%; height:auto; overflow:visible; filter:drop-shadow(0 0 6px rgba(var(--amber-rgb),.75)); }
-#holo .bot { filter:drop-shadow(0 0 8px rgba(var(--ink-rgb),.9)); }
+#holo .bot { color:var(--holo-ink); filter:drop-shadow(0 0 3px #fff) drop-shadow(0 0 10px var(--ink)) drop-shadow(0 0 22px var(--ink)); }
+#holo .bot path, #holo .bot rect, #holo .bot circle { stroke-width:7px; }
+#holo .hIcon svg, #holo .hHours svg { stroke-width:2.8px; filter:drop-shadow(0 0 3px #fff) drop-shadow(0 0 10px var(--ink)) !important; }
 .bot .all { -webkit-animation:botbob 2.4s ease-in-out infinite; animation:botbob 2.4s ease-in-out infinite; }
 .bot .wave { transform-box:view-box; transform-origin:150px 150px; -webkit-animation:botwave 1.1s ease-in-out infinite; animation:botwave 1.1s ease-in-out infinite; }
 .bot .eye { transform-box:fill-box; transform-origin:center; -webkit-animation:botblink 4s infinite; animation:botblink 4s infinite; }
@@ -1485,6 +1489,9 @@ function applyTheme() {
   r.setProperty('--glow', 'rgba(' + t.rgb + ',.65)'); r.setProperty('--glow-soft', 'rgba(' + t.rgb + ',.22)'); r.setProperty('--line', 'rgba(' + t.rgb + ',.6)');
   r.setProperty('--line-faint', 'rgba(' + t.rgb + ',.22)'); r.setProperty('--fill', 'rgba(' + t.rgb + ',.14)'); r.setProperty('--tile-filter', t.tiles);
   r.setProperty('--amber', t.acc); r.setProperty('--amber-rgb', t.accrgb);
+  var rgbN = t.rgb.split(','), holo = [];   // hologram ink: the theme colour pushed most of the way to white
+  for (var hk = 0; hk < 3; hk++) holo.push(Math.round(+rgbN[hk] + (255 - +rgbN[hk]) * 0.55));
+  r.setProperty('--holo-ink', 'rgb(' + holo.join(',') + ')');
   var cb = '', k;
   for (k in THEMES) { var on = SETTINGS.colour === k; cb += '<button type="button" class="btn swatch" data-colour="' + k + '" style="border-color:' + THEMES[k].ink + '; color:' + (on ? '#000' : THEMES[k].ink) + '; background:' + (on ? THEMES[k].ink : 'transparent') + '; text-shadow:none;">' + THEMES[k].name + '</button>'; }
   $('colourBtns').innerHTML = cb;
@@ -1528,7 +1535,7 @@ function freshReload() {
 }
 $('qReload').addEventListener('click', freshReload);
 // Auto-update: every 5 minutes, check whether a newer dashboard has been published and load it.
-var BUILD = '20261022214803';
+var BUILD = '20261022215356';
 if (CONFIG.autoUpdate && /^https?:/.test(location.protocol)) {
   setInterval(function () {
     var x = new XMLHttpRequest();
@@ -1860,7 +1867,7 @@ function holoViewHtml(c) {
   if (c === 'traffic') return '<div class="hvIn"><div class="hLabel hRouteName">TO WORK</div><div class="hBig hMins">--</div><div class="hMid hDelay"></div><div class="hSmall hArrive"></div></div>';
   if (c === 'news') return '<div class="hvIn"><div class="hLabel hSrc">NEWS</div><div class="hHead">---</div></div>';
   if (c === 'drops') return '<div class="hvIn"><div class="hLabel">POKEMON DROPS</div><div class="hBig hLevel">---</div><div class="hSegs"></div><div class="hSmall hWin"></div></div>';
-  if (c === 'core') return '<div class="hvIn"><canvas class="hCore" width="260" height="260"></canvas><div class="hSmall hCoreTxt">CORE ONLINE</div></div>';
+  if (c === 'core') return '<div class="hvIn"><canvas class="hCore" width="300" height="300"></canvas><div class="hSmall hCoreTxt">THINKING</div></div>';
   return '<div class="hvIn"><div class="hBot">' + doorbot('sign') + '</div><div class="hTime">--:--</div><div class="hLine"><span class="hIcon"></span><span class="hTemp">--&deg;</span>&nbsp;<span class="hDesc"></span></div><div class="hNote"></div></div>';
 }
 function layoutHolo() {
@@ -1938,7 +1945,7 @@ function updateHolo() {
     setAll('hLevel', POKE.alert && POKE.alert.text ? 'ALERT' : lvl); setAll('hSegs', sg);
     setAll('hWin', POKE.alert && POKE.alert.text ? esc(POKE.alert.text) : 'WATCH ' + esc(((POKE.risk || {}).nextWindow || '').split(';')[0]));
   }
-  if (c === 'core') setAll('hCoreTxt', 'CORE ONLINE // ' + hhmm(d));
+  if (c === 'core') setAll('hCoreTxt', 'THINKING // ' + hhmm(d));
 }
 function renderHoloPick() {
   var s = holoS(), h2 = '';
@@ -1946,67 +1953,92 @@ function renderHoloPick() {
   $('holoPick').innerHTML = h2;
 }
 
-// ----- AI CORE: a rotating cloud of nodes with sparks running along the links -----
+// ----- AI CORE: an organic, breathing brain with waves of activity spreading across it -----
 var CORE = null;
 function coreInit() {
-  var nodes = [], edges = [], N = 110, i, j;
-  for (i = 0; i < N; i++) {   // points spread over an egg shape, slightly squashed like a brain
-    var y = 1 - (i / (N - 1)) * 2, r = Math.sqrt(1 - y * y), th = i * 2.39996;
-    nodes.push([Math.cos(th) * r * 1.15, y * 0.85, Math.sin(th) * r * 0.95]);
+  var P = [], part = [], i, j, N = 380;
+  for (i = 0; i < N; i++) {            // cerebrum: an egg shape with a central groove and folded ridges
+    var y = 1 - (i / (N - 1)) * 2, r = Math.sqrt(Math.max(0, 1 - y * y)), th = i * 2.39996;
+    var x = Math.cos(th) * r, z = Math.sin(th) * r;
+    var fold = 1 + 0.07 * Math.sin(9 * Math.atan2(y, z) + 3 * Math.sin(4 * Math.atan2(x, z))) + 0.04 * Math.sin(13 * y + 5 * z);
+    var groove = y > -0.25 ? 1 - 0.2 * Math.exp(-Math.pow(x / 0.13, 2)) : 1;
+    var X = x * 0.92 * fold * groove, Y = y * 0.74 * fold, Z = z * 1.18 * fold;
+    if (Y < -0.32) Y = -0.32 + (Y + 0.32) * 0.55;   // flatter underside
+    P.push([X, Y, Z]); part.push(0);
   }
-  for (i = 0; i < N; i++) {
-    var dists = [];
-    for (j = 0; j < N; j++) if (j !== i) { var dx = nodes[i][0] - nodes[j][0], dy = nodes[i][1] - nodes[j][1], dz = nodes[i][2] - nodes[j][2]; dists.push([dx * dx + dy * dy + dz * dz, j]); }
-    dists.sort(function (a, b) { return a[0] - b[0]; });
-    for (j = 0; j < 3; j++) { var a2 = Math.min(i, dists[j][1]), b2 = Math.max(i, dists[j][1]); edges.push(a2 * 1000 + b2); }
+  for (i = 0; i < 70; i++) {           // cerebellum: a smaller ridged lobe tucked under the back
+    var y2 = 1 - (i / 69) * 2, r2 = Math.sqrt(Math.max(0, 1 - y2 * y2)), t2 = i * 2.39996, ridge = 1 + 0.08 * Math.sin(18 * y2);
+    P.push([Math.cos(t2) * r2 * 0.5 * ridge, -0.5 + y2 * 0.22, -0.78 + Math.sin(t2) * r2 * 0.36 * ridge]); part.push(1);
   }
-  var uniq = {}, E = []; for (i = 0; i < edges.length; i++) if (!uniq[edges[i]]) { uniq[edges[i]] = 1; E.push([Math.floor(edges[i] / 1000), edges[i] % 1000]); }
-  var c = document.createElement('canvas'); c.width = c.height = 260;
-  CORE = { nodes: nodes, edges: E, sparks: [], angle: 0, canvas: c, ctx: c.getContext('2d'), raf: null, last: 0 };
+  for (i = 0; i < 12; i++) { P.push([0.04 * Math.sin(i), -0.55 - i * 0.045, -0.35 - i * 0.012]); part.push(2); }   // brain stem
+  var nb = [];
+  for (i = 0; i < P.length; i++) {
+    var d = [];
+    for (j = 0; j < P.length; j++) if (j !== i && (part[i] === part[j] || (part[i] === 2) !== (part[j] === 2) && Math.abs(part[i] - part[j]) === 2)) {
+      var dx = P[i][0] - P[j][0], dy = P[i][1] - P[j][1], dz = P[i][2] - P[j][2]; d.push([dx * dx + dy * dy + dz * dz, j]);
+    }
+    d.sort(function (a, b) { return a[0] - b[0]; });
+    nb.push([d[0][1], d[1][1], d[2][1], d[3][1]]);
+  }
+  var seen = {}, E = [];
+  for (i = 0; i < nb.length; i++) for (j = 0; j < 4; j++) { var a = Math.min(i, nb[i][j]), b = Math.max(i, nb[i][j]), key = a * 10000 + b; if (!seen[key]) { seen[key] = 1; E.push([a, b]); } }
+  var act = []; for (i = 0; i < P.length; i++) act.push(0);
+  var c = document.createElement('canvas'); c.width = c.height = 300;
+  CORE = { P: P, nb: nb, E: E, act: act, wave: [], frame: 0, nextWave: 0, angle: 0, canvas: c, ctx: c.getContext('2d'), raf: null, last: 0 };
 }
-function coreDraw(ts) {
-  var x = CORE.ctx, W = 260, cx = 130, cy = 124, t = themeNow(), rgb = t.rgb, i;
-  x.clearRect(0, 0, W, W);
-  CORE.angle += 0.008;
-  var ca = Math.cos(CORE.angle), sa = Math.sin(CORE.angle), tilt = 0.35, ct = Math.cos(tilt), st = Math.sin(tilt), P = [];
-  for (i = 0; i < CORE.nodes.length; i++) {
-    var n = CORE.nodes[i], X = n[0] * ca + n[2] * sa, Z = -n[0] * sa + n[2] * ca, Y = n[1] * ct - Z * st; Z = n[1] * st + Z * ct;
-    var f = 3 / (3 + Z); P.push([cx + X * 78 * f, cy + Y * 78 * f, Z]);
+function coreWave() {                  // a thought: activity starts at one neuron and ripples outwards
+  var start = Math.floor(Math.random() * CORE.P.length), visited = {};
+  visited[start] = 1; CORE.wave.push({ n: start, at: CORE.frame, hop: 0, seen: visited });
+}
+function coreStep() {
+  var F = ++CORE.frame, i, w, k;
+  for (i = 0; i < CORE.act.length; i++) CORE.act[i] *= 0.86;
+  if (F >= CORE.nextWave) { coreWave(); if (Math.random() < 0.35) coreWave(); CORE.nextWave = F + 14 + Math.floor(Math.random() * 26); }
+  var keep = [];
+  for (i = 0; i < CORE.wave.length; i++) {
+    w = CORE.wave[i];
+    if (w.at > F) { keep.push(w); continue; }
+    CORE.act[w.n] = 1;
+    if (w.hop < 7) for (k = 0; k < 4; k++) { var m = CORE.nb[w.n][k]; if (!w.seen[m] && Math.random() < 0.55) { w.seen[m] = 1; keep.push({ n: m, at: F + 2, hop: w.hop + 1, seen: w.seen }); } }
   }
-  var glow = x.createRadialGradient(cx, cy, 4, cx, cy, 95);
-  glow.addColorStop(0, 'rgba(' + rgb + ',.35)'); glow.addColorStop(1, 'rgba(' + rgb + ',0)');
-  x.fillStyle = glow; x.fillRect(0, 0, W, W);
-  x.lineWidth = 1;
-  for (i = 0; i < CORE.edges.length; i++) {
-    var a = P[CORE.edges[i][0]], b = P[CORE.edges[i][1]], depth = (2 - (a[2] + b[2]) / 2) / 3;
-    x.strokeStyle = 'rgba(' + rgb + ',' + (0.12 + depth * 0.35).toFixed(2) + ')';
-    x.beginPath(); x.moveTo(a[0], a[1]); x.lineTo(b[0], b[1]); x.stroke();
+  CORE.wave = keep.length > 600 ? keep.slice(0, 600) : keep;
+}
+function coreDraw() {
+  coreStep();
+  var x = CORE.ctx, W = 300, cx = 150, cy = 150, t = themeNow(), rgb = t.rgb, i, time = CORE.frame / 30;
+  var breathe = 1 + 0.035 * Math.sin(time * 1.7), pulse = 0.5 + 0.5 * Math.sin(time * 1.7);
+  x.globalCompositeOperation = 'source-over'; x.clearRect(0, 0, W, W);
+  CORE.angle += 0.007;
+  var ca = Math.cos(CORE.angle), sa = Math.sin(CORE.angle), tilt = 0.25 + 0.08 * Math.sin(time * 0.4), ct = Math.cos(tilt), st = Math.sin(tilt), S = [];
+  for (i = 0; i < CORE.P.length; i++) {
+    var n = CORE.P[i], X = n[0] * ca + n[2] * sa, Z = -n[0] * sa + n[2] * ca, Y = n[1] * ct - Z * st; Z = n[1] * st + Z * ct;
+    var f = 3.2 / (3.2 + Z), sc = 96 * breathe * f; S.push([cx + X * sc, cy - Y * sc, Z]);
   }
-  for (i = 0; i < P.length; i++) { var dd = (2 - P[i][2]) / 3; x.fillStyle = 'rgba(' + rgb + ',' + (0.35 + dd * 0.6).toFixed(2) + ')'; x.beginPath(); x.arc(P[i][0], P[i][1], 1.2 + dd * 1.6, 0, 6.283); x.fill(); }
-  if (Math.random() < 0.35) CORE.sparks.push({ e: Math.floor(Math.random() * CORE.edges.length), p: 0, v: 0.04 + Math.random() * 0.05 });
-  x.shadowColor = t.ink; x.shadowBlur = 10; x.fillStyle = '#ffffff';
-  for (i = CORE.sparks.length - 1; i >= 0; i--) {
-    var sp = CORE.sparks[i], A = P[CORE.edges[sp.e][0]], B = P[CORE.edges[sp.e][1]];
-    sp.p += sp.v; if (sp.p >= 1) { CORE.sparks.splice(i, 1); continue; }
-    x.beginPath(); x.arc(A[0] + (B[0] - A[0]) * sp.p, A[1] + (B[1] - A[1]) * sp.p, 2, 0, 6.283); x.fill();
+  x.globalCompositeOperation = 'lighter';
+  var g = x.createRadialGradient(cx, cy, 6, cx, cy, 130);
+  g.addColorStop(0, 'rgba(' + rgb + ',' + (0.28 + 0.14 * pulse).toFixed(2) + ')'); g.addColorStop(0.55, 'rgba(' + rgb + ',.08)'); g.addColorStop(1, 'rgba(' + rgb + ',0)');
+  x.fillStyle = g; x.fillRect(0, 0, W, W);
+  for (i = 0; i < CORE.E.length; i++) {
+    var A = S[CORE.E[i][0]], B = S[CORE.E[i][1]], ac = Math.max(CORE.act[CORE.E[i][0]], CORE.act[CORE.E[i][1]]), depth = (2 - (A[2] + B[2]) / 2) / 4;
+    x.strokeStyle = ac > 0.25 ? 'rgba(255,255,255,' + (ac * 0.8).toFixed(2) + ')' : 'rgba(' + rgb + ',' + (0.1 + depth * 0.25 + pulse * 0.06).toFixed(2) + ')';
+    x.lineWidth = 1 + ac * 1.6;
+    x.beginPath(); x.moveTo(A[0], A[1]); x.lineTo(B[0], B[1]); x.stroke();
   }
-  x.shadowBlur = 0;
-  // orbiting rings
-  x.strokeStyle = 'rgba(' + rgb + ',.55)'; x.lineWidth = 2;
-  for (i = 0; i < 2; i++) {
-    x.save(); x.translate(cx, cy); x.rotate(i ? -CORE.angle * 1.7 : CORE.angle * 1.2); x.scale(1, 0.32);
-    x.setLineDash(i ? [30, 12, 4, 12] : [60, 20]); x.beginPath(); x.arc(0, 0, i ? 112 : 102, 0, 6.283); x.stroke(); x.restore();
+  for (i = 0; i < S.length; i++) {
+    var a2 = CORE.act[i], dd = (2 - S[i][2]) / 4;
+    x.fillStyle = a2 > 0.3 ? 'rgba(255,255,255,' + Math.min(1, 0.3 + a2).toFixed(2) + ')' : 'rgba(' + rgb + ',' + (0.35 + dd * 0.5).toFixed(2) + ')';
+    x.beginPath(); x.arc(S[i][0], S[i][1], 1.1 + dd * 1.4 + a2 * 2.4, 0, 6.283); x.fill();
   }
-  x.setLineDash([]);
+  x.globalCompositeOperation = 'source-over';
   var outs = document.querySelectorAll('#holo .hCore');
-  for (i = 0; i < outs.length; i++) { var o = outs[i].getContext('2d'); o.clearRect(0, 0, 260, 260); o.drawImage(CORE.canvas, 0, 0); }
+  for (i = 0; i < outs.length; i++) { var o = outs[i].getContext('2d'); o.clearRect(0, 0, 300, 300); o.drawImage(CORE.canvas, 0, 0); }
 }
 function coreLoop() {
   var want = holoS().on && holoContent() === 'core';
   if (!want) { if (CORE && CORE.raf) { cancelAnimationFrame(CORE.raf); CORE.raf = null; } return; }
   if (!CORE) coreInit();
   if (CORE.raf) return;
-  var step = function (ts) { if (!(holoS().on && holoContent() === 'core')) { CORE.raf = null; return; } if (ts - CORE.last > 33) { CORE.last = ts; coreDraw(ts); } CORE.raf = requestAnimationFrame(step); };
+  var step = function (ts) { if (!(holoS().on && holoContent() === 'core')) { CORE.raf = null; return; } if (ts - CORE.last > 33) { CORE.last = ts; coreDraw(); } CORE.raf = requestAnimationFrame(step); };
   CORE.raf = requestAnimationFrame(step);
 }
 var holoCtlTimer = null;
@@ -2017,6 +2049,7 @@ function holoControls() {
 function setHolo(on) {
   var s = holoS(); s.on = on; saveSettings();
   $('holo').className = on ? 'on' : '';
+  if (window.doorway && doorway.setScreenBrightness) { try { doorway.setScreenBrightness(on ? 1 : -1); } catch (e) {} }
   if (on) { layoutHolo(); holoControls(); } else coreLoop();
 }
 $('holo').addEventListener('click', function (e) { if (!(e.target.getAttribute && e.target.getAttribute('data-holo'))) holoControls(); });

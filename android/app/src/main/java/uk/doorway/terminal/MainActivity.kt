@@ -64,6 +64,7 @@ class MainActivity : ComponentActivity() {
     @Volatile private var ignoreUntil = 0L
     @Volatile private var lastMotionAt = 0L
     private var asleep = false
+    private var brightOverride = WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_NONE   // set to full while the hologram is on
     private var cameraRunning = false
     private var prevFrame: IntArray? = null
     private var loadFailed = false
@@ -208,7 +209,7 @@ class MainActivity : ComponentActivity() {
         asleep = false
         ignoreUntil = System.currentTimeMillis() + SETTLE_MS
         blackout.visibility = View.GONE
-        setBrightness(WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_NONE)
+        setBrightness(brightOverride)
         web.evaluateJavascript("window.poke && poke();", null)
     }
 
@@ -317,6 +318,14 @@ class MainActivity : ComponentActivity() {
         @JavascriptInterface fun secondsSinceMotion(): Int =
             if (lastMotionAt == 0L) -1 else ((System.currentTimeMillis() - lastMotionAt) / 1000).toInt()
         @JavascriptInterface fun sleepNow() { runOnUiThread { sleep() } }
+        /** 0..1 forces the screen brightness (hologram uses 1); anything below 0 hands it back to Android. */
+        @JavascriptInterface fun setScreenBrightness(v: Float) {
+            runOnUiThread {
+                brightOverride = if (v < 0f) WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_NONE else v.coerceIn(0.01f, 1f)
+                if (!asleep) setBrightness(brightOverride)
+            }
+        }
+        @JavascriptInterface fun wakeNow() { runOnUiThread { wake() } }
         @JavascriptInterface fun reload() { runOnUiThread { web.clearCache(false); web.loadUrl(DASHBOARD_URL) } }
         @JavascriptInterface fun openAndroidSettings() {
             runOnUiThread { startActivity(Intent(Settings.ACTION_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
