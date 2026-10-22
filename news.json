@@ -1,6 +1,55 @@
 {
- "updated": "2026-10-22T20:21:37.191815Z",
+ "updated": "2026-10-22T20:57:46.520072Z",
  "items": [
+  {
+   "title": "New York City ends a classic: Horse-drawn carriages banned over safety and abuse concerns",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-22T20:49:12Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man Utd chief keen on Howe - Friday's gossip",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-22T20:38:37Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Could rebel knight Roger Casement be exhumed for a second time?",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-22T20:37:46Z",
+   "link": "https://www.bbc.co.uk/news/articles/cjzxlnqlk1z3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Meta’s AI could still scrape news sites, legal experts say",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-22T20:32:05Z",
+   "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+  },
+  {
+   "title": "GB's Fraser wins world bronze in all-around final",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-22T20:28:43Z",
+   "link": "https://www.bbc.co.uk/sport/gymnastics/videos/c9kgjzjjnlzyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Meta turns Muse sharing back on",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-22T20:24:04Z",
+   "link": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts"
+  },
+  {
+   "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-22T20:23:48Z",
+   "link": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole"
+  },
   {
    "title": "See the Pokémon cards that made a retired decorator a millionaire",
    "source": "BBC NEWS",
@@ -58,13 +107,6 @@
    "link": "https://www.theverge.com/report/1017003/indian-americans-republican-racism-vivek-ramaswamy-texas"
   },
   {
-   "title": "Google tells Android users to update as parts of Canada adopt permanent daylight saving time",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-22T19:13:42Z",
-   "link": "https://www.theverge.com/tech/1016977/google-android-incorrect-time-daylight-saving-permanent-canada"
-  },
-  {
    "title": "From safaris to Springboks - King ready for history in South Africa",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -74,7 +116,7 @@
   {
    "title": "Discord now formats Markdown previews right",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-22T18:58:19Z",
    "link": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels"
   },
@@ -98,13 +140,6 @@
    "topic": "science",
    "published": "2026-10-22T18:48:59Z",
    "link": "https://www.bbc.co.uk/news/articles/cqvgjk3j0j9wo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The new Fire TV Stick 4K is already half off",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-22T18:43:57Z",
-   "link": "https://www.theverge.com/gadgets/1016792/amazon-fire-tv-stick-4k-2026-deal-sale"
   },
   {
    "title": "Lockerbie bombing accused loses bid to have case thrown out",
@@ -135,13 +170,6 @@
    "link": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network"
   },
   {
-   "title": "Could rebel knight Roger Casement be exhumed for a second time?",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T18:13:51Z",
-   "link": "https://www.bbc.co.uk/news/articles/cjzxlnqlk1z3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Fernandes has home burgled while in Italy with Man Utd",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -149,25 +177,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cq9vz19p41x8o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Cordina agrees terms to fight Pacquiao, 47, on Fury-Joshua card",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-22T18:04:02Z",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/c34g1wenzg9jo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
    "source": "THE VERGE",
    "topic": "ai",
    "published": "2026-10-22T18:00:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
-  },
-  {
-   "title": "Tour de France UK stages in detail - where can you watch?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-22T17:56:48Z",
-   "link": "https://www.bbc.co.uk/sport/cycling/articles/cq1kd0z33r8ro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fahnbulleh says she backs home secretary on migration after comments to journalists",
@@ -210,13 +224,6 @@
    "topic": "ai",
    "published": "2026-10-22T17:21:31Z",
    "link": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai"
-  },
-  {
-   "title": "'Demeaning' and 'absurd': The backlash against a hugging grandparents consent ad",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-22T17:18:17Z",
-   "link": "https://www.bbc.co.uk/news/articles/c83vqn6zwrx0o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Trump ordered to answer questions under oath in BBC lawsuit",
@@ -308,13 +315,6 @@
    "topic": "science",
    "published": "2026-10-22T15:14:38Z",
    "link": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "PHP: The three little letters wreaking havoc across the web",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-22T15:12:27Z",
-   "link": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down"
   },
   {
    "title": "Damaging hail pelts Phoenix in rare storm",
