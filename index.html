@@ -247,10 +247,10 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
               </button>
               <button type="button" class="card grow mt col" data-go="drops">
                 <div class="ch row mid"><span data-i="cards"></span>POKEMON DROP RADAR<span class="chev">&gt;</span></div>
-                <div class="row mid between"><div><span id="dLike" class="big">--%</span></div><div id="dLikeWord" style="font-size:24px; letter-spacing:2px;">---</div></div>
+                <div class="row mid between"><span id="dLevel" style="font-size:34px; letter-spacing:3px; line-height:1;">---</span><span id="dUpdated" class="meta" style="white-space:nowrap;"></span></div>
                 <div id="dSegs" class="row segs" style="margin:8px 0;"></div>
-                <div class="row mid" style="font-size:17px;"><span id="dQueueDot" class="dot idle"></span><span id="dQueue">QUEUE: ---</span></div>
-                <div id="dNext" class="meta" style="margin-top:6px;"></div>
+                <div id="dWindow" class="t2" style="font-size:15px;"></div>
+                <div class="row mid" style="font-size:15px; margin-top:8px;"><span id="dQueueDot" class="dot idle"></span><span id="dQueue" class="t2" style="-webkit-line-clamp:1;">---</span></div>
               </button>
             </div>
 
@@ -352,20 +352,27 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
           <div class="row subs" data-subs="drops"></div>
           <div id="p-drops-radar" class="pane">
             <div class="card grow col">
-              <div class="ch">DROP LIKELIHOOD TODAY // POKEMON CENTER UK</div>
-              <div class="row mid"><span id="rLike" style="font-size:110px; line-height:1;">--%</span><span id="rWord" style="font-size:40px; letter-spacing:4px; margin-left:24px;">---</span></div>
+              <div class="ch">DROP RISK // POKEMON CENTER UK // <span id="rUpdated"></span></div>
+              <div id="rLevel" style="font-size:88px; line-height:1; letter-spacing:6px;">---</div>
               <div id="rSegs" class="row segs" style="margin:14px 0;"></div>
-              <div id="rNote" style="font-size:19px;" class="dim"></div>
+              <div class="meta">WATCH</div><div id="rWindow" style="font-size:20px; margin-bottom:12px;"></div>
+              <div class="meta">WHY</div><div id="rReason" style="font-size:17px; line-height:1.35;"></div>
             </div>
-            <div class="card col ml" style="width:380px;">
-              <div class="ch">QUEUE WATCH</div>
-              <div class="row mid" style="font-size:40px; margin:10px 0;"><span id="rQueueDot" class="dot idle" style="width:16px; height:16px; margin-right:14px;"></span><span id="rQueue">---</span></div>
-              <div id="rChecked" class="meta" style="font-size:16px;"></div>
-              <div id="rMode" style="font-size:20px; margin-top:16px;"></div>
+            <div class="card col ml" style="width:400px;">
+              <div class="ch">LIVE WATCH</div>
+              <div class="row mid" style="font-size:30px; margin:4px 0 10px;"><span id="rQueueDot" class="dot idle" style="width:16px; height:16px; margin-right:14px;"></span><span id="rQueue">---</span></div>
+              <div id="rAlert" style="font-size:16px;"></div>
+              <div id="rWin" class="meta" style="font-size:15px; margin:6px 0 10px;"></div>
+              <div class="meta">RECENT CHECKS</div>
+              <div id="rChecks" style="font-size:15px;"></div>
             </div>
           </div>
-          <div id="p-drops-brief" class="pane"><div class="card grow col"><div class="ch" id="bCap">MORNING BRIEF</div><div id="bList" style="font-size:22px;"></div></div></div>
-          <div id="p-drops-calendar" class="pane"><div class="card grow col"><div class="ch">COMING UP</div><div id="cList"></div></div></div>
+          <div id="p-drops-watchlist" class="pane"><div class="card grow col"><div class="ch">WATCHLIST // ENGLISH PRODUCTS AT POKEMON CENTER UK</div><div id="wlList"></div></div></div>
+          <div id="p-drops-brief" class="pane">
+            <div class="card col" style="width:440px;"><div class="ch">SIGNALS TO ACT ON</div><div id="sgList" style="font-size:17px;"></div></div>
+            <div class="card grow col ml"><div class="ch" id="bCap">NEWS</div><div id="pnList"></div></div>
+          </div>
+          <div id="p-drops-calendar" class="pane"><div class="card grow col"><div class="ch">RELEASE DATES</div><div id="cList"></div></div></div>
         </div>
 
         <!-- ================= AI ================= -->
@@ -427,7 +434,7 @@ var CONFIG = {
 
   // Other data sources. Blank = sample data.
   newsUrl: 'news.json',                 // { "items": [ { "title", "source", "topic", "time" } ] }
-  pokemonUrl: '',              // see samplePokemon() for the shape
+  pokemonUrl: 'pokemon.json',              // see samplePokemon() for the shape
   agentsUrl: '',               // { "agents": [ { "name", "job", "status", "lastRun", "result" } ] }
   refreshMinutes: { weather: 15, news: 10, pokemon: 5, agents: 10 },
 
@@ -542,7 +549,7 @@ var TABS = [
   ['weather', 'WEATHER', [['today', 'TODAY'], ['hourly', 'HOURLY'], ['week', 'WEEK']]],
   ['map', 'TRAFFIC', [['traffic', 'MAP'], ['journeys', 'JOURNEYS']]],
   ['news', 'NEWS', [['headlines', 'HEADLINES'], ['topics', 'TOPICS']]],
-  ['drops', 'POKEMON', [['radar', 'RADAR'], ['brief', 'BRIEF'], ['calendar', 'CALENDAR']]],
+  ['drops', 'POKEMON', [['radar', 'RADAR'], ['watchlist', 'WATCHLIST'], ['brief', 'SIGNALS + NEWS'], ['calendar', 'RELEASES']]],
   ['ai', 'AI AGENTS', []],
   ['system', '', [['display', 'DISPLAY'], ['links', 'LINKS']]]
 ];
@@ -940,7 +947,7 @@ function sampleNews() {
 }
 
 // =====================================================================
-//  POKEMON DROPS
+//  POKEMON DROPS (published by the Drop Radar scheduled tasks as pokemon.json)
 // =====================================================================
 function loadPokemon() {
   if (!CONFIG.pokemonUrl) { renderPokemon(samplePokemon()); SOURCE.pokemon = 'SAMPLE'; updateStatus(); return; }
@@ -949,38 +956,60 @@ function loadPokemon() {
 }
 function samplePokemon() {
   var now = new Date();
-  function day(n) { return isoLocal(new Date(now.getFullYear(), now.getMonth(), now.getDate() + n)); }
   return {
-    likelihood: 35, queueLive: false, checked: isoLocal(now, true), mode: 'NORMAL',
-    note: 'SAMPLE: no restock signals overnight. Hourly checks start above 60%.',
-    briefTime: '08:00',
-    brief: ['SAMPLE BRIEF: your 8am Pokemon summary appears here.', 'Store status: no queue seen on Pokemon Center UK overnight.', 'Signals: newsletter and social posts quiet so far today.', 'Next check: every 5 minutes while likelihood stays low.'],
-    upcoming: [{ date: day(2), title: 'SAMPLE: expansion pre-order window', note: 'LIKELY DROP DAY' }, { date: day(9), title: 'SAMPLE: special collection restock', note: 'WATCH' }, { date: day(23), title: 'SAMPLE: new set release', note: 'HIGH DEMAND' }]
+    updatedAt: now.toISOString(),
+    risk: { level: 'medium', nextWindow: 'SAMPLE: weekdays, 3pm-9pm UK (peak about 5pm)', reason: 'SAMPLE: a US queue was reported yesterday; the UK store often follows within a few weekdays.' },
+    dropWindow: { startHour: 15, endHour: 21, peakHour: 17, note: '' },
+    alert: null,
+    checks: [{ at: 'SAMPLE 16:05', result: 'No queue or restock seen.' }],
+    watchlist: [{ product: 'SAMPLE: Booster Bundle', likelihood: 'medium', window: 'Weekdays, 3pm-9pm UK', note: 'Sold out at preorder; in-print products usually restock.' }],
+    signals: ['SAMPLE: watch the UK store on weekday afternoons.'],
+    releases: [{ date: 'SAMPLE DATE', set: 'SAMPLE: next English set', pc: 'Preorders not open yet.' }],
+    news: [{ tag: 'SAMPLE', title: 'SAMPLE: your 8am Pokemon brief appears here', summary: 'Live once the Drop Radar tasks publish to the dashboard.', source: 'SAMPLE' }]
   };
 }
-function segs(n, big) { var h = ''; for (var i = 0; i < 10; i++) h += '<div class="s' + (i < n ? ' on' : '') + '"' + (big ? ' style="width:56px; height:56px; margin-right:8px;"' : '') + '></div>'; return h; }
+var LEVEL_SEGS = { low: 3, medium: 6, high: 9 };
+function segs(n, big) { var h = ''; for (var i = 0; i < 10; i++) h += '<div class="s' + (i < n ? ' on' : '') + '"' + (big ? ' style="width:56px; height:40px; margin-right:8px;"' : '') + '></div>'; return h; }
+function levelHtml(level) { var L = String(level || '---').toUpperCase(); return L === 'HIGH' ? '<span class="hl">HIGH</span>' : L; }
 function renderPokemon(d) {
-  var pct = Math.max(0, Math.min(100, Math.round(d.likelihood || 0))), word = pct >= 70 ? 'HIGH' : pct >= 40 ? 'MEDIUM' : 'LOW', on = Math.round(pct / 10), i, html;
-  var qDot = d.queueLive ? 'dot bad' : 'dot idle', qText = d.queueLive ? 'QUEUE LIVE NOW' : 'NO QUEUE';
-  $('dLike').innerHTML = pct + '%'; $('dLikeWord').innerHTML = pct >= 70 ? '<span class="hl">HIGH</span>' : word; $('dSegs').innerHTML = segs(on);
-  $('dQueueDot').className = qDot; $('dQueue').innerHTML = 'POKEMON CENTER UK: ' + qText;
-  var up = d.upcoming || [];
-  $('dNext').innerHTML = up.length ? 'NEXT: ' + DAYS[parseLocal(up[0].date).getDay()] + ' ' + pad(parseLocal(up[0].date).getDate()) + ' ' + MONTHS[parseLocal(up[0].date).getMonth()] + ' // ' + esc(up[0].title) : '';
-  $('rLike').innerHTML = pct + '%'; $('rWord').innerHTML = pct >= 70 ? '<span class="hl">HIGH</span>' : word; $('rSegs').innerHTML = segs(on, true);
-  $('rNote').innerHTML = esc(d.note || '');
-  $('rQueueDot').className = qDot; $('rQueue').innerHTML = qText;
-  var ch = d.checked ? parseLocal(d.checked) : null;
-  $('rChecked').innerHTML = 'LAST CHECK ' + (ch ? hhmm(ch) : '--:--'); $('rMode').innerHTML = 'MODE: ' + esc(d.mode || 'NORMAL');
-  html = ''; var brief = d.brief || [];
-  for (i = 0; i < brief.length; i++) html += '<div class="item">&gt; ' + esc(brief[i]) + '</div>';
-  $('bList').innerHTML = html || '<div class="dim">NO BRIEF YET TODAY</div>';
-  $('bCap').innerHTML = 'MORNING BRIEF // ' + esc(d.briefTime || '--:--');
-  html = '';
-  for (i = 0; i < up.length; i++) {
-    var dt = parseLocal(up[i].date);
-    html += '<div class="item row mid" style="font-size:22px; padding:12px 0;"><span style="width:200px">' + DAYS[dt.getDay()] + ' ' + pad(dt.getDate()) + ' ' + MONTHS[dt.getMonth()] + '</span><span class="grow">' + esc(up[i].title) + '</span><span class="tag">' + esc(up[i].note || '') + '</span></div>';
+  var risk = d.risk || {}, lvl = String(risk.level || '').toLowerCase(), n = LEVEL_SEGS[lvl] || 0, i, html;
+  var upd = d.updatedAt ? new Date(Date.parse(d.updatedAt)) : null, updTxt = upd && !isNaN(upd) ? 'UPDATED ' + DAYS[upd.getDay()] + ' ' + hhmm(upd) : '';
+  var checks = d.checks || [], alert = d.alert && d.alert.text ? d.alert : null;
+  var qDot = alert ? 'dot bad' : 'dot idle';
+  var qText = alert ? 'DROP ALERT: ' + esc(alert.text) : (checks.length ? 'LAST CHECK ' + esc(checks[0].at) + ': ' + esc(checks[0].result) : 'NO DROP ALERTS');
+  // home card
+  $('dLevel').innerHTML = levelHtml(lvl); $('dSegs').innerHTML = segs(n); $('dUpdated').innerHTML = updTxt;
+  $('dWindow').innerHTML = 'WATCH: ' + esc(risk.nextWindow || '--');
+  $('dQueueDot').className = qDot; $('dQueue').innerHTML = qText;
+  // radar
+  $('rLevel').innerHTML = levelHtml(lvl); $('rSegs').innerHTML = segs(n, true); $('rUpdated').innerHTML = updTxt || '--';
+  $('rWindow').innerHTML = esc(risk.nextWindow || '--'); $('rReason').innerHTML = esc(risk.reason || '');
+  $('rQueueDot').className = qDot; $('rQueue').innerHTML = alert ? '<span class="hl">DROP ALERT</span>' : 'NO ALERT';
+  $('rAlert').innerHTML = alert ? esc(alert.text) + (alert.at ? '<div class="meta">' + esc(alert.at) + '</div>' : '') : '<span class="dim">THE AFTERNOON WATCH CHECKS HOURLY ON HIGH-RISK DAYS.</span>';
+  var w = d.dropWindow || {};
+  $('rWin').innerHTML = w.startHour ? 'USUAL WINDOW ' + pad(w.startHour) + ':00-' + pad(w.endHour) + ':00 UK // PEAK ' + pad(w.peakHour) + ':00' : '';
+  html = ''; for (i = 0; i < checks.length && i < 6; i++) html += '<div class="item"><span class="meta">' + esc(checks[i].at) + '</span> ' + esc(checks[i].result) + '</div>';
+  $('rChecks').innerHTML = html || '<div class="dim">NO CHECKS YET</div>';
+  // watchlist
+  html = ''; var wl = d.watchlist || [];
+  for (i = 0; i < wl.length && i < 6; i++) {
+    var lk = String(wl[i].likelihood || '').toUpperCase();
+    html += '<div class="item row" style="padding:9px 0;"><span style="width:110px;">' + (lk === 'HIGH' ? '<span class="hl">HIGH</span>' : '<span class="tag">' + esc(lk) + '</span>') + '</span>' +
+      '<span class="grow"><div style="font-size:19px;">' + esc(wl[i].product) + '</div><div class="meta">' + esc(wl[i].window || '') + '</div><div class="t2 dim" style="font-size:14px;">' + esc(wl[i].note || '') + '</div></span></div>';
   }
-  $('cList').innerHTML = html || '<div class="dim">NOTHING SCHEDULED</div>';
+  $('wlList').innerHTML = html || '<div class="dim">NOTHING ON THE WATCHLIST</div>';
+  // signals + news
+  html = ''; var sg = d.signals || [];
+  for (i = 0; i < sg.length; i++) html += '<div class="item">&gt; ' + esc(sg[i]) + '</div>';
+  $('sgList').innerHTML = html || '<div class="dim">NO SIGNALS</div>';
+  html = ''; var nw = d.news || [];
+  for (i = 0; i < nw.length && i < 5; i++) html += '<div class="item"><div class="meta">' + esc(nw[i].tag || '') + ' // ' + esc(nw[i].source || '') + '</div><div style="font-size:18px;">' + esc(nw[i].title) + '</div><div class="t2 dim" style="font-size:14px;">' + esc(nw[i].summary || '') + '</div></div>';
+  $('pnList').innerHTML = html || '<div class="dim">NO NEWS</div>';
+  $('bCap').innerHTML = 'NEWS // ' + (updTxt || 'BRIEF');
+  // releases
+  html = ''; var rl = d.releases || [];
+  for (i = 0; i < rl.length && i < 8; i++) html += '<div class="item row" style="padding:8px 0;"><span style="width:250px; font-size:18px;">' + esc(rl[i].date) + '</span><span class="grow"><div style="font-size:18px;">' + esc(rl[i].set) + '</div><div class="meta">' + esc(rl[i].pc || '') + '</div></span></div>';
+  $('cList').innerHTML = html || '<div class="dim">NO DATES</div>';
 }
 
 // =====================================================================
@@ -993,7 +1022,7 @@ function loadAgents() {
 }
 function sampleAgents() {
   return [
-    { name: 'POKEMON DROP BRIEF', job: 'CLAUDE SCHEDULED TASK // DAILY 08:00', status: 'OK', lastRun: '08:00', result: 'SAMPLE: brief sent, likelihood 35%' },
+    { name: 'POKEMON DROP BRIEF', job: 'CLAUDE SCHEDULED TASK // DAILY 07:52', status: 'OK', lastRun: '07:52', result: 'SAMPLE: brief published' },
     { name: 'QUEUE WATCHER', job: 'CHECKS POKEMON CENTER UK FOR A QUEUE', status: 'RUNNING', lastRun: 'EVERY 5 MIN', result: 'SAMPLE: no queue' },
     { name: 'NEWS DIGEST', job: 'COLLECTS HEADLINES FOR YOUR TOPICS', status: 'IDLE', lastRun: '07:30', result: 'SAMPLE: 10 stories' },
     { name: 'ADD YOUR AGENT', job: 'ANY TASK THAT CAN WRITE A STATUS FILE', status: 'IDLE', lastRun: '--', result: '' }

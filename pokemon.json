@@ -1,0 +1,169 @@
+{
+  "checks": [],
+  "dropWindow": {
+    "endHour": 21,
+    "note": "Pokémon Center queues usually open on weekdays between 10am and 4pm US Eastern, which is 3pm to 9pm UK this week, most often around 5pm. Recent US queues: 11:44am ET (Delta Reign, 30 Sep), 12:36pm ET (Mini Tins, 15 Oct) and a reported but unconfirmed queue at about 11:06am ET on Wed 21 Oct, i.e. 4:44pm, 5:36pm and 4:06pm UK. UK clocks go back on Sun 25 Oct and US clocks on Sun 1 Nov, so for 26 to 30 Oct the window is 2pm to 8pm UK, peak about 4pm.",
+    "peakHour": 17,
+    "startHour": 15
+  },
+  "news": [
+    {
+      "source": "PokemonRestocks (X)",
+      "summary": "A TCG restock account announced a live Pokémon Center queue at about 11:06am ET (4:06pm UK). The products were not named and tracker sites have not logged it yet, so treat it as unconfirmed.",
+      "tag": "Restocks",
+      "title": "US Pokémon Center queue reported on Wed 21 Oct",
+      "url": "https://x.com/PokemonRestocks/status/2112923451606614487"
+    },
+    {
+      "source": "PokéBeach",
+      "summary": "PokéBeach says the seventh Mega Evolution set will be Flowing Fists, a small set mirroring Japan's Aura Seeker and led by Mega Lucario Z ex, with prereleases from 23 Jan. The Pokémon Company has not confirmed it yet.",
+      "tag": "New set",
+      "title": "Next English set reported as Flowing Fists, 5 February",
+      "url": "https://www.pokebeach.com/2026/10/flowing-fists-pokemon-tcg-set-to-release-in-february-starring-mega-lucario-z-ex"
+    },
+    {
+      "source": "HotDropStock",
+      "summary": "A tracker guide notes no Pokémon Center preorders for the Ultra-Premium Collections as of 16 Oct and says large items have been sold through emailed invitations since 5 Oct. It also lists more 30th Celebration products for 4 Dec.",
+      "tag": "Pokémon Center",
+      "title": "Big 30th Celebration items going via invites, not preorders",
+      "url": "https://hotdropstock.com/guides/30th-celebration-where-to-buy/"
+    },
+    {
+      "source": "Stock Watch UK",
+      "summary": "Booster Bundles and Mini Tins remain sold out on the UK store with no restock date, while Smyths lists the premium Ultra-Premium, Ditto and figure collections for 6 November.",
+      "tag": "UK stock",
+      "title": "30th Celebration wave 2 still sold out at Pokémon Center UK",
+      "url": "https://stock-watch.co.uk/guides/30th-celebration-uk-launch"
+    },
+    {
+      "source": "Pokémon Center Support",
+      "summary": "The support page still lists the UK Delta Reign ETB, Booster Bundle and Display Box for early November and the UK 30th Celebration ETB and Knock Out Collection for mid to late November.",
+      "tag": "Pokémon Center",
+      "title": "Preorder ship-dates page unchanged since 5 Oct",
+      "url": "https://support.pokemoncenter.com/hc/en-us/articles/4407702295572-Estimated-Preorder-Release-Dates"
+    },
+    {
+      "source": "Wargamer",
+      "summary": "A competitive starter kit with a Meowth ex, a booster pack, a guidebook and 39 tournament-ready Trainer cards releases on 23 October.",
+      "tag": "Release",
+      "title": "Deck Crafter's Collection out this Friday",
+      "url": "https://www.wargamer.com/pokemon-trading-card-game/deck-crafters-collection-2026"
+    },
+    {
+      "source": "Polkastarter",
+      "summary": "Delta Reign preorders opened on 30 September, 37 days before the 6 November launch, and sold out the same day; the exclusive ETB quickly traded well above retail.",
+      "tag": "Pokémon Center",
+      "title": "Delta Reign preorders sold out on day one",
+      "url": "https://polkastarter.com/blog/delta-reign-preorders-sold-out"
+    },
+    {
+      "source": "Dexerto",
+      "summary": "UK buyers were told on release day that their 30th Celebration Pokémon Center ETB orders would ship in mid to late November, with a 10% code offered for a future order.",
+      "tag": "UK orders",
+      "title": "30th Celebration Pokémon Center ETB delayed in the UK",
+      "url": "https://www.dexerto.com/pokemon/pokemon-center-uk-delays-30th-celebration-etb-orders-by-two-months-on-release-day-3409715/"
+    }
+  ],
+  "releases": [
+    {
+      "date": "Fri 23 Oct 2026",
+      "pc": "General retail product; not a Pokémon Center exclusive.",
+      "set": "Deck Crafter's Collection (Meowth ex)"
+    },
+    {
+      "date": "Sat 24 Oct 2026",
+      "pc": "Build & Battle Boxes at Play! Pokémon stores, not Pokémon Center.",
+      "set": "Delta Reign prerelease"
+    },
+    {
+      "date": "Fri 30 Oct 2026",
+      "pc": "60-card decks, no boosters.",
+      "set": "30th Celebration Battle Decks (Espeon ex, Umbreon ex)"
+    },
+    {
+      "date": "Fri 6 Nov 2026",
+      "pc": "UK preorders opened 30 Sep and sold out. Support page lists UK ETB, Booster Bundle and Display Box for early November.",
+      "set": "Mega Evolution: Delta Reign"
+    },
+    {
+      "date": "Fri 6 Nov 2026",
+      "pc": "No Pokémon Center UPC preorders seen as of 16 Oct; watch for a release-week drop or invite link.",
+      "set": "30th Celebration premium wave (UPC Day/Night, Ditto Premium, Mew & Mewtwo Figure Collections)"
+    },
+    {
+      "date": "Wed 11 Nov 2026",
+      "pc": "US date per ICv2; UK listing not confirmed.",
+      "set": "Mega Greninja ex League Battle Deck"
+    },
+    {
+      "date": "Mid to late Nov 2026",
+      "pc": "Delayed UK preorders. A 10% goodwill code is valid until 31 Dec.",
+      "set": "30th Celebration Pokémon Center ETB and Knock Out Collection (UK shipping)"
+    },
+    {
+      "date": "Fri 4 Dec 2026",
+      "pc": "US date per trackers, including the Binder Collection; UK listing not confirmed.",
+      "set": "30th Celebration additional products"
+    },
+    {
+      "date": "Sat 23 to Sun 31 Jan 2027",
+      "pc": "Play! Pokémon stores, not Pokémon Center.",
+      "set": "Flowing Fists prerelease (reported)"
+    },
+    {
+      "date": "Wed 27 Jan 2027",
+      "pc": "Reported by PokéBeach, not official; language and UK availability unknown.",
+      "set": "Valentine's Box (20 mini packs, reported)"
+    },
+    {
+      "date": "Fri 5 Feb 2027",
+      "pc": "Not official or listed yet; preorders expected around December.",
+      "set": "Mega Evolution: Flowing Fists (Mega Lucario Z ex), reported by PokéBeach"
+    }
+  ],
+  "risk": {
+    "level": "medium",
+    "nextWindow": "Thu 22 to Fri 23 Oct, 3pm–9pm UK (peak about 5pm); Mon 26 to Fri 30 Oct, 2pm–8pm UK (peak about 4pm)",
+    "reason": "A restock account posted that a US Pokémon Center queue went live on Wed 21 Oct at about 11:06am ET (4:06pm UK), but the product is not confirmed and trackers still show 15 Oct as the latest logged queue. If it was in-print TCG, a UK follow-up in the next few weekdays is possible; Delta Reign release week (2–6 Nov) is the next firm high-risk period."
+  },
+  "signals": [
+    "Confirm what the reported US queue on Wed 21 Oct (about 4pm UK) was for; if it was TCG also sold in the UK, watch the UK store closely on the next few weekdays.",
+    "Clock change: from Mon 26 Oct watch 2pm to 8pm UK, not 3pm to 9pm.",
+    "Pokémon Center newsletter emails: invite-only links have been used for big items since 5 Oct, including possibly the Delta Reign PC ETB and 30th Celebration UPCs.",
+    "Release-week top-ups for Delta Reign and the 30th Celebration premium wave, 2 to 6 Nov.",
+    "An official Flowing Fists announcement on pokemon.com, or the set appearing on the Estimated Preorder Release Dates page (last updated 5 Oct)."
+  ],
+  "updatedAt": "2026-10-22T07:58:00+01:00",
+  "watchlist": [
+    {
+      "likelihood": "medium",
+      "note": "In-print standard products that sold out at preorder on 30 Sep. The support page still lists the UK ETB, Booster Bundle and Display Box for early November; in-print sets often get extra allocation around release week.",
+      "product": "Delta Reign Booster Bundle and Booster Display Box",
+      "window": "Weekdays now to 6 Nov · 3pm–9pm UK (2pm–8pm from 26 Oct)"
+    },
+    {
+      "likelihood": "low",
+      "note": "Exclusive with a stamped promo, usually a single run. Pokémon Center has been selling big items by emailed invite since 5 Oct, so watch your inbox rather than the site.",
+      "product": "Delta Reign Pokémon Center Elite Trainer Box",
+      "window": "Release week 2–6 Nov, if at all"
+    },
+    {
+      "likelihood": "medium",
+      "note": "Sold out on the UK store. The US store restocked Mini Tins on 15 Oct (sold out in about two hours) and may have queued again on 21 Oct; a UK follow-up has not been reported yet.",
+      "product": "30th Celebration Booster Bundle and Mini Tins",
+      "window": "Weekdays · 3pm–9pm UK (2pm–8pm from 26 Oct)"
+    },
+    {
+      "likelihood": "medium",
+      "note": "Releases 6 Nov. As of 16 Oct trackers saw no Pokémon Center preorders for the Ultra-Premium Collections, so a release-week drop or invite-only link is the likely route. Smyths lists the wave for 6 Nov.",
+      "product": "30th Celebration premium wave (Ultra-Premium Collections Day/Night, Ditto Premium, Mew & Mewtwo Figure Collections)",
+      "window": "Around release, 2–6 Nov"
+    },
+    {
+      "likelihood": "low",
+      "note": "PokéBeach reports a 5 Feb 2027 release with prereleases from 23 Jan; not yet official. Preorders have opened 5 to 9 weeks before release, so roughly 4 Dec to 1 Jan.",
+      "product": "Flowing Fists (Mega Lucario Z ex, English set based on Japan's Aura Seeker): ETB, Booster Bundle, Display Box",
+      "window": "Preorders likely early to late Dec · 2pm–8pm UK (GMT)"
+    }
+  ]
+}
