@@ -188,6 +188,23 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
 .pin .pdot { display:inline-block; width:14px; height:14px; border-radius:50%; border:2px solid #03130a; vertical-align:middle; }
 .pin .plbl { margin-left:6px; font-size:15px; color:#4dff8f; vertical-align:middle; font-family:var(--font); text-shadow:0 0 3px #03130a, 0 0 6px #03130a, 0 0 6px rgba(77,255,143,.6); }
 
+/* UK weather map */
+#ukCard { padding:0; }
+#ukmap { position:absolute; top:0; left:0; width:100%; height:100%; background:
+  repeating-linear-gradient(0deg, transparent 0 59px, rgba(77,255,143,.06) 59px 60px), repeating-linear-gradient(90deg, transparent 0 59px, rgba(77,255,143,.06) 59px 60px); }
+#ukNote { position:absolute; left:8px; bottom:8px; z-index:500; font-size:13px; padding:2px 8px; background:rgba(3,19,10,.85); border:1px solid var(--line-faint); border-radius:4px; }
+#ukHead { position:absolute; right:8px; top:8px; z-index:500; font-size:16px; letter-spacing:2px; padding:3px 10px; background:rgba(3,19,10,.85); border:1px solid var(--line); border-radius:6px; }
+.wxm { text-align:center; color:var(--ink); line-height:1; cursor:pointer; text-shadow:0 0 3px #03130a, 0 0 6px #03130a, 0 0 8px rgba(77,255,143,.5); }
+.wxm svg { margin:0 auto 2px; }
+.wxm b { display:block; font-size:20px; font-weight:normal; }
+.wxm i { display:block; font-style:normal; font-size:10px; letter-spacing:1px; opacity:.85; margin-top:1px; }
+.wxm.home { color:var(--amber); text-shadow:0 0 3px #03130a, 0 0 6px #03130a, 0 0 8px rgba(255,176,46,.6); }
+.wxm.sel i { text-decoration:underline; opacity:1; }
+.ukbtn { border:1px solid var(--line-faint); border-radius:6px; padding:4px 0; font-size:15px; text-align:center; margin:0 6px 6px 0; }
+.ukbtn.on { border-color:var(--ink); background:var(--fill); }
+.ukday { width:58px; }
+.ukm { width:76px; }
+
 /* Reminders */
 #remPop { position:absolute; top:0; left:0; right:0; bottom:0; z-index:8; background:rgba(3,19,10,.93); display:none; -webkit-align-items:center; align-items:center; -webkit-justify-content:center; justify-content:center; }
 #remPop.on { display:-webkit-flex; display:flex; }
@@ -347,6 +364,23 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
           </div>
           <div id="p-weather-hourly" class="pane"><div class="card grow col"><div class="ch">NEXT 12 HOURS // TEMPERATURE + CHANCE OF RAIN</div><div id="wHourly" class="row grow" style="-webkit-align-items:flex-end; align-items:flex-end;"></div></div></div>
           <div id="p-weather-week" class="pane"><div class="card grow col"><div class="ch">7-DAY OUTLOOK</div><div id="wWeek"></div></div></div>
+          <div id="p-weather-ukmap" class="pane">
+            <div id="ukCard" class="card grow"><div id="ukmap"></div><div id="ukHead">UK // TODAY</div><div id="ukNote">LOADING...</div></div>
+            <div class="col ml" style="width:330px;">
+              <div class="card">
+                <div class="meta" style="margin-bottom:6px;">DAY</div>
+                <div id="ukDays" class="row" style="-webkit-flex-wrap:wrap; flex-wrap:wrap;"></div>
+                <div class="meta" style="margin:6px 0;">SHOW</div>
+                <div class="row" style="-webkit-flex-wrap:wrap; flex-wrap:wrap;">
+                  <button type="button" class="ukbtn ukm" data-ukm="temp">TEMP</button><button type="button" class="ukbtn ukm" data-ukm="rain">RAIN</button><button type="button" class="ukbtn ukm" data-ukm="wind">WIND</button><button type="button" class="ukbtn ukm" data-ukr="1" id="ukRadarBtn">RADAR</button>
+                </div>
+              </div>
+              <div class="card grow mt col">
+                <div class="ch" id="ukCityHead">NORWICH // WEEK</div>
+                <div id="ukCityWeek"></div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- ================= MAP ================= -->
@@ -625,7 +659,7 @@ fitStage();
 // =====================================================================
 var TABS = [
   ['dash', 'HOME', []],
-  ['weather', 'WEATHER', [['today', 'TODAY'], ['hourly', 'HOURLY'], ['week', 'WEEK']]],
+  ['weather', 'WEATHER', [['today', 'TODAY'], ['hourly', 'HOURLY'], ['week', 'WEEK'], ['ukmap', 'UK MAP']]],
   ['map', 'TRAFFIC', [['traffic', 'MAP'], ['journeys', 'JOURNEYS']]],
   ['news', 'NEWS', [['headlines', 'HEADLINES'], ['topics', 'TOPICS']]],
   ['drops', 'POKEMON', [['radar', 'RADAR'], ['watchlist', 'WATCHLIST'], ['brief', 'SIGNALS + NEWS'], ['calendar', 'RELEASES']]],
@@ -662,6 +696,7 @@ function show(tab, sub) {
     for (var p = 0; p < panes.length; p++) panes[p].className = panes[p].className.replace(/ ?active/, '') + (panes[p].id === 'p-' + tab + '-' + current.sub[tab] ? ' active' : '');
   }
   if (tab === 'map' && current.sub.map === 'traffic') setTimeout(openMap, 60);
+  if (tab === 'weather' && current.sub.weather === 'ukmap') setTimeout(openUK, 60);
 }
 document.addEventListener('click', function (e) {
   var el = e.target;
@@ -1305,7 +1340,7 @@ function freshReload() {
 }
 $('qReload').addEventListener('click', freshReload);
 // Auto-update: every 5 minutes, check whether a newer dashboard has been published and load it.
-var BUILD = '20261022210252';
+var BUILD = '20261022210952';
 if (CONFIG.autoUpdate && /^https?:/.test(location.protocol)) {
   setInterval(function () {
     var x = new XMLHttpRequest();
@@ -1407,6 +1442,111 @@ document.addEventListener('click', function (e) {
 setInterval(function () { if (current.tab === 'system' && current.sub.system === 'app') renderApp(); }, 5000);
 
 // =====================================================================
+//  UK WEATHER MAP (Open-Meteo for 15 cities, TomTom map, RainViewer radar)
+// =====================================================================
+var UKC = [
+  ['ABERDEEN', 57.150, -2.094], ['INVERNESS', 57.478, -4.225], ['EDINBURGH', 55.953, -3.189], ['GLASGOW', 55.864, -4.252],
+  ['NEWCASTLE', 54.978, -1.618], ['BELFAST', 54.597, -5.930], ['MANCHESTER', 53.481, -2.243],
+  ['BIRMINGHAM', 52.486, -1.890], ['NORWICH', 52.630, 1.297], ['CARDIFF', 51.481, -3.179],
+  ['LONDON', 51.507, -0.128], ['PLYMOUTH', 50.375, -4.143]
+];
+var UKW = null, ukDay = 0, ukMetric = 'temp', ukSel = 'NORWICH', ukMap = null, ukLayer = null, radarLayer = null, radarOn = false, ukLive = false;
+function loadUK() {
+  var la = [], lo = [];
+  for (var i = 0; i < UKC.length; i++) { la.push(UKC[i][1]); lo.push(UKC[i][2]); }
+  var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + la.join(',') + '&longitude=' + lo.join(',') +
+    '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max' +
+    '&wind_speed_unit=' + CONFIG.windUnit + '&timezone=Europe%2FLondon&forecast_days=7';
+  getJSON(url, function (d) { UKW = d instanceof Array ? d : [d]; ukLive = true; renderUK(); },
+    function () { UKW = sampleUK(); ukLive = false; renderUK(); });
+}
+function sampleUK() {
+  var out = [], base = new Date(), codes = [3, 61, 2, 80, 1, 3, 0];
+  for (var i = 0; i < UKC.length; i++) {
+    var lat = UKC[i][1], d = { time: [], weather_code: [], temperature_2m_max: [], temperature_2m_min: [], precipitation_probability_max: [], wind_speed_10m_max: [] };
+    for (var k = 0; k < 7; k++) {
+      d.time.push(isoLocal(new Date(base.getFullYear(), base.getMonth(), base.getDate() + k)));
+      d.weather_code.push(codes[(k + i) % 7]);
+      d.temperature_2m_max.push(Math.round(17 - (lat - 50) * 0.9 + ((k * 3 + i) % 4) - 1));
+      d.temperature_2m_min.push(Math.round(9 - (lat - 50) * 0.8 + ((k + i) % 3) - 1));
+      d.precipitation_probability_max.push(((k * 23 + i * 17) % 90) + 5);
+      d.wind_speed_10m_max.push(8 + ((k * 7 + i * 5) % 22) + Math.round(lat - 50));
+    }
+    out.push({ daily: d });
+  }
+  return out;
+}
+function ukVal(dl, k) {
+  if (ukMetric === 'rain') return (dl.precipitation_probability_max[k] || 0) + '%';
+  if (ukMetric === 'wind') return Math.round(dl.wind_speed_10m_max[k]) + '<span style="font-size:12px;">' + CONFIG.windUnit.toUpperCase() + '</span>';
+  return Math.round(dl.temperature_2m_max[k]) + '&deg;';
+}
+function ukDayName(k) { if (!UKW) return ''; var d = parseLocal(UKW[0].daily.time[k]); return k === 0 ? 'TODAY' : k === 1 ? 'TOMORROW' : DAYS_LONG[d.getDay()]; }
+function renderUK() {
+  if (!UKW) return;
+  var i, h = '', times = UKW[0].daily.time;
+  for (i = 0; i < times.length; i++) h += '<button type="button" class="ukbtn ukday' + (i === ukDay ? ' on' : '') + '" data-ukday="' + i + '">' + (i === 0 ? 'TODAY' : DAYS[parseLocal(times[i]).getDay()]) + '</button>';
+  $('ukDays').innerHTML = h;
+  var ms = document.querySelectorAll('[data-ukm]');
+  for (i = 0; i < ms.length; i++) ms[i].className = 'ukbtn ukm' + (ms[i].getAttribute('data-ukm') === ukMetric ? ' on' : '');
+  $('ukRadarBtn').className = 'ukbtn ukm' + (radarOn ? ' on' : '');
+  $('ukHead').innerHTML = 'UK // ' + ukDayName(ukDay) + ' // ' + (ukMetric === 'rain' ? 'CHANCE OF RAIN' : ukMetric === 'wind' ? 'TOP WIND SPEED' : 'HIGH TEMPERATURE') + (radarOn ? ' + RADAR NOW' : '');
+  // selected city's week
+  var ci = 0; for (i = 0; i < UKC.length; i++) if (UKC[i][0] === ukSel) ci = i;
+  var dl = UKW[ci].daily; h = '';
+  for (i = 0; i < dl.time.length; i++) {
+    var w = wx(dl.weather_code[i]);
+    h += '<div class="item row mid" style="padding:5px 0; font-size:16px;' + (i === ukDay ? ' background:var(--fill);' : '') + '"><span style="width:56px;">' + (i === 0 ? 'TODAY' : DAYS[parseLocal(dl.time[i]).getDay()]) + '</span>' + icon(w.i, 22) +
+      '<span style="width:100px; margin-left:8px;">' + Math.round(dl.temperature_2m_max[i]) + '&deg; / ' + Math.round(dl.temperature_2m_min[i]) + '&deg;</span><span class="meta" style="width:46px;">' + (dl.precipitation_probability_max[i] || 0) + '%</span><span class="meta">' + Math.round(dl.wind_speed_10m_max[i]) + '</span></div>';
+  }
+  $('ukCityWeek').innerHTML = h;
+  $('ukCityHead').innerHTML = esc(ukSel) + ' // WEEK <span class="meta">(HI/LO, RAIN, WIND)</span>';
+  drawUKMarkers();
+}
+function openUK() {
+  if (!window.L) { $('ukNote').innerHTML = 'MAP LIBRARY UNAVAILABLE'; return; }
+  if (!ukMap) {
+    ukMap = L.map('ukmap', { zoomControl: false, attributionControl: false, fadeAnimation: false, zoomAnimation: false, markerZoomAnimation: false, zoomSnap: 0.1, minZoom: 5, maxZoom: 8 });
+    ukMap.fitBounds([[49.95, -6.2], [58.05, 1.6]], { padding: [10, 10] });
+    ukMap.setMaxBounds([[47, -13], [62, 6]]);
+    if (CONFIG.tomtomKey) L.tileLayer('https://api.tomtom.com/map/1/tile/basic/night/{z}/{x}/{y}.png?key=' + encodeURIComponent(CONFIG.tomtomKey), { maxZoom: 18, className: 'baseTiles' }).addTo(ukMap);
+    ukLayer = L.layerGroup().addTo(ukMap);
+  } else ukMap.invalidateSize();
+  $('ukNote').innerHTML = (ukLive ? 'FORECAST: OPEN-METEO' : 'SAMPLE FORECAST') + (CONFIG.tomtomKey ? ' // MAP &copy; TOMTOM' : ' // MAP BACKGROUND SHOWS ON THE TABLET') + (radarOn ? ' // RADAR: RAINVIEWER' : '');
+  drawUKMarkers();
+}
+function drawUKMarkers() {
+  if (!ukMap || !ukLayer || !UKW) return;
+  ukLayer.clearLayers();
+  for (var i = 0; i < UKC.length; i++) (function (c, dl) {
+    var cls = 'wxm' + (c[0] === 'NORWICH' ? ' home' : '') + (c[0] === ukSel ? ' sel' : '');
+    var m = L.marker([c[1], c[2]], { icon: L.divIcon({ className: '', iconSize: [84, 56], iconAnchor: [42, 28],
+      html: '<div class="' + cls + '">' + icon(wx(dl.weather_code[ukDay]).i, 22) + '<b>' + ukVal(dl, ukDay) + '</b><i>' + c[0] + '</i></div>' }) });
+    m.on('click', function () { ukSel = c[0]; renderUK(); });
+    m.addTo(ukLayer);
+  })(UKC[i], UKW[i].daily);
+}
+function toggleRadar() {
+  radarOn = !radarOn;
+  if (!radarOn) { if (radarLayer && ukMap) ukMap.removeLayer(radarLayer); radarLayer = null; renderUK(); openUK(); return; }
+  getJSON('https://api.rainviewer.com/public/weather-maps.json?t=' + Date.now(), function (d) {
+    var past = d.radar && d.radar.past, last = past && past[past.length - 1];
+    if (!last || !ukMap) { radarOn = false; renderUK(); return; }
+    radarLayer = L.tileLayer(d.host + last.path + '/256/{z}/{x}/{y}/2/1_1.png', { opacity: 0.65, maxNativeZoom: 7, maxZoom: 8 }).addTo(ukMap);
+    renderUK(); openUK();
+  }, function () { radarOn = false; $('ukNote').innerHTML = 'RADAR UNAVAILABLE RIGHT NOW'; renderUK(); });
+}
+document.addEventListener('click', function (e) {
+  var el = e.target;
+  while (el && el !== document && !(el.getAttribute && (el.getAttribute('data-ukday') || el.getAttribute('data-ukm') || el.getAttribute('data-ukr')))) el = el.parentNode;
+  if (!el || el === document) return;
+  if (el.getAttribute('data-ukday')) ukDay = +el.getAttribute('data-ukday');
+  else if (el.getAttribute('data-ukm')) ukMetric = el.getAttribute('data-ukm');
+  else { toggleRadar(); return; }
+  renderUK();
+});
+
+// =====================================================================
 //  Boot + start
 // =====================================================================
 var BOOT = ['DOORWAY TERMINAL MK III', 'DISPLAY ................. OK', 'WEATHER UPLINK .......... OK', 'ROAD SCANNER ............ ' + (CONFIG.tomtomKey ? 'LINKED' : 'SAMPLE'),
@@ -1427,6 +1567,7 @@ var hv0 = homeView(); show(hv0[0], hv0[1]);
 applyDisplay();
 tickClock(); setInterval(tickClock, 1000);
 loadWeather(); setInterval(loadWeather, CONFIG.refreshMinutes.weather * 60000);
+loadUK(); setInterval(loadUK, 30 * 60000);
 loadNews(); setInterval(loadNews, CONFIG.refreshMinutes.news * 60000);
 loadPokemon(); setInterval(loadPokemon, CONFIG.refreshMinutes.pokemon * 60000);
 loadAgents(); setInterval(loadAgents, CONFIG.refreshMinutes.agents * 60000);
