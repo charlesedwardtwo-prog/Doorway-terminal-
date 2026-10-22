@@ -698,6 +698,11 @@ var CONFIG = {
   agentsUrl: '',               // { "agents": [ { "name", "job", "status", "lastRun", "result" } ] }
   refreshMinutes: { weather: 15, news: 10, pokemon: 5, agents: 10 },
 
+  // Bin days from the council's collection calendar (published as bins.json by a daily job).
+  binsUrl: 'bins.json',
+  binNames: { general: 'GENERAL WASTE', recycling: 'RECYCLING', garden: 'BROWN BIN', glass: 'GLASS', food: 'FOOD WASTE', other: 'BINS' },
+  binShow: { fromHour: 18, untilHour: 12 },   // pop-up from 6pm the night before until midday on the day
+
   // Starting notes and reminders. After first run they're edited on the tablet (tap the Notes panel).
   notes: ['CHECK DROP RADAR AT 8AM', 'KEYS, WALLET, PHONE'],
   reminders: [
@@ -1356,9 +1361,39 @@ function remState(r, now) {     // {active, key, start, end, next}
   var next = plusWeeks(s, 1); if (!weekOn(r, next)) next = plusWeeks(next, 1);
   return { active: active, key: r.id + '@' + isoLocal(s), start: s, end: end, next: next };
 }
+// ----- council bin days -----
+var BINS = null;
+function loadBins() {
+  if (!CONFIG.binsUrl) return;
+  getJSON(bust(CONFIG.binsUrl), function (d) { BINS = d && d.collections && d.collections.length ? d.collections : null; checkReminders(); }, function () {});
+}
+function binName(t) { return (CONFIG.binNames && CONFIG.binNames[t]) || String(t).toUpperCase(); }
+function binEvents() {
+  var out = [], i, k;
+  if (!BINS) return out;
+  for (i = 0; i < BINS.length; i++) {
+    var c = BINS[i], p = c.date.split('-'), day = new Date(+p[0], +p[1] - 1, +p[2]), names = [];
+    for (k = 0; k < (c.types || []).length; k++) names.push(binName(c.types[k]));
+    out.push({ key: 'cbin@' + c.date, day: day, names: names, title: names.join(' + ') || 'BIN DAY',
+      start: new Date(day.getFullYear(), day.getMonth(), day.getDate() - 1, CONFIG.binShow.fromHour, 0),
+      end: new Date(day.getFullYear(), day.getMonth(), day.getDate(), CONFIG.binShow.untilHour, 0) });
+  }
+  return out;
+}
+function skipPreset(r) { return BINS && r.id === 'bins'; }   // council dates replace the fixed weekly bin reminder
+function nextBin(now) { var ev = binEvents(); for (var i = 0; i < ev.length; i++) if (ev[i].end > now && !(DONE[ev[i].key] && now >= ev[i].start)) return ev[i]; return null; }
 function activeReminders() {
-  var now = new Date(), out = [];
-  for (var i = 0; i < REMINDERS.length; i++) { var st = remState(REMINDERS[i], now); if (st.active && !DONE[st.key]) out.push({ r: REMINDERS[i], st: st }); }
+  var now = new Date(), out = [], i;
+  for (i = 0; i < REMINDERS.length; i++) { if (skipPreset(REMINDERS[i])) continue; var st = remState(REMINDERS[i], now); if (st.active && !DONE[st.key]) out.push({ r: REMINDERS[i], st: st }); }
+  var ev = binEvents();
+  for (i = 0; i < ev.length; i++) {
+    var e = ev[i];
+    if (now >= e.start && now < e.end && !DONE[e.key]) {
+      var tonight = now < e.day;
+      out.unshift({ r: { id: 'cbin', title: e.title, message: (tonight ? 'PUT OUT TONIGHT' : 'GOING OUT THIS MORNING') + ' // COLLECTION ' + DAYS_LONG[e.day.getDay()] + ' MORNING' },
+        st: { key: e.key, start: e.start, end: e.end, active: true } });
+    }
+  }
   return out;
 }
 function whenText(d) { return DAYS[d.getDay()] + ' ' + pad(d.getDate()) + ' ' + MONTHS[d.getMonth()] + ' ' + hhmm(d); }
@@ -1418,17 +1453,26 @@ $('remDone').addEventListener('click', function () {
 });
 function renderNotes() {
   var now = new Date(), dash = '', list = '', i, soon = null;
+  var nb = nextBin(now), evs = binEvents();
+  if (BINS) {
+    var showingBin = nb && now >= nb.start && !DONE[nb.key];
+    if (showingBin) dash += '<div class="item warnc">! ' + esc(nb.title) + '</div>';
+    else if (nb) soon = { d: nb.day, t: nb.title, dayOnly: true };
+    var up = ''; for (i = 0; i < evs.length && i < 4; i++) if (evs[i].end > now) up += '<div>' + DAYS[evs[i].day.getDay()] + ' ' + pad(evs[i].day.getDate()) + ' ' + MONTHS[evs[i].day.getMonth()] + ': ' + esc(evs[i].title) + '</div>';
+    list += '<div class="item" style="padding:9px 0;"><div style="font-size:20px;"' + (showingBin ? ' class="warnc"' : '') + '>BIN COLLECTIONS <span class="dim" style="font-size:15px;">// FROM THE COUNCIL CALENDAR, UPDATED DAILY</span></div><div class="meta" style="font-size:15px;">' + up + '</div></div>';
+  }
   for (i = 0; i < REMINDERS.length; i++) {
+    if (skipPreset(REMINDERS[i])) continue;
     var r = REMINDERS[i], st = remState(r, now), showing = st.active && !DONE[st.key];
     if (showing) dash += '<div class="item warnc">! ' + esc(r.title) + '</div>';
     var nxt = st.active ? st.start : st.next;
-    if (!showing && (!soon || st.next < soon.d)) soon = { d: st.next, t: r.title };
+    if (!showing && (!soon || st.next < soon.d)) soon = { d: st.next, t: r.title, dayOnly: false };
     list += '<div class="item row mid" style="padding:9px 0;"><span class="grow"><div style="font-size:20px;"' + (showing ? ' class="warnc"' : '') + '>' + esc(r.title) +
       (r.message ? ' <span class="dim" style="font-size:15px;">// ' + esc(r.message) + '</span>' : '') + '</div>' +
       '<div class="meta">' + schedText(r) + ' // ' + (showing ? 'SHOWING NOW' : st.active ? 'DONE FOR THIS TIME' : 'NEXT ' + whenText(st.next)) + '</div></span>' +
       '<button type="button" class="mini" data-rdel="' + esc(r.id) + '">DELETE</button></div>';
   }
-  if (soon) dash += '<div class="item meta">NEXT: ' + esc(soon.t) + ' ' + DAYS[soon.d.getDay()] + ' ' + hhmm(soon.d) + '</div>';
+  if (soon) dash += '<div class="item meta">NEXT: ' + esc(soon.t) + ' ' + DAYS[soon.d.getDay()] + (soon.dayOnly ? '' : ' ' + hhmm(soon.d)) + '</div>';
   for (i = 0; i < MYNOTES.length && i < 4; i++) dash += '<div class="item">+ ' + esc(MYNOTES[i]) + '</div>';
   $('dNotes').innerHTML = dash || '<div class="dim">NO NOTES</div>';
   $('remList').innerHTML = list || '<div class="dim" style="padding:10px 0;">NO REMINDERS YET</div>';
@@ -1535,7 +1579,7 @@ function freshReload() {
 }
 $('qReload').addEventListener('click', freshReload);
 // Auto-update: every 5 minutes, check whether a newer dashboard has been published and load it.
-var BUILD = '20261022215356';
+var BUILD = '20261023001857';
 if (CONFIG.autoUpdate && /^https?:/.test(location.protocol)) {
   setInterval(function () {
     var x = new XMLHttpRequest();
@@ -1917,7 +1961,8 @@ function updateHolo() {
     if (act.length) { note = '! ' + act[0].r.title; alert = true; }
     else {
       var soon = null, now = new Date();
-      for (i = 0; i < REMINDERS.length; i++) { var st = remState(REMINDERS[i], now); if (!soon || st.next < soon.d) soon = { d: st.next, t: REMINDERS[i].title }; }
+      for (i = 0; i < REMINDERS.length; i++) { if (skipPreset(REMINDERS[i])) continue; var st = remState(REMINDERS[i], now); if (!soon || st.next < soon.d) soon = { d: st.next, t: REMINDERS[i].title }; }
+      var nbh = nextBin(now); if (nbh && (!soon || nbh.day < soon.d)) soon = { d: nbh.day, t: nbh.title };
       note = soon ? 'NEXT: ' + soon.t + ' ' + DAYS[soon.d.getDay()] : 'ALL CLEAR';
     }
     var notes = document.querySelectorAll('#holo .hNote');
@@ -2089,6 +2134,7 @@ $('dPinIcon').innerHTML = icon('pin', 16);
 $('dPlace').innerHTML = esc(CONFIG.placeName) + ', UK';
 $('wPlace').innerHTML = esc(CONFIG.placeName);
 fillIcons();
+loadBins(); setInterval(loadBins, 3 * 3600000);
 checkReminders(); setInterval(checkReminders, 30000);
 var hv0 = homeView(); show(hv0[0], hv0[1]);
 renderHoloPick();

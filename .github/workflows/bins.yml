@@ -1,0 +1,38 @@
+name: Update bin days
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/bins.py
+      - .github/workflows/bins.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bins
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read the council calendar
+        env:
+          BIN_ICAL_URL: ${{ secrets.BIN_ICAL_URL }}
+        run: python3 scripts/bins.py
+      - name: Save bins.json
+        run: |
+          [ -f bins.json ] || exit 0
+          git config user.name "doorway-bins-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add bins.json
+          git diff --cached --quiet && echo "No change" && exit 0
+          git commit -m "Update bin days"
+          git pull --rebase origin main
+          git push
