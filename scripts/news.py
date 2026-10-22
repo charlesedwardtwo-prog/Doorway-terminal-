@@ -20,7 +20,7 @@ FEEDS = [
     ("ai",       "THE VERGE",   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     ("ai",       "ARS TECHNICA", "https://arstechnica.com/ai/feed/"),
     ("gaming",   "EUROGAMER",   "https://www.eurogamer.net/feed"),
-    ("pokemon",  "POKEBEACH",   "https://www.pokebeach.com/feed"),
+    ("pokemon",  "GOOGLE NEWS", "https://news.google.com/rss/search?q=%22pokemon+tcg%22+OR+%22pokemon+center%22+OR+%22pokemon+cards%22&hl=en-GB&gl=GB&ceid=GB:en"),
     ("science",  "BBC SCIENCE", "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"),
     ("business", "BBC BUSINESS", "https://feeds.bbci.co.uk/news/business/rss.xml"),
     ("sport",    "BBC SPORT",   "https://feeds.bbci.co.uk/sport/rss.xml"),
@@ -86,7 +86,11 @@ def main():
                 if key in seen:
                     continue
                 seen.add(key)
-                items.append({"title": title, "source": source, "topic": topic,
+                src = source
+                if source == "GOOGLE NEWS" and " - " in title:  # Google News titles end with " - Publisher"
+                    title, src = title.rsplit(" - ", 1)
+                    src = src.upper()
+                items.append({"title": title, "source": src, "topic": topic,
                               "published": date.isoformat().replace("+00:00", "Z") if date else None, "link": link})
                 added += 1
                 if added >= PER_FEED:
