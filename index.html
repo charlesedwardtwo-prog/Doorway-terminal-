@@ -426,7 +426,7 @@ var CONFIG = {
   routeChecks: { peakHours: [6, 10], peakMinutes: 5 },   // automatic checks only in the morning; use REFRESH TRAFFIC any other time
 
   // Other data sources. Blank = sample data.
-  newsUrl: '',                 // { "items": [ { "title", "source", "topic", "time" } ] }
+  newsUrl: 'news.json',                 // { "items": [ { "title", "source", "topic", "time" } ] }
   pokemonUrl: '',              // see samplePokemon() for the shape
   agentsUrl: '',               // { "agents": [ { "name", "job", "status", "lastRun", "result" } ] }
   refreshMinutes: { weather: 15, news: 10, pokemon: 5, agents: 10 },
@@ -892,6 +892,14 @@ function loadNews() {
   getJSON(bust(CONFIG.newsUrl), function (d) { NEWS = d.items || []; SOURCE.news = 'LIVE'; renderNews(); updateStatus(); },
     function () { SOURCE.news = 'OFFLINE'; renderNews(); updateStatus(); });
 }
+function ago(iso) {
+  if (!iso) return '';
+  var t = Date.parse(iso); if (isNaN(t)) return '';
+  var m = Math.round((Date.now() - t) / 60000);
+  if (m < 2) return 'JUST NOW'; if (m < 60) return m + 'm ago';
+  var h = Math.round(m / 60); if (h < 24) return h + 'h ago';
+  return h < 48 ? 'YESTERDAY' : Math.round(h / 24) + 'd ago';
+}
 function topicName(id) { for (var i = 0; i < CONFIG.topics.length; i++) if (CONFIG.topics[i].id === id) return CONFIG.topics[i].name; return String(id).toUpperCase(); }
 function countOn() { var n = 0; for (var i = 0; i < CONFIG.topics.length; i++) if (SETTINGS.topics[CONFIG.topics[i].id] !== false) n++; return n; }
 function toggleTopic(id) { SETTINGS.topics[id] = SETTINGS.topics[id] === false; saveSettings(); renderNews(); }
@@ -899,7 +907,7 @@ function renderNews() {
   var shown = [], i, dash = '', full = '';
   for (i = 0; i < NEWS.length; i++) if (SETTINGS.topics[NEWS[i].topic] !== false) shown.push(NEWS[i]);
   for (i = 0; i < shown.length; i++) {
-    var n = shown[i], meta = esc(n.source || '') + (n.time ? ' | ' + esc(n.time) : '');
+    var n = shown[i], when = n.time || ago(n.published), meta = esc(n.source || '') + (when ? ' | ' + esc(when) : '');
     if (i < 3) dash += '<div class="item"><div class="meta">' + meta + '</div><div class="t2">' + esc(n.title) + '</div></div>';
     if (i < 8) full += '<div class="item row mid"><span style="width:150px;"><span class="tag">' + esc(topicName(n.topic)) + '</span></span><span class="grow" style="font-size:20px;">' + esc(n.title) + '</span><span class="meta" style="width:200px; text-align:right;">' + meta + '</span></div>';
   }
