@@ -390,6 +390,7 @@ body.lite #crtInner { -webkit-animation:none; animation:none; }
             <div class="setrow row mid"><div class="name">NIGHT DIMMING</div><button type="button" id="ndOn" class="btn">ON</button><button type="button" id="ndOff" class="btn">OFF</button><span class="dim" style="font-size:16px;" id="ndHours"></span></div>
           </div>
           <div id="p-system-links" class="pane col"><div id="linkList"></div></div>
+          <div id="p-system-app" class="pane col"><div id="appPanel"></div></div>
         </div>
 
       </div>
@@ -551,7 +552,7 @@ var TABS = [
   ['news', 'NEWS', [['headlines', 'HEADLINES'], ['topics', 'TOPICS']]],
   ['drops', 'POKEMON', [['radar', 'RADAR'], ['watchlist', 'WATCHLIST'], ['brief', 'SIGNALS + NEWS'], ['calendar', 'RELEASES']]],
   ['ai', 'AI AGENTS', []],
-  ['system', '', [['display', 'DISPLAY'], ['links', 'LINKS']]]
+  ['system', '', [['display', 'DISPLAY'], ['app', 'TABLET APP'], ['links', 'LINKS']]]
 ];
 var current = { tab: 'dash', sub: {} };
 for (var tb = 0; tb < TABS.length; tb++) if (TABS[tb][2].length) current.sub[TABS[tb][0]] = TABS[tb][2][0][0];
@@ -1114,6 +1115,47 @@ function renderBattery() {
 }
 
 // =====================================================================
+//  TABLET APP CONTROLS (only when running inside the Doorway app)
+// =====================================================================
+var SLEEP_STEPS = [0, 30, 60, 120, 300, 600, 1800];
+function inApp() { return !!(window.doorway && typeof doorway.getVersion === 'function'); }
+function sleepLabel(s) { return s === 0 ? 'NEVER' : s < 60 ? s + ' SEC' : (s / 60) + ' MIN'; }
+function renderApp() {
+  if (!inApp()) {
+    $('appPanel').innerHTML = '<div class="setrow">NOT RUNNING IN THE DOORWAY APP</div><div class="meta" style="font-size:16px; margin-top:12px;">INSTALL THE DOORWAY APP ON THE TABLET TO GET MOTION WAKE, SLEEP TIMER AND BATTERY READINGS.</div>';
+    return;
+  }
+  var on = doorway.isMotionOn(), sl = doorway.getSleepSeconds(), se = doorway.getSensitivity(), ago = doorway.secondsSinceMotion();
+  $('appPanel').innerHTML =
+    '<div class="setrow row mid"><div class="name">MOTION WAKE</div><button type="button" class="btn' + (on ? ' on' : '') + '" data-app="motion-on">ON</button><button type="button" class="btn' + (on ? '' : ' on') + '" data-app="motion-off">OFF</button><span class="dim" style="font-size:16px;">' + (ago < 0 ? 'NO MOVEMENT SEEN YET' : 'LAST MOVEMENT ' + (ago < 60 ? ago + ' SEC' : Math.round(ago / 60) + ' MIN') + ' AGO') + '</span></div>' +
+    '<div class="setrow row mid"><div class="name">SLEEP AFTER</div><button type="button" class="btn" data-app="sleep-down">-</button><div style="width:110px; text-align:center;">' + sleepLabel(sl) + '</div><button type="button" class="btn" data-app="sleep-up">+</button><span class="dim" style="font-size:16px;">SCREEN GOES BLACK WITH NOBODY AROUND</span></div>' +
+    '<div class="setrow row mid"><div class="name">SENSITIVITY</div><button type="button" class="btn" data-app="sens-down">-</button><div style="width:110px; text-align:center;">' + se + ' / 10</div><button type="button" class="btn" data-app="sens-up">+</button><span class="dim" style="font-size:16px;">HIGHER WAKES FOR SMALLER MOVEMENTS</span></div>' +
+    '<div class="setrow row mid"><div class="name">TEST</div><button type="button" class="btn" data-app="sleep-now">SLEEP NOW</button><span class="dim" style="font-size:16px;">THEN WALK PAST TO CHECK IT WAKES</span></div>' +
+    '<div class="setrow row mid"><div class="name">ANDROID</div><button type="button" class="btn" data-app="settings">SETTINGS</button><button type="button" class="btn" data-app="home">HOME APP</button><span class="dim" style="font-size:16px;">APP VERSION ' + esc(doorway.getVersion()) + '</span></div>';
+}
+document.addEventListener('click', function (e) {
+  var el = e.target;
+  while (el && el !== document && !(el.getAttribute && el.getAttribute('data-app'))) el = el.parentNode;
+  if (!el || el === document || !inApp()) return;
+  var a = el.getAttribute('data-app'), i;
+  if (a === 'motion-on') doorway.setMotion(true);
+  if (a === 'motion-off') doorway.setMotion(false);
+  if (a === 'sleep-up' || a === 'sleep-down') {
+    var cur = doorway.getSleepSeconds(), idx = 0;
+    for (i = 0; i < SLEEP_STEPS.length; i++) if (SLEEP_STEPS[i] <= cur) idx = i;
+    idx = Math.max(0, Math.min(SLEEP_STEPS.length - 1, idx + (a === 'sleep-up' ? 1 : -1)));
+    doorway.setSleepSeconds(SLEEP_STEPS[idx]);
+  }
+  if (a === 'sens-up') doorway.setSensitivity(doorway.getSensitivity() + 1);
+  if (a === 'sens-down') doorway.setSensitivity(doorway.getSensitivity() - 1);
+  if (a === 'sleep-now') doorway.sleepNow();
+  if (a === 'settings') doorway.openAndroidSettings();
+  if (a === 'home') doorway.chooseHomeApp();
+  setTimeout(renderApp, 400);
+});
+setInterval(function () { if (current.tab === 'system' && current.sub.system === 'app') renderApp(); }, 5000);
+
+// =====================================================================
 //  Boot + start
 // =====================================================================
 var BOOT = ['DOORWAY TERMINAL MK III', 'DISPLAY ................. OK', 'WEATHER UPLINK .......... OK', 'ROAD SCANNER ............ ' + (CONFIG.tomtomKey ? 'LINKED' : 'SAMPLE'),
@@ -1138,6 +1180,7 @@ loadNews(); setInterval(loadNews, CONFIG.refreshMinutes.news * 60000);
 loadPokemon(); setInterval(loadPokemon, CONFIG.refreshMinutes.pokemon * 60000);
 loadAgents(); setInterval(loadAgents, CONFIG.refreshMinutes.agents * 60000);
 renderBattery(); setInterval(renderBattery, 60000);
+renderApp();
 loadTraffic(); setInterval(function () { checkRoutes(false); }, 60000);
 boot(0);
 setTimeout(function () { location.reload(); }, 6 * 3600000);
