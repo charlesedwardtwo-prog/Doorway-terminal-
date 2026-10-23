@@ -1,19 +1,61 @@
 {
- "updated": "2026-10-22T23:50:49.472059Z",
+ "updated": "2026-10-23T00:15:35.852548Z",
  "items": [
+  {
+   "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T00:10:46Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Etsy is cracking down on AI slop listings",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-23T00:09:58Z",
+   "link": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing"
+  },
+  {
+   "title": "Amber warning in place as Storm Austen hits parts of UK",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-23T00:08:43Z",
+   "link": "https://www.bbc.co.uk/weather/articles/cq8ezy256e42o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Powerful earthquake hits Tibet killing 16 people, reports say",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-10-22T23:22:45Z",
+   "published": "2026-10-23T00:00:38Z",
    "link": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "The Papers: 'Prepare for the worst' and 'Covid report fallout'",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-22T23:54:53Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwly393mj7y3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
-   "source": "BBC BUSINESS",
-   "topic": "business",
+   "source": "BBC NEWS",
+   "topic": "uk",
    "published": "2026-10-22T23:20:38Z",
    "link": "https://www.bbc.co.uk/news/articles/c63r5xpezz51o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "I thought I was dying but it was health anxiety - here's how to recognise the signs",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-22T23:20:31Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm5yez87qwvdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Private care home investors a risk to public sector, regulator says",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-22T23:20:05Z",
+   "link": "https://www.bbc.co.uk/news/articles/cke8r6543gplo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
@@ -28,6 +70,13 @@
    "topic": "world",
    "published": "2026-10-22T23:16:16Z",
    "link": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Give more people weight loss jabs on the NHS, say MPs",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-22T23:06:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g1pkwxdqwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Grid operator says lights will stay on this winter after concerns",
@@ -128,13 +177,6 @@
    "link": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram"
   },
   {
-   "title": "Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T21:29:44Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwd094x57p32o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Gasps as Prince William makes surprise appearance on Graham Norton Show",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -149,13 +191,6 @@
    "link": "https://www.theverge.com/tech/1016506/fall-2026-earnings-watch"
   },
   {
-   "title": "Items recovered in search for missing fishing boat and crew",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T20:54:02Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6m2dwddl3xlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "New York bans horse-drawn carriages after 160 years over safety and abuse concerns",
    "source": "BBC NEWS",
    "topic": "world",
@@ -163,16 +198,9 @@
    "link": "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Could rebel knight Roger Casement be exhumed for a second time?",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T20:37:46Z",
-   "link": "https://www.bbc.co.uk/news/articles/cjzxlnqlk1z3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Meta’s AI could still scrape news sites, legal experts say",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-22T20:32:05Z",
    "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
   },
@@ -182,13 +210,6 @@
    "topic": "ai",
    "published": "2026-10-22T20:24:04Z",
    "link": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts"
-  },
-  {
-   "title": "See the Pokémon cards that made a retired decorator a millionaire",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T20:13:24Z",
-   "link": "https://www.bbc.co.uk/news/videos/cmvg9v932z5vo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "BBC Inside Science",
@@ -240,13 +261,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cqvgjk3j0j9wo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Lockerbie bombing accused loses bid to have case thrown out",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T18:30:56Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw1l3q1z8358o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
    "source": "BBC TECH",
    "topic": "tech",
@@ -268,25 +282,11 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
   },
   {
-   "title": "Fahnbulleh says she backs home secretary on migration after comments to journalists",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T17:54:51Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6y93pz494zzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Catherine returns to hospice 14 years later to meet children",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-10-22T17:43:38Z",
    "link": "https://www.bbc.co.uk/news/articles/crq8n3pwg9l5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Someone hacked the Switch 2 by using an old game and AI",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-22T17:21:31Z",
-   "link": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai"
   },
   {
    "title": "Race to update services' computer systems after cyber-security flaw found",
@@ -343,13 +343,6 @@
    "topic": "ai",
    "published": "2026-10-22T15:25:02Z",
    "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
-  },
-  {
-   "title": "Weather warning in place ahead of Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-22T15:14:38Z",
-   "link": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'I wasn't thinking straight' says five jobs civil servant",
@@ -455,6 +448,13 @@
    "topic": "tech",
    "published": "2026-10-22T08:23:42Z",
    "link": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Children in care to get £10 a week savings",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-22T06:57:45Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6vg0klve484o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Will plans for the Ocean Room hit the right note?",
