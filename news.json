@@ -1,11 +1,18 @@
 {
- "updated": "2026-10-23T01:12:13.782984Z",
+ "updated": "2026-10-23T01:59:16.869401Z",
  "items": [
+  {
+   "title": "The Papers: 'Prepare for the worst' and 'Covid report fallout'",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T01:55:03Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwly393mj7y3o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Trump ordered to answer questions under oath in BBC lawsuit",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-10-23T00:10:46Z",
+   "published": "2026-10-23T01:38:44Z",
    "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
   },
   {
@@ -21,13 +28,6 @@
    "topic": "science",
    "published": "2026-10-23T00:08:43Z",
    "link": "https://www.bbc.co.uk/weather/articles/cq8ezy256e42o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The Papers: 'Prepare for the worst' and 'Covid report fallout'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-22T23:54:53Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwly393mj7y3o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
@@ -233,13 +233,6 @@
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwNHlQTllqY3hIYkxWeVZDcTFldU10TnF6VVRvM2lNYWxaX3ZjZV8wZXRLRzhXVVNzNGlKb1hyTGtRdERHbXU2RXNEMjI1X2p0SUMwQVVYTmptVE5tYWI1Q2tmVVd3ZXJhQnlULUROZG5OZw?oc=5"
   },
   {
-   "title": "3 arrested after string of online marketplace robberies, $80K in Pokemon cards among targets: Toronto police",
-   "source": "CBC",
-   "topic": "pokemon",
-   "published": "2026-10-22T19:15:04Z",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcEl1SWRYZzBxamUyYkVMX0V3MGZscVpURXIzSi1oYlB1YzR4eHJ3UXoyVEwtQTJzanlWeVBCT3hXSDJ2amI2ZXZwWHMyNnY4RWhYUS14T2tPaUJvQWxhb3ZuZ3dtQ21uVzNoT0xzVlV3eTh5czE2YzVSN2hrU0VRQk9sTXBDR192S0Y3czFtUFlvRWtWUmlROVBKUkJWLThY?oc=5"
-  },
-  {
    "title": "Discord now formats Markdown previews right",
    "source": "THE VERGE",
    "topic": "ai",
@@ -259,6 +252,13 @@
    "topic": "science",
    "published": "2026-10-22T18:48:59Z",
    "link": "https://www.bbc.co.uk/news/articles/cqvgjk3j0j9wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "3 arrested after string of online marketplace robberies, $80K in Pokemon cards among targets: Toronto police",
+   "source": "CBC",
+   "topic": "pokemon",
+   "published": "2026-10-22T18:30:00Z",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcEl1SWRYZzBxamUyYkVMX0V3MGZscVpURXIzSi1oYlB1YzR4eHJ3UXoyVEwtQTJzanlWeVBCT3hXSDJ2amI2ZXZwWHMyNnY4RWhYUS14T2tPaUJvQWxhb3ZuZ3dtQ21uVzNoT0xzVlV3eTh5czE2YzVSN2hrU0VRQk9sTXBDR192S0Y3czFtUFlvRWtWUmlROVBKUkJWLThY?oc=5"
   },
   {
    "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
