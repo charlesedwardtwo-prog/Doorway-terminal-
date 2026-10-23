@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-23T17:25:18.741420Z",
+ "updated": "2026-10-23T17:54:01.210720Z",
  "items": [
+  {
+   "title": "Superb Samoa run riot to inflict heavy defeat on woeful Wales",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-23T17:43:46Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/videos/cqm2d1v0jr48o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Elon Musk’s dangerous grip on outer space",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-23T17:35:15Z",
+   "link": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly"
+  },
+  {
+   "title": "Meghan statement offers answers after years of questions about her relationship with father",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T17:27:50Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm70p9r04r8wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Trump says Burnham is 'getting it done' after Jackdaw decision",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T17:27:20Z",
+   "link": "https://www.bbc.co.uk/news/articles/cry4x7n5yje0o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Mass Effect crossover items have seemingly been removed from Battlefield 6 following EA's sudden closure of BioWare",
    "source": "EUROGAMER",
@@ -42,6 +70,13 @@
    "topic": "tech",
    "published": "2026-10-23T16:52:55Z",
    "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
+  },
+  {
+   "title": "Police yet to receive £2m after A66 crash, says commissioner",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T16:48:02Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwe8lzl0ydy8o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Wales plans to ban steel pylons as government launches consultation",
@@ -170,13 +205,6 @@
    "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cry4x7k0nkk4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "I thought I was dying but it was health anxiety - here's how to recognise the signs",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-23T14:57:30Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm5yez87qwvdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "\"Why the f**k would they add a perk like that?\" - Modern Warfare 4 DMZ players are up in arms over the ability to self-revive",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -193,7 +221,7 @@
   {
    "title": "Meta delays new business terms after publisher pushback on AI scraping",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-23T14:47:41Z",
    "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
   },
@@ -217,27 +245,6 @@
    "topic": "sport",
    "published": "2026-10-23T14:35:37Z",
    "link": "https://www.bbc.co.uk/sport/articles/ckvgd1q40gyeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Mum sentenced for killing her three children",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-23T14:24:42Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm4g17qn738xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "PSG v Lyon moved as Paris prepares for more protests",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-23T14:18:41Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "PM defends Gogglebox appearance after Badenoch criticism",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-23T14:13:43Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm4g140585ngo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Six men charged after theft of ‘high-value’ Pokemon cards from warehouse",
@@ -434,13 +441,6 @@
    "topic": "ai",
    "published": "2026-10-22T19:45:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari"
-  },
-  {
-   "title": "Discord now formats Markdown previews right",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-22T18:58:19Z",
-   "link": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels"
   },
   {
    "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
