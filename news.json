@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-23T16:59:15.312811Z",
+ "updated": "2026-10-23T17:25:18.741420Z",
  "items": [
+  {
+   "title": "Mass Effect crossover items have seemingly been removed from Battlefield 6 following EA's sudden closure of BioWare",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-23T17:19:50Z",
+   "link": "https://www.eurogamer.net/mass-effect-battlefield-6-crossover-bioware-closure"
+  },
+  {
+   "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-10-23T17:18:31Z",
+   "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/"
+  },
+  {
+   "title": "The iPhone Duo should have been an iPad",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-23T17:00:18Z",
+   "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast"
+  },
+  {
+   "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-23T16:59:51Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Ex-Tory campaign chief and his wife receive suspended sentences over election bets",
    "source": "BBC NEWS",
@@ -11,7 +39,7 @@
   {
    "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
    "source": "THE VERGE",
-   "topic": "ai",
+   "topic": "tech",
    "published": "2026-10-23T16:52:55Z",
    "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
   },
@@ -77,13 +105,6 @@
    "topic": "world",
    "published": "2026-10-23T15:59:36Z",
    "link": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-23T15:48:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The little-known investment Martin Lewis wants you to understand...",
@@ -177,13 +198,6 @@
    "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
   },
   {
-   "title": "The Sigma FP2 brings significant upgrades to the ‘world’s smallest’ full-frame camera",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-23T14:42:46Z",
-   "link": "https://www.theverge.com/tech/1017410/sigma-fp2-mirrorless-full-frame-modular-camera-upgrade"
-  },
-  {
    "title": "Poulter leaves LIV as exodus of big names continues",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -226,13 +240,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cm4g140585ngo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Our best tips for using the iPhone Duo",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-23T14:00:00Z",
-   "link": "https://www.theverge.com/tech/1017157/iphone-duo-tips-touch-id-magsafe"
-  },
-  {
    "title": "Six men charged after theft of ‘high-value’ Pokemon cards from warehouse",
    "source": "YORKSHIRE POST",
    "topic": "pokemon",
@@ -247,7 +254,7 @@
    "link": "https://www.bbc.co.uk/news/articles/cred3xnj0j0qo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Six charged over theft of high-value Pokemon cards",
+   "title": "Six charged following theft of high-value Pokemon cards in Retford",
    "source": "BBC",
    "topic": "pokemon",
    "published": "2026-10-23T12:50:15Z",
@@ -429,6 +436,13 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari"
   },
   {
+   "title": "Discord now formats Markdown previews right",
+   "source": "THE VERGE",
+   "topic": "ai",
+   "published": "2026-10-22T18:58:19Z",
+   "link": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels"
+  },
+  {
    "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
    "source": "BBC TECH",
    "topic": "tech",
@@ -448,13 +462,6 @@
    "topic": "gaming",
    "published": "2026-10-22T17:00:49Z",
    "link": "https://www.eurogamer.net/smash-bros-masahiro-sakurai-generative-ai-unoriginal-games"
-  },
-  {
-   "title": "Farewell BioWare, you inspired so many of us, and you deserved so much better than this",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-22T16:45:25Z",
-   "link": "https://www.eurogamer.net/farewell-bioware-closed-ea"
   },
   {
    "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
@@ -497,13 +504,6 @@
    "topic": "ai",
    "published": "2026-10-21T15:14:07Z",
    "link": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/"
-  },
-  {
-   "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-10-20T20:07:58Z",
-   "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/"
   }
  ]
 }
