@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-23T10:56:29.512325Z",
+ "updated": "2026-10-23T11:21:50.245277Z",
  "items": [
+  {
+   "title": "Mum sentenced for killing her three children",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T11:16:37Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g17qn738xo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "I sat in A&E for 13 hours - here's how to recognise health anxiety",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T11:14:58Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm5yez87qwvdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "At least one dead and four injured in Paris suburb shooting",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-23T11:09:36Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Meghan says she was informed about 'disturbing allegations' against her father in 2018",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-23T11:05:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2wpgejjkjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-23T11:01:08Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Startup equips genetically enhanced dogs with Palmer Luckey’s military tech",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-23T10:58:03Z",
+   "link": "https://www.theverge.com/tech/1017343/warhound-palmer-luckey-anduril-colossal-war-dogs"
+  },
   {
    "title": "Wales plans to ban steel pylons as government launches consultation",
    "source": "BBC SCIENCE",
@@ -9,16 +51,9 @@
    "link": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Mum pleads guilty to killing her three children",
+   "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-10-23T10:52:22Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm4g17qn738xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
-   "source": "BBC BUSINESS",
-   "topic": "business",
    "published": "2026-10-23T10:49:36Z",
    "link": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss"
   },
@@ -35,13 +70,6 @@
    "topic": "world",
    "published": "2026-10-23T10:26:06Z",
    "link": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Meghan says she was informed about 'disturbing allegations' against her father in 2018",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-23T10:26:05Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6x2wpgejjkjo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
@@ -77,13 +105,6 @@
    "topic": "world",
    "published": "2026-10-23T10:14:37Z",
    "link": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-23T10:14:33Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "No, the iPhone Duo isn’t a small phone",
@@ -126,13 +147,6 @@
    "topic": "uk",
    "published": "2026-10-23T09:41:44Z",
    "link": "https://www.bbc.co.uk/news/articles/c50mep10dek7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-23T09:36:43Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Storm Austen hits UK as yellow wind warnings in effect",
@@ -185,8 +199,8 @@
   },
   {
    "title": "BBC presenter battles strong winds as Storm Austen hits Newquay",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC SCIENCE",
+   "topic": "science",
    "published": "2026-10-23T08:26:47Z",
    "link": "https://www.bbc.co.uk/news/videos/cmzxlgkyl3vpo?at_medium=RSS&at_campaign=rss"
   },
@@ -205,13 +219,6 @@
    "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "First personalised cancer vaccine cuts risk of disease returning in major trial",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-23T07:49:02Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq0ld9g9e913o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "EFL preview: 'Sleepless nights' for under pressure bosses",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -220,8 +227,8 @@
   },
   {
    "title": "Lights will stay on this winter, grid operator says after concerns",
-   "source": "BBC SCIENCE",
-   "topic": "science",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-10-23T06:47:10Z",
    "link": "https://www.bbc.co.uk/news/articles/cmy56q2n1veqo?at_medium=RSS&at_campaign=rss"
   },
@@ -322,13 +329,6 @@
    "topic": "tech",
    "published": "2026-10-22T21:51:25Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
-  },
-  {
-   "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-22T21:30:39Z",
-   "link": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram"
   },
   {
    "title": "Meta’s AI could still scrape news sites, legal experts say",
