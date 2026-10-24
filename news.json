@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:50:51.635451Z",
+ "updated": "2026-10-24T22:12:35.762506Z",
  "items": [
   {
    "title": "Watch: Match of the Day",
@@ -9,6 +9,20 @@
    "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Who are the candidates in Brazil's presidential election?",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-24T22:08:47Z",
+   "link": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Brewers' Jacob Misiorowski Trades Pokemon Cards with Young Fan Before World Series Game 2",
+   "source": "BLEACHER REPORT",
+   "topic": "pokemon",
+   "published": "2026-10-24T22:01:54Z",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd2h1amQwZDB0eWlhTTdXZ3FaYlk2QXlpc2RoaVl0c3pBeTUwYmQwR2RXNk8wUUJBeE5uSW5fWnhWZFZCWGhCR3FGcmxOdGlRSldQZzFOUnlFMWNVSXhQRXdNR3QzX2h5Tllhb0huUHNRRzZITWdoZ2FXSHJMMDhYTFBLWVVrdl9TN2FfSTBsUFFjbU9WcVZBRDQ2Slg0bThObGtidkVlblpHdnpKWnNGWHJxejRiRjFJUTBocnNn?oc=5"
+  },
+  {
    "title": "Thousands of people gather in support of Drumcree Orangemen",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -16,7 +30,7 @@
    "link": "https://www.bbc.co.uk/news/articles/c6eq313dnzzeo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Smith retains title with split-decision win over Puello",
+   "title": "Britain's Smith retains title in split-decision win over Puello",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-24T21:44:12Z",
@@ -152,13 +166,6 @@
    "title": "Mum who died trying to save sons was hero, husband says",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-10-24T17:11:56Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
-   "source": "BBC NEWS",
-   "topic": "world",
    "published": "2026-10-24T17:11:56Z",
    "link": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss"
   },
@@ -427,13 +434,6 @@
    "topic": "ai",
    "published": "2026-10-23T14:47:41Z",
    "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
-  },
-  {
-   "title": "Six men charged after ‘high-value’ Pokemon cards stolen from warehouse",
-   "source": "THE INDEPENDENT",
-   "topic": "pokemon",
-   "published": "2026-10-23T13:16:00Z",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQVFfMFd0b1hjRHNxRzF4QzRhNXEzcWtxZHFqVUZRR3U4cjJUcUJkVHVRQk1xZGFoaFQ3NWlZQWZzQmFJVWVnNjFxWkVISFZjYW1rVUo0LVZPemJmTW9DSXJfZkFvN1lhNkhVSk9qRC1DSjl2cG1RbmlRckJkNGZSOWladEhfdXdUcFJDWmtnWEpjTjZHeVVmZnFJWQ?oc=5"
   },
   {
    "title": "What is PHP and why did it spark a global cyber-security scramble?",
