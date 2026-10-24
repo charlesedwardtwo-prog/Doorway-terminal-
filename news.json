@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-24T10:52:52.739635Z",
+ "updated": "2026-10-24T11:14:16.318776Z",
  "items": [
+  {
+   "title": "Poor England suffer another Australia humiliation",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T11:09:57Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c5y43x20y0wjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Between quick wins and big dreams lies Burnham's biggest test",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-24T11:03:57Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwq6n09qpy90o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Plan for Northern Olympics to get £7m in Healey's Budget",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-24T11:00:48Z",
+   "link": "https://www.bbc.co.uk/news/articles/cv98z92ekg9zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "New British number one Boulter loses Japan semi-final",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T10:54:58Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/ck4g15ql8gr8o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Fallen trees cause rail disruption and power cuts",
    "source": "BBC NORFOLK",
@@ -86,13 +114,6 @@
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cv0ld9y3g426o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Wall on South Africa, surfing and pink scrum caps",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-24T09:19:03Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4g1z1734lvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
    "source": "MASHABLE",
    "topic": "pokemon",
@@ -105,13 +126,6 @@
    "topic": "science",
    "published": "2026-10-24T08:28:49Z",
    "link": "https://www.bbc.co.uk/news/articles/c83vqn2x54v1o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Latte Lath's journey from street games and Carrick to new start in Germany",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-24T07:51:35Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqrkyl1gp4leo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
@@ -241,15 +255,15 @@
   },
   {
    "title": "How does the UK state pension compare with other countries?",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-10-24T00:09:12Z",
    "link": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC TECH",
+   "topic": "tech",
    "published": "2026-10-24T00:05:45Z",
    "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
   },
@@ -429,13 +443,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port"
   },
   {
-   "title": "Island inflation rate rises to 3%, figures show",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-23T11:58:19Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmz6581p1ee8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "The Indian workers filming their work to train AI",
    "source": "BBC TECH",
    "topic": "tech",
@@ -476,13 +483,6 @@
    "topic": "ai",
    "published": "2026-10-22T15:25:02Z",
    "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
-  },
-  {
-   "title": "Zoe Kleinman: PHP is the cyber equivalent of an unexploded bomb",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-10-22T10:17:26Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw98z6qlyvg3o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The new human-crafted Apple Music brand matters in an AI world",
