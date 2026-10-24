@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-24T08:55:28.145202Z",
+ "updated": "2026-10-24T09:16:04.563053Z",
  "items": [
+  {
+   "title": "Fallen trees cause rail disruption and power cuts",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-10-24T09:08:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/c3y0ep2q2q42o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Trains cancelled and roads warnings as Scotland prepares for Storm Boelo",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-24T09:04:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-24T09:03:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-10-24T09:00:00Z",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYnJlZDFqeVFwd0RmVUJWUlF1eFNWbVM5R0I1SUNjOENJUnN1VWFZME92eTJnS3VjZFBMTWNmVXpWSjBqTlRxaWFYanBrcXZORk5SVy13QWh0T0swVzIxYXF3eFVoQXZ4QktfRHV2WWczYUNhUldXWjI2OWE5YjdOVzln?oc=5"
+  },
   {
    "title": "England thrash France to keep alive World Cup hopes",
    "source": "BBC SPORT",
@@ -35,13 +63,6 @@
    "topic": "world",
    "published": "2026-10-24T07:17:44Z",
    "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Fallen trees cause rail disruption and power cuts",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-10-24T07:00:40Z",
-   "link": "https://www.bbc.co.uk/news/articles/c3y0ep2q2q42o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "What we've been playing - \"Shoving Moon Flesh into an alien grandma's mouth\"",
@@ -170,13 +191,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cq2d6r8ey7n4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Arrest made after fire at Hitler's famed Eagle's Nest retreat",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-24T03:51:25Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Met investigates reports of letter detailing claims about Meghan's father",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -245,13 +259,6 @@
    "topic": "tech",
    "published": "2026-10-23T21:11:07Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
-  },
-  {
-   "title": "Storm Austen brings power cuts and travel disruption as more wind and rain forecast",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-23T21:10:47Z",
-   "link": "https://www.bbc.co.uk/news/articles/cxj0l193y0l8o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Watch: Presenter announces departure live on-air",
@@ -385,13 +392,6 @@
    "topic": "pokemon",
    "published": "2026-10-23T13:16:00Z",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQVFfMFd0b1hjRHNxRzF4QzRhNXEzcWtxZHFqVUZRR3U4cjJUcUJkVHVRQk1xZGFoaFQ3NWlZQWZzQmFJVWVnNjFxWkVISFZjYW1rVUo0LVZPemJmTW9DSXJfZkFvN1lhNkhVSk9qRC1DSjl2cG1RbmlRckJkNGZSOWladEhfdXdUcFJDWmtnWEpjTjZHeVVmZnFJWQ?oc=5"
-  },
-  {
-   "title": "Six charged following theft of high-value Pokemon cards in Retford",
-   "source": "BBC",
-   "topic": "pokemon",
-   "published": "2026-10-23T12:50:15Z",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mMHdkQWtzNzBPU0Z6T2hvclVQNGU0bk14aFloYzhSamtqQUl4VjRLSEhXcjZaTlFPR0V5WWFtYkJtM0llNThxMkR2dmxZdm9uUHU2dlp1dmd3ZjA?oc=5"
   },
   {
    "title": "What is PHP and why did it spark a global cyber-security scramble?",
