@@ -1,19 +1,61 @@
 {
- "updated": "2026-10-24T09:16:04.563053Z",
+ "updated": "2026-10-24T09:54:12.887729Z",
  "items": [
+  {
+   "title": "Charity expects demand for Christmas present campaign",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-24T09:53:42Z",
+   "link": "https://www.bbc.co.uk/news/articles/cj62yvqvxd4qo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-24T09:46:53Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Seven missing after multi-storey building collapses in Kenya's capital",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-24T09:44:01Z",
+   "link": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Trains cancelled and road warnings as Scotland prepares for Storm Boelo",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-24T09:41:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Fallen trees cause rail disruption and power cuts",
    "source": "BBC NORFOLK",
    "topic": "local",
-   "published": "2026-10-24T09:08:21Z",
+   "published": "2026-10-24T09:35:41Z",
    "link": "https://www.bbc.co.uk/news/articles/c3y0ep2q2q42o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Trains cancelled and roads warnings as Scotland prepares for Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-24T09:04:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
+   "title": "France prepares for day of protest a week after nationwide riots",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-24T09:34:32Z",
+   "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "No panic for England but Mitchell issues PWR warning",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T09:22:07Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cv0ld9y3g426o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Wall on South Africa, surfing and pink scrum caps",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T09:19:03Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4g1z1734lvo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
@@ -65,6 +107,13 @@
    "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Wales great Faletau suffers fresh injury blow",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T07:00:16Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5yn99z31elo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "What we've been playing - \"Shoving Moon Flesh into an alien grandma's mouth\"",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -72,39 +121,11 @@
    "link": "https://www.eurogamer.net/what-weve-been-playing-warframe-over-the-hill-switch-sports-resort"
   },
   {
-   "title": "Volkanovski nears featherweight immortality as record beckons",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-24T06:52:41Z",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq5ynjgkn68vo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Canada inflict back-to-back losses on England",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-24T06:46:23Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm79p7x79wl9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Second storm to hit UK with up to 80mph gusts as hundreds still without power",
    "source": "BBC SCIENCE",
    "topic": "science",
    "published": "2026-10-24T06:40:39Z",
    "link": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Smith v Puello world title fight predictions",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-24T06:35:17Z",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cwe9ldpmeljyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "France prepares for day of protest a week after nationwide riots",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-24T06:19:46Z",
-   "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Project to restore rare native trees with DNA testing",
@@ -135,25 +156,11 @@
    "link": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "How Brazil's changing working class is reshaping the presidential race",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-24T05:05:44Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Pokemon cards left in a Surrey attic for nearly 15 years sell for £1.5 million",
    "source": "EGAMERS.IO",
    "topic": "pokemon",
    "published": "2026-10-24T05:04:19Z",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWHFWNjRHYm1ta0RVMXB3R3E3UUp6TEY4ZTBaaHBQVFhfQWQ5WlBQZDVwTlRJRkR3a1pZNzlqTU1kYkt2NXNfLXNDY1c3QnVvWjZPbHV3M0xxbXdSRk83dERrRGxlbzNsVF9UUEduOEswQm02Q0k2ZC1RSFV1SmJRTGlPbUUwZWd6LWZyampwTVQtN0ctWkRzV0NoWnNZUQ?oc=5"
-  },
-  {
-   "title": "The rise of AI election ads in US midterms campaign",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-24T05:03:44Z",
-   "link": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The Papers: 'Meghan warned over father' and 'Don't risk Truss-style budget'",
@@ -427,13 +434,6 @@
    "topic": "business",
    "published": "2026-10-23T11:48:04Z",
    "link": "https://www.bbc.co.uk/news/articles/c6n8dex0zeg9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "What is the Budget and what could be in it?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-23T08:14:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The Indian workers filming their work to train AI",
