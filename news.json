@@ -1,10 +1,31 @@
 {
- "updated": "2026-10-24T19:46:42.921341Z",
+ "updated": "2026-10-24T20:08:32.778197Z",
  "items": [
+  {
+   "title": "Trains cancelled and road warnings as Storm Boelo sweeps into Scotland",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-24T20:03:06Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Strikers finding form as Rangers bounce back",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T19:54:48Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6g7xy80e7m7o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Big win for Norwich, but difficult days for Derby - Sam Parkin's EFL takeaways",
    "source": "BBC NORFOLK",
    "topic": "local",
+   "published": "2026-10-24T19:35:19Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmglw82kz4njo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Huddersfield on top, but difficult days for Derby - Sam Parkin's EFL takeaways",
+   "source": "BBC SPORT",
+   "topic": "sport",
    "published": "2026-10-24T19:35:19Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cmglw82kz4njo?at_medium=RSS&at_campaign=rss"
   },
@@ -16,7 +37,7 @@
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cjy56g5g6qw2o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Spurs pick up rare Stamford Bridge win as Palmer sent off",
+   "title": "Spurs clinch rare Stamford Bridge win as Palmer sent off",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-24T19:17:06Z",
@@ -44,20 +65,6 @@
    "link": "https://www.bbc.co.uk/sport/football/videos/cqkg5m3lnr5zo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Hayen sacked by Burnley after just 14 games",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-24T19:01:03Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm4gv830j73do?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Arsenal beat Everton to go level on points with leaders Man City",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-24T18:59:30Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Fallen trees cause 'significant damage' to railway",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -70,13 +77,6 @@
    "topic": "tech",
    "published": "2026-10-24T18:32:21Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
-  },
-  {
-   "title": "Trains cancelled and road warnings as Scotland prepares for Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-24T18:26:46Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Stalker 2's next update has already leaked",
