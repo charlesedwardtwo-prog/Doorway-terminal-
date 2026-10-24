@@ -1,6 +1,27 @@
 {
- "updated": "2026-10-24T05:54:26.775492Z",
+ "updated": "2026-10-24T06:16:46.304998Z",
  "items": [
+  {
+   "title": "Historic swimming pond to be restored",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-24T06:08:37Z",
+   "link": "https://www.bbc.co.uk/news/articles/c5lyellrmlego?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Why Tottenham v Arsenal could define their seasons - live on BBC One",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T06:02:44Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ck240l3n774zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Canada inflict back-to-back losses on England",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-24T05:51:07Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm79p7x79wl9o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "The people on standby when a storm strikes",
    "source": "BBC SCIENCE",
@@ -108,8 +129,8 @@
   },
   {
    "title": "Second storm to hit UK with more wind and rain as thousands remain without power",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC SCIENCE",
+   "topic": "science",
    "published": "2026-10-24T02:25:54Z",
    "link": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_medium=RSS&at_campaign=rss"
   },
@@ -164,8 +185,8 @@
   },
   {
    "title": "Before you crank up the thermostat, try these tips to keep your house warmer for longer",
-   "source": "BBC BUSINESS",
-   "topic": "business",
+   "source": "BBC NEWS",
+   "topic": "uk",
    "published": "2026-10-23T23:50:45Z",
    "link": "https://www.bbc.co.uk/news/articles/cqr7yeed1ed7o?at_medium=RSS&at_campaign=rss"
   },
@@ -182,20 +203,6 @@
    "topic": "sport",
    "published": "2026-10-23T22:50:02Z",
    "link": "https://www.bbc.co.uk/sport/snooker/articles/cqy0r7wj5e9ro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'We had to scrap' - O'Neil praises Ipswich resilience after Forest draw",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-23T22:21:51Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/ckrey3ndyyw0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'That's what I do' - Wade scores again to equal Prem try-scoring record",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-23T22:18:13Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3j47y0yy5e1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Xbox’s first chief operating officer is out after just a few months",
@@ -331,25 +338,11 @@
    "link": "https://www.bbc.co.uk/news/articles/c9x28dgj2r0go?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Scotland to be hit with 80mph wind gusts as Storm Boelo warning upgraded to amber",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-23T16:13:11Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwkgjz3dpyj6o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "The little-known investment Martin Lewis wants you to understand...",
    "source": "BBC BUSINESS",
    "topic": "business",
    "published": "2026-10-23T15:41:28Z",
    "link": "https://www.bbc.co.uk/news/videos/c8ly0357prl7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Oil spill washes up on UAE beaches after tanker strike",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-23T15:30:47Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud",
@@ -380,11 +373,11 @@
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQVFfMFd0b1hjRHNxRzF4QzRhNXEzcWtxZHFqVUZRR3U4cjJUcUJkVHVRQk1xZGFoaFQ3NWlZQWZzQmFJVWVnNjFxWkVISFZjYW1rVUo0LVZPemJmTW9DSXJfZkFvN1lhNkhVSk9qRC1DSjl2cG1RbmlRckJkNGZSOWladEhfdXdUcFJDWmtnWEpjTjZHeVVmZnFJWQ?oc=5"
   },
   {
-   "title": "Six charged over theft of high-value Pokemon cards",
+   "title": "Six charged following theft of high-value Pokemon cards in Retford",
    "source": "BBC",
    "topic": "pokemon",
    "published": "2026-10-23T12:50:15Z",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9naEQ5UHFJbHYyc1BhNjlEbFVoUnBzdVdiYlByd2FfYzFRSWxjZWZySWZ5OFFxWlRyTTBEQjNQaloyaENvZER5MGswZTFLTVBtdkhNRVhCT3VhMG1RNWc?oc=5"
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mMHdkQWtzNzBPU0Z6T2hvclVQNGU0bk14aFloYzhSamtqQUl4VjRLSEhXcjZaTlFPR0V5WWFtYkJtM0llNThxMkR2dmxZdm9uUHU2dlp1dmd3ZjA?oc=5"
   },
   {
    "title": "Half-Life 3 is back in the news again as Valve developer accidentally sort-of references it in public, reigniting hope once more",
@@ -434,6 +427,13 @@
    "topic": "local",
    "published": "2026-10-23T08:42:44Z",
    "link": "https://www.bbc.co.uk/news/articles/cqx28eppdr1no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What is the Budget and what could be in it?",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-23T08:14:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The Indian workers filming their work to train AI",
