@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-25T21:50:19.149845Z",
+ "updated": "2026-10-25T22:11:23.126420Z",
  "items": [
+  {
+   "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-25T22:06:26Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Antonelli wins in US but has to wait to secure title",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T22:00:05Z",
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/cm20w8154wn0o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "iFixit’s look inside the iPhone Duo may explain those broken screens and hinges",
    "source": "THE VERGE",
@@ -14,13 +28,6 @@
    "topic": "uk",
    "published": "2026-10-25T21:30:15Z",
    "link": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-25T21:25:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "End approaching for Carrick but Man Utd owners' problems far bigger",
@@ -98,13 +105,6 @@
    "topic": "sport",
    "published": "2026-10-25T20:00:09Z",
    "link": "https://www.bbc.co.uk/sport/football/videos/cm3vq1vpv6zno?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Sage continues to struggle as Palace lose at home to Newcastle",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T19:59:46Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c9gkvellmxg1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The aftermath of Storm Boelo across Scotland",
@@ -289,6 +289,13 @@
    "link": "https://www.eurogamer.net/cyberpunk-edgerunners-season-2-major-theme"
   },
   {
+   "title": "Pokemon Tcg Pocket: Every Card In Dual Fusion Revealed So Far",
+   "source": "IMDB",
+   "topic": "pokemon",
+   "published": "2026-10-25T09:48:16Z",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lNzNkN0RvenVHT2tTVUJmOWViOElQa1ozdllyUHRHbzR3YWU5X01rVkhGZ1NiQnozbDZkS19fcjJFc09hcUp4ZXJENjFIRjFzQzZMa1NEbWxjWHZBQzRoVUVaOFZvVDA?oc=5"
+  },
+  {
    "title": "Rosebank: Life on the oil field at the centre of a political storm",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -427,13 +434,6 @@
    "topic": "ai",
    "published": "2026-10-23T19:32:39Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
-  },
-  {
-   "title": "Old Pokemon cards auction for $2M",
-   "source": "KIRO 7 NEWS SEATTLE",
-   "topic": "pokemon",
-   "published": "2026-10-23T18:41:31Z",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWk9pZ2pWRDItTE5vM2xaZnlqbHg4VVRYRHpiS2Q2YXJTalBMc1E4UWdkMERlY2VKeFJQNGtKX0hGTmtweU0zaXJteXNITXhjMzItUHdQYUdxSzJFWktESkJNZVM3ZlFSQk1FM0VQbnZoenMtTnY1TDZrdlF5eWJCZHoyUGNDY1Eta0djektMMzlmb0RjN3NUSC1rYk1vQmZw?oc=5"
   },
   {
    "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
