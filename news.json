@@ -1,6 +1,41 @@
 {
- "updated": "2026-10-25T15:53:02.695490Z",
+ "updated": "2026-10-25T16:15:18.462991Z",
  "items": [
+  {
+   "title": "Early reports suggest record high turnout in Serbia elections",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-25T16:05:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fernandes left out - Man Utd hammered, Bournemouth brilliant - how they rated",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T16:04:13Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c9ly0mz745dno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Travel disruption and power cuts after back-to-back storms",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T15:58:33Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6n9rzde1n80o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Isak, Barcola and Wirtz turn up - player ratings for Liverpool v Brighton",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T15:58:26Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/crwyd857p00yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Australia survive scare to beat Fiji and reach World Cup semi-finals",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T15:53:11Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/videos/cmy0e9kqplx8o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Overnight winds reach 85mph as Scotland is hit by Storm Boelo",
    "source": "BBC SCIENCE",
@@ -37,11 +72,11 @@
    "link": "https://www.bbc.co.uk/news/articles/c3y0ep2q2q42o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Early reports suggest record high turnout in Serbia elections",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-25T15:07:00Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss"
+   "title": "Late own goal earns Liverpool draw against London City",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T14:53:29Z",
+   "link": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Gabon says access to social media restored after eight-month ban",
@@ -72,25 +107,11 @@
    "link": "https://www.eurogamer.net/knightmare-game-free-pc-original-cast"
   },
   {
-   "title": "Travel disruption and power cuts after back-to-back storms",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T14:29:15Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6n9rzde1n80o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Four-year-old girl dies after fall from tower block",
    "source": "BBC NEWS",
    "topic": "uk",
    "published": "2026-10-25T14:00:37Z",
    "link": "https://www.bbc.co.uk/news/articles/cwj34vzrj865o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Sheffield Wednesday sack Pedersen after 15 months",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T14:00:15Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cq4g15392p4ro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Newscast",
@@ -100,13 +121,6 @@
    "link": "https://www.bbc.co.uk/sounds/play/p0phhxp0?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Fernandes dropped to Man Utd bench - was Carrick right?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T13:26:13Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmrlye5w3p79o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "r/opensource just banned AI, non-English speakers, and more",
    "source": "THE VERGE",
    "topic": "tech",
@@ -114,25 +128,11 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
   },
   {
-   "title": "Osaka 'not far off' her best but often ponders future",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T12:54:11Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cwg7xy5x3590o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Police using AI risks making discrimination worse, researchers warn",
    "source": "BBC SCIENCE",
    "topic": "science",
    "published": "2026-10-25T12:18:56Z",
    "link": "https://www.bbc.co.uk/news/articles/ckpdg4pl7pgvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "England win cerebral palsy World Cup for first time",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T12:13:40Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Burnham open to 'honest discussion' on EU free movement",
