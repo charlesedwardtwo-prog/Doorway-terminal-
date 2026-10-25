@@ -1,19 +1,68 @@
 {
- "updated": "2026-10-25T14:14:10.892444Z",
+ "updated": "2026-10-25T14:52:51.094126Z",
  "items": [
   {
-   "title": "Flight disruption and thousands without electricity after Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T13:50:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/c84g10r00221o?at_medium=RSS&at_campaign=rss"
+   "title": "Gabon says access to social media restored after eight-month ban",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-25T14:39:47Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Moscow to host 2030 World Weightlifting Championships",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-25T14:34:33Z",
+   "link": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Russia to host first Olympic federation world event since Ukraine invasion",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T14:34:33Z",
+   "link": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "An officially licensed Knightmare game, based on the British TV show, is coming next year",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-25T14:32:00Z",
+   "link": "https://www.eurogamer.net/knightmare-game-free-pc-original-cast"
   },
   {
    "title": "Travel disruption and power cuts after back-to-back storms",
    "source": "BBC SCIENCE",
    "topic": "science",
-   "published": "2026-10-25T13:45:16Z",
+   "published": "2026-10-25T14:29:15Z",
    "link": "https://www.bbc.co.uk/news/articles/c6n9rzde1n80o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Flight disruption and thousands without electricity after Storm Boelo",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T14:16:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/c84g10r00221o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Overnight winds reach 85mph as Scotland is hit by Storm Boelo",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T14:15:34Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Four-year-old girl dies after fall from tower block",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-25T14:00:37Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwj34vzrj865o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Sheffield Wednesday sack Pedersen after 15 months",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T14:00:15Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cq4g15392p4ro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fernandes dropped to Man Utd bench - was Carrick right?",
@@ -28,13 +77,6 @@
    "topic": "tech",
    "published": "2026-10-25T13:25:32Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
-  },
-  {
-   "title": "Overnight winds reach 85mph as Scotland is hit by Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T13:25:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Osaka 'not far off' her best but often ponders future",
@@ -70,20 +112,6 @@
    "topic": "sport",
    "published": "2026-10-25T12:11:03Z",
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cvlyd576g55xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "McMillan backs Coombes after groin grab allegation",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T12:11:03Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cvlyd576g55xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Anderson stops short of retiring after Lancashire exit",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T12:03:17Z",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c3qjng48exxwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Google’s AI search changes upended online publishing",
@@ -170,13 +198,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-25T08:36:47Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmz98plpjzplo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Meghan broke contact with father in letter citing abuse claims",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -241,17 +262,10 @@
   },
   {
    "title": "Four ways Labour could raise money in the Budget without hiking income tax",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-10-25T06:00:15Z",
    "link": "https://www.bbc.co.uk/news/articles/c65yn9p55np2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-25T05:45:31Z",
-   "link": "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Watch Brewers' Jacob Misiorowski Open Pokemon Cards with Young Fan at World Series",
@@ -329,20 +343,6 @@
    "topic": "gaming",
    "published": "2026-10-24T13:30:30Z",
    "link": "https://www.eurogamer.net/fallout-shelter-the-experiment-prime-video-release-date"
-  },
-  {
-   "title": "Xbox's first chief operating officer Helen Chiang leaves Microsoft just three months into the job",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-24T12:57:17Z",
-   "link": "https://www.eurogamer.net/xbox-coo-helen-chiang-leaves-microsoft"
-  },
-  {
-   "title": "Rising demand from families needing Christmas help",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-24T11:55:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
