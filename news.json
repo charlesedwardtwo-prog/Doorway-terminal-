@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:52:27.892800Z",
+ "updated": "2026-10-25T14:14:10.892444Z",
  "items": [
   {
    "title": "Flight disruption and thousands without electricity after Storm Boelo",
@@ -23,16 +23,9 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cmrlye5w3p79o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "r/opensource just banned AI, non-English speakers and more",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-25T13:25:32Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
-  },
-  {
    "title": "r/opensource just banned AI, non-English speakers, and more",
    "source": "THE VERGE",
-   "topic": "ai",
+   "topic": "tech",
    "published": "2026-10-25T13:25:32Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
   },
@@ -455,6 +448,13 @@
    "topic": "tech",
    "published": "2026-10-23T12:00:25Z",
    "link": "https://www.bbc.co.uk/news/articles/cxnv025d8qpmo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Retro gaming is being overrun with AI",
+   "source": "THE VERGE",
+   "topic": "ai",
+   "published": "2026-10-23T12:00:00Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port"
   },
   {
    "title": "The Indian workers filming their work to train AI",
