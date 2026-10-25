@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T19:18:58.210276Z",
+ "updated": "2026-10-25T19:47:58.416191Z",
  "items": [
   {
    "title": "Watch: Sportscene - Sunday's Scottish Premiership highlights",
@@ -7,6 +7,41 @@
    "topic": "sport",
    "published": "2026-10-25T20:00:04Z",
    "link": "https://www.bbc.co.uk/iplayer/live/bbcscotland?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man killed by falling tree as Storm Boelo batters Scotland",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T19:45:52Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man killed by falling tree as Storm Boelo leaves 160,000 properties without power",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T19:40:26Z",
+   "link": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The aftermath of Storm Boelo across Scotland",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T19:31:36Z",
+   "link": "https://www.bbc.co.uk/news/videos/cr3wvzl947q7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Zen Browser is the Arc replacement I was looking for",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-25T19:24:50Z",
+   "link": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement"
+  },
+  {
+   "title": "Dunfermline meet Queen of the South in Scottish Cup",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T19:24:20Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr5ynv4pyw95o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
@@ -72,13 +107,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T18:14:53Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Call of Duty movie will explore the \"cost of war\", says director",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -91,20 +119,6 @@
    "topic": "uk",
    "published": "2026-10-25T18:05:17Z",
    "link": "https://www.bbc.co.uk/news/articles/ckx2qyd17eqvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man killed by falling tree as Storm Boelo brings more severe weather to UK",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T17:56:18Z",
-   "link": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man killed by falling tree as Storm Boelo batters Scotland",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T17:49:38Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "When will the weather settle after Storm Boelo?",
@@ -212,13 +226,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
   },
   {
-   "title": "Police using AI risks making discrimination worse, researchers warn",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T12:18:56Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckpdg4pl7pgvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Burnham open to 'honest discussion' on EU free movement",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -259,13 +266,6 @@
    "topic": "gaming",
    "published": "2026-10-25T10:00:00Z",
    "link": "https://www.eurogamer.net/cyberpunk-edgerunners-season-2-major-theme"
-  },
-  {
-   "title": "Pokemon Tcg Pocket: Every Card In Dual Fusion Revealed So Far",
-   "source": "IMDB",
-   "topic": "pokemon",
-   "published": "2026-10-25T09:48:16Z",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lNzNkN0RvenVHT2tTVUJmOWViOElQa1ozdllyUHRHbzR3YWU5X01rVkhGZ1NiQnozbDZkS19fcjJFc09hcUp4ZXJENjFIRjFzQzZMa1NEbWxjWHZBQzRoVUVaOFZvVDA?oc=5"
   },
   {
    "title": "Rosebank: Life on the oil field at the centre of a political storm",
@@ -340,7 +340,7 @@
   {
    "title": "Pennsylvania will require labels on AI-generated ads",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-24T18:32:21Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
   },
@@ -378,6 +378,13 @@
    "topic": "pokemon",
    "published": "2026-10-24T02:30:00Z",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1DTWc3TW15OVBtcjRJWkFlT21IeEVVXzcwMEJWV3gwUDlMeVVadkdONE1jaEg2ejBaWDA5cFNGdVBnR1FaWnVyRDE2c3RiUHBnY2lselhPcE8wNVhqdHdYOEswSXFRdXJna3VpclFrLUF6Unl5Q1J1eDh3?oc=5"
+  },
+  {
+   "title": "Trading card nightmare as PSA reveals stunning list of more than 6k collector items swiped in brazen heist",
+   "source": "NEW YORK POST",
+   "topic": "pokemon",
+   "published": "2026-10-24T01:16:00Z",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS0RuOFRlc0VnLXN3NUZibkRja1U2ZW1tcU5GTlFWNW9sM2drS3UwV0RyU1R3N21EWS1vMVlpa1JTUmNOMGg2U2kzWFdNdDhmREdZR1FDV0RFd3lxMHRtVlBWZGg2SjlLZkNmaE5LclV4N0xfRGFiRlN2WUNvaHlkd2lYcWZtZ2MyYXZ2U205WGtIRjB4OTgyUHhHSjVtZG5EOFE?oc=5"
   },
   {
    "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
@@ -448,13 +455,6 @@
    "topic": "tech",
    "published": "2026-10-23T12:00:25Z",
    "link": "https://www.bbc.co.uk/news/articles/cxnv025d8qpmo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Retro gaming is being overrun with AI",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-23T12:00:00Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port"
   },
   {
    "title": "The Indian workers filming their work to train AI",
