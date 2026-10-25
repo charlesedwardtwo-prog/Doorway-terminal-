@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-25T18:57:44.691203Z",
+ "updated": "2026-10-25T19:18:58.210276Z",
  "items": [
+  {
+   "title": "Watch: Sportscene - Sunday's Scottish Premiership highlights",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T20:00:04Z",
+   "link": "https://www.bbc.co.uk/iplayer/live/bbcscotland?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-25T19:14:27Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "187K+ fans call for EA to \"Save Mass Effect\"",
    "source": "EUROGAMER",
@@ -16,7 +30,14 @@
    "link": "https://www.bbc.co.uk/news/articles/c6n9rzde1n80o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Letter making claims about Meghan's father written by his ex-wife, BBC understands",
+   "title": "The Football Hub: Reaction to Sunday's action",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T18:46:19Z",
+   "link": "https://www.bbc.co.uk/iplayer/episode/l00590b3?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Letter making claims about Meghan's father written by his first wife, BBC understands",
    "source": "BBC NEWS",
    "topic": "uk",
    "published": "2026-10-25T18:38:17Z",
@@ -58,13 +79,6 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Isak finally living up to price tag as Liverpool patience rewarded",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T18:13:55Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Call of Duty movie will explore the \"cost of war\", says director",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -77,13 +91,6 @@
    "topic": "uk",
    "published": "2026-10-25T18:05:17Z",
    "link": "https://www.bbc.co.uk/news/articles/ckx2qyd17eqvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Malard stars as Chelsea beat Palace to extend unbeaten start",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T17:56:35Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c699zk701n2yo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Man killed by falling tree as Storm Boelo brings more severe weather to UK",
@@ -240,13 +247,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-25T10:38:15Z",
-   "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Budget to include £1bn for social and affordable housing",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -259,6 +259,13 @@
    "topic": "gaming",
    "published": "2026-10-25T10:00:00Z",
    "link": "https://www.eurogamer.net/cyberpunk-edgerunners-season-2-major-theme"
+  },
+  {
+   "title": "Pokemon Tcg Pocket: Every Card In Dual Fusion Revealed So Far",
+   "source": "IMDB",
+   "topic": "pokemon",
+   "published": "2026-10-25T09:48:16Z",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lNzNkN0RvenVHT2tTVUJmOWViOElQa1ozdllyUHRHbzR3YWU5X01rVkhGZ1NiQnozbDZkS19fcjJFc09hcUp4ZXJENjFIRjFzQzZMa1NEbWxjWHZBQzRoVUVaOFZvVDA?oc=5"
   },
   {
    "title": "Rosebank: Life on the oil field at the centre of a political storm",
@@ -355,7 +362,7 @@
    "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
    "source": "MASHABLE",
    "topic": "pokemon",
-   "published": "2026-10-24T09:00:00Z",
+   "published": "2026-10-24T09:18:08Z",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYnJlZDFqeVFwd0RmVUJWUlF1eFNWbVM5R0I1SUNjOENJUnN1VWFZME92eTJnS3VjZFBMTWNmVXpWSjBqTlRxaWFYanBrcXZORk5SVy13QWh0T0swVzIxYXF3eFVoQXZ4QktfRHV2WWczYUNhUldXWjI2OWE5YjdOVzln?oc=5"
   },
   {
@@ -371,13 +378,6 @@
    "topic": "pokemon",
    "published": "2026-10-24T02:30:00Z",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1DTWc3TW15OVBtcjRJWkFlT21IeEVVXzcwMEJWV3gwUDlMeVVadkdONE1jaEg2ejBaWDA5cFNGdVBnR1FaWnVyRDE2c3RiUHBnY2lselhPcE8wNVhqdHdYOEswSXFRdXJna3VpclFrLUF6Unl5Q1J1eDh3?oc=5"
-  },
-  {
-   "title": "Trading card nightmare as PSA reveals stunning list of more than 6k collector items swiped in brazen heist",
-   "source": "NEW YORK POST",
-   "topic": "pokemon",
-   "published": "2026-10-24T01:16:00Z",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS0RuOFRlc0VnLXN3NUZibkRja1U2ZW1tcU5GTlFWNW9sM2drS3UwV0RyU1R3N21EWS1vMVlpa1JTUmNOMGg2U2kzWFdNdDhmREdZR1FDV0RFd3lxMHRtVlBWZGg2SjlLZkNmaE5LclV4N0xfRGFiRlN2WUNvaHlkd2lYcWZtZ2MyYXZ2U205WGtIRjB4OTgyUHhHSjVtZG5EOFE?oc=5"
   },
   {
    "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
