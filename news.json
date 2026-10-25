@@ -1,19 +1,47 @@
 {
- "updated": "2026-10-25T13:03:41.431903Z",
+ "updated": "2026-10-25T13:52:27.892800Z",
  "items": [
   {
    "title": "Flight disruption and thousands without electricity after Storm Boelo",
    "source": "BBC SCIENCE",
    "topic": "science",
-   "published": "2026-10-25T13:00:35Z",
+   "published": "2026-10-25T13:50:04Z",
    "link": "https://www.bbc.co.uk/news/articles/c84g10r00221o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Travel disruption and power cuts after back-to-back storms",
    "source": "BBC SCIENCE",
    "topic": "science",
-   "published": "2026-10-25T12:57:35Z",
+   "published": "2026-10-25T13:45:16Z",
    "link": "https://www.bbc.co.uk/news/articles/c6n9rzde1n80o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fernandes dropped to Man Utd bench - was Carrick right?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T13:26:13Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmrlye5w3p79o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "r/opensource just banned AI, non-English speakers and more",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-25T13:25:32Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "title": "r/opensource just banned AI, non-English speakers, and more",
+   "source": "THE VERGE",
+   "topic": "ai",
+   "published": "2026-10-25T13:25:32Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "title": "Overnight winds reach 85mph as Scotland is hit by Storm Boelo",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T13:25:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Osaka 'not far off' her best but often ponders future",
@@ -91,20 +119,6 @@
    "topic": "local",
    "published": "2026-10-25T11:42:02Z",
    "link": "https://www.bbc.co.uk/news/articles/cqwy7wrx3nk7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Australia reach World Cup semis & New Zealand get back on track",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T11:21:50Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c60mekrgx4zvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Overnight winds reach 85mph as Scotland is hit by Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T11:14:48Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fallen trees cause 'significant damage' to railway",
@@ -317,13 +331,6 @@
    "link": "https://www.eurogamer.net/mass-effect-universe-details-dantics-claims"
   },
   {
-   "title": "What to expect from Apple’s ‘Pro and tell’ event",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-24T14:15:00Z",
-   "link": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro"
-  },
-  {
    "title": "Prime Video's Fallout reality competition Fallout Shelter: The Experiment premieres in January",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -448,13 +455,6 @@
    "topic": "tech",
    "published": "2026-10-23T12:00:25Z",
    "link": "https://www.bbc.co.uk/news/articles/cxnv025d8qpmo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Retro gaming is being overrun with AI",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-23T12:00:00Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port"
   },
   {
    "title": "The Indian workers filming their work to train AI",
