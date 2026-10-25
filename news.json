@@ -1,12 +1,54 @@
 {
- "updated": "2026-10-25T12:15:01.206103Z",
+ "updated": "2026-10-25T13:03:41.431903Z",
  "items": [
+  {
+   "title": "Flight disruption and thousands without electricity after Storm Boelo",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T13:00:35Z",
+   "link": "https://www.bbc.co.uk/news/articles/c84g10r00221o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Travel disruption and power cuts after back-to-back storms",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T12:57:35Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6n9rzde1n80o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Osaka 'not far off' her best but often ponders future",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T12:54:11Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/cwg7xy5x3590o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Police using AI risks making discrimination worse, researchers warn",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-25T12:18:56Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckpdg4pl7pgvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "England win cerebral palsy World Cup for first time",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T12:13:40Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Burnham open to 'honest discussion' on EU free movement",
    "source": "BBC NEWS",
    "topic": "uk",
    "published": "2026-10-25T12:11:23Z",
    "link": "https://www.bbc.co.uk/news/articles/c8e36kyk1qx5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Munster's Coombes backed after making groin grab allegation",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-25T12:11:03Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cvlyd576g55xo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "McMillan backs Coombes after groin grab allegation",
@@ -21,13 +63,6 @@
    "topic": "sport",
    "published": "2026-10-25T12:03:17Z",
    "link": "https://www.bbc.co.uk/sport/cricket/articles/c3qjng48exxwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Flight disruption and thousands without electricity after Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T12:00:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/c84g10r00221o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Google’s AI search changes upended online publishing",
@@ -65,7 +100,7 @@
    "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c60mekrgx4zvo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Overnight winds hit 85mph as Scotland is hit by Storm Boelo",
+   "title": "Overnight winds reach 85mph as Scotland is hit by Storm Boelo",
    "source": "BBC SCIENCE",
    "topic": "science",
    "published": "2026-10-25T11:14:48Z",
@@ -86,32 +121,11 @@
    "link": "https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Wales deputy helps Ospreys make themselves at home",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T10:55:13Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cr5ynq1p600do?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Travel disruption and power cuts after back-to-back storms",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T10:54:23Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6n9rzde1n80o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-10-25T10:38:15Z",
    "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Osaka 'not far off' her best but often ponders future",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T10:35:26Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cwg7xy5x3590o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "More wet and windy weather to follow stormy weekend",
@@ -135,13 +149,6 @@
    "link": "https://www.eurogamer.net/cyberpunk-edgerunners-season-2-major-theme"
   },
   {
-   "title": "The penguins are noisy, the people fantastic - what it takes to be an Antarctic postmaster",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T09:59:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6dxwklr409eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Sam Fender calls out ticket prices ahead of tour",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -154,13 +161,6 @@
    "topic": "world",
    "published": "2026-10-25T09:00:00Z",
    "link": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Watch Match of the Day on iPlayer",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T09:00:00Z",
-   "link": "https://www.bbc.co.uk/iplayer/episode/m0033jlx?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa",
