@@ -1,12 +1,75 @@
 {
- "updated": "2026-10-26T09:29:15.452383Z",
+ "updated": "2026-10-26T10:14:26.038578Z",
  "items": [
   {
-   "title": "Clean-up under way as Storm Boelo leaves 90,000 without power",
+   "title": "The city that fought Flock",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-26T10:00:00Z",
+   "link": "https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure"
+  },
+  {
+   "title": "Storm Boelo leaves 90,000 without power as Met Office issues new wind warning",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-10-26T09:23:40Z",
+   "published": "2026-10-26T09:59:04Z",
    "link": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Call of Duty: Modern Warfare 4 players are calling for a PvE-only version of its DMZ mode - just like every extraction shooter before it",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-26T09:56:30Z",
+   "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-pve-petition"
+  },
+  {
+   "title": "Canadian political party leader blames BioWare's closure on private equity, says government should help former employees buy it back",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-26T09:53:04Z",
+   "link": "https://www.eurogamer.net/canadian-politician-bioware-employees-buy-studio-federal-support"
+  },
+  {
+   "title": "Healey to shield low-income pensioners from income tax in the Budget",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-26T09:47:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Late Mbappe goal earns Real win at Barca in dramatic Clasico",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-26T09:41:25Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/crje5zewk52no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Burnham open to 'honest discussion' on EU free movement",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-26T09:35:08Z",
+   "link": "https://www.bbc.co.uk/news/articles/c8e36kyk1qx5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Crowds welcome Venezuela's María Machado after months in exile",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T09:31:12Z",
+   "link": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Watch: Best of Scottish Championship & League 1 action",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-26T09:26:06Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cqgm04mjkgzwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Electricity restored to all of NI after Storm Boelo",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-26T09:24:07Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqe9lykm93jmo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Plane veers off runway at Birmingham Airport during storm",
@@ -58,7 +121,7 @@
    "link": "https://www.bbc.co.uk/weather/articles/cqwy7w8dryrxo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Doha to Omagh - A 7160-mile journey for 'my World Cup'",
+   "title": "Doha to Omagh - A 7,160-mile journey for 'my World Cup'",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-26T08:02:19Z",
@@ -86,32 +149,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cqdr8e81xjy7o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Who am I? Plus today's other quizzes",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-26T06:53:00Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c32l4kyk7gdeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Vikings are last unbeaten team as Chiefs lose - NFL week seven",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-26T06:42:44Z",
-   "link": "https://www.bbc.co.uk/sport/american-football/articles/c61wvzxjxnjxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Plans to create a wildflower meadow take shape",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-10-26T06:33:07Z",
    "link": "https://www.bbc.co.uk/news/articles/c8vgx5qyrl45o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Daughter wins £127k claim for caring for mum at home",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-26T06:23:01Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr93zp78g580o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Parish celebrates restored 1,000-year-old church",
@@ -135,13 +177,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Spotify uploads lyrics for Dolly Parton's Welsh version of Jolene in Irish",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-26T06:15:09Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw33xpl5xl8mo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Salon owners urge Budget VAT cut as staffing pressures grow",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -163,13 +198,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c3vgxk9w9rqjo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Knighting Sinfield 'easiest decision anyone's had to make,' says Prince William",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-26T06:00:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/c65ynjkrjq4wo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Amputee gets blue badge and calls for review",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -189,13 +217,6 @@
    "topic": "science",
    "published": "2026-10-26T04:41:36Z",
    "link": "https://www.bbc.co.uk/news/articles/cxdd8gr1vje0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Australian murderer loses bid to eat Vegemite in prison",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-26T04:05:28Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "What is the Budget and what could be in it?",
@@ -261,6 +282,13 @@
    "link": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement"
   },
   {
+   "title": "Business Daily",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-25T19:00:00Z",
+   "link": "https://www.bbc.co.uk/sounds/play/w3ct8ggp?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "187K+ fans call for EA to \"Save Mass Effect\"",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -289,25 +317,11 @@
    "link": "https://www.eurogamer.net/elden-ring-movie-a24-budget-200-million"
   },
   {
-   "title": "Now you can watch Instagram Reels on your Apple TV",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-25T16:20:17Z",
-   "link": "https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv"
-  },
-  {
    "title": "Winds and trees cause 'significant damage' to trains",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-10-25T15:13:17Z",
    "link": "https://www.bbc.co.uk/news/articles/c3y0ep2q2q42o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "An officially licensed Knightmare game, based on the British TV show, is coming next year",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-25T14:32:00Z",
-   "link": "https://www.eurogamer.net/knightmare-game-free-pc-original-cast"
   },
   {
    "title": "r/opensource just banned AI, non-English speakers, and more",
@@ -338,13 +352,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Cyberpunk: Edgerunners Season 2 is more than a retread of Netflix's beloved first season - it's a story that truly understands what it means to exist in Night City",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-25T10:00:00Z",
-   "link": "https://www.eurogamer.net/cyberpunk-edgerunners-season-2-major-theme"
-  },
-  {
    "title": "Pokemon Tcg Pocket: Every Card In Dual Fusion Revealed So Far",
    "source": "IMDB",
    "topic": "pokemon",
@@ -357,13 +364,6 @@
    "topic": "business",
    "published": "2026-10-25T07:15:38Z",
    "link": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Heating oil costs 'more than double' ahead of winter",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-25T07:12:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6n8de1jgrdvo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fear that care reforms ignore disabled people",
