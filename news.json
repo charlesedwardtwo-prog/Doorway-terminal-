@@ -1,6 +1,34 @@
 {
- "updated": "2026-10-26T19:31:47.262791Z",
+ "updated": "2026-10-26T20:19:07.364858Z",
  "items": [
+  {
+   "title": "Mass Effect fans ramp up efforts to save BioWare's RPG series with a Times Square billboard and plans for more ads outside The Game Awards",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-26T20:07:29Z",
+   "link": "https://www.eurogamer.net/mass-effect-fans-save-rpg-times-square"
+  },
+  {
+   "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-10-26T20:04:16Z",
+   "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/"
+  },
+  {
+   "title": "Lula wins fourth term in dramatic Brazil election comeback",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T20:00:30Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-10-26T19:57:23Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Ballon d'Or winner? Kane's best Bundesliga goals",
    "source": "BBC SPORT",
@@ -63,13 +91,6 @@
    "topic": "uk",
    "published": "2026-10-26T18:33:31Z",
    "link": "https://www.bbc.co.uk/news/articles/cqd093gk1rjeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Lula wins fourth term in dramatic Brazil election comeback",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-26T18:26:19Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The NBA’s response to gambling scandals is to add more gambling partnerships",
@@ -184,13 +205,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cmx2dyd73gyeo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-10-26T17:20:54Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "McDowell becomes latest major champion to exit LIV",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -287,13 +301,6 @@
    "topic": "local",
    "published": "2026-10-26T14:09:54Z",
    "link": "https://www.bbc.co.uk/news/articles/cqly0my05kxko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "After a year of testing, one of Steam's best features is finally out of beta, making it easier to find games you might actually like",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-26T14:06:37Z",
-   "link": "https://www.eurogamer.net/steam-personal-calendar-full-release"
   },
   {
    "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
@@ -497,13 +504,6 @@
    "topic": "tech",
    "published": "2026-10-23T12:00:25Z",
    "link": "https://www.bbc.co.uk/news/articles/cxnv025d8qpmo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-10-22T15:25:02Z",
-   "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
   }
  ]
 }
