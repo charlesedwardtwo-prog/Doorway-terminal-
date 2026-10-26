@@ -1,6 +1,83 @@
 {
- "updated": "2026-10-26T16:20:21.581407Z",
+ "updated": "2026-10-26T17:08:16.820725Z",
  "items": [
+  {
+   "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T17:00:09Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Everything old is new again with the Fitbit Edge",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-26T17:00:00Z",
+   "link": "https://www.theverge.com/tech/1018621/fitbit-edge-review-fitness-tracker-wearables-health"
+  },
+  {
+   "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-26T16:59:33Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man dies after collision involving five vehicles",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-10-26T16:58:37Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm9qz5711lwro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Storm Boelo leaves 90,000 without power as Met Office issues new wind warning",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-26T16:54:11Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Lula wins fourth term in dramatic Brazil election comeback",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T16:49:14Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The Sony WH-1000XM4C bring back a beloved headphone design",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-26T16:45:00Z",
+   "link": "https://www.theverge.com/tech/1018115/sony-wh-1000xm4c-headphones-review"
+  },
+  {
+   "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-26T16:39:16Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "More than 60 Christians killed in Ethiopia 'massacre', church official says",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T16:31:09Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g175dgdx2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Israel and the US are both going to the polls - the consequences will be global",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T16:30:34Z",
+   "link": "https://www.bbc.co.uk/news/articles/crlykey9jywqo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T16:27:17Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Independent review announced into murder of student Henry Nowak",
    "source": "BBC NEWS",
@@ -9,9 +86,30 @@
    "link": "https://www.bbc.co.uk/news/articles/cv70pnw784x7o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Tributes paid to man killed by falling tree",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-26T16:11:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqkgl8rlmvn2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Cutting doubles would destroy careers' - angry players urge ATP rethink",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-26T16:07:20Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/cr78pxd66d47o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Instagram chases YouTube with a push for longer, widescreen videos",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-26T16:05:44Z",
+   "link": "https://www.theverge.com/tech/1018688/instagram-longform-widescreen-video-features-youtube"
+  },
+  {
    "title": "Microsoft offers buyouts to 60,000 employees",
    "source": "THE VERGE",
-   "topic": "ai",
+   "topic": "tech",
    "published": "2026-10-26T15:58:27Z",
    "link": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
   },
@@ -21,13 +119,6 @@
    "topic": "world",
    "published": "2026-10-26T15:46:31Z",
    "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Police arrest teenager after shooting that injured 12, including children, in Florida",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-26T15:45:30Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Burnham leaves door open to referendum on EU free movement",
@@ -51,11 +142,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cqy0r3n17gjyo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "How 'Lula's Army' WhatsApp chat helped turn Brazil election around",
+   "title": "Thousands still without power after Storm Boelo",
    "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-26T15:37:33Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&at_campaign=rss"
+   "topic": "uk",
+   "published": "2026-10-26T15:34:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmx2dyd73gyeo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Howe and Nagelsmann high on Man Utd's list if Carrick sacked",
@@ -79,13 +170,6 @@
    "link": "https://www.theverge.com/tech/1018636/microsoft-surface-laptop-ultra-october-firmware-update"
   },
   {
-   "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-26T15:27:54Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Why is Wilcox in line of fire from Man Utd fans?",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -93,14 +177,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/ck5yn5j37en0o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Electricity restored to all of NI after storm",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-26T15:17:59Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqe9lykm93jmo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Electricity restored to all of NI after Storm Boelo",
+   "title": "'Safety first' as wedding guests stranded on island after Storm Boelo",
    "source": "BBC SCIENCE",
    "topic": "science",
    "published": "2026-10-26T15:17:59Z",
@@ -114,16 +191,9 @@
    "link": "https://www.eurogamer.net/control-resonant-the-board-dialogue-crafted-gibberish"
   },
   {
-   "title": "Russell Brand asked assistant for female fan phone numbers, court hears",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-26T14:57:11Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwly02l45ny3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Part of Antarctica named after former BBC science correspondent",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC SCIENCE",
+   "topic": "science",
    "published": "2026-10-26T14:54:40Z",
    "link": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss"
   },
@@ -133,20 +203,6 @@
    "topic": "gaming",
    "published": "2026-10-26T14:47:30Z",
    "link": "https://www.eurogamer.net/arkane-lyon-consultation-period-extended-december"
-  },
-  {
-   "title": "Remarkable’s refurbished Paper Pro Move bundle is over $100 off",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-26T14:41:43Z",
-   "link": "https://www.theverge.com/gadgets/1018528/remarkable-paper-pro-move-nintendo-switch-2-fujifilm-deal-sale"
-  },
-  {
-   "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-26T14:34:52Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
@@ -161,13 +217,6 @@
    "topic": "sport",
    "published": "2026-10-26T14:22:30Z",
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwg5jn7845jdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-26T14:16:09Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Twitchers disrupt buses in quest to see rare bird",
@@ -186,28 +235,14 @@
   {
    "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-26T14:00:00Z",
    "link": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic"
   },
   {
-   "title": "Batty leaves Surrey to join Chennai Super Kings",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-26T13:56:44Z",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cj5ynk9v0x5eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Racecourse fined after jockey taken to A&E in horsebox",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-26T13:50:26Z",
-   "link": "https://www.bbc.co.uk/sport/horse-racing/articles/c6lykg4l72xlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-26T13:32:49Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
   },
@@ -221,16 +256,9 @@
   {
    "title": "Can AI help solve the COBOL code crisis?",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-26T13:15:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
-  },
-  {
-   "title": "Smotherman beats Ireland's Power in delayed PGA Tour finish",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-26T13:07:22Z",
-   "link": "https://www.bbc.co.uk/sport/golf/articles/c6x29gmyz21ko?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Despite initial player concerns, Capcom feels good about Onimusha: Way of the Sword's difficulty, and says it has the data to prove it got it right",
@@ -252,13 +280,6 @@
    "topic": "gaming",
    "published": "2026-10-26T12:05:37Z",
    "link": "https://www.eurogamer.net/shenmue-3-enhanced-edition-delayed"
-  },
-  {
-   "title": "Storm Boelo leaves 90,000 without power as Met Office issues new wind warning",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-26T12:00:20Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Stunning photos capture October's Hunter's Moon around the world",
@@ -373,13 +394,6 @@
    "link": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
   },
   {
-   "title": "Village to vote on 'leaving UK' over migrant plans",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-10-25T11:42:02Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqwy7wrx3nk7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Budget to include £1bn for social and affordable housing",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -408,13 +422,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
   },
   {
-   "title": "Pennsylvania will require labels on AI-generated ads",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-24T18:32:21Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
-  },
-  {
    "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
    "source": "MASHABLE",
    "topic": "pokemon",
@@ -434,13 +441,6 @@
    "topic": "tech",
    "published": "2026-10-24T00:05:45Z",
    "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "OpenAI now trains its frontier AI models with no internet access",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-23T21:11:07Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
   },
   {
    "title": "Updated Google privacy policy says your Gmail might be used for advertising",
