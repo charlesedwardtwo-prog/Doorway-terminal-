@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-26T06:34:41.830959Z",
+ "updated": "2026-10-26T07:40:42.002379Z",
  "items": [
+  {
+   "title": "Who am I? Plus today's other quizzes",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-26T06:53:00Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c32l4kyk7gdeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Vikings are last unbeaten team as Chiefs lose - NFL week seven",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-26T06:42:44Z",
+   "link": "https://www.bbc.co.uk/sport/american-football/articles/c61wvzxjxnjxo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Plans to create a wildflower meadow take shape",
    "source": "BBC NORFOLK",
@@ -44,6 +58,13 @@
    "link": "https://www.bbc.co.uk/news/articles/c5x2v3ky1ek7o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-26T06:16:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Spotify uploads lyrics for Dolly Parton's Welsh version of Jolene in Irish",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -63,6 +84,13 @@
    "topic": "science",
    "published": "2026-10-26T06:07:12Z",
    "link": "https://www.bbc.co.uk/news/articles/c34g1e81e9jeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fire-hit nature reserve 'will never be the same'",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-26T06:03:12Z",
+   "link": "https://www.bbc.co.uk/news/articles/c3vgxk9w9rqjo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Knighting Sinfield 'easiest decision anyone's had to make,' says Prince William",
@@ -177,13 +205,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cw80zk9k51j1o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-26T00:07:16Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Phantom Blade Zero review",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -191,23 +212,9 @@
    "link": "https://www.eurogamer.net/phantom-blade-zero-review-1"
   },
   {
-   "title": "Majority of homes in NI have power restored after Storm Boelo",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-25T23:53:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/c84g10r00221o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man City's perfect start over after draw at rivals Man Utd",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-25T23:52:55Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cj3vq1ggw247o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Data centre debate heats up ahead of US midterms - here's what you need to know",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC TECH",
+   "topic": "tech",
    "published": "2026-10-25T23:44:34Z",
    "link": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss"
   },
@@ -469,13 +476,6 @@
    "topic": "tech",
    "published": "2026-10-22T18:26:56Z",
    "link": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Race to update services' computer systems after cyber-security flaw found",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-10-22T17:12:51Z",
-   "link": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
