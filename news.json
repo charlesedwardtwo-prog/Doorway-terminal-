@@ -1,12 +1,33 @@
 {
- "updated": "2026-10-27T04:05:06.198996Z",
+ "updated": "2026-10-27T04:59:07.645421Z",
  "items": [
+  {
+   "title": "Meghan to co-host Junior MasterChef Australia",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-27T04:43:56Z",
+   "link": "https://www.bbc.co.uk/news/articles/crgqwg3ll1v1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Where are Wales internationals really made?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-27T04:34:20Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3gy0n44k4o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Sharp rise in sales of essential goods after government call to stock up",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-10-27T03:48:21Z",
+   "published": "2026-10-27T04:29:52Z",
    "link": "https://www.bbc.co.uk/news/articles/c5rmy84np001o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Storm Boelo leaves thousands without power as Met Office issues new wind warning",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-27T04:13:56Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Jay-Z to perform at Super Bowl half-time show",
@@ -73,17 +94,10 @@
   },
   {
    "title": "'I'm a single mum on £41,000 and limit my weekly shop to £40.' What do you want from the Budget?",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-10-27T00:01:00Z",
    "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "DUP MLA joins Lockhart's call for O'Neill's removal as first minister",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-27T00:00:05Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq8jzxgewrvpo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fighters exploited & forgotten in failing system - Smith",
@@ -135,13 +149,6 @@
    "link": "https://www.bbc.co.uk/sport/cricket/articles/cme8rw2gkd9go?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Storm Boelo leaves 22,000 without power as Met Office issues new wind warning",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-26T22:43:44Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Samsung’s Switch 2-ready MicroSD Express card is on sale for less than $50",
    "source": "THE VERGE",
    "topic": "tech",
@@ -154,13 +161,6 @@
    "topic": "tech",
    "published": "2026-10-26T21:45:31Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
-  },
-  {
-   "title": "Arsenal eye Monza striker Varela - Tuesday's gossip",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-26T21:38:42Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cj3vq7l22yk9o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'Maxxing' selected as Dictionary.com word of the year",
@@ -380,6 +380,13 @@
    "link": "https://www.bbc.co.uk/weather/articles/c6zjxgj83n80o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Storm Boelo clears but more wind and rain bear down on UK",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-26T11:21:24Z",
+   "link": "https://www.bbc.co.uk/weather/articles/cqwy7w8dryrxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Salon owners urge Budget VAT cut as staffing pressures grow",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -434,13 +441,6 @@
    "topic": "tech",
    "published": "2026-10-25T23:44:34Z",
    "link": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Business Daily",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-25T19:00:00Z",
-   "link": "https://www.bbc.co.uk/sounds/play/w3ct8ggp?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Winds and trees cause 'significant damage' to trains",
