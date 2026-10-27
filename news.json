@@ -1,6 +1,55 @@
 {
- "updated": "2026-10-27T17:36:51.941034Z",
+ "updated": "2026-10-27T18:27:51.653472Z",
  "items": [
+  {
+   "title": "Trump is making it easier for fossil fuel companies to leak methane",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-27T18:25:13Z",
+   "link": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump"
+  },
+  {
+   "title": "Tax on banks, energy bill help and minimum wage rise - what could be in the Budget?",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-27T18:18:36Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Two in court over alleged Iran-linked plot at RAF Fairford",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-27T18:17:34Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqly3v5vz4kko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Weather warning lifted as third storm to hit Scotland eases off",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-27T18:09:24Z",
+   "link": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Prep time for Wallabies a challenge - Borthwick",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-27T18:05:24Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwn8d7ppr9d3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Will a new strategy help protect Northern Ireland's nature?",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-27T17:51:13Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq0megg87n3po?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Lancashire treatment of Anderson disrespectful - Broad",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-27T17:47:58Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/ck5ynrz680q4o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Men abused woman after her husband drugged and advertised her online, court told",
    "source": "BBC NEWS",
@@ -14,6 +63,13 @@
    "topic": "tech",
    "published": "2026-10-27T17:30:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai"
+  },
+  {
+   "title": "Police failings in friends' death on mountain ridge could risk lives, coroner warns",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-27T17:25:29Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw20348xyjg2o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Wenger's 'daylight' offside trial unlikely to be extended",
@@ -30,14 +86,14 @@
    "link": "https://www.bbc.co.uk/news/articles/cmqlngkz0elxo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Where are Celtic and O'Neill a year after Rodgers exit?",
+   "title": "Where are Celtic & O'Neill a year after Rodgers exit?",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-27T17:15:11Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cmj47zzy4778o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Nanotyrannus skeleton auctioned for $47.3m in New York",
+   "title": "Nanotyrannus skeleton sells for $47.3m in New York auction",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-10-27T17:10:15Z",
@@ -65,32 +121,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/ck3wvl2ygd77o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Turnout so far highest on record as Israelis vote in pivotal election",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-27T17:00:51Z",
-   "link": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Two in court over alleged Iran-linked plot at RAF Fairford",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-27T17:00:31Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqly3v5vz4kko?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "The Super Mouse puts a touchscreen macro pad under your hand",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-10-27T17:00:00Z",
    "link": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter"
-  },
-  {
-   "title": "Sexton backs Furlong after groin grab allegation",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-27T16:58:14Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6pwg0pqdz9ko?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "\"This is a serious incident\" - Kingdom Come: Deliverance developer Warhorse suffers cyberattack",
@@ -107,18 +142,18 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
   },
   {
-   "title": "Tiny zebra-striped bee in West a 'huge surprise'",
+   "title": "Tiny zebra-striped bee sighting a 'huge surprise'",
    "source": "BBC SCIENCE",
    "topic": "science",
    "published": "2026-10-27T16:50:13Z",
    "link": "https://www.bbc.co.uk/news/articles/c3dxwjx7xpj0o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "New weather warning as third storm hits Scotland",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-27T16:49:10Z",
-   "link": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss"
+   "title": "Russell Brand told police he never had non-consensual sex",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-27T16:46:03Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm74p7w4dwpko?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Meta’s $25 billion legal loss just put blood in the water",
@@ -126,13 +161,6 @@
    "topic": "tech",
    "published": "2026-10-27T16:44:40Z",
    "link": "https://www.theverge.com/policy/1019604/new-mexico-meta-cambridge-analytica-kids-safety-settlement"
-  },
-  {
-   "title": "Milan derby to be shown live on BBC Two",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-27T16:38:17Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crvg93zvgjzzo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "MPs and MSP detained by Israel and barred from entering West Bank",
@@ -161,20 +189,6 @@
    "topic": "world",
    "published": "2026-10-27T16:11:35Z",
    "link": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Funeral assault dad arrested after court no-show",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-27T16:02:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqj9k8r00829o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Major League Baseball is looking for a new kind of fan",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-27T16:02:43Z",
-   "link": "https://www.theverge.com/report/1019478/major-league-baseball-fandom-social-media-world-series-influencers"
   },
   {
    "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
@@ -240,13 +254,6 @@
    "link": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Council rejects rollercoaster overlooking homes",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-27T15:11:03Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm0j05eq3y45o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Roblox users have made a playable version of Counter-Strike and full, working PlayStation games that you can play right now",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -268,18 +275,18 @@
    "link": "https://www.bbc.co.uk/news/videos/cmr4y51lp5zko?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Ballon d'Or ceremony raises case of French sports journalist jailed in Algeria",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-27T14:29:39Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2qgyqr79wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Nintendo is hosting a new Indie World showcase tomorrow, featuring games for Switch and Switch 2, and it'll be 15 minutes long",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-10-27T14:06:39Z",
    "link": "https://www.eurogamer.net/nintendo-new-indie-world-showcase-october-28"
-  },
-  {
-   "title": "Will a new strategy help protect Northern Ireland's nature?",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-27T14:04:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq0megg87n3po?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
@@ -329,13 +336,6 @@
    "topic": "gaming",
    "published": "2026-10-27T11:42:58Z",
    "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-shipment-map-date"
-  },
-  {
-   "title": "What is the Budget and what could be in it?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-27T11:06:53Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Data center backlash is uniting America",
