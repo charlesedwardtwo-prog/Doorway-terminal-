@@ -1,47 +1,166 @@
 {
- "updated": "2026-10-28T12:06:24.680822Z",
+ "updated": "2026-10-28T13:27:09.482879Z",
  "items": [
+  {
+   "title": "This is how badly X wants you to pay to promote your posts",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T13:26:39Z",
+   "link": "https://www.theverge.com/tech/1020488/x-twitter-animated-hand-point-promote-posts"
+  },
+  {
+   "title": "McClean leaves Derry City after contract dispute",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-28T13:25:57Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqn738v634xxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "As Skydance merges with Warner Bros. and Paramount, the company offers voluntary redundancy and mandates return to the office",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-28T13:22:47Z",
+   "link": "https://www.eurogamer.net/skydance-return-to-office-voluntary-buyouts"
+  },
+  {
+   "title": "'Dissident republicans may be responsible' for hotel explosive device - PSNI",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-28T13:22:22Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6lykg0nkll0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Legal bid to overturn Drumcree march ban fails",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-28T13:20:56Z",
+   "link": "https://www.bbc.co.uk/news/articles/c674p7v91wx8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Budget 2026: Key points at a glance",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-28T13:17:11Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Russell Brand tells court allegations had devastating impact on him",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-28T13:16:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmvgxl5kdgrzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Chancellor begins to deliver his first Budget",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-28T13:13:17Z",
+   "link": "https://www.bbc.co.uk/news/videos/cqn49vy2jlx0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Briton Azim set for December return against Valenzuela",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-28T13:12:41Z",
+   "link": "https://www.bbc.co.uk/sport/boxing/articles/c6rry10rejnyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "TikTok is going after Yelp and Google Maps with an in-app restaurant guide",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T13:00:00Z",
+   "link": "https://www.theverge.com/news/1020267/tiktok-viral-restaurant-recommendations-must-eat-yelp"
+  },
+  {
+   "title": "John Healey pays homage to predecessor Rachel Reeves",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-28T12:57:22Z",
+   "link": "https://www.bbc.co.uk/news/videos/c95ynvr04vgdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man in 20s killed in three-vehicle collision",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-10-28T12:48:34Z",
+   "link": "https://www.bbc.co.uk/news/articles/cme8rj5j4941o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Inside Amazon’s Echo hardware event",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T12:46:42Z",
+   "link": "https://www.theverge.com/tech/1020388/inside-amazons-echo-hardware-event"
+  },
+  {
+   "title": "Patient living in 'horrific pain' due to UK-wide drugs shortage",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-28T12:39:42Z",
+   "link": "https://www.bbc.co.uk/news/articles/cr20w5vx39peo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Almost all of Amazon’s new Echo gear is available now",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T12:29:52Z",
+   "link": "https://www.theverge.com/gadgets/1019686/amazon-echo-dot-studio-camera-frame-show-16-buy"
+  },
+  {
+   "title": "How will the tax cut on gherkins help restaurants?",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-28T12:28:29Z",
+   "link": "https://www.bbc.co.uk/news/videos/c6y0e1812r1no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "More cats abandoned 'due to rising costs'",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-28T12:21:16Z",
+   "link": "https://www.bbc.co.uk/news/videos/cked3en749pyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Everything announced at Amazon’s October 2026 hardware launch",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T12:20:40Z",
+   "link": "https://www.theverge.com/tech/1020403/everything-announced-at-amazons-october-2026-hardware-launch"
+  },
+  {
+   "title": "What we know so far about deadly Spain train crash",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-28T12:14:44Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Relax, I love Kane and Lamine Yamal' - Henry defends his Ballon d'Or hosting",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-28T12:13:23Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm369r0n0zk5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Amazon’s new Echo line is here: the 6 biggest updates",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T12:08:15Z",
+   "link": "https://www.theverge.com/tech/1020035/amazon-fall-2026-hardware-launch-biggest-announcements"
+  },
+  {
+   "title": "Terminally ill mum who can't talk, walk or dress herself refused Pip payment",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-28T12:07:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckqxndjqdddro?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Voters in Texas agree: They hate data centers",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-28T12:00:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas"
-  },
-  {
-   "title": "Amazon’s first digital picture frame lets you add voice notes to photos",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-28T12:00:00Z",
-   "link": "https://www.theverge.com/tech/1019626/amazon-alexa-plus-photo-digital-picture-frame-smart-speaker"
-  },
-  {
-   "title": "How a grocery merger could expand a surveillance network",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-28T12:00:00Z",
-   "link": "https://www.theverge.com/policy/1020187/kroger-grocery-merger-surveillance"
-  },
-  {
-   "title": "Amazon’s new Echo Studio speaker has a camera",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-28T12:00:00Z",
-   "link": "https://www.theverge.com/tech/1020241/amazon-echo-studio-home-camera-dot-smart-home-hub"
-  },
-  {
-   "title": "Our first look at Amazon’s big new Echo Show 16",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-28T12:00:00Z",
-   "link": "https://www.theverge.com/tech/1020286/amazon-echo-show-16-hands-on-price-screen-styles"
-  },
-  {
-   "title": "Spending time with the Echo Time — a smart clock that senses you sleeping",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-28T12:00:00Z",
-   "link": "https://www.theverge.com/tech/1020352/amazon-echo-time-smart-alarm-clock-hands-on"
   },
   {
    "title": "\"We need to understand what the need is here\" - Arc Raiders studio still undecided about the future of PvE despite a seemingly successful test",
@@ -51,25 +170,11 @@
    "link": "https://www.eurogamer.net/arc-raiders-pve-mode-embark-undecided"
   },
   {
-   "title": "Russell Brand tells court allegations had devastating impact on him",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-28T11:56:19Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmvgxl5kdgrzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Arsenal to appeal against Dowman red card",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-28T11:55:21Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/c3dxwdnjqj17o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "What we know so far about deadly Spain train crash",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-28T11:54:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "No shirt safe as Wales boss Lynn hints at changes",
@@ -107,34 +212,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
   },
   {
-   "title": "Viable explosive device in package delivered to hotel",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-28T11:27:15Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6lykg0nkll0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Legal bid to overturn Drumcree march ban fails",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-28T11:13:00Z",
-   "link": "https://www.bbc.co.uk/news/articles/c674p7v91wx8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Serrano to end career in Puerto Rico in January",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-28T11:11:53Z",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/cqn8denld133o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'I earned my spot' - Lewis can be England hero after controversial selection",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-28T11:06:27Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c5djv7e49lwmo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "You may get the right to find out what your colleagues earn - here's why",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -156,13 +233,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "What do you want from the Budget?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T10:29:19Z",
-   "link": "https://www.bbc.co.uk/news/videos/c63elx3x70jno?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
    "source": "BBC NEWS",
    "topic": "world",
@@ -177,53 +247,11 @@
    "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Plaid demands more cash, but how could the Budget affect Wales?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T10:15:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr1ex97l1n7yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Celebrity Traitors' Joe Lycett's tribute to viral TikTok nan",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-28T09:56:13Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6x2qggrdxqeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Former Conservative chancellor unsure Budget will 'fix big problems'",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T09:54:35Z",
-   "link": "https://www.bbc.co.uk/news/videos/c65ynlg4rxvqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Rockstar Games employees have locked in a union vote next month, and it'll take place over Grand Theft Auto 6's release window",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-10-28T09:49:39Z",
    "link": "https://www.eurogamer.net/rockstar-union-vote-november"
-  },
-  {
-   "title": "Scotland men and women win European openers",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-28T09:44:11Z",
-   "link": "https://www.bbc.co.uk/sport/articles/cwp8grl5xypjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'Government to decide who to help and who picks up the tab'",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T09:25:28Z",
-   "link": "https://www.bbc.co.uk/news/videos/cw1l39g2n8dyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Energy bill help, minimum wage rise and bank taxes - what could be in the Budget?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T09:25:19Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "GTA 6 is a massive 210GB download on PlayStation 5",
@@ -240,25 +268,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "A Retired Decorator Kept His Old Pokemon Cards in the Attic for 15 Years. They Just Sold for Over $2 Million",
-   "source": "BITCOIN NEWS",
-   "topic": "pokemon",
-   "published": "2026-10-28T07:51:19Z",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPM1hVNEEteFJZcUViNFppZUdiNUV4N1JhbTEtV2xQeElIaFJweHRsQ3U0alZiTUk4RjZJM0xQcmN0dFY4dTV4U05wUHNSZnNxS2tRakh5WTJMU2otRXFvTVpfQjdFcEZlY2lydEcyS3RCanZYdzI5ODZYSmx5V0tRVkxvaTFmc0Nja2xLcXdxMlR5UW9UNkdWc3BRSGFuNDQwSzlKeVBxZkF4amdINl82b3RHUk04cG5OTzY2NjhKNmZCRjUzUnJkZXE3Rmd2NVZMNVkwaGhveWI1T3VZTzBwQg?oc=5"
-  },
-  {
    "title": "'I'm spending my retirement fighting migrant plan'",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-10-28T06:26:56Z",
    "link": "https://www.bbc.co.uk/news/articles/cw5yn66gprgdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Losing my legs ended my football dream - now skiing gives me freedom",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-28T06:16:37Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckg5jeee9q83o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Twitchers raise cash to give villagers tweet relief",
@@ -331,18 +345,18 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
   },
   {
+   "title": "First Pokemon Center in Thailand opens on 1 December at CentralWorld",
+   "source": "LIFESTYLE ASIA HONG KONG",
+   "topic": "pokemon",
+   "published": "2026-10-27T20:30:20Z",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYm0zdWxTdWdVM1V3YnVsbk9ZZTlQQV8xNE9GSVFGeEVhU1d0MGE1YzBteUFXcXhMaHBXakVPVlhRVFpOaWlPZ3J3UTV4blRETzdWTHQtdDB0U3ItZzBBeTFjVTNnSXlyWXZpVGxFOGhPZHJQRFlNbU5uY2ZGVElqOVMtdnRVNzhSRGwxaXZlcVo?oc=5"
+  },
+  {
    "title": "Tech Life",
    "source": "BBC TECH",
    "topic": "tech",
    "published": "2026-10-27T20:30:00Z",
-   "link": "https://www.bbc.co.uk/sounds/play/w3ct8jys?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokémon and McDonald’s Reveal 15 New Happy Meal Toys Ahead of November Release",
-   "source": "ESSENTIAL JAPAN",
-   "topic": "pokemon",
-   "published": "2026-10-27T18:58:55Z",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdVYxMnJhZG5kdldwSE1keWxYZHBYOTRWbHU0d0VRRFBHSXVWY2pzQ0NPMEo1LWNJb1dEc3V4ZVE2R0xGaEUyLTJBUGNMQU5adExDNnhxSkJaUDBiZGNzYlVzd2NpWWd4dVJISWMwX2lOVjNGOF93dWlCWF9MYUd3dW5SOXhKSjhac1MzVHMybC1kWjczcDA4RTZlM3ZnUWlKTVRXUldqaGJmRlE2S2F2dA?oc=5"
+   "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_west_africa?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
@@ -408,13 +422,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c3dxwjx7xpj0o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Norwich MP detained by Israel and barred from entering West Bank",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-10-27T16:34:44Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqg7xenmde78o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
    "source": "THE VERGE",
    "topic": "ai",
@@ -427,20 +434,6 @@
    "topic": "ai",
    "published": "2026-10-27T16:00:22Z",
    "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
-  },
-  {
-   "title": "Google’s next Genie AI model generates more realistic experiences",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-27T16:00:00Z",
-   "link": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
-  },
-  {
-   "title": "Revisiting Ecstatica - the pioneering survival horror that used its fancy ellipsoid graphics tech to fill its world with dongs",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-27T15:36:35Z",
-   "link": "https://www.eurogamer.net/ecstatica-now-playing"
   },
   {
    "title": "Scotland's recycling rates at five-year low. How is your area doing?",
@@ -497,6 +490,13 @@
    "topic": "pokemon",
    "published": "2026-10-26T13:28:51Z",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY2xuSzZWT19Ed1plNFZxcXNkWkpULWZvUkg4OXZ6MTkxcFozcVpmc09tVUtzQlhxYW9QSVRSZ3RZVGxvdXdhYm5oZkMzaGVBSWJaU1F6aFRQOTh1SXdfeHFzQzlBTk8zRnZRUUNKNUVBVFBFdTVuQzQ3bFAwdlJsX0plXzk2QlMxTktWWkpwNk9SaF82dGFyalFZeUFOdTZjTFVJdFZkV2hJV1ZD?oc=5"
+  },
+  {
+   "title": "Lancaster prisoners among six charged over theft of high-value Pokemon cards",
+   "source": "LANCASTER GUARDIAN",
+   "topic": "pokemon",
+   "published": "2026-10-26T12:10:00Z",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU2dwV1hZZDB1VzZJc3dxaGpmbHFLSi1wZmNlSDdmcTlUSDYybl9neExzWFIxczdSUmcxQlMzM0VJUkFxZ1cyclZScGxCWHdIcHBvTGlUV2t1OV8xUzBvLWJOYzh0TnNBYTJTSGFuVWtYcnBCQXFuUVBxUl94ZERuWHFFNHVITkh1bXZTcVF4eENaNUc4LXJ1Vzd2THcyZE9vRGJGZkdmbUtEaUtsR0kwY0liZ2F4aVNKSkhQaTJnc3JUUmhvTFFzc19fWnhVek0?oc=5"
   },
   {
    "title": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
