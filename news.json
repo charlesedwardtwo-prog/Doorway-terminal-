@@ -1,12 +1,89 @@
 {
- "updated": "2026-10-28T21:06:06.049659Z",
+ "updated": "2026-10-28T22:03:29.159475Z",
  "items": [
+  {
+   "title": "A hacker stole more than 40,000 DHS employee records",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T21:57:45Z",
+   "link": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak"
+  },
+  {
+   "title": "High-speed train crash kills at least 68 people in Spain",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-28T21:38:54Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Kompany discharged from hospital following collapse",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-28T21:37:08Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c678prmye8xvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Sancho rejects Getafe - Thursday's gossip",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-28T21:34:36Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckyvr1q72v84o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T21:34:04Z",
+   "link": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key"
+  },
+  {
+   "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-28T21:24:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Death of US actress Hayden Panettiere ruled accidental, ending local police probe",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-28T21:16:30Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6lylxjkkp0vo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Readwise is taking on Kindle and Kobo for ebook supremacy",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-28T21:16:18Z",
+   "link": "https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store"
+  },
+  {
+   "title": "Men accused of stealing valuable Pokemon cards from 2 Twin Cities businesses",
+   "source": "BRING ME THE NEWS",
+   "topic": "pokemon",
+   "published": "2026-10-28T21:10:25Z",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0Z6dmtpdnRwU2d6bE9pN2VldVp3aTN4eW9COFViZDh2a1VoaklPYnVsdWVpWHBPNWdZcExMUk9MVzlJektROTZuM21rVk91TXNoMTVieW5DZEl6NGFoek5Fekl0cl9wQm1NdDBDSVp3ai1oT3EzQWEyNXphUHdOSlZuRTRtTlY3c01XR0dhTkdCSzh1aWlnbnJqN3Z6Z0ZlSDR5TDd1aEM0bW11MnZmMlJFYWJwZm1pNFE?oc=5"
+  },
+  {
+   "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-10-28T21:07:47Z",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYnJlZDFqeVFwd0RmVUJWUlF1eFNWbVM5R0I1SUNjOENJUnN1VWFZME92eTJnS3VjZFBMTWNmVXpWSjBqTlRxaWFYanBrcXZORk5SVy13QWh0T0swVzIxYXF3eFVoQXZ4QktfRHV2WWczYUNhUldXWjI2OWE5YjdOVzln?oc=5"
+  },
   {
    "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-10-28T21:03:49Z",
+   "published": "2026-10-28T21:07:06Z",
    "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Chiefs coach defends decision to sign kicker Tucker",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-28T20:55:11Z",
+   "link": "https://www.bbc.co.uk/sport/american-football/articles/c9e8l47grpz4o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Israel's election deadlock is a sign of the country's deep divisions",
@@ -102,7 +179,7 @@
   {
    "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-28T20:03:00Z",
    "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
   },
@@ -121,32 +198,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cq33xl50vyj2o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Djokovic celebrates 'big win' on return to Basel",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-28T19:51:14Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cmd93vlz4k11o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Dharshini David: Healey buys himself some time, but big questions still unanswered",
    "source": "BBC BUSINESS",
    "topic": "business",
    "published": "2026-10-28T19:51:01Z",
    "link": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-28T19:37:31Z",
-   "link": "https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream"
-  },
-  {
-   "title": "Hands-on with the new OLED iPad Mini",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-28T19:18:58Z",
-   "link": "https://www.theverge.com/tech/1017932/hands-on-ipad-mini-8th-generation-pro-and-tell"
   },
   {
    "title": "Alien: Isolation 2 devs commit to a physical edition: \"Staying true to the analogue nature of Alien is one of our pillars\"",
@@ -175,27 +231,6 @@
    "topic": "pokemon",
    "published": "2026-10-28T19:01:30Z",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOGZ4VlQ3ejhXSjZ0LXZRUWZVaG1xRzdNZjkyLXhDVWhSUHVVQjRSX2tDN2pfTnNQcG1qbXNTSnRYYzc0TFdtVGE2azJWTUYxbzdfZmkyMW5GR0hfU1M4bEphcFBLSjd0bkVzY2o4RGdxY3hzTmhoV2liVzlxblNIVFB0OTRDTm9iWEEwZW9CZXg5bWFBSU5STFN1RFB2ckJGSEN0cmxFbnlGZUtYXzRPODQzcw?oc=5"
-  },
-  {
-   "title": "Red Roses make six changes but Kildunne on bench again",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-28T19:00:51Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cq1m4kn84gk2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Prem reluctant to commit on Anglo-Welsh league",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-28T18:55:30Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c54g1x0z4rygo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "How did Flávio Bolsonaro end up in Miami?",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-28T18:51:05Z",
-   "link": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
@@ -240,13 +275,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c6qjn849ydlno?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "The Pokémon TCG Prismatic Evolutions Elite Trainer Box is below market price on Amazon — save $130 with rare deal",
-   "source": "MASHABLE",
-   "topic": "pokemon",
-   "published": "2026-10-28T17:56:58Z",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjdvelJRWFpNbjFLV2FDTDVqWjlTM0xaOEtnX1NiakIxU2hvM2tKSnZaV3A3Nzl0WEMwbmdyNC1lY1pLeTZLZjRtQXR3Uk5xYjA3Z01RRGFMR25ncXEwTE1WNkdCUVlfdVRXWXFneVV0aWg1d3VTdXJMUzVrVkFZY3dVanczUVZ2bWc?oc=5"
-  },
-  {
    "title": "Cyberpunk 2 might include multiplayer after CD Projekt Red scrapped the feature in Cyberpunk 2077",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -273,13 +301,6 @@
    "topic": "uk",
    "published": "2026-10-28T17:38:39Z",
    "link": "https://www.bbc.co.uk/news/articles/c6lykg0nkll0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Myanmar diplomat breaks down as he urges world to 'end our suffering'",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-28T17:34:41Z",
-   "link": "https://www.bbc.co.uk/news/videos/cqz0ve10jxn2o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Patients unable to view GP practice websites",
@@ -310,13 +331,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cm78pljvqvxeo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Watch: At the scene of Spain's deadly train crash",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-28T16:45:16Z",
-   "link": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Here are our PS Plus monthly games for November 2026",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -329,13 +343,6 @@
    "topic": "ai",
    "published": "2026-10-28T16:15:30Z",
    "link": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely"
-  },
-  {
-   "title": "After Almost Six Months, PSA Is Reopening Its Value Tier",
-   "source": "THEGAMER",
-   "topic": "pokemon",
-   "published": "2026-10-28T16:00:07Z",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObG9NZFJIcmdvMjBxdGRkRlJkeGR2OVFOQU11UFg3SkZ5QW00b2ZEaDc1Q0ZrZDZQWW96WHlYZFNoWXpveUJjd3ZPSS1YM1QyczZHWVd2RHBLZldvaFJxMHZneFBTc25VRERBT2tfUDB4RHJwS1dyU2ljU0ZNRDRUbnVDTG00WUgwSDhTNUprUWJ4R1VXX0daUXRBS3lPZw?oc=5"
   },
   {
    "title": "Capcom's golden streak continues as Onimusha and Pragmata sell well, but Monster Hunter Wilds conspicuously absent from financial report",
@@ -371,13 +378,6 @@
    "topic": "ai",
    "published": "2026-10-28T12:00:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas"
-  },
-  {
-   "title": "Meta quietly launched an ‘AI pet journal’ app",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-28T11:27:30Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
   },
   {
    "title": "'I'm spending my retirement fighting migrant plan'",
