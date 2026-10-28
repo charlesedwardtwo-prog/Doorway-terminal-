@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-28T03:07:35.008882Z",
+ "updated": "2026-10-28T04:09:29.540969Z",
  "items": [
+  {
+   "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-28T03:43:38Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Thick fog to create dangerous driving conditions for UK commuters",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-28T03:29:29Z",
+   "link": "https://www.bbc.co.uk/weather/articles/c6x2wr0dwzx1o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
    "source": "BBC NEWS",
@@ -14,13 +28,6 @@
    "topic": "uk",
    "published": "2026-10-28T01:16:25Z",
    "link": "https://www.bbc.co.uk/news/articles/c6lykg0nkll0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Thick fog to create dangerous driving conditions for UK commuters",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-28T01:09:35Z",
-   "link": "https://www.bbc.co.uk/weather/articles/c6x2wr0dwzx1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
@@ -59,8 +66,8 @@
   },
   {
    "title": "Tax on banks, energy bill help and minimum wage rise - what could be in the Budget?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
+   "source": "BBC NEWS",
+   "topic": "uk",
    "published": "2026-10-28T00:03:10Z",
    "link": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss"
   },
@@ -94,8 +101,8 @@
   },
   {
    "title": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC SPORT",
+   "topic": "sport",
    "published": "2026-10-27T23:35:11Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss"
   },
@@ -177,13 +184,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Little Angel makes big impact on return to Japan",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-27T21:18:06Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ck1l377n0r6mo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
    "source": "BBC NEWS",
    "topic": "world",
@@ -219,6 +219,13 @@
    "link": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "First Pokemon Center in Thailand opens on 1 December at CentralWorld",
+   "source": "LIFESTYLE ASIA HONG KONG",
+   "topic": "pokemon",
+   "published": "2026-10-27T20:30:20Z",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYm0zdWxTdWdVM1V3YnVsbk9ZZTlQQV8xNE9GSVFGeEVhU1d0MGE1YzBteUFXcXhMaHBXakVPVlhRVFpOaWlPZ3J3UTV4blRETzdWTHQtdDB0U3ItZzBBeTFjVTNnSXlyWXZpVGxFOGhPZHJQRFlNbU5uY2ZGVElqOVMtdnRVNzhSRGwxaXZlcVo?oc=5"
+  },
+  {
    "title": "Tech Life",
    "source": "BBC TECH",
    "topic": "tech",
@@ -238,13 +245,6 @@
    "topic": "tech",
    "published": "2026-10-27T19:24:06Z",
    "link": "https://www.theverge.com/science/1019879/elon-musk-starlink-ukraine-terms-of-service"
-  },
-  {
-   "title": "Pokémon and McDonald’s Reveal 15 New Happy Meal Toys Ahead of November Release",
-   "source": "ESSENTIAL JAPAN",
-   "topic": "pokemon",
-   "published": "2026-10-27T18:58:55Z",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdVYxMnJhZG5kdldwSE1keWxYZHBYOTRWbHU0d0VRRFBHSXVWY2pzQ0NPMEo1LWNJb1dEc3V4ZVE2R0xGaEUyLTJBUGNMQU5adExDNnhxSkJaUDBiZGNzYlVzd2NpWWd4dVJISWMwX2lOVjNGOF93dWlCWF9MYUd3dW5SOXhKSjhac1MzVHMybC1kWjczcDA4RTZlM3ZnUWlKTVRXUldqaGJmRlE2S2F2dA?oc=5"
   },
   {
    "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
