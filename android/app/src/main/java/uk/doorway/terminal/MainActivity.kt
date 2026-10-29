@@ -1,6 +1,8 @@
 package uk.doorway.terminal
 
 import android.Manifest
+import android.app.AlarmManager
+import android.app.PendingIntent
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
@@ -13,6 +15,7 @@ import android.hardware.camera2.CaptureRequest
 import android.net.ConnectivityManager
 import android.net.Network
 import android.os.BatteryManager
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -41,6 +44,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
+import java.util.Calendar
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import kotlin.math.abs
@@ -59,6 +63,7 @@ class MainActivity : ComponentActivity() {
         const val DEFAULT_SENSITIVITY = 5      // 1 (needs a lot of movement) to 10 (twitchy)
         const val SETTLE_MS = 3000L            // ignore the camera this long after the screen changes
         const val RETRY_MS = 30000L
+        const val DEFAULT_SCHEDULE = "07:30-09:30,16:00-18:00"   // awake windows; screen fully off the rest of the time
     }
 
     private lateinit var web: WebView
@@ -70,6 +75,7 @@ class MainActivity : ComponentActivity() {
     @Volatile private var ignoreUntil = 0L
     @Volatile private var lastMotionAt = 0L
     private var asleep = false
+    private var deepAsleep = false
     @Volatile private var lastAnalysed = 0L
     private var brightOverride = WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_NONE   // set to full while the hologram is on
     private var cameraRunning = false
@@ -86,6 +92,12 @@ class MainActivity : ComponentActivity() {
     private var motionEnabled: Boolean
         get() = prefs.getBoolean("motion", true)
         set(v) = prefs.edit().putBoolean("motion", v).apply()
+    private var scheduleOn: Boolean
+        get() = prefs.getBoolean("scheduleOn", true)
+        set(v) = prefs.edit().putBoolean("scheduleOn", v).apply()
+    private var schedule: String
+        get() = prefs.getString("schedule", DEFAULT_SCHEDULE) ?: DEFAULT_SCHEDULE
+        set(v) = prefs.edit().putString("schedule", v).apply()
 
     private val askCamera = registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
         if (granted) startCamera()
@@ -97,6 +109,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        // Lets the wake-up alarm switch the screen on and show the dashboard over the lock screen.
+        if (Build.VERSION.SDK_INT >= 27) { setShowWhenLocked(true); setTurnScreenOn(true) }
+        else @Suppress("DEPRECATION") window.addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED or WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON)
         cameraExecutor = Executors.newSingleThreadExecutor()
 
         web = WebView(this).apply {
@@ -158,6 +173,12 @@ class MainActivity : ComponentActivity() {
         if (motionEnabled) ensureCamera()
     }
 
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        lastActivity = System.currentTimeMillis()
+        wake()
+    }
+
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)
         if (hasFocus) hideSystemBars()
@@ -198,7 +219,9 @@ class MainActivity : ComponentActivity() {
     private val sleepCheck = object : Runnable {
         override fun run() {
             val idle = System.currentTimeMillis() - lastActivity
-            if (!asleep && sleepSeconds > 0 && idle > sleepSeconds * 1000L) sleep()
+            val limit = (if (sleepSeconds > 0) sleepSeconds else 120) * 1000L
+            if (!inAwakeWindow()) { if (!deepAsleep && idle > limit) deepSleep() }
+            else if (!asleep && sleepSeconds > 0 && idle > limit) sleep()
             handler.postDelayed(this, 1000)
         }
     }
@@ -214,8 +237,22 @@ class MainActivity : ComponentActivity() {
         web.pauseTimers()
     }
 
+    /** Outside the awake windows: camera off and let Android switch the screen fully off. */
+    private fun deepSleep() {
+        if (!asleep) sleep()
+        deepAsleep = true
+        stopCamera()
+        window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        scheduleWake()
+    }
+
     private fun wake() {
         lastActivity = System.currentTimeMillis()
+        if (deepAsleep) {
+            deepAsleep = false
+            window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+            if (motionEnabled) ensureCamera()
+        }
         if (!asleep) return
         asleep = false
         ignoreUntil = System.currentTimeMillis() + SETTLE_MS
@@ -225,6 +262,45 @@ class MainActivity : ComponentActivity() {
         blackout.visibility = View.GONE
         setBrightness(brightOverride)
         web.evaluateJavascript("window.poke && poke(); window.checkReminders && checkReminders(); window.tickClock && tickClock();", null)
+    }
+
+    // ------------------------------------------------------------------ awake windows
+
+    /** "07:30-09:30,16:00-18:00" -> list of (startMinute, endMinute). */
+    private fun windows(): List<Pair<Int, Int>> = schedule.split(",").mapNotNull { part ->
+        val m = Regex("^\\s*(\\d{1,2}):(\\d{2})\\s*-\\s*(\\d{1,2}):(\\d{2})\\s*$").find(part) ?: return@mapNotNull null
+        val (h1, m1, h2, m2) = m.destructured
+        Pair(h1.toInt() * 60 + m1.toInt(), h2.toInt() * 60 + m2.toInt())
+    }
+
+    private fun inAwakeWindow(): Boolean {
+        if (!scheduleOn) return true
+        val w = windows(); if (w.isEmpty()) return true
+        val c = Calendar.getInstance(); val now = c.get(Calendar.HOUR_OF_DAY) * 60 + c.get(Calendar.MINUTE)
+        return w.any { (s, e) -> if (e > s) now in s until e else now >= s || now < e }
+    }
+
+    private fun nextWindowStart(): Long? {
+        val w = windows(); if (w.isEmpty()) return null
+        val now = System.currentTimeMillis()
+        for (day in 0..7) for ((s, _) in w.sortedBy { it.first }) {
+            val c = Calendar.getInstance().apply {
+                add(Calendar.DAY_OF_YEAR, day); set(Calendar.HOUR_OF_DAY, s / 60); set(Calendar.MINUTE, s % 60); set(Calendar.SECOND, 0); set(Calendar.MILLISECOND, 0)
+            }
+            if (c.timeInMillis > now + 30000) return c.timeInMillis
+        }
+        return null
+    }
+
+    /** An alarm that brings the dashboard back and switches the screen on at the next awake window. */
+    private fun scheduleWake() {
+        val at = nextWindowStart() ?: return
+        val intent = Intent(this, MainActivity::class.java)
+            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+        val pi = PendingIntent.getActivity(this, 1, intent, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
+        val am = getSystemService(Context.ALARM_SERVICE) as AlarmManager
+        try { am.setAlarmClock(AlarmManager.AlarmClockInfo(at, pi), pi) }
+        catch (_: SecurityException) { am.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, at, pi) }
     }
 
     private fun setBrightness(value: Float) {
@@ -358,6 +434,11 @@ class MainActivity : ComponentActivity() {
             }
         }
         @JavascriptInterface fun wakeNow() { runOnUiThread { wake() } }
+        @JavascriptInterface fun getSchedule(): String = schedule
+        @JavascriptInterface fun setSchedule(v: String) { schedule = v }
+        @JavascriptInterface fun isScheduleOn(): Boolean = scheduleOn
+        @JavascriptInterface fun setScheduleOn(on: Boolean) { scheduleOn = on }
+        @JavascriptInterface fun isAwakeWindow(): Boolean = inAwakeWindow()
         @JavascriptInterface fun reload() { runOnUiThread { web.clearCache(false); web.loadUrl(DASHBOARD_URL) } }
         @JavascriptInterface fun openAndroidSettings() {
             runOnUiThread { startActivity(Intent(Settings.ACTION_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }

@@ -1579,7 +1579,7 @@ function freshReload() {
 }
 $('qReload').addEventListener('click', freshReload);
 // Auto-update: every 5 minutes, check whether a newer dashboard has been published and load it.
-var BUILD = '20261023001857';
+var BUILD = '20261029152041';
 if (CONFIG.autoUpdate && /^https?:/.test(location.protocol)) {
   setInterval(function () {
     var x = new XMLHttpRequest();
@@ -1655,6 +1655,10 @@ function renderApp() {
     '<div class="setrow row mid"><div class="name">MOTION WAKE</div><button type="button" class="btn' + (on ? ' on' : '') + '" data-app="motion-on">ON</button><button type="button" class="btn' + (on ? '' : ' on') + '" data-app="motion-off">OFF</button><span class="dim" style="font-size:16px;">' + (ago < 0 ? 'NO MOVEMENT SEEN YET' : 'LAST MOVEMENT ' + (ago < 60 ? ago + ' SEC' : Math.round(ago / 60) + ' MIN') + ' AGO') + '</span></div>' +
     '<div class="setrow row mid"><div class="name">SLEEP AFTER</div><button type="button" class="btn" data-app="sleep-down">-</button><div style="width:110px; text-align:center;">' + sleepLabel(sl) + '</div><button type="button" class="btn" data-app="sleep-up">+</button><span class="dim" style="font-size:16px;">SCREEN GOES BLACK WITH NOBODY AROUND</span></div>' +
     '<div class="setrow row mid"><div class="name">SENSITIVITY</div><button type="button" class="btn" data-app="sens-down">-</button><div style="width:110px; text-align:center;">' + se + ' / 10</div><button type="button" class="btn" data-app="sens-up">+</button><span class="dim" style="font-size:16px;">HIGHER WAKES FOR SMALLER MOVEMENTS</span></div>' +
+    (typeof doorway.getSchedule === 'function'
+      ? '<div class="setrow row mid"><div class="name">DEEP SLEEP</div><button type="button" class="btn' + (doorway.isScheduleOn() ? ' on' : '') + '" data-app="sched-on">ON</button><button type="button" class="btn' + (doorway.isScheduleOn() ? '' : ' on') + '" data-app="sched-off">OFF</button><span class="dim" style="font-size:16px;">' + (doorway.isScheduleOn() ? (doorway.isAwakeWindow() ? 'AWAKE WINDOW NOW' : 'OUTSIDE AWAKE TIMES: SCREEN GOES FULLY OFF') : 'MOTION WAKE ALL DAY') + '</span></div>' +
+        '<div class="setrow row mid"><div class="name">AWAKE TIMES</div><input id="schedIn" class="fld" style="width:300px; margin-right:10px;" value="' + esc(doorway.getSchedule()) + '"><button type="button" class="btn" data-app="sched-save">SAVE</button><span id="schedMsg" class="dim" style="font-size:16px;">E.G. 07:30-09:30, 16:00-18:00</span></div>'
+      : '<div class="setrow row mid"><div class="name">DEEP SLEEP</div><span class="dim" style="font-size:16px;">UPDATE THE DOORWAY APP TO GET THE SLEEP SCHEDULE</span></div>') +
     '<div class="setrow row mid"><div class="name">TEST</div><button type="button" class="btn" data-app="sleep-now">SLEEP NOW</button><span class="dim" style="font-size:16px;">THEN WALK PAST TO CHECK IT WAKES</span></div>' +
     '<div class="setrow row mid"><div class="name">ANDROID</div><button type="button" class="btn" data-app="settings">SETTINGS</button><button type="button" class="btn" data-app="home">HOME APP</button><span class="dim" style="font-size:16px;">APP VERSION ' + esc(doorway.getVersion()) + '</span></div>';
 }
@@ -1676,9 +1680,16 @@ document.addEventListener('click', function (e) {
   if (a === 'sleep-now') doorway.sleepNow();
   if (a === 'settings') doorway.openAndroidSettings();
   if (a === 'home') doorway.chooseHomeApp();
+  if (a === 'sched-on') doorway.setScheduleOn(true);
+  if (a === 'sched-off') doorway.setScheduleOn(false);
+  if (a === 'sched-save') {
+    var v = $('schedIn').value.replace(/\s+/g, '');
+    if (!/^\d{1,2}:\d{2}-\d{1,2}:\d{2}(,\d{1,2}:\d{2}-\d{1,2}:\d{2})*$/.test(v)) { $('schedMsg').innerHTML = '<span class="warnc">USE THE FORMAT 07:30-09:30, 16:00-18:00</span>'; return; }
+    doorway.setSchedule(v);
+  }
   setTimeout(renderApp, 400);
 });
-setInterval(function () { if (current.tab === 'system' && current.sub.system === 'app') renderApp(); }, 5000);
+setInterval(function () { if (current.tab === 'system' && current.sub.system === 'app' && !(document.activeElement && document.activeElement.id === 'schedIn')) renderApp(); }, 5000);
 
 // =====================================================================
 //  UK WEATHER MAP (Open-Meteo for 15 cities, TomTom map, RainViewer radar)
