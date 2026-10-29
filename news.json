@@ -1,11 +1,39 @@
 {
- "updated": "2026-10-29T22:05:31.631122Z",
+ "updated": "2026-10-29T23:02:15.533093Z",
  "items": [
+  {
+   "title": "What makes this golden eagle chick so important?",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-29T23:00:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq4g1jyj9dv7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "PSG score late to hold struggling Man City",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-29T22:40:17Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Reddit’s CEO says Google’s AI Mode ‘does not drive traffic’",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-29T22:19:32Z",
+   "link": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic"
+  },
+  {
+   "title": "Ireland's Furlong cleared of groin grab by disciplinary committee",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-29T22:19:17Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm9wzqen751ko?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
    "source": "BBC TECH",
    "topic": "tech",
-   "published": "2026-10-29T21:52:13Z",
+   "published": "2026-10-29T22:17:52Z",
    "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss"
   },
   {
@@ -107,13 +135,6 @@
    "link": "https://www.theverge.com/transportation/1022420/rivian-q3-earnings-r2-sales-volkswagen-software"
   },
   {
-   "title": "Grealish dropped by Everton after 'breach of club discipline'",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-29T19:31:36Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmwy4vyl9nplo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "GM to pay $220 million to resolve claims it sold driving habits data",
    "source": "THE VERGE",
    "topic": "tech",
@@ -126,13 +147,6 @@
    "topic": "uk",
    "published": "2026-10-29T19:18:50Z",
    "link": "https://www.bbc.co.uk/news/videos/cjdx3k5drkwgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Dream win to set up WNBA Finals decider",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-29T19:12:04Z",
-   "link": "https://www.bbc.co.uk/sport/basketball/articles/cr4g181v4q4wo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
@@ -182,13 +196,6 @@
    "topic": "uk",
    "published": "2026-10-29T18:26:42Z",
    "link": "https://www.bbc.co.uk/news/articles/cmr4y51gd5yro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ikea’s colorful donut-shaped smart lamp is $20 off",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-29T18:18:36Z",
-   "link": "https://www.theverge.com/gadgets/1022440/ikea-varmblixt-smart-lamp-deal-sale"
   },
   {
    "title": "DUP blocks Michelle O'Neill's engagements over Drumcree",
@@ -359,6 +366,13 @@
    "link": "https://www.bbc.co.uk/news/articles/c574p7r0xnvpo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Pokemon Tcg China Reveals Charizard And Pikachu Figure Collections",
+   "source": "IMDB",
+   "topic": "pokemon",
+   "published": "2026-10-29T12:33:04Z",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSHh3aFc1UG1ZUHpKLUFaUi1RMjVvNzZsUl9yby1LaVJ2eUpXVS1DTzlHd3Y5ZEl3SElfLUY0dTVmazFQUnRVdTJTRkI5NXVyVWJ2bE1TMGZhdHFUbS1jeU9YaHExTkU?oc=5"
+  },
+  {
    "title": "Serious pollution by water industry remains high despite £5bn investment",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -408,13 +422,6 @@
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjdvelJRWFpNbjFLV2FDTDVqWjlTM0xaOEtnX1NiakIxU2hvM2tKSnZaV3A3Nzl0WEMwbmdyNC1lY1pLeTZLZjRtQXR3Uk5xYjA3Z01RRGFMR25ncXEwTE1WNkdCUVlfdVRXWXFneVV0aWg1d3VTdXJMUzVrVkFZY3dVanczUVZ2bWc?oc=5"
   },
   {
-   "title": "Gotta catch 'em all: Police seize Pokemon cards in gang bust",
-   "source": "RNZ",
-   "topic": "pokemon",
-   "published": "2026-10-29T08:56:42Z",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVXRSVGx2SXB4UWQxNHZZV21OVmtfM3kzTE9iZjZ5MXVyMC0zTkhHUTktMjNHaHdZd1dpUkpMVDVLdGRwSi1paWFJMjAzSWVubE9BMFdyUnNXeWxyNGVhX3BvR3BnVXBsVW5qUF8xV0IyRHRsTF8zNmxBUU83TTlEakdoTEZTbC01eVhrNjdpdTBrRlR5U01ibmVDWmFFMVZiSW9HQ0YxWENkYVU1OWZ0OQ?oc=5"
-  },
-  {
    "title": "Two swans killed in acts of 'deliberate cruelty'",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -434,13 +441,6 @@
    "topic": "local",
    "published": "2026-10-29T06:27:37Z",
    "link": "https://www.bbc.co.uk/news/videos/c50mejwe1ldvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "RAF base chemical contamination worst in UK, report says",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-29T06:13:24Z",
-   "link": "https://www.bbc.co.uk/news/articles/c64g1je3034ko?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Details of thousands of US immigration agents leaked in major hack",
