@@ -1,6 +1,55 @@
 {
- "updated": "2026-10-29T19:21:04.597060Z",
+ "updated": "2026-10-29T20:09:07.212478Z",
  "items": [
+  {
+   "title": "Reddit will force everyone to log in",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-29T20:07:00Z",
+   "link": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings"
+  },
+  {
+   "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-29T20:05:57Z",
+   "link": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "CCTV shows frying pan used to stop train attacker",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-29T20:02:27Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckdd8qpdeym4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Rivian’s R2 is officially its best-selling vehicle",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-29T20:02:00Z",
+   "link": "https://www.theverge.com/transportation/1022420/rivian-q3-earnings-r2-sales-volkswagen-software"
+  },
+  {
+   "title": "Grealish dropped by Everton after 'breach of club discipline'",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-29T19:31:36Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmwy4vyl9nplo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "GM to pay $220 million to resolve claims it sold driving habits data",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-29T19:19:28Z",
+   "link": "https://www.theverge.com/transportation/1022555/gm-data-privacy-attorneys-general-lawsuit"
+  },
+  {
+   "title": "Watch: Bull on the loose at M6 service station",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-29T19:18:50Z",
+   "link": "https://www.bbc.co.uk/news/videos/cjdx3k5drkwgo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Dream win to set up WNBA Finals decider",
    "source": "BBC SPORT",
@@ -28,6 +77,13 @@
    "topic": "tech",
    "published": "2026-10-29T18:45:31Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
+  },
+  {
+   "title": "“Pokemon TCG Valentine’s Box” Revealed for January!",
+   "source": "POKEBEACH",
+   "topic": "pokemon",
+   "published": "2026-10-29T18:33:04Z",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcm9lV19jeFZfaGZNOWZyVmozZUVMMHdCMzhmRmd2VkcySk14a0xJOVZNUmluYmVvRENsb3ZTOW5rd2o2akpJYU5NcmowcTFZVWlPX0V5S05EdEYxWlNiT1pIalM3blBIdV94b0lheDlNNUNKbkk4d2VmNUF0eUExY0NycEJMaF90?oc=5"
   },
   {
    "title": "Firefighters celebrate rain during Indonesia wildfires",
@@ -86,32 +142,11 @@
    "link": "https://www.theverge.com/1022347/apple-macbook-supports-new-cmf"
   },
   {
-   "title": "Lib Dems and Reform UK in war of words over alleged shove",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-29T17:46:15Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwg7x3kegymvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Scottish football could pave way for 3pm TV blackout to end",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-29T17:43:53Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Utah charges Kalshi and its CEO with illegally promoting online gambling",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-29T17:40:23Z",
-   "link": "https://www.theverge.com/policy/1022400/utah-kalshi-criminal-charges"
-  },
-  {
-   "title": "CCTV shows frying pan used to stop train attacker",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-29T17:25:41Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckdd8qpdeym4o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Antonelli to miss Mexico media day with illness",
@@ -128,25 +163,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/c6n49v9ek1k9o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Dowman to miss three matches after appeal rejected",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-29T17:19:06Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6kgq9qg28dno?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "US interest rates held steady and economy grows - what it means for you",
    "source": "BBC BUSINESS",
    "topic": "business",
    "published": "2026-10-29T17:15:05Z",
    "link": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Data centers could send US climate pollution skyrocketing",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-29T17:10:46Z",
-   "link": "https://www.theverge.com/science/1022258/data-centers-climate-change-carbon-dioxide-pollution-gas"
   },
   {
    "title": "Watch: Hundreds queue for city's new Lego store",
@@ -191,25 +212,11 @@
    "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
   },
   {
-   "title": "“Pokemon TCG Valentine’s Box” Revealed for January!",
-   "source": "POKEBEACH",
-   "topic": "pokemon",
-   "published": "2026-10-29T16:22:58Z",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcm9lV19jeFZfaGZNOWZyVmozZUVMMHdCMzhmRmd2VkcySk14a0xJOVZNUmluYmVvRENsb3ZTOW5rd2o2akpJYU5NcmowcTFZVWlPX0V5S05EdEYxWlNiT1pIalM3blBIdV94b0lheDlNNUNKbkk4d2VmNUF0eUExY0NycEJMaF90?oc=5"
-  },
-  {
    "title": "Dataminer uncovers that Spiny - a character seemingly with no way to operate a car - was meant to be playable in Mario Kart World",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-10-29T16:16:28Z",
    "link": "https://www.eurogamer.net/mario-kart-world-dataminer-spiny"
-  },
-  {
-   "title": "This open-source project lets you sync Withings data to other apps without a subscription",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-29T16:14:06Z",
-   "link": "https://www.theverge.com/tech/1022214/yourownweigh-sync-withings-smart-scale-data-wireless-web-app-free"
   },
   {
    "title": "Microsoft’s AI future has fewer jobs",
@@ -282,13 +289,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
   },
   {
-   "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-29T14:17:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "FromSoft's Switch 2 exclusive, The Duskbloods, has been delayed into 2027",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -311,9 +311,9 @@
   },
   {
    "title": "How to Play Emploeon EX in Modern Pokemon TCG Standard",
-   "source": "WWW.SUPERJUMPMAGAZINE.COM",
+   "source": "SUPERJUMP",
    "topic": "pokemon",
-   "published": "2026-10-29T14:00:14Z",
+   "published": "2026-10-29T14:00:09Z",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGxWbzNqQjRSaC1xRkNYOHBxdTBZSHdpTnhpRkVzQjdzeDVYZWZtWjZra2tURTZQUjR2VnZkVENfVjNxcGtxU2xwaXlVakg4blJwY0VTRWlwTUlrSEFIZTdsTjA5LXd5YnM3YUNZVGZQVVcyeVlnVDVvZGZCY2dFcVduUmxPMzdXN3hkcm9CRFBCX28?oc=5"
   },
   {
@@ -322,13 +322,6 @@
    "topic": "ai",
    "published": "2026-10-29T14:00:00Z",
    "link": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview"
-  },
-  {
-   "title": "French Retailer Goes Viral After Standing Up to Looters, Indy Store Owner Out Following Harassment Allegations, Thieves Break Through Wall to Steal Pokemon Cards",
-   "source": "ICV2",
-   "topic": "pokemon",
-   "published": "2026-10-29T13:48:26Z",
-   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQckVhWndqSHN6V2s1M2diWW03LWZmNm5uLWhMRk9LQ1lka2QzVFdYTVNyNFdiQ2lZOXFtOXpsdUhwdW5BTHFfVGlELVhWamszWDZNcGdScnpVbWx1X084TzltZ1hFZUVzUElKWEFFc1ZTWU5RWWJXRTlpZXJnSHRWbFpBeUw0RmRMdXVRUFN2WE5KVWhGZDVxdHNkc3JDOU0tLVVhV1J4bm04SUJ3TnhCZ1UxWmo0dHZ5czNCcVlUR1dScUQ5R201VUI2YzVmM0h0Z25qb19sTFJ6c3VxTnRrNWdXelhzQUtDajhxNlFJUElqRFlWSDVUT2FhdWRsRzZ0djZhdWhXQWNHa3JqWEtvV1FKbkFPYXk5bFQwbjdQREg?oc=5"
   },
   {
    "title": "Mouthwashing is finally on consoles and Xbox Game Pass, and it's a Halloween must for horror fans",
@@ -357,6 +350,13 @@
    "topic": "science",
    "published": "2026-10-29T12:56:58Z",
    "link": "https://www.bbc.co.uk/news/articles/c574p7r0xnvpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokemon Tcg China Reveals Charizard And Pikachu Figure Collections",
+   "source": "IMDB",
+   "topic": "pokemon",
+   "published": "2026-10-29T12:33:04Z",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSHh3aFc1UG1ZUHpKLUFaUi1RMjVvNzZsUl9yby1LaVJ2eUpXVS1DTzlHd3Y5ZEl3SElfLUY0dTVmazFQUnRVdTJTRkI5NXVyVWJ2bE1TMGZhdHFUbS1jeU9YaHExTkU?oc=5"
   },
   {
    "title": "Serious pollution by water industry remains high despite £5bn investment",
