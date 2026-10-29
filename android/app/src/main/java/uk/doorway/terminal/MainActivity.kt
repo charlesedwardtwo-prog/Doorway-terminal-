@@ -7,6 +7,9 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.graphics.Color
+import android.hardware.camera2.CameraCharacteristics
+import android.hardware.camera2.CameraManager
+import android.hardware.camera2.CaptureRequest
 import android.net.ConnectivityManager
 import android.net.Network
 import android.os.BatteryManager
@@ -14,6 +17,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.provider.Settings
+import android.util.Range
 import android.util.Size
 import android.view.MotionEvent
 import android.view.View
@@ -27,6 +31,8 @@ import android.widget.FrameLayout
 import androidx.activity.ComponentActivity
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.camera.camera2.interop.Camera2Interop
+import androidx.camera.camera2.interop.ExperimentalCamera2Interop
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy
@@ -64,6 +70,7 @@ class MainActivity : ComponentActivity() {
     @Volatile private var ignoreUntil = 0L
     @Volatile private var lastMotionAt = 0L
     private var asleep = false
+    @Volatile private var lastAnalysed = 0L
     private var brightOverride = WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_NONE   // set to full while the hologram is on
     private var cameraRunning = false
     private var prevFrame: IntArray? = null
@@ -201,6 +208,10 @@ class MainActivity : ComponentActivity() {
         ignoreUntil = System.currentTimeMillis() + SETTLE_MS
         blackout.visibility = View.VISIBLE
         setBrightness(0.0f)
+        // Stop drawing and running the dashboard while nobody is looking; it catches up on wake.
+        web.visibility = View.INVISIBLE
+        web.onPause()
+        web.pauseTimers()
     }
 
     private fun wake() {
@@ -208,9 +219,12 @@ class MainActivity : ComponentActivity() {
         if (!asleep) return
         asleep = false
         ignoreUntil = System.currentTimeMillis() + SETTLE_MS
+        web.visibility = View.VISIBLE
+        web.resumeTimers()
+        web.onResume()
         blackout.visibility = View.GONE
         setBrightness(brightOverride)
-        web.evaluateJavascript("window.poke && poke();", null)
+        web.evaluateJavascript("window.poke && poke(); window.checkReminders && checkReminders(); window.tickClock && tickClock();", null)
     }
 
     private fun setBrightness(value: Float) {
@@ -231,10 +245,11 @@ class MainActivity : ComponentActivity() {
             try {
                 val provider = future.get()
                 @Suppress("DEPRECATION")
-                val analysis = ImageAnalysis.Builder()
-                    .setTargetResolution(Size(320, 240))
+                val builder = ImageAnalysis.Builder()
+                    .setTargetResolution(Size(160, 120))
                     .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
-                    .build()
+                slowestFpsRange(provider.hasCamera(CameraSelector.DEFAULT_FRONT_CAMERA))?.let { range -> applyFps(builder, range) }
+                val analysis = builder.build()
                 analysis.setAnalyzer(cameraExecutor) { image -> analyse(image) }
                 val selector = when {
                     provider.hasCamera(CameraSelector.DEFAULT_FRONT_CAMERA) -> CameraSelector.DEFAULT_FRONT_CAMERA
@@ -249,6 +264,20 @@ class MainActivity : ComponentActivity() {
         }, ContextCompat.getMainExecutor(this))
     }
 
+    /** The lowest frame-rate range this camera supports (e.g. 7-15 fps instead of 30), to save power. */
+    private fun slowestFpsRange(front: Boolean): Range<Int>? = try {
+        val cm = getSystemService(Context.CAMERA_SERVICE) as CameraManager
+        val want = if (front) CameraCharacteristics.LENS_FACING_FRONT else CameraCharacteristics.LENS_FACING_BACK
+        val id = cm.cameraIdList.firstOrNull { cm.getCameraCharacteristics(it).get(CameraCharacteristics.LENS_FACING) == want }
+        id?.let { cm.getCameraCharacteristics(it).get(CameraCharacteristics.CONTROL_AE_AVAILABLE_TARGET_FPS_RANGES) }
+            ?.minWithOrNull(compareBy<Range<Int>>({ it.upper }, { it.lower }))
+    } catch (_: Exception) { null }
+
+    @androidx.annotation.OptIn(ExperimentalCamera2Interop::class)
+    private fun applyFps(builder: ImageAnalysis.Builder, range: Range<Int>) {
+        try { Camera2Interop.Extender(builder).setCaptureRequestOption(CaptureRequest.CONTROL_AE_TARGET_FPS_RANGE, range) } catch (_: Exception) {}
+    }
+
     private fun stopCamera() {
         try { ProcessCameraProvider.getInstance(this).get().unbindAll() } catch (_: Exception) {}
         cameraRunning = false
@@ -258,6 +287,9 @@ class MainActivity : ComponentActivity() {
     /** Compares a 32x24 grid of brightness samples with the previous frame. */
     private fun analyse(image: ImageProxy) {
         try {
+            val nowMs = System.currentTimeMillis()
+            if (nowMs - lastAnalysed < (if (asleep) 250L else 500L)) return
+            lastAnalysed = nowMs
             val plane = image.planes[0]
             val buf = plane.buffer
             val stride = plane.rowStride
