@@ -1,6 +1,76 @@
 {
- "updated": "2026-10-29T05:30:20.272211Z",
+ "updated": "2026-10-29T06:29:37.726325Z",
  "items": [
+  {
+   "title": "Watch: Cathedral hosts light and sound show",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-10-29T06:27:37Z",
+   "link": "https://www.bbc.co.uk/news/videos/c50mejwe1ldvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'We need help for small businesses, not punishment'",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-29T06:27:28Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6kglwxplv1zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Who am I? Plus today's other quizzes",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-29T06:23:21Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqr7y1218vjvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Haulier blames fuel prices for diesel theft",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-29T06:17:02Z",
+   "link": "https://www.bbc.co.uk/news/articles/ck9qzdwjp03lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Super offensive' - We love how we look but AI tried to 'fix' our visible differences",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-29T06:13:33Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmx28e44xxx7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "RAF base chemical contamination worst in UK, report says",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-29T06:13:24Z",
+   "link": "https://www.bbc.co.uk/news/articles/c64g1je3034ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "NHS Western Isles prescribing weight loss drugs at triple the rate of other health boards",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-29T06:13:11Z",
+   "link": "https://www.bbc.co.uk/news/articles/c98rz4g0zgldo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Mum of critically ill baby denied hospital food as she wasn't breastfeeding",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-29T06:12:07Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqzrdkn4v36po?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ofcom outlines ways social media can verify ages of users",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-10-29T05:57:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Healey promises reduction in welfare bill before next election",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-29T05:57:01Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm5ynwkjgpz3o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "The Papers: 'Healey offers cold comfort' and 'A £100 trick or treat?'",
    "source": "BBC NEWS",
@@ -65,20 +135,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Take our Celebrity Traitors quiz to find out which star you would be in this year's show",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-29T00:29:39Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6d93vxj3g5xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'My autistic son and I feel abandoned and failed by the system'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-29T00:17:55Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqj9k8lr1p4po?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "'Stutter' penalty back in the spotlight after Barco miss costs Chelsea",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -93,16 +149,9 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cv5ynwkndw61o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Family row over George Michael items up for auction - including Faith guitar",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-29T00:01:16Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmr4y51gd5yro?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-10-29T00:00:25Z",
    "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss"
   },
@@ -154,13 +203,6 @@
    "topic": "sport",
    "published": "2026-10-28T22:45:35Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Russo scores hat-trick as Arsenal beat Benfica",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-28T22:19:57Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Girl seriously injured in wolf attack at German wildlife park",
@@ -240,13 +282,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cm74pvzzke91o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokémon TCG Pocket Dual Fusion: All Themed Collection and Secret Missions",
-   "source": "POKÉMON GO HUB",
-   "topic": "pokemon",
-   "published": "2026-10-28T20:24:07Z",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSGNlOEktVVBoZXFpeE5FRnJNZURoaTZFN2s1TnBuR1AteEhJY3V2SmotUmZicFoxRF80UHVfdE12Njh4a3JJY0s3WjhJaHE0MW1SN0VNRWhKSVhCYXRPMUxzMjJYY19xaDJSRVY3YXBMUFJRRjZGb2FKWVZBanpuTkExeDZSSHppRDlVY0dqQkNpSnlyeWZQUU9qWkRsV2dzQUNqZWkwLV9OcDMwMmNmSDNVT3k?oc=5"
-  },
-  {
    "title": "Google says its investments in AI are driving more searches",
    "source": "THE VERGE",
    "topic": "tech",
@@ -261,32 +296,11 @@
    "link": "https://www.eurogamer.net/epic-genai-fortnite-unreal-engine-6-no-longer-writing-code"
   },
   {
-   "title": "What we now know about the UK economy in four charts",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T20:08:45Z",
-   "link": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
    "source": "THE VERGE",
    "topic": "ai",
    "published": "2026-10-28T20:03:00Z",
    "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier"
-  },
-  {
-   "title": "What the Budget offers for under 25s - and what it leaves out",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T20:02:38Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Dharshini David: Healey buys himself some time, but big questions still unanswered",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-28T19:51:01Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Alien: Isolation 2 devs commit to a physical edition: \"Staying true to the analogue nature of Alien is one of our pillars\"",
@@ -315,6 +329,13 @@
    "topic": "ai",
    "published": "2026-10-28T18:36:26Z",
    "link": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending"
+  },
+  {
+   "title": "The Pokémon TCG Prismatic Evolutions Elite Trainer Box is below market price on Amazon — save $130 with rare deal",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-10-28T17:56:58Z",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjdvelJRWFpNbjFLV2FDTDVqWjlTM0xaOEtnX1NiakIxU2hvM2tKSnZaV3A3Nzl0WEMwbmdyNC1lY1pLeTZLZjRtQXR3Uk5xYjA3Z01RRGFMR25ncXEwTE1WNkdCUVlfdVRXWXFneVV0aWg1d3VTdXJMUzVrVkFZY3dVanczUVZ2bWc?oc=5"
   },
   {
    "title": "Cyberpunk 2 might include multiplayer after CD Projekt Red scrapped the feature in Cyberpunk 2077",
@@ -415,13 +436,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cq203424rgm8o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Airport relies on £8 drop-off fees, says boss",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-10-28T06:12:01Z",
-   "link": "https://www.bbc.co.uk/news/articles/c8kge11xvr5eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -485,25 +499,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Tiny zebra-striped bee sighting a 'huge surprise'",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-27T16:50:13Z",
-   "link": "https://www.bbc.co.uk/news/articles/c3dxwjx7xpj0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
    "source": "ARS TECHNICA",
    "topic": "ai",
    "published": "2026-10-27T16:00:22Z",
    "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/"
-  },
-  {
-   "title": "Apple to replace iPhone Duos affected by screen problem",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-10-27T09:37:55Z",
-   "link": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
