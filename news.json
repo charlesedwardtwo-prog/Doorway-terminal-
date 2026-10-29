@@ -1,6 +1,41 @@
 {
- "updated": "2026-10-29T20:09:07.212478Z",
+ "updated": "2026-10-29T21:09:05.192154Z",
  "items": [
+  {
+   "title": "BBC Inside Science",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-10-29T21:00:00Z",
+   "link": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Cundy's 20-year reign as world champion ends",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-29T20:27:23Z",
+   "link": "https://www.bbc.co.uk/sport/cycling/articles/cxj0lv0vzv7do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Zverev seals world number one spot after win",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-29T20:25:37Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/cwdr8m8g4jz2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-29T20:15:05Z",
+   "link": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Patrick Stewart has died at age 86",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-29T20:10:02Z",
+   "link": "https://www.theverge.com/news/1022626/patrick-stewart-star-trek-death"
+  },
   {
    "title": "Reddit will force everyone to log in",
    "source": "THE VERGE",
@@ -135,32 +170,11 @@
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c61m4k2gx5n8o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Apple’s new laptop supports one of the coolest features for color pros",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-29T17:48:09Z",
-   "link": "https://www.theverge.com/1022347/apple-macbook-supports-new-cmf"
-  },
-  {
    "title": "Scottish football could pave way for 3pm TV blackout to end",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-29T17:43:53Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Antonelli to miss Mexico media day with illness",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-29T17:25:00Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cke8rlrrzpqyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Celtic & Rangers Scottish Cup stadium closure upheld",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-29T17:20:57Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6n49v9ek1k9o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "US interest rates held steady and economy grows - what it means for you",
@@ -184,25 +198,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "BBC Inside Science",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-10-29T17:00:00Z",
-   "link": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "At Just $60, the Pokemon TCG 30th Celebration Elite Trainer Box Is Still a Hot Catch",
    "source": "CNET",
    "topic": "pokemon",
    "published": "2026-10-29T16:59:00Z",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXB0cDVCX0pZWGNPTWtsOWlmVWplcDRROEVudGNoclFVUzJWNFhGZHJSRllTMEN4UFozUmFFNDVtcVlmRUZkR05nRXFnNnNrZWd2aFNhNWtSOEJsOGZ1TkpnQXc3bTk2akdoNzItMXlSWmN3akJDdEJjNjdOQjZPb2k5akRDdw?oc=5"
-  },
-  {
-   "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-29T16:26:02Z",
-   "link": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Google admits AI search makes less money, but it's fixing that with more ads",
@@ -352,13 +352,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c574p7r0xnvpo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokemon Tcg China Reveals Charizard And Pikachu Figure Collections",
-   "source": "IMDB",
-   "topic": "pokemon",
-   "published": "2026-10-29T12:33:04Z",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSHh3aFc1UG1ZUHpKLUFaUi1RMjVvNzZsUl9yby1LaVJ2eUpXVS1DTzlHd3Y5ZEl3SElfLUY0dTVmazFQUnRVdTJTRkI5NXVyVWJ2bE1TMGZhdHFUbS1jeU9YaHExTkU?oc=5"
-  },
-  {
    "title": "Serious pollution by water industry remains high despite £5bn investment",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -406,6 +399,13 @@
    "topic": "pokemon",
    "published": "2026-10-29T09:19:35Z",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdjdvelJRWFpNbjFLV2FDTDVqWjlTM0xaOEtnX1NiakIxU2hvM2tKSnZaV3A3Nzl0WEMwbmdyNC1lY1pLeTZLZjRtQXR3Uk5xYjA3Z01RRGFMR25ncXEwTE1WNkdCUVlfdVRXWXFneVV0aWg1d3VTdXJMUzVrVkFZY3dVanczUVZ2bWc?oc=5"
+  },
+  {
+   "title": "Gotta catch 'em all: Police seize Pokemon cards in gang bust",
+   "source": "RNZ",
+   "topic": "pokemon",
+   "published": "2026-10-29T08:56:42Z",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVXRSVGx2SXB4UWQxNHZZV21OVmtfM3kzTE9iZjZ5MXVyMC0zTkhHUTktMjNHaHdZd1dpUkpMVDVLdGRwSi1paWFJMjAzSWVubE9BMFdyUnNXeWxyNGVhX3BvR3BnVXBsVW5qUF8xV0IyRHRsTF8zNmxBUU83TTlEakdoTEZTbC01eVhrNjdpdTBrRlR5U01ibmVDWmFFMVZiSW9HQ0YxWENkYVU1OWZ0OQ?oc=5"
   },
   {
    "title": "Two swans killed in acts of 'deliberate cruelty'",
