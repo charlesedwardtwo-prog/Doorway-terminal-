@@ -1,6 +1,55 @@
 {
- "updated": "2026-10-30T21:03:41.591931Z",
+ "updated": "2026-10-30T21:58:31.680992Z",
  "items": [
+  {
+   "title": "UFC champion Makhachev confirms retirement plans",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-30T21:45:32Z",
+   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq70p7lx04eeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Leicester dominate Bristol to go top of the Prem",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-30T21:43:59Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3x2wrp97dqdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-10-30T21:41:54Z",
+   "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/"
+  },
+  {
+   "title": "Soaring cost of Halloween treats spooks shoppers",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-30T21:34:32Z",
+   "link": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-30T21:26:10Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T21:13:14Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-10-30T21:09:54Z",
+   "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+  },
   {
    "title": "Exclusive details about Akai’s MPC Sample Key",
    "source": "THE VERGE",
@@ -21,6 +70,13 @@
    "topic": "world",
    "published": "2026-10-30T20:55:18Z",
    "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Police deployed during stand-off over control of top Poland court",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T20:52:01Z",
+   "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
@@ -65,25 +121,11 @@
    "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
   },
   {
-   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T20:10:56Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "GOTY hopeful Mina the Hollower bought the studio financial stability \"for now,\" while the Shovel Knight devs work on a new 3D game",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-10-30T19:55:21Z",
    "link": "https://www.eurogamer.net/shovel-knight-3d-mina-financial-stability"
-  },
-  {
-   "title": "Leclerc fastest in Mexico City Grand Prix first practice",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-30T19:43:59Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cqde8p6j9ye7o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pokemon TCG Officially Reveals Special New Rayquaza Release",
@@ -191,13 +233,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
   },
   {
-   "title": "Why has Caf abandoned plans to hold Afcon every four years?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-30T17:33:02Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Treasury accepts role in staff member's death",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -231,20 +266,6 @@
    "topic": "uk",
    "published": "2026-10-30T17:14:10Z",
    "link": "https://www.bbc.co.uk/news/articles/c8zxl20lq97wo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T17:07:19Z",
-   "link": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "England beat Papua New Guinea but World Cup hopes in doubt",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-30T17:06:29Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-league/videos/c3kgqpeez9ppo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'No nation left behind' says Burnham after meeting first ministers in Glasgow",
@@ -429,13 +450,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cv0ld21x957ro?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Who should pay on the first date?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-30T06:32:25Z",
-   "link": "https://www.bbc.co.uk/news/videos/cmpq0g3g2r8zo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "What makes this golden eagle chick so important?",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -478,25 +492,11 @@
    "link": "https://www.bbc.co.uk/sounds/play/p0pk9yd0?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Trump declares robot imports a national security threat",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-10-29T19:07:53Z",
-   "link": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/"
-  },
-  {
    "title": "You can generate and edit Google Docs files directly in Gemini chats now",
    "source": "THE VERGE",
    "topic": "ai",
    "published": "2026-10-29T18:45:31Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
-  },
-  {
-   "title": "Google admits AI search makes less money, but it's fixing that with more ads",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-10-29T16:24:55Z",
-   "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
   },
   {
    "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
