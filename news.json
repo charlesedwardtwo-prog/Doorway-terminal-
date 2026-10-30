@@ -1,6 +1,41 @@
 {
- "updated": "2026-10-30T17:59:59.192348Z",
+ "updated": "2026-10-30T18:38:37.060930Z",
  "items": [
+  {
+   "title": "Google’s satellite AI server transmits its first response to Earth",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-30T18:21:38Z",
+   "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
+  },
+  {
+   "title": "Ukraine's 'deep outrage' after Russia's international ice hockey ban ended",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-30T18:21:26Z",
+   "link": "https://www.bbc.co.uk/sport/ice-hockey/articles/cm87zqjrr9dno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T18:17:27Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ministers vow online safety action after teen sextortion victim took own life",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-30T18:08:48Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqpvgp01nm7eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "City of London chief tops UK Black Powerlist",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-30T18:00:24Z",
+   "link": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Podcaster dropped from Christmas lights event",
    "source": "BBC NORFOLK",
@@ -51,6 +86,13 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
   },
   {
+   "title": "Why has Caf abandoned plans to hold Afcon every four years?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-30T17:33:02Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Treasury accepts role in staff member's death",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -70,6 +112,13 @@
    "topic": "tech",
    "published": "2026-10-30T17:25:20Z",
    "link": "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets"
+  },
+  {
+   "title": "Pokemon TCG Pocket: Best Mega Skarmory ex deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T17:20:00Z",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNmNFR2ZGWlhtdXYyV29NcHBJYXVpbWNCaTBERHFNS0VVNEl5RTJQYmhnR0ZMaVprUHlXM1Myd210YUdvYXZtMTJid1ZSWHpZcWd6V0s5UXYtNmJWOVk1SnFzNGZpbHhUdjhKY2dzb1RCNk5kR2VhTGsyWDFoWnFhWkdmVkdOOTcxTUN6RDZTT0w?oc=5"
   },
   {
    "title": "Rivian’s autonomy gamble faces its first real test",
@@ -142,25 +191,18 @@
    "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
   },
   {
+   "title": "Moondra's record 6-26 helps Ireland force decider against Namibia",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-30T16:35:44Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/cq0732v1znz8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "What Howe could bring to Man Utd - and what are the challenges?",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-30T16:27:13Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T16:26:11Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "From Barbie doll to bench - how Ellie Kildunne slipped from Red Roses' XV",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-30T16:22:55Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy832jv00p1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "NEW 'POKEMON TCG' PREMIUM TOURNAMENT COLLECTION INBOUND",
@@ -170,6 +212,13 @@
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlVjUjNiTURSSnN6S3JFWlBoTWZHV2IzcnVXV2ZzZ09rRHBGb2lCV3h2T3VkZTVvYm11WklwdWNiZGcyV0J6c05heGttLTQyVXZPWGZQc25tdFZJakphN1FZWjRaVjJ3TGVzbGhCOXgwWFJnZXliQlpycDNjOFVSV0liRmJ3OHdfdmFDZUZhSXBqYURVdlFUck04VQ?oc=5"
   },
   {
+   "title": "Pokemon TCG Pocket: Best Mega Tyranitar ex deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T16:22:00Z",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS24yY1VuLXpTMk80UmktNlVNOUEyZUFPLVJFMU52TGxSNjBjNGh3UFNqSUhpSVJkU2ZzOTdIYmItZE9FLUppd2hiTFFLb2dYOEx0dWt3dHVoRjRfeHNaeFloZmpDbldyWWw5NExfemRpX3V3SlBvNjFBcWphMkpPZldlQjVMYjE5bkx0TjV3c3VrZw?oc=5"
+  },
+  {
    "title": "Ex-football chief admits offences linked to woman's drugging and rape by husband",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -177,25 +226,18 @@
    "link": "https://www.bbc.co.uk/news/articles/ckx2q1w9d7x4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Fears Chelsea's Lacroix could be out until January",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-30T16:21:10Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmkgkpexjzneo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Yorkshire Water boss resigns after firm downgraded",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-10-30T16:04:55Z",
    "link": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Spurs' Maddison fit to face Palace - De Zerbi",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-30T15:49:28Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cke8rp00m87lo?at_medium=RSS&at_campaign=rss"
+   "title": "Pokemon TCG Pocket: Best Mega Dragonite ex deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T15:58:00Z",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd1ljZ05lRGJNMnU0VkxpRHREUDJyb0p5eS03T1pobEMzWVZUejJ0VnhDazNRa0ZNWTFlaGlVTjE1MVRyMVNtd3VsdDVCYlJaaFkwRkFJUGNZdW45OTh2c0NGM2I1OFVIV0YyczBTWFg2R05RTDFiSDR1ejlOODFiNDJPNUpHa3NJQk9OdjJmZXdiUQ?oc=5"
   },
   {
    "title": "Google’s latest Nest Learning Thermostat is $60 off just in time for sweater weather",
@@ -242,7 +284,7 @@
   {
    "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-30T14:58:06Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
   },
@@ -273,6 +315,13 @@
    "topic": "ai",
    "published": "2026-10-30T13:01:14Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview"
+  },
+  {
+   "title": "5 best-looking cards in Pokemon TCG Pocket Dual Fusion expansion",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T13:00:00Z",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUkySTNORG51cjRsNEV2Z1FnbHVldXdZWjlfa0hHS19XakJlcTI2RGxUSHRTWkFKSTFLYjMxM3VuY1QxUk5CQklCWE5iWTB6UTB1NlRMcjhybWFHS0o1ajlONE9pZDMtX2x2MHJuOG96Ym13QW1Wd05tcVM4WHZOMEZkZGlQcXc5UVdlMndPd09JQnI4SWZZc09pdXNwdw?oc=5"
   },
   {
    "title": "Villagers left 'stranded' as roadworks block buses",
@@ -331,6 +380,13 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
   },
   {
+   "title": "Pokemon TCG Pocket: Best Mega Mewtwo X ex deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T10:29:00Z",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORWlGclY3ZFEwb2kzVzd0dUQ0UFhpMU1hX2dUS2Nhakhpd1JvVnAyR2lKa3AwdGRIbFVPY0paSVB1aXFhTmVpdjBVVnczNzdrVkZBcGxRbklZNGwxZE1iZVBRZnlPTXBBaGx5clFUd1M0UFJkNk8xcXZrRTZyWWp0VEd5UkNueUZSUEJNSEIzRHc?oc=5"
+  },
+  {
    "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
    "source": "BBC TECH",
    "topic": "tech",
@@ -380,13 +436,6 @@
    "link": "https://www.bbc.co.uk/weather/articles/c6ly075l742ro?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "P&R urged to speed up review of relocation grants",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-30T06:18:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx7vpq34jy71o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Largest woodland bat survey a 'nice story of AI for good'",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -415,27 +464,6 @@
    "link": "https://www.bbc.co.uk/sounds/play/p0pk9yd0?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
-   "source": "MASHABLE",
-   "topic": "pokemon",
-   "published": "2026-10-30T01:07:56Z",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYnJlZDFqeVFwd0RmVUJWUlF1eFNWbVM5R0I1SUNjOENJUnN1VWFZME92eTJnS3VjZFBMTWNmVXpWSjBqTlRxaWFYanBrcXZORk5SVy13QWh0T0swVzIxYXF3eFVoQXZ4QktfRHV2WWczYUNhUldXWjI2OWE5YjdOVzln?oc=5"
-  },
-  {
-   "title": "From Levi's to Primark - the fashion chains selling mended clothes",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-30T00:00:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmwy9qe5r1z3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Best Pokémon TCG deal: 30th Celebration Sylveon ex Box is now under $60 at Walmart",
-   "source": "MASHABLE",
-   "topic": "pokemon",
-   "published": "2026-10-29T23:34:06Z",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVdQWVd0U3h2VVhaYl92Y005bDZ4WnFoSVpRdTFMQUgyUGhFTWhfbl9sMW5Sb0JDMzYwWm1XcHNYeGsxeHpBM3BpcnIzT0xoNWFKYkVCZXI0djhyMWxmcXhxZUhNc201Tk5TSVBwYWVfWDVfUTRPTzRxd0JyZzE4aWxqTDU1RGtp?oc=5"
-  },
-  {
    "title": "Trump declares robot imports a national security threat",
    "source": "ARS TECHNICA",
    "topic": "ai",
@@ -450,39 +478,11 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
   },
   {
-   "title": "“Pokemon TCG Valentine’s Box” Revealed for January!",
-   "source": "POKEBEACH",
-   "topic": "pokemon",
-   "published": "2026-10-29T18:33:04Z",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcm9lV19jeFZfaGZNOWZyVmozZUVMMHdCMzhmRmd2VkcySk14a0xJOVZNUmluYmVvRENsb3ZTOW5rd2o2akpJYU5NcmowcTFZVWlPX0V5S05EdEYxWlNiT1pIalM3blBIdV94b0lheDlNNUNKbkk4d2VmNUF0eUExY0NycEJMaF90?oc=5"
-  },
-  {
-   "title": "Where to buy Pokemon TCG Delta Reign, the major new set",
-   "source": "GAMESRADAR+",
-   "topic": "pokemon",
-   "published": "2026-10-29T17:01:58Z",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXhrUF9YZVpSTWZNeUJBY1QxWUxodUg3ZTBJQ1k5N2R2R2d6aWExSW5BVl9mV2VXNjEwdGh2VFk3dDBvM2szOThJRW5fSHRqN0R0ZnBoSHA0Y3ZPNnN5RHhMT3YyZlRHb2hFb3k1blMxbXZKbHRoNXNYODhhakxsWWNjT3hranc?oc=5"
-  },
-  {
-   "title": "At Just $60, the Pokemon TCG 30th Celebration Elite Trainer Box Is Still a Hot Catch",
-   "source": "CNET",
-   "topic": "pokemon",
-   "published": "2026-10-29T16:59:00Z",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXB0cDVCX0pZWGNPTWtsOWlmVWplcDRROEVudGNoclFVUzJWNFhGZHJSRllTMEN4UFozUmFFNDVtcVlmRUZkR05nRXFnNnNrZWd2aFNhNWtSOEJsOGZ1TkpnQXc3bTk2akdoNzItMXlSWmN3akJDdEJjNjdOQjZPb2k5akRDdw?oc=5"
-  },
-  {
    "title": "Google admits AI search makes less money, but it's fixing that with more ads",
    "source": "ARS TECHNICA",
    "topic": "ai",
    "published": "2026-10-29T16:24:55Z",
    "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
-  },
-  {
-   "title": "Microsoft’s AI future has fewer jobs",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-29T16:00:00Z",
-   "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
   },
   {
    "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
