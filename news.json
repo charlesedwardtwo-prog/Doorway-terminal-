@@ -1,6 +1,104 @@
 {
- "updated": "2026-10-30T17:07:15.165148Z",
+ "updated": "2026-10-30T17:59:59.192348Z",
  "items": [
+  {
+   "title": "Podcaster dropped from Christmas lights event",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-10-30T17:58:27Z",
+   "link": "https://www.bbc.co.uk/news/articles/c64g19zl0wj0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T17:47:01Z",
+   "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Dark Souls 2 and Dark Souls 3's online servers are temporarily going dark, FromSoftware announces",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-30T17:45:23Z",
+   "link": "https://www.eurogamer.net/dark-souls-servers-temporarily-shutting-down-fromsoftware"
+  },
+  {
+   "title": "Binance's $6.3bn crypto hack biggest in history",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-10-30T17:41:10Z",
+   "link": "https://www.bbc.co.uk/news/videos/c6m2dpz0yxn8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T17:39:43Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-10-30T17:38:19Z",
+   "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
+  },
+  {
+   "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-30T17:38:04Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
+  },
+  {
+   "title": "Treasury accepts role in staff member's death",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-30T17:26:40Z",
+   "link": "https://www.bbc.co.uk/news/articles/c620r2vg355ro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T17:25:20Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The delightfully messy state of Apple gadgets",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-30T17:25:20Z",
+   "link": "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets"
+  },
+  {
+   "title": "Rivian’s autonomy gamble faces its first real test",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-30T17:16:09Z",
+   "link": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026"
+  },
+  {
+   "title": "County Down man among three jailed for planning mosque attack",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-30T17:14:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/c8zxl20lq97wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Sir Patrick Stewart remembered as 'Mirfield's finest'",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-30T17:12:20Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm0qk2e9deqeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T17:07:19Z",
+   "link": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "England beat Papua New Guinea but World Cup hopes in doubt",
    "source": "BBC SPORT",
@@ -37,7 +135,7 @@
    "link": "https://www.bbc.co.uk/news/articles/cqr7yp8dngn8o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "DOJ exposes “ghost students” using AI to complete courses, steal student loans",
+   "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
    "source": "ARS TECHNICA",
    "topic": "ai",
    "published": "2026-10-30T16:53:49Z",
@@ -51,7 +149,7 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Ceasefire allows evacuation from devastated Russian-occupied Oleshky",
+   "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-10-30T16:26:11Z",
@@ -70,13 +168,6 @@
    "topic": "pokemon",
    "published": "2026-10-30T16:22:32Z",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlVjUjNiTURSSnN6S3JFWlBoTWZHV2IzcnVXV2ZzZ09rRHBGb2lCV3h2T3VkZTVvYm11WklwdWNiZGcyV0J6c05heGttLTQyVXZPWGZQc25tdFZJakphN1FZWjRaVjJ3TGVzbGhCOXgwWFJnZXliQlpycDNjOFVSV0liRmJ3OHdfdmFDZUZhSXBqYURVdlFUck04VQ?oc=5"
-  },
-  {
-   "title": "Pokemon TCG Pocket: Best Mega Tyranitar ex deck guide",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-30T16:22:00Z",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS24yY1VuLXpTMk80UmktNlVNOUEyZUFPLVJFMU52TGxSNjBjNGh3UFNqSUhpSVJkU2ZzOTdIYmItZE9FLUppd2hiTFFLb2dYOEx0dWt3dHVoRjRfeHNaeFloZmpDbldyWWw5NExfemRpX3V3SlBvNjFBcWphMkpPZldlQjVMYjE5bkx0TjV3c3VrZw?oc=5"
   },
   {
    "title": "Ex-football chief admits offences linked to woman's drugging and rape by husband",
@@ -100,60 +191,11 @@
    "link": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T15:59:17Z",
-   "link": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokemon TCG Pocket: Best Mega Dragonite ex deck guide",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-30T15:58:00Z",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd1ljZ05lRGJNMnU0VkxpRHREUDJyb0p5eS03T1pobEMzWVZUejJ0VnhDazNRa0ZNWTFlaGlVTjE1MVRyMVNtd3VsdDVCYlJaaFkwRkFJUGNZdW45OTh2c0NGM2I1OFVIV0YyczBTWFg2R05RTDFiSDR1ejlOODFiNDJPNUpHa3NJQk9OdjJmZXdiUQ?oc=5"
-  },
-  {
-   "title": "Burnham's Number 10 North goes on multi-million pound hiring spree",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-30T15:57:43Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqm24pdylmm2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Podcaster dropped from Christmas lights event",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-10-30T15:56:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/c64g19zl0wj0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Men jailed for 'abhorrent' operation trafficking women from Europe into UK for sex work",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-30T15:53:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmz7x2rwgjjzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Spurs' Maddison fit to face Palace - De Zerbi",
    "source": "BBC SPORT",
    "topic": "sport",
    "published": "2026-10-30T15:49:28Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/cke8rp00m87lo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Russell Brand accusers 'haunted' for years by alleged crimes, court hears",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-30T15:49:25Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx4g1ve5ylg7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "US tech stocks see sharp falls over AI cost fears",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T15:46:28Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Google’s latest Nest Learning Thermostat is $60 off just in time for sweater weather",
@@ -170,13 +212,6 @@
    "link": "https://www.bbc.co.uk/news/articles/ck79pj8zn3vwo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Democratic senator blames Egypt press crackdown on US military aid decision",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T15:17:11Z",
-   "link": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "8-bit horror Tenebris Somnia mixes weird live-action horror with a retro 2D adventure to impressive and unsettling effect",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -189,13 +224,6 @@
    "topic": "science",
    "published": "2026-10-30T15:12:17Z",
    "link": "https://www.bbc.co.uk/news/articles/cqd09pv4l3k0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T15:09:29Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Six dead after helicopter crashes in northern Indian state",
@@ -226,13 +254,6 @@
    "link": "https://www.eurogamer.net/ea-closed-bioware-because-star-wars-battlefront-3"
   },
   {
-   "title": "This electric screwdriver uses a camera and AI to figure out what bit you need",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-30T14:23:26Z",
-   "link": "https://www.theverge.com/tech/1023057/arrowmax-arrowspace-s1-electric-screwdriver-ai-camera-kickstarter"
-  },
-  {
    "title": "Forza director, who'd been with Turn 10 for 27 years leaves Microsoft, following studios merger with Playground Games",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -240,16 +261,9 @@
    "link": "https://www.eurogamer.net/director-leaves-forza-playground-games-merge-microsoft"
   },
   {
-   "title": "Waymo’s next robotaxi is a purpose-built Toyota bZ4X",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-30T13:52:14Z",
-   "link": "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x"
-  },
-  {
    "title": "Silicon Valley wants you to invest in miracles",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-30T13:11:05Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
   },
@@ -259,13 +273,6 @@
    "topic": "ai",
    "published": "2026-10-30T13:01:14Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview"
-  },
-  {
-   "title": "5 best-looking cards in Pokemon TCG Pocket Dual Fusion expansion",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-30T13:00:00Z",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUkySTNORG51cjRsNEV2Z1FnbHVldXdZWjlfa0hHS19XakJlcTI2RGxUSHRTWkFKSTFLYjMxM3VuY1QxUk5CQklCWE5iWTB6UTB1NlRMcjhybWFHS0o1ajlONE9pZDMtX2x2MHJuOG96Ym13QW1Wd05tcVM4WHZOMEZkZGlQcXc5UVdlMndPd09JQnI4SWZZc09pdXNwdw?oc=5"
   },
   {
    "title": "Villagers left 'stranded' as roadworks block buses",
@@ -303,13 +310,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cm5yn8eqg3npo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Games industry honours beloved actor Sir Patrick Stewart, as the legendary Star Trek and X-Men actor passes away",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-30T11:35:58Z",
-   "link": "https://www.eurogamer.net/patrick-stewart-dies-oblivion-uriel-septim-castlevania"
-  },
-  {
    "title": "From Bitcoin to Binance: Crypto terms and what they mean",
    "source": "BBC TECH",
    "topic": "tech",
@@ -329,20 +329,6 @@
    "topic": "ai",
    "published": "2026-10-30T11:00:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers"
-  },
-  {
-   "title": "Pokemon TCG Pocket: Best Mega Mewtwo X ex deck guide",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-30T10:29:00Z",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORWlGclY3ZFEwb2kzVzd0dUQ0UFhpMU1hX2dUS2Nhakhpd1JvVnAyR2lKa3AwdGRIbFVPY0paSVB1aXFhTmVpdjBVVnczNzdrVkZBcGxRbklZNGwxZE1iZVBRZnlPTXBBaGx5clFUd1M0UFJkNk8xcXZrRTZyWWp0VEd5UkNueUZSUEJNSEIzRHc?oc=5"
-  },
-  {
-   "title": "Pokemon McDonald's Slip-Up Hints At Winds & Waves Release Window",
-   "source": "THEGAMER",
-   "topic": "pokemon",
-   "published": "2026-10-30T09:36:28Z",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yd3V0VzNqX2otN2dzd25iUVp0N1ExWVFacXBtVG02WThlZ3I2TmdVc3ZUZ3ktOWl3QmlheVFYNkkydEdPYXJ6bFp5Z0VqZV9xWV9WaHUyTnYwZl9VZEpUMHRtRWd6ZkVzeGE5Wg?oc=5"
   },
   {
    "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
@@ -429,6 +415,13 @@
    "link": "https://www.bbc.co.uk/sounds/play/p0pk9yd0?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Pokémon teases an adorable new holiday plush collection: How to buy Pikachu tree, Clodsire sleigh, and more",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-10-30T01:07:56Z",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYnJlZDFqeVFwd0RmVUJWUlF1eFNWbVM5R0I1SUNjOENJUnN1VWFZME92eTJnS3VjZFBMTWNmVXpWSjBqTlRxaWFYanBrcXZORk5SVy13QWh0T0swVzIxYXF3eFVoQXZ4QktfRHV2WWczYUNhUldXWjI2OWE5YjdOVzln?oc=5"
+  },
+  {
    "title": "From Levi's to Primark - the fashion chains selling mended clothes",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -436,11 +429,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cmwy9qe5r1z3o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-10-29T19:11:10Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss"
+   "title": "Best Pokémon TCG deal: 30th Celebration Sylveon ex Box is now under $60 at Walmart",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-10-29T23:34:06Z",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVdQWVd0U3h2VVhaYl92Y005bDZ4WnFoSVpRdTFMQUgyUGhFTWhfbl9sMW5Sb0JDMzYwWm1XcHNYeGsxeHpBM3BpcnIzT0xoNWFKYkVCZXI0djhyMWxmcXhxZUhNc201Tk5TSVBwYWVfWDVfUTRPTzRxd0JyZzE4aWxqTDU1RGtp?oc=5"
   },
   {
    "title": "Trump declares robot imports a national security threat",
@@ -457,6 +450,27 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
   },
   {
+   "title": "“Pokemon TCG Valentine’s Box” Revealed for January!",
+   "source": "POKEBEACH",
+   "topic": "pokemon",
+   "published": "2026-10-29T18:33:04Z",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcm9lV19jeFZfaGZNOWZyVmozZUVMMHdCMzhmRmd2VkcySk14a0xJOVZNUmluYmVvRENsb3ZTOW5rd2o2akpJYU5NcmowcTFZVWlPX0V5S05EdEYxWlNiT1pIalM3blBIdV94b0lheDlNNUNKbkk4d2VmNUF0eUExY0NycEJMaF90?oc=5"
+  },
+  {
+   "title": "Where to buy Pokemon TCG Delta Reign, the major new set",
+   "source": "GAMESRADAR+",
+   "topic": "pokemon",
+   "published": "2026-10-29T17:01:58Z",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXhrUF9YZVpSTWZNeUJBY1QxWUxodUg3ZTBJQ1k5N2R2R2d6aWExSW5BVl9mV2VXNjEwdGh2VFk3dDBvM2szOThJRW5fSHRqN0R0ZnBoSHA0Y3ZPNnN5RHhMT3YyZlRHb2hFb3k1blMxbXZKbHRoNXNYODhhakxsWWNjT3hranc?oc=5"
+  },
+  {
+   "title": "At Just $60, the Pokemon TCG 30th Celebration Elite Trainer Box Is Still a Hot Catch",
+   "source": "CNET",
+   "topic": "pokemon",
+   "published": "2026-10-29T16:59:00Z",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXB0cDVCX0pZWGNPTWtsOWlmVWplcDRROEVudGNoclFVUzJWNFhGZHJSRllTMEN4UFozUmFFNDVtcVlmRUZkR05nRXFnNnNrZWd2aFNhNWtSOEJsOGZ1TkpnQXc3bTk2akdoNzItMXlSWmN3akJDdEJjNjdOQjZPb2k5akRDdw?oc=5"
+  },
+  {
    "title": "Google admits AI search makes less money, but it's fixing that with more ads",
    "source": "ARS TECHNICA",
    "topic": "ai",
@@ -469,13 +483,6 @@
    "topic": "ai",
    "published": "2026-10-29T16:00:00Z",
    "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
-  },
-  {
-   "title": "The NYT Cooking app is testing AI recipe modifications",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-29T14:39:37Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
   },
   {
    "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
@@ -497,13 +504,6 @@
    "topic": "ai",
    "published": "2026-10-28T17:46:32Z",
    "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/"
-  },
-  {
-   "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-10-27T21:50:04Z",
-   "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
   }
  ]
 }
