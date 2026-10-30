@@ -1,6 +1,27 @@
 {
- "updated": "2026-10-30T21:58:31.680992Z",
+ "updated": "2026-10-30T22:28:50.837197Z",
  "items": [
+  {
+   "title": "US approves sale of 500 Patriot missiles to Ukraine",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T22:20:52Z",
+   "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-30T22:11:52Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Celebrity Traitors comes to a climax in nail-biting final",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-30T22:00:39Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw4g17z11l45o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "UFC champion Makhachev confirms retirement plans",
    "source": "BBC SPORT",
@@ -101,8 +122,8 @@
   },
   {
    "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC TECH",
+   "topic": "tech",
    "published": "2026-10-30T20:34:46Z",
    "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
   },
@@ -168,6 +189,13 @@
    "topic": "sport",
    "published": "2026-10-30T18:41:25Z",
    "link": "https://www.bbc.co.uk/sport/tennis/articles/cm0ld27ew5lyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokemon TCG Pocket: Best Mega Tyranitar ex deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T18:36:00Z",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS24yY1VuLXpTMk80UmktNlVNOUEyZUFPLVJFMU52TGxSNjBjNGh3UFNqSUhpSVJkU2ZzOTdIYmItZE9FLUppd2hiTFFLb2dYOEx0dWt3dHVoRjRfeHNaeFloZmpDbldyWWw5NExfemRpX3V3SlBvNjFBcWphMkpPZldlQjVMYjE5bkx0TjV3c3VrZw?oc=5"
   },
   {
    "title": "Google’s satellite AI server transmits its first response to Earth",
@@ -240,13 +268,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c620r2vg355ro?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-30T17:25:20Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "The delightfully messy state of Apple gadgets",
    "source": "THE VERGE",
    "topic": "tech",
@@ -287,20 +308,6 @@
    "topic": "pokemon",
    "published": "2026-10-30T16:22:32Z",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlVjUjNiTURSSnN6S3JFWlBoTWZHV2IzcnVXV2ZzZ09rRHBGb2lCV3h2T3VkZTVvYm11WklwdWNiZGcyV0J6c05heGttLTQyVXZPWGZQc25tdFZJakphN1FZWjRaVjJ3TGVzbGhCOXgwWFJnZXliQlpycDNjOFVSV0liRmJ3OHdfdmFDZUZhSXBqYURVdlFUck04VQ?oc=5"
-  },
-  {
-   "title": "Pokemon TCG Pocket: Best Mega Tyranitar ex deck guide",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-30T16:22:00Z",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS24yY1VuLXpTMk80UmktNlVNOUEyZUFPLVJFMU52TGxSNjBjNGh3UFNqSUhpSVJkU2ZzOTdIYmItZE9FLUppd2hiTFFLb2dYOEx0dWt3dHVoRjRfeHNaeFloZmpDbldyWWw5NExfemRpX3V3SlBvNjFBcWphMkpPZldlQjVMYjE5bkx0TjV3c3VrZw?oc=5"
-  },
-  {
-   "title": "Ex-football chief admits offences linked to woman's drugging and rape by husband",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-30T16:21:51Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckx2q1w9d7x4o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Yorkshire Water boss resigns after firm downgraded",
@@ -497,13 +504,6 @@
    "topic": "ai",
    "published": "2026-10-29T18:45:31Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
-  },
-  {
-   "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-10-29T09:31:44Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
