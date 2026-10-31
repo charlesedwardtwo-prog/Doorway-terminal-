@@ -1,6 +1,20 @@
 {
- "updated": "2026-10-31T15:57:37.064303Z",
+ "updated": "2026-10-31T16:26:46.484210Z",
  "items": [
+  {
+   "title": "I built an AI Tamagotchi before Meta could",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-31T16:05:00Z",
+   "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
+  },
+  {
+   "title": "Activision to remove Itaewon crowd crush footage from Call of Duty: Modern Warfare 4 and apologises to victims' families",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-31T15:59:46Z",
+   "link": "https://www.eurogamer.net/modern-warfare-4-itaewon-footage-removed-activision-apology"
+  },
   {
    "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
    "source": "BBC NEWS",
@@ -56,6 +70,13 @@
    "topic": "sport",
    "published": "2026-10-31T15:12:40Z",
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwe8lp875engo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-31T15:12:19Z",
+   "link": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings"
   },
   {
    "title": "Hirakawa replaces Ocon for Mexico City Grand Prix",
@@ -149,6 +170,13 @@
    "link": "https://www.bbc.co.uk/news/articles/cmy832693309o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "FBI investigates thieves using stolen credit cards to buy rare Pokemon cards",
+   "source": "DEXERTO",
+   "topic": "pokemon",
+   "published": "2026-10-31T12:30:53Z",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVlVER2hlUExwUUVHaTVtVG8teGw0dTJTaGYzanRxUGpmcDMtTEhCVGhQeVYwQzdURk5SdzhqbHV3bWZEdTJfLVFWRTNOR3oxLVBsRU5HdDdXU3VjMXhGTWw5eUhhUnpFeHFmS2JHeFViclN0LUZLVnRpUmpTVUZXaGRjbmRGU2JFVDF3Wld4SnhKWmlyeFVWVEhabWprV0RtS29waGNYYlZFLWtRNEJ2REwwNHlGNnVp?oc=5"
+  },
+  {
    "title": "US approves sale of 500 Patriot missiles to Ukraine",
    "source": "BBC NEWS",
    "topic": "world",
@@ -177,6 +205,13 @@
    "link": "https://www.theverge.com/policy/1023899/political-texts-midterm-elections"
   },
   {
+   "title": "Pokemon TCG Pocket: Best Rabbit Jumping deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-31T11:32:00Z",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZWt4dmdfTnFYTkdBVllwaVdjUG5OV3U0Wm9XbEVSWUVyZmt2WUdKLXZCYndnSXQ3U2hqVk1qSHpER043Z3JCbFdqcjBQQU11d1RKLUdHXzh4Nm9reVJnaDluZHUyalk2UmpZbWg5VUpZUVNPdEZNU1FuTk1ZRU5IQW9yWk9Yb3VydmhTVTRn?oc=5"
+  },
+  {
    "title": "Celebrity Traitors comes to a climax in nail-biting final",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -203,13 +238,6 @@
    "topic": "world",
    "published": "2026-10-31T09:16:14Z",
    "link": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "What we've been playing - \"I've been intrigued by horrible images of live-action sequences for weeks\"",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-31T08:00:00Z",
-   "link": "https://www.eurogamer.net/what-weve-been-playing-tenebris-somnia-moonlight-peaks-amnesia"
   },
   {
    "title": "Fog warning issued across the East of England",
@@ -277,7 +305,7 @@
   {
    "title": "Apple Intelligence is finally coming to China with iOS 27.3",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-10-30T22:32:53Z",
    "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
   },
@@ -310,13 +338,6 @@
    "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
   },
   {
-   "title": "Exclusive details about Akai’s MPC Sample Key",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-30T21:01:32Z",
-   "link": "https://www.theverge.com/gadgets/1023649/akai-mpc-sample-key-exclusive"
-  },
-  {
    "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
    "source": "THE VERGE",
    "topic": "ai",
@@ -338,6 +359,13 @@
    "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Pokemon TCG Pocket: Best Pikachu ex (Dual Fusion) deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T20:33:00Z",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd0NvTVkwU05HM3l0UThEQXVxbThubVVuV2pDX1ZMT3JyVTROYWlEU3B1RjcxaTZsVDNVLUpXeUZaajdhcVhhb3BEeGN2MWxTVFNDeWpKRmd6MlFCZWxmV2tjWDJYMHM3SkF4TVBNQmhyenk0R3NJU2RQN0dPRmxQUzY1ZGdaQmtDVEgzY2pSQmZtM3BfQ1Z6Xw?oc=5"
+  },
+  {
    "title": "The biggest names in AI are backing a new way to opt out of scraping",
    "source": "THE VERGE",
    "topic": "ai",
@@ -345,11 +373,25 @@
    "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
   },
   {
+   "title": "Pokemon TCG Officially Reveals Special New Rayquaza Release",
+   "source": "GAMERANT",
+   "topic": "pokemon",
+   "published": "2026-10-30T19:31:14Z",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZWUtFLWIzdENmMzFFTE5yUUlCNHBFNXFBejEzVmlRMVBLQXR0WnItbENzRVFDX24zNDBGRHk1Y0JQV2MtdlpvSW9RWWFCakxUaW5uNmU2aTZlLVl0VWRRWnB6b2czS2xnZko3UmlNSHh6ZHlD?oc=5"
+  },
+  {
    "title": "Basically no one is using AI agents for their DoorDash orders",
    "source": "ARS TECHNICA",
    "topic": "ai",
    "published": "2026-10-30T19:30:52Z",
    "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/"
+  },
+  {
+   "title": "Pokemon TCG Pocket: Best Giratina ex deck guide (Dual Fusion)",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-10-30T19:25:00Z",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWlFWX2VUOC1pbWtiVm5qSFNmU2tBZHVDcGxzV0l6WDBvdFkzSWl4U1dvdzkzaXRTSWxuRmplX2Z4VVZfcDVrTEhPdTIyaXlFZnkzYnFDd3Nkby1qM01JTzI4eUV5TFNSUlFpQ3lpT3pVanlPdHdNQUphU015WldwT3JXUnlObXozWmpuN0pfSlE3c1liTnJhb1Bn?oc=5"
   },
   {
    "title": "Google’s satellite AI server transmits its first response to Earth",
@@ -401,13 +443,6 @@
    "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
   },
   {
-   "title": "NEW 'POKEMON TCG' PREMIUM TOURNAMENT COLLECTION INBOUND",
-   "source": "ICV2",
-   "topic": "pokemon",
-   "published": "2026-10-30T16:22:32Z",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlVjUjNiTURSSnN6S3JFWlBoTWZHV2IzcnVXV2ZzZ09rRHBGb2lCV3h2T3VkZTVvYm11WklwdWNiZGcyV0J6c05heGttLTQyVXZPWGZQc25tdFZJakphN1FZWjRaVjJ3TGVzbGhCOXgwWFJnZXliQlpycDNjOFVSV0liRmJ3OHdfdmFDZUZhSXBqYURVdlFUck04VQ?oc=5"
-  },
-  {
    "title": "Yorkshire Water boss resigns after firm downgraded",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -434,13 +469,6 @@
    "topic": "ai",
    "published": "2026-10-30T14:58:06Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
-  },
-  {
-   "title": "Silicon Valley wants you to invest in miracles",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-30T13:11:05Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
   },
   {
    "title": "What we know about Binance's $6.3bn hack",
@@ -476,34 +504,6 @@
    "topic": "tech",
    "published": "2026-10-30T09:33:51Z",
    "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "“Pokemon TCG Valentine’s Box” Revealed for January!",
-   "source": "POKEBEACH",
-   "topic": "pokemon",
-   "published": "2026-10-29T18:33:04Z",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcm9lV19jeFZfaGZNOWZyVmozZUVMMHdCMzhmRmd2VkcySk14a0xJOVZNUmluYmVvRENsb3ZTOW5rd2o2akpJYU5NcmowcTFZVWlPX0V5S05EdEYxWlNiT1pIalM3blBIdV94b0lheDlNNUNKbkk4d2VmNUF0eUExY0NycEJMaF90?oc=5"
-  },
-  {
-   "title": "Where to buy Pokemon TCG Delta Reign, the major new set",
-   "source": "GAMESRADAR+",
-   "topic": "pokemon",
-   "published": "2026-10-29T17:01:58Z",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXhrUF9YZVpSTWZNeUJBY1QxWUxodUg3ZTBJQ1k5N2R2R2d6aWExSW5BVl9mV2VXNjEwdGh2VFk3dDBvM2szOThJRW5fSHRqN0R0ZnBoSHA0Y3ZPNnN5RHhMT3YyZlRHb2hFb3k1blMxbXZKbHRoNXNYODhhakxsWWNjT3hranc?oc=5"
-  },
-  {
-   "title": "At Just $60, the Pokemon TCG 30th Celebration Elite Trainer Box Is Still a Hot Catch",
-   "source": "CNET",
-   "topic": "pokemon",
-   "published": "2026-10-29T16:59:00Z",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXB0cDVCX0pZWGNPTWtsOWlmVWplcDRROEVudGNoclFVUzJWNFhGZHJSRllTMEN4UFozUmFFNDVtcVlmRUZkR05nRXFnNnNrZWd2aFNhNWtSOEJsOGZ1TkpnQXc3bTk2akdoNzItMXlSWmN3akJDdEJjNjdOQjZPb2k5akRDdw?oc=5"
-  },
-  {
-   "title": "How to Play Emploeon EX in Modern Pokemon TCG Standard",
-   "source": "SUPERJUMP",
-   "topic": "pokemon",
-   "published": "2026-10-29T14:00:09Z",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGxWbzNqQjRSaC1xRkNYOHBxdTBZSHdpTnhpRkVzQjdzeDVYZWZtWjZra2tURTZQUjR2VnZkVENfVjNxcGtxU2xwaXlVakg4blJwY0VTRWlwTUlrSEFIZTdsTjA5LXd5YnM3YUNZVGZQVVcyeVlnVDVvZGZCY2dFcVduUmxPMzdXN3hkcm9CRFBCX28?oc=5"
   }
  ]
 }
