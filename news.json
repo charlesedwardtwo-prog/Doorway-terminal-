@@ -1,12 +1,54 @@
 {
- "updated": "2026-10-31T17:01:30.501775Z",
+ "updated": "2026-10-31T17:54:49.989512Z",
  "items": [
+  {
+   "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-10-31T17:53:35Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Happy Pikmin Day Eve",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-10-31T17:50:12Z",
+   "link": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve"
+  },
+  {
+   "title": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-31T17:40:41Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ck9dz2yned67o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "PUBG live-action series in the works at Netflix, with Donald Glover set to direct and star",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-10-31T17:35:36Z",
+   "link": "https://www.eurogamer.net/pubg-live-action-netflix-series-donald-glover"
+  },
   {
    "title": "Martinez's 'inexplicable' 83 seconds cost Man Utd and Carrick",
    "source": "BBC SPORT",
    "topic": "sport",
-   "published": "2026-10-31T16:38:15Z",
+   "published": "2026-10-31T17:27:06Z",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckvg64xp1e1eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Quins claim victory at Exeter in nine-try nailbiter",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-10-31T17:10:55Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwe9l41ke3mzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'It's been killing me!' Celebrity Traitors winners relieved the secret is out",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-31T16:49:18Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g18l8l4wgo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Returning Estevao brings X-factor to strikerless Chelsea",
@@ -37,13 +79,6 @@
    "link": "https://www.eurogamer.net/modern-warfare-4-itaewon-footage-removed-activision-apology"
   },
   {
-   "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-31T15:50:41Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Pogacar 'happy to be alive' after 'scary' crash",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -65,25 +100,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/c6073yeg52xeo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Alonso praises Estevao response to lack of gametime",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-31T15:20:53Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cr5ynzdpjnn9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-10-31T15:16:20Z",
    "link": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Carrick bemoans Man Utd defending in Chelsea loss",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-10-31T15:13:43Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cqrlywrdjdzyo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
@@ -163,6 +184,13 @@
    "link": "https://www.eurogamer.net/skyblivion-former-volunteer-legal-threats"
   },
   {
+   "title": "Europe can no longer rely on US to 'bankroll' its defence, Starmer says",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-10-31T13:20:39Z",
+   "link": "https://www.bbc.co.uk/news/articles/cxnv0p4l7rjlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Watch: Blood donors get a Halloween fright in Thailand",
    "source": "BBC NEWS",
    "topic": "world",
@@ -175,13 +203,6 @@
    "topic": "uk",
    "published": "2026-10-31T12:40:44Z",
    "link": "https://www.bbc.co.uk/news/articles/cmy832693309o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "FBI investigates thieves using stolen credit cards to buy rare Pokemon cards",
-   "source": "DEXERTO",
-   "topic": "pokemon",
-   "published": "2026-10-31T12:30:53Z",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVlVER2hlUExwUUVHaTVtVG8teGw0dTJTaGYzanRxUGpmcDMtTEhCVGhQeVYwQzdURk5SdzhqbHV3bWZEdTJfLVFWRTNOR3oxLVBsRU5HdDdXU3VjMXhGTWw5eUhhUnpFeHFmS2JHeFViclN0LUZLVnRpUmpTVUZXaGRjbmRGU2JFVDF3Wld4SnhKWmlyeFVWVEhabWprV0RtS29waGNYYlZFLWtRNEJ2REwwNHlGNnVp?oc=5"
   },
   {
    "title": "US approves sale of 500 Patriot missiles to Ukraine",
@@ -203,41 +224,6 @@
    "topic": "tech",
    "published": "2026-10-31T12:00:00Z",
    "link": "https://www.theverge.com/tech/1023569/ipad-mini-alexa-photo-frame-readwise-installer"
-  },
-  {
-   "title": "Here’s why you can’t shake those unhinged political texts",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-10-31T12:00:00Z",
-   "link": "https://www.theverge.com/policy/1023899/political-texts-midterm-elections"
-  },
-  {
-   "title": "Pokemon TCG Pocket: Best Rabbit Jumping deck guide",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-31T11:32:00Z",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZWt4dmdfTnFYTkdBVllwaVdjUG5OV3U0Wm9XbEVSWUVyZmt2WUdKLXZCYndnSXQ3U2hqVk1qSHpER043Z3JCbFdqcjBQQU11d1RKLUdHXzh4Nm9reVJnaDluZHUyalk2UmpZbWg5VUpZUVNPdEZNU1FuTk1ZRU5IQW9yWk9Yb3VydmhTVTRn?oc=5"
-  },
-  {
-   "title": "Celebrity Traitors comes to a climax in nail-biting final",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-31T10:54:56Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw4g17z11l45o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "TikTok brings fame and queues to Brontë village for autumn",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-10-31T10:33:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmrly1702pnlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Silver Pines is a great survival horror throwback with an unexpected Metroidvania twist, but it makes me glad the genre's moved on",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-31T10:00:00Z",
-   "link": "https://www.eurogamer.net/silver-pines-now-playing"
   },
   {
    "title": "Fog warning issued across the East of England",
@@ -359,13 +345,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokemon TCG Pocket: Best Pikachu ex (Dual Fusion) deck guide",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-30T20:33:00Z",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd0NvTVkwU05HM3l0UThEQXVxbThubVVuV2pDX1ZMT3JyVTROYWlEU3B1RjcxaTZsVDNVLUpXeUZaajdhcVhhb3BEeGN2MWxTVFNDeWpKRmd6MlFCZWxmV2tjWDJYMHM3SkF4TVBNQmhyenk0R3NJU2RQN0dPRmxQUzY1ZGdaQmtDVEgzY2pSQmZtM3BfQ1Z6Xw?oc=5"
-  },
-  {
    "title": "The biggest names in AI are backing a new way to opt out of scraping",
    "source": "THE VERGE",
    "topic": "ai",
@@ -373,25 +352,11 @@
    "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
   },
   {
-   "title": "Pokemon TCG Officially Reveals Special New Rayquaza Release",
-   "source": "GAMERANT",
-   "topic": "pokemon",
-   "published": "2026-10-30T19:31:14Z",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZWUtFLWIzdENmMzFFTE5yUUlCNHBFNXFBejEzVmlRMVBLQXR0WnItbENzRVFDX24zNDBGRHk1Y0JQV2MtdlpvSW9RWWFCakxUaW5uNmU2aTZlLVl0VWRRWnB6b2czS2xnZko3UmlNSHh6ZHlD?oc=5"
-  },
-  {
    "title": "Basically no one is using AI agents for their DoorDash orders",
    "source": "ARS TECHNICA",
    "topic": "ai",
    "published": "2026-10-30T19:30:52Z",
    "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/"
-  },
-  {
-   "title": "Pokemon TCG Pocket: Best Giratina ex deck guide (Dual Fusion)",
-   "source": "SPORTSKEEDA",
-   "topic": "pokemon",
-   "published": "2026-10-30T19:25:00Z",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWlFWX2VUOC1pbWtiVm5qSFNmU2tBZHVDcGxzV0l6WDBvdFkzSWl4U1dvdzkzaXRTSWxuRmplX2Z4VVZfcDVrTEhPdTIyaXlFZnkzYnFDd3Nkby1qM01JTzI4eUV5TFNSUlFpQ3lpT3pVanlPdHdNQUphU015WldwT3JXUnlObXozWmpuN0pfSlE3c1liTnJhb1Bn?oc=5"
   },
   {
    "title": "Google’s satellite AI server transmits its first response to Earth",
@@ -441,6 +406,13 @@
    "topic": "ai",
    "published": "2026-10-30T16:53:49Z",
    "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
+  },
+  {
+   "title": "NEW 'POKEMON TCG' PREMIUM TOURNAMENT COLLECTION INBOUND",
+   "source": "ICV2",
+   "topic": "pokemon",
+   "published": "2026-10-30T16:22:32Z",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlVjUjNiTURSSnN6S3JFWlBoTWZHV2IzcnVXV2ZzZ09rRHBGb2lCV3h2T3VkZTVvYm11WklwdWNiZGcyV0J6c05heGttLTQyVXZPWGZQc25tdFZJakphN1FZWjRaVjJ3TGVzbGhCOXgwWFJnZXliQlpycDNjOFVSV0liRmJ3OHdfdmFDZUZhSXBqYURVdlFUck04VQ?oc=5"
   },
   {
    "title": "Yorkshire Water boss resigns after firm downgraded",
@@ -504,6 +476,34 @@
    "topic": "tech",
    "published": "2026-10-30T09:33:51Z",
    "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "“Pokemon TCG Valentine’s Box” Revealed for January!",
+   "source": "POKEBEACH",
+   "topic": "pokemon",
+   "published": "2026-10-29T18:33:04Z",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcm9lV19jeFZfaGZNOWZyVmozZUVMMHdCMzhmRmd2VkcySk14a0xJOVZNUmluYmVvRENsb3ZTOW5rd2o2akpJYU5NcmowcTFZVWlPX0V5S05EdEYxWlNiT1pIalM3blBIdV94b0lheDlNNUNKbkk4d2VmNUF0eUExY0NycEJMaF90?oc=5"
+  },
+  {
+   "title": "Where to buy Pokemon TCG Delta Reign, the major new set",
+   "source": "GAMESRADAR+",
+   "topic": "pokemon",
+   "published": "2026-10-29T17:01:58Z",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXhrUF9YZVpSTWZNeUJBY1QxWUxodUg3ZTBJQ1k5N2R2R2d6aWExSW5BVl9mV2VXNjEwdGh2VFk3dDBvM2szOThJRW5fSHRqN0R0ZnBoSHA0Y3ZPNnN5RHhMT3YyZlRHb2hFb3k1blMxbXZKbHRoNXNYODhhakxsWWNjT3hranc?oc=5"
+  },
+  {
+   "title": "At Just $60, the Pokemon TCG 30th Celebration Elite Trainer Box Is Still a Hot Catch",
+   "source": "CNET",
+   "topic": "pokemon",
+   "published": "2026-10-29T16:59:00Z",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXB0cDVCX0pZWGNPTWtsOWlmVWplcDRROEVudGNoclFVUzJWNFhGZHJSRllTMEN4UFozUmFFNDVtcVlmRUZkR05nRXFnNnNrZWd2aFNhNWtSOEJsOGZ1TkpnQXc3bTk2akdoNzItMXlSWmN3akJDdEJjNjdOQjZPb2k5akRDdw?oc=5"
+  },
+  {
+   "title": "How to Play Emploeon EX in Modern Pokemon TCG Standard",
+   "source": "SUPERJUMP",
+   "topic": "pokemon",
+   "published": "2026-10-29T14:00:09Z",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVGxWbzNqQjRSaC1xRkNYOHBxdTBZSHdpTnhpRkVzQjdzeDVYZWZtWjZra2tURTZQUjR2VnZkVENfVjNxcGtxU2xwaXlVakg4blJwY0VTRWlwTUlrSEFIZTdsTjA5LXd5YnM3YUNZVGZQVVcyeVlnVDVvZGZCY2dFcVduUmxPMzdXN3hkcm9CRFBCX28?oc=5"
   }
  ]
 }
