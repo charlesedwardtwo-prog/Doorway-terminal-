@@ -1,8 +1,43 @@
 {
- "updated": "2026-11-01T19:57:37.647142Z",
+ "updated": "2026-11-01T20:24:02.591047Z",
  "items": [
   {
-   "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end within hours",
+   "title": "Boy, 14, hands himself into police over Bradley Lowery video",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-01T20:15:52Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6z7x52w0r0zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat escalates",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-01T20:11:26Z",
+   "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Arsenal move clear at the top with a rare win at Liverpool",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-01T20:00:18Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "King to address slavery in Antigua as PM says he is open to possible UK apology",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-01T19:58:20Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq398y0zj9rpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Flock keeps ignoring requests to cancel its contracts",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-01T19:58:02Z",
+   "link": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
+  },
+  {
+   "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-11-01T19:48:17Z",
@@ -21,13 +56,6 @@
    "topic": "sport",
    "published": "2026-11-01T19:21:49Z",
    "link": "https://www.bbc.co.uk/sport/football/videos/cx2d2yxv84zo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat escalates",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-01T19:17:34Z",
-   "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Peaceful protests in Germany spiral into violence and looting",
@@ -51,25 +79,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Bellingham & Mbappe score as Real Madrid earn statement win",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-01T18:37:48Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cv0ldye7k4g3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "At Dead of Night sequel The Great Hugo is coming \"(very) soon\"",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-01T18:16:20Z",
    "link": "https://www.eurogamer.net/at-dead-of-night-2-the-great-hugo-sequel-announced"
-  },
-  {
-   "title": "Almgren wins in New York on marathon debut",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-01T18:10:11Z",
-   "link": "https://www.bbc.co.uk/sport/athletics/articles/c6ly0871547eo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'Fascinating' rare beetle found in Wales again after 60 years",
@@ -163,13 +177,6 @@
    "link": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak"
   },
   {
-   "title": "Green Party at 'crossroads' after Zionism vote, says former co-leader",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-01T15:52:51Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6x2wkp7e0q9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Talking Point 2026/2027 - Pokemon TCG Scams: Can We Stop Them?",
    "source": "CNA",
    "topic": "pokemon",
@@ -217,20 +224,6 @@
    "topic": "tech",
    "published": "2026-11-01T13:00:00Z",
    "link": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists"
-  },
-  {
-   "title": "Prop 45 in California could be hiding a loophole for data centers",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-01T13:00:00Z",
-   "link": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy"
-  },
-  {
-   "title": "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta Analysis",
-   "source": "POKÉMON GO HUB",
-   "topic": "pokemon",
-   "published": "2026-11-01T12:43:55Z",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQajh1YzMyRGY5M1hVTThrYUNnZS1nZDdFMnIwYVB2SF9mb2p2LW9tTGhnMGZZU3pwV2M1TFdEVHFWQmpURzBmWUhFLVpXREJjWDNFZXJqRDJlczh1MlBJR05ydjlqSjVTNUU1SnVBTFpqOEs1SHdLZi1ZbFZTM0hBV1F2blpxU3JrNWJSb1VIdFlsck9Id2dteVZGRUxlbm1aOWpOeWtlaEJ4dw?oc=5"
   },
   {
    "title": "Aquarium shark that helped 'dispel myths' dies",
@@ -350,13 +343,6 @@
    "topic": "business",
    "published": "2026-11-01T00:17:05Z",
    "link": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokemon TCG Reveals New Promo Cards A Year Before Release",
-   "source": "GAMERANT",
-   "topic": "pokemon",
-   "published": "2026-11-01T00:00:00Z",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nbEltYk9JLUFTWUlBSXVQUW9SVUp2aVB1SDdwenZmSkFncFQ2MDJSZXgyaUJ1X3FiWjV2LWYxbm1tTmdkZ3lOcC1zMGFpSGszTE5JTG50Z05EeWhqTzhpbnNWUGlCVmtUWlI1Zw?oc=5"
   },
   {
    "title": "FBI Investigating Pokemon TCG Scam",
@@ -485,6 +471,13 @@
    "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
   },
   {
+   "title": "NEW 'POKEMON TCG' PREMIUM TOURNAMENT COLLECTION INBOUND",
+   "source": "ICV2",
+   "topic": "pokemon",
+   "published": "2026-10-30T16:22:32Z",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlVjUjNiTURSSnN6S3JFWlBoTWZHV2IzcnVXV2ZzZ09rRHBGb2lCV3h2T3VkZTVvYm11WklwdWNiZGcyV0J6c05heGttLTQyVXZPWGZQc25tdFZJakphN1FZWjRaVjJ3TGVzbGhCOXgwWFJnZXliQlpycDNjOFVSV0liRmJ3OHdfdmFDZUZhSXBqYURVdlFUck04VQ?oc=5"
+  },
+  {
    "title": "Google value plunges by $500bn as its own AI search hits ad sales",
    "source": "BBC TECH",
    "topic": "tech",
@@ -504,6 +497,13 @@
    "topic": "tech",
    "published": "2026-10-30T11:35:51Z",
    "link": "https://www.bbc.co.uk/news/articles/cy5w2k5k5ylo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fbi Investigating Pokemon Cards Stolen From 7 Shop In Nj",
+   "source": "NEWS12 | NEW JERSEY",
+   "topic": "pokemon",
+   "published": "2026-10-30T07:00:00Z",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWxpY09OWTl2S3lDeVd2cklhRnlHRnhPVE1yYUtJTmRCRDBmRXJlTzV6N0NnaGg0eTBxaXg3WTIzQzJFMlVKUzNzaEhSNnU5MGlicmxQYW9mQzV6djJrZFBIQlJMTW94TmZvdlB4bXFOTERfQVlPY1B4ZmZfMXZSd1dIdnFwMlB1NlVrUEtR?oc=5"
   }
  ]
 }
