@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-01T02:35:26.014525Z",
+ "updated": "2026-11-01T03:36:48.298466Z",
  "items": [
+  {
+   "title": "Reeves says UK's future should be inside the EU",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-01T02:57:34Z",
+   "link": "https://www.bbc.co.uk/news/articles/c62l4yz0eexpo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Shops looted as German cost of living protests turn violent",
    "source": "BBC NEWS",
@@ -24,8 +31,8 @@
   },
   {
    "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
-   "source": "BBC TECH",
-   "topic": "tech",
+   "source": "BBC NEWS",
+   "topic": "world",
    "published": "2026-11-01T01:37:26Z",
    "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
   },
@@ -77,13 +84,6 @@
    "topic": "world",
    "published": "2026-11-01T00:12:07Z",
    "link": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Who are the real winners of Celebrity Traitors?",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-01T00:06:01Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmx2qg0nezrgo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "How 'brave & balanced' Brighton beat Man City",
@@ -147,13 +147,6 @@
    "topic": "science",
    "published": "2026-10-31T22:07:56Z",
    "link": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Thousands demonstrate in Paris as protests spread across Europe",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-10-31T21:29:01Z",
-   "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Get in the spirit with these horrors from YouTube",
@@ -490,6 +483,13 @@
    "topic": "tech",
    "published": "2026-10-30T11:35:51Z",
    "link": "https://www.bbc.co.uk/news/articles/cy5w2k5k5ylo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-10-30T09:33:51Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fbi Investigating Pokemon Cards Stolen From 7 Shop In Nj",
