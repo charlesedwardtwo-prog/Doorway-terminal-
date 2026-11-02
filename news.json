@@ -1,12 +1,75 @@
 {
- "updated": "2026-11-02T08:15:44.379737Z",
+ "updated": "2026-11-02T09:29:59.369001Z",
  "items": [
   {
-   "title": "Ryanair may freeze workers' pay as fuel prices spike",
+   "title": "Phantom Blade Zero is Steam's biggest launch of the year so far, selling over 4 million copies in three days",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-02T09:24:45Z",
+   "link": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch"
+  },
+  {
+   "title": "Nine killed as small jet crashes on Florida street",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-11-02T08:06:10Z",
+   "published": "2026-11-02T09:10:19Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Person injured as car crashes into estate agency",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-02T09:08:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6pqg8zzj2pro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The England team who can still win the Rugby League World Cup",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T08:57:47Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/crq5n6denn6go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Boulter wins despite incident getting under her skin",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T08:56:48Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/cwj3465p7n7no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Parents' concerns to trigger urgent checks in A&E",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T08:52:08Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw1m42zdnn3go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T08:42:56Z",
+   "link": "https://www.bbc.co.uk/news/articles/cj3vqy1g3eygo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ryanair may freeze workers' pay and raise airfares",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T08:33:57Z",
    "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "How are Ireland set for the Nations Championship?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T08:07:54Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cjn5v93w4gqno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Australia omit star pace trio for England series",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T08:07:31Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/cr5ynwddqpd6o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Popular Australian children's author jailed over child exploitation offences",
@@ -14,6 +77,13 @@
    "topic": "world",
    "published": "2026-11-02T08:03:39Z",
    "link": "https://www.bbc.co.uk/news/articles/cmjwe9nggp60o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Buatsi v Hutchinson 2 - all you need to know",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T07:56:28Z",
+   "link": "https://www.bbc.co.uk/sport/boxing/articles/c53983exgzrro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Five teenagers stabbed at Halloween party",
@@ -30,13 +100,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Nine killed as small jet crashes on Florida street",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-02T07:33:17Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Vikings, Chiefs and Cowboys beaten - NFL week eight",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -44,25 +107,11 @@
    "link": "https://www.bbc.co.uk/sport/american-football/articles/c3x2wd8llqpko?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Zverev becomes deserved world number one - but sense of discomfort remains",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T06:44:05Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cwkg5z5jmye0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Land deal setback stalls 3,500-home scheme",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-11-02T06:40:18Z",
    "link": "https://www.bbc.co.uk/news/articles/c83vq2d9ld30o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Sportspeople back Dobbin's PM plea on ME funding",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T06:30:24Z",
-   "link": "https://www.bbc.co.uk/sport/athletics/articles/c63r53wvy4q5o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Anglian Water 'requires improvement' again",
@@ -77,13 +126,6 @@
    "topic": "local",
    "published": "2026-11-02T06:26:22Z",
    "link": "https://www.bbc.co.uk/news/articles/cx5yndmlz5l7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Who am I? Plus today's other quizzes",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T06:24:40Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx30erg1d2rjo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Christmas donations gift demand up, charities say",
@@ -135,20 +177,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c9vgrkvv006xo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Why Scottish football is struggling to produce young talent",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T06:05:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/crx23ejgz7j8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The pathway promise: Why Scottish football is struggling to produce young talent",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T06:05:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/crx23ejgz7j8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Iran killed her teenage daughter - now she is facing up to the regime",
    "source": "BBC NEWS",
    "topic": "world",
@@ -175,20 +203,6 @@
    "topic": "uk",
    "published": "2026-11-02T02:46:55Z",
    "link": "https://www.bbc.co.uk/news/articles/cq398y0zj9rpo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Watch: King Charles III caught in torrential downpour at Antigua and Barbuda parade",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T02:43:54Z",
-   "link": "https://www.bbc.co.uk/news/videos/cxnv090q9qelo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The Papers: 'A family's pain' and 'EU students in return for trade'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T01:59:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm79py0q2wqwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Don't get caught out by new Buy Now Pay Later rules",
@@ -224,6 +238,13 @@
    "topic": "tech",
    "published": "2026-11-01T19:58:02Z",
    "link": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
+  },
+  {
+   "title": "The FBI warns card shops of a new stolen credit card fraud scheme, and the thieves are targeting rare Pokemon cards",
+   "source": "OPERATION SPORTS",
+   "topic": "pokemon",
+   "published": "2026-11-01T19:00:00Z",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSTlZa1d2RDJrbkZ0ZWlRaE01R1BJV2owVzdHMFFncUVTZ2ZyLVdKQ0p4eE9mV1ZhdmhkenpWVUZfdEl2YlVjNkZnWjBwckFYSXhFemd4U0lzV2luNURQYjlxcmVacDdDdnZmOXBtREhDQXF0djlVNVlVeldQT3pGR3lZLVVRREFxV1dCaHVGYUloZFJ6c3pBb281ZDh1US1rd3pORmt5clFrWW1VNHlvczI5LXdNVzFOZThqcHZNdFFsQmJaQk1PMTdGRTFJUlhnX05xTTJsTUFmVDlLQXUtRA?oc=5"
   },
   {
    "title": "At Dead of Night sequel The Great Hugo is coming \"(very) soon\"",
@@ -310,6 +331,20 @@
    "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "title": "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta Analysis",
+   "source": "POKÉMON GO HUB",
+   "topic": "pokemon",
+   "published": "2026-11-01T12:43:55Z",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQajh1YzMyRGY5M1hVTThrYUNnZS1nZDdFMnIwYVB2SF9mb2p2LW9tTGhnMGZZU3pwV2M1TFdEVHFWQmpURzBmWUhFLVpXREJjWDNFZXJqRDJlczh1MlBJR05ydjlqSjVTNUU1SnVBTFpqOEs1SHdLZi1ZbFZTM0hBV1F2blpxU3JrNWJSb1VIdFlsck9Id2dteVZGRUxlbm1aOWpOeWtlaEJ4dw?oc=5"
+  },
+  {
+   "title": "Pokémon TCG Pocket Dual Fusion ex Card Review & Meta Analysis",
+   "source": "POKÉMON GO HUB",
+   "topic": "pokemon",
+   "published": "2026-11-01T12:43:29Z",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2Rhcmt5LUI4X09Pc084NVU1ZGttQ0Q5VFY0RDFFWnBhQVc3cld3dU1JT2czWXQzRjUwbzkyNGQ3N1Z5VEZqbk1mQTdFSUNfeEYxUmV2LW5IckI0Q0pRQktzVm9jYnhKRGRHTjhDTmM4V2JqV29xdGtEYXo5bVpYTzFxa1h5a3c3bUlJM0hGZmVOZDVYdXBrSER2YWNtUHBNUklv?oc=5"
+  },
+  {
    "title": "Aquarium shark that helped 'dispel myths' dies",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -345,39 +380,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cqrkypljk526o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Judge's exhibition shines light on roller skating",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-01T06:34:33Z",
-   "link": "https://www.bbc.co.uk/news/articles/c30rlv7q80y4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
    "source": "BBC TECH",
    "topic": "tech",
    "published": "2026-11-01T01:37:26Z",
    "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokemon TCG Reveals New Promo Cards A Year Before Release",
-   "source": "OPENCRITIC",
-   "topic": "pokemon",
-   "published": "2026-11-01T00:17:15Z",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3gxTlB5V3ZEaXJ6SjFMTjQtSUFaY3BSVERLNWZUa3lZamljZVJfM1JCNGZLV0MzeC0tOElHT0ZDcUc2YjlEeWcyX01QZzJJUk9oNjlmRlpCcndOcjJBU0hxOFdhcGE0clZLVzZHZm85S0t4RHFkYk45UVJhc1lST193UWkyUDhTLVlVVUl4elFIUzFrTlE?oc=5"
-  },
-  {
-   "title": "FBI Investigating Pokemon TCG Scam",
-   "source": "OPENCRITIC",
-   "topic": "pokemon",
-   "published": "2026-10-31T23:07:15Z",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmNE1WSVhxUUcwdS1NS01WVElxOVhkQU00UUpPaU9Paml6aWhkUncyWHR4NUZ1dHVMaVJHNy1adGVhU2M0NWFMZWxtVUFSbGFIOV9TS1pWZVJIUjhIVDNWa1E0Y3V3cXNRajg2WGxQQnRMN3ZyOEMw?oc=5"
-  },
-  {
-   "title": "PUBG live-action series in the works at Netflix, with Donald Glover set to direct and star",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-10-31T17:35:36Z",
-   "link": "https://www.eurogamer.net/pubg-live-action-netflix-series-donald-glover"
   },
   {
    "title": "I built an AI Tamagotchi before Meta could",
@@ -476,13 +483,6 @@
    "topic": "ai",
    "published": "2026-10-30T16:53:49Z",
    "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
-  },
-  {
-   "title": "NEW 'POKEMON TCG' PREMIUM TOURNAMENT COLLECTION INBOUND",
-   "source": "ICV2",
-   "topic": "pokemon",
-   "published": "2026-10-30T16:22:32Z",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSlVjUjNiTURSSnN6S3JFWlBoTWZHV2IzcnVXV2ZzZ09rRHBGb2lCV3h2T3VkZTVvYm11WklwdWNiZGcyV0J6c05heGttLTQyVXZPWGZQc25tdFZJakphN1FZWjRaVjJ3TGVzbGhCOXgwWFJnZXliQlpycDNjOFVSV0liRmJ3OHdfdmFDZUZhSXBqYURVdlFUck04VQ?oc=5"
   },
   {
    "title": "Google value plunges by $500bn as its own AI search hits ad sales",
