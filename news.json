@@ -1,12 +1,82 @@
 {
- "updated": "2026-11-02T14:46:37.355636Z",
+ "updated": "2026-11-02T15:44:40.554228Z",
  "items": [
+  {
+   "title": "British adventurer Karl Bushby completes 28-year journey",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T15:31:58Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwr7yxmep8r3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "One World of Warcraft: Forever player is working on a first-person mod that's a love letter to retro RPGs like Hexen and Morrowind",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-02T15:21:24Z",
+   "link": "https://www.eurogamer.net/world-of-warcraft-forever-first-person-mod-rpg"
+  },
+  {
+   "title": "Vivo’s first Pro Max phone proves its Ultra is still in a league of its own",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T15:15:00Z",
+   "link": "https://www.theverge.com/tech/1023131/vivo-x500-pro-max-review-cameras-specs-price"
+  },
+  {
+   "title": "Train attacker said 'I am the baddest', trial hears",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T15:13:31Z",
+   "link": "https://www.bbc.co.uk/news/articles/c65ynd5y102lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Shop freezers in seven European countries hit by cyber-attack",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T15:12:22Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Labour ends power-sharing with Greens in 11 councils over Zionism row",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-11-02T14:45:21Z",
+   "published": "2026-11-02T15:08:44Z",
    "link": "https://www.bbc.co.uk/news/articles/c63dj21yvjd3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'New kit' helps battle against bugs",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-02T15:05:59Z",
+   "link": "https://www.bbc.co.uk/news/videos/cm369dep8jwno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Could data center backlash flip Florida?",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T15:05:00Z",
+   "link": "https://www.theverge.com/policy/1024357/florida-governors-race-donalds-jolly-data-centers"
+  },
+  {
+   "title": "YouTuber Druski is going to make exclusive content for Netflix",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T15:00:00Z",
+   "link": "https://www.theverge.com/streaming/1023777/youtube-druski-netflix-deal"
+  },
+  {
+   "title": "Stokell in 'voluntary' ban after medication error",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T14:44:30Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/c6n9rngrplggo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T14:35:38Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
@@ -23,18 +93,18 @@
    "link": "https://www.eurogamer.net/anthropic-claude-generative-ai-game-clones-update"
   },
   {
+   "title": "What we know about the alert app hack in Ukraine and Russia",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T14:24:25Z",
+   "link": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "title": "Two hospitals at risk of losing maternity units",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-11-02T14:16:50Z",
    "link": "https://www.bbc.co.uk/news/articles/c370pgzv70nxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Shop freezers in seven European countries hit by suspected cyber-attack",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-02T14:11:13Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The 16GB Raspberry Pi 5 got another ‘unavoidable’ RAM price hike",
@@ -121,34 +191,6 @@
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6jdm4n1xjmjo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Train attacker said 'I am the baddest', trial hears",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T13:10:06Z",
-   "link": "https://www.bbc.co.uk/news/articles/c65ynd5y102lo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man caught in car with £14k of drugs as a lamb ate chips in the back seat avoids jail",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T13:05:15Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6rmyrnwylwzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "More European supermarkets are getting their freezers hacked",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-02T13:00:35Z",
-   "link": "https://www.theverge.com/tech/1024300/europe-freezer-fridge-hack-cyberattack"
-  },
-  {
-   "title": "Chris Mason: Home secretary to face scrutiny over changes to rules for legal migrants",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T12:58:05Z",
-   "link": "https://www.bbc.co.uk/news/articles/ck4g13zrm513o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Smith makes claim, Chessum and Russell make friends - Prem talking points",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -177,13 +219,6 @@
    "link": "https://www.eurogamer.net/id-software-doing-great-losing-half-the-studio"
   },
   {
-   "title": "Grit and glory - Mageean's career in pictures",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T12:06:46Z",
-   "link": "https://www.bbc.co.uk/sport/athletics/articles/cwly0xnr60zvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Uganda begins withdrawing troops from Somalia after 20 years",
    "source": "BBC NEWS",
    "topic": "world",
@@ -205,18 +240,18 @@
    "link": "https://www.eurogamer.net/soulframe-open-prelude-date-verse-of-the-veillands"
   },
   {
+   "title": "Pokemon TCG Pocket: Best Alolan Exeggutor ex deck guide",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-11-02T11:09:00Z",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSUZpWnNDVm1nd2wxLWlXZEZGemtsOXZzQjRsQ2pScHdCTWJzXzg3aGFHcFZrNG9rZXRQXzN4TE9KdmlsZ0o1YzRWQjF1Tk5iYjVXTklubzduWmRRdU15STdUOGYzcXk3cGd4Y0hZMXhQVC1wZEw2NFktQS1aRUNOaElRM2E5Y2hzUENENGkyMnAzLWtw?oc=5"
+  },
+  {
    "title": "Amazon reveals top 13 toys for Christmas - including 'ultra-rare' Pokemon cards",
    "source": "THE SUN",
    "topic": "pokemon",
    "published": "2026-11-02T11:08:00Z",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZDUzcXVaRUx4S3hTTzVLajJHN3FOdEJnUzdIeGJfVVRGenhEa1FvTGsySmxoRXdCWkE4aUMzMTM0ODc4LVlXX0lCdzFSbHRJQkpzLXIwUkY3UHAyUWd4d19aSS1aS01JYXBETkhGWk9nZjRTVFUxc2hlT2w5NzVLMF85V2I?oc=5"
-  },
-  {
-   "title": "Five arrested after South African farmer shot and tortured",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-02T10:48:47Z",
-   "link": "https://www.bbc.co.uk/news/articles/cv4g13z0px8yo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Norwich City 3-2 Watford - the fans' verdict",
@@ -289,13 +324,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cq9vz2jj409vo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Jackery made its portable power stations even smaller",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-02T05:00:00Z",
-   "link": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate"
-  },
-  {
    "title": "Don't get caught out by new Buy Now Pay Later rules",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -310,18 +338,11 @@
    "link": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "NASA hopes the commercial space industry can help save Hubble",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-01T21:09:21Z",
-   "link": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble"
-  },
-  {
-   "title": "At Dead of Night sequel The Great Hugo is coming \"(very) soon\"",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-01T18:16:20Z",
-   "link": "https://www.eurogamer.net/at-dead-of-night-2-the-great-hugo-sequel-announced"
+   "title": "The FBI warns card shops of a new stolen credit card fraud scheme, and the thieves are targeting rare Pokemon cards",
+   "source": "OPERATION SPORTS",
+   "topic": "pokemon",
+   "published": "2026-11-01T19:00:00Z",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSTlZa1d2RDJrbkZ0ZWlRaE01R1BJV2owVzdHMFFncUVTZ2ZyLVdKQ0p4eE9mV1ZhdmhkenpWVUZfdEl2YlVjNkZnWjBwckFYSXhFemd4U0lzV2luNURQYjlxcmVacDdDdnZmOXBtREhDQXF0djlVNVlVeldQT3pGR3lZLVVRREFxV1dCaHVGYUloZFJ6c3pBb281ZDh1US1rd3pORmt5clFrWW1VNHlvczI5LXdNVzFOZThqcHZNdFFsQmJaQk1PMTdGRTFJUlhnX05xTTJsTUFmVDlLQXUtRA?oc=5"
   },
   {
    "title": "'Fascinating' rare beetle found in Wales again after 60 years",
@@ -345,6 +366,13 @@
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWTlzQUFEY2x6NEdHUUprZmZGMmQxVVM5enIwdWo1eDJzZmthSlBseDA4WnFkWjVlemVzdk5uWUNhNEczRldUMmo0NEJaR2Z2MWRtSXZwTEQtX2V2SmE5aWxMcGR5Q0JxMFd0MzhfNVBYQmQxWlV3TUMxdGxlcm11V19HTlAzaG9lMFBBcDQ0MFBwNkR1M0M0UVRQbVhjV0FOXy1xS1Vn?oc=5"
   },
   {
+   "title": "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta Analysis",
+   "source": "POKÉMON GO HUB",
+   "topic": "pokemon",
+   "published": "2026-11-01T12:43:55Z",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQajh1YzMyRGY5M1hVTThrYUNnZS1nZDdFMnIwYVB2SF9mb2p2LW9tTGhnMGZZU3pwV2M1TFdEVHFWQmpURzBmWUhFLVpXREJjWDNFZXJqRDJlczh1MlBJR05ydjlqSjVTNUU1SnVBTFpqOEs1SHdLZi1ZbFZTM0hBV1F2blpxU3JrNWJSb1VIdFlsck9Id2dteVZGRUxlbm1aOWpOeWtlaEJ4dw?oc=5"
+  },
+  {
    "title": "Aquarium shark that helped 'dispel myths' dies",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -359,39 +387,11 @@
    "link": "https://www.bbc.co.uk/news/videos/crwyd2lyj15go?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokemon TCG tins, Pokemon posters, cards, playmat, stickers, and more khorasantimes.com",
-   "source": "KHORASANTIMES.COM",
-   "topic": "pokemon",
-   "published": "2026-11-01T07:39:41Z",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTBOeXY4ZVFvWjJwaXZDa0dJXzRhamhnNWZPRHM0eF9Rd0pwNDZBOG5DTUJnZ0MyRGFtMEpDZk0xS0Zfakp3RVlOQU9WX1JkdGY5TkZXVXpReDloR2d1S2JqTnc1UFl6UTdOSzY3UktOVnlfdjF4ZEtHbHk0VHYwaUJJbWZDa3VQVm4tdEhBeWNwUXpvZ1hRM0hRTTBJaGhmLUpwanVfVWZSbkQ5OEE?oc=5"
-  },
-  {
-   "title": "Rhino siblings celebrate first birthday with cake",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-01T07:11:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqrkypljk526o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
    "source": "BBC TECH",
    "topic": "tech",
    "published": "2026-11-01T01:37:26Z",
    "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokemon TCG Reveals New Promo Cards A Year Before Release",
-   "source": "OPENCRITIC",
-   "topic": "pokemon",
-   "published": "2026-11-01T00:17:15Z",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3gxTlB5V3ZEaXJ6SjFMTjQtSUFaY3BSVERLNWZUa3lZamljZVJfM1JCNGZLV0MzeC0tOElHT0ZDcUc2YjlEeWcyX01QZzJJUk9oNjlmRlpCcndOcjJBU0hxOFdhcGE0clZLVzZHZm85S0t4RHFkYk45UVJhc1lST193UWkyUDhTLVlVVUl4elFIUzFrTlE?oc=5"
-  },
-  {
-   "title": "FBI Investigating Pokemon TCG Scam",
-   "source": "OPENCRITIC",
-   "topic": "pokemon",
-   "published": "2026-10-31T23:07:15Z",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmNE1WSVhxUUcwdS1NS01WVElxOVhkQU00UUpPaU9Paml6aWhkUncyWHR4NUZ1dHVMaVJHNy1adGVhU2M0NWFMZWxtVUFSbGFIOV9TS1pWZVJIUjhIVDNWa1E0Y3V3cXNRajg2WGxQQnRMN3ZyOEMw?oc=5"
   },
   {
    "title": "I built an AI Tamagotchi before Meta could",
