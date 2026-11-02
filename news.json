@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-02T19:42:23.208770Z",
+ "updated": "2026-11-02T20:33:04.809216Z",
  "items": [
+  {
+   "title": "Yakuza creator's new studio and its debut game Gang of Dragon are no more after losing funding from NetEase",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-02T20:30:09Z",
+   "link": "https://www.eurogamer.net/yakuza-creator-new-studio-closed-netease"
+  },
+  {
+   "title": "Fifa to share confidential World Cup sell-off plan documents",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T20:23:55Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6vgj0p4ey17o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T20:23:12Z",
+   "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Two boys arrested after Halloween party stabbings",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T20:20:11Z",
+   "link": "https://www.bbc.co.uk/news/articles/cked3j229j43o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man guilty of stealing cash from farm owned by South African president",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T20:08:51Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9vgrvpk4l6eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "BMW is taking on Tesla’s FSD with urban driver assist starting in 2027",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T20:03:52Z",
+   "link": "https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027"
+  },
+  {
+   "title": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T19:58:34Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What Florida jet audio and flight data tells us about its final moments",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T19:49:22Z",
+   "link": "https://www.bbc.co.uk/news/videos/c52e9lgxjz82o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Nowak family say police failed them multiple times",
    "source": "BBC NEWS",
@@ -9,18 +65,25 @@
    "link": "https://www.bbc.co.uk/news/articles/cwvg0x7rd402o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
+   "title": "Trump to remove Rwanda and South Africa from US trade deal",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-11-02T19:37:10Z",
-   "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+   "published": "2026-11-02T19:33:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Hunt for attackers after Halloween party stabbings",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T19:10:22Z",
-   "link": "https://www.bbc.co.uk/news/articles/c3j47g4kk1npo?at_medium=RSS&at_campaign=rss"
+   "title": "The Apple Watch Ultra 4 is $100 off, matching its best price to date",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T19:24:09Z",
+   "link": "https://www.theverge.com/gadgets/1024416/apple-watch-ultra-4-ugreen-finetrack-2-bluetooth-tracker-deal-sale"
+  },
+  {
+   "title": "Ford promises not to sell your driving habits to data brokers",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T19:05:46Z",
+   "link": "https://www.theverge.com/transportation/1024386/ford-customer-driving-data-privacy-promise-data-brokers"
   },
   {
    "title": "Anthropic clamps down on Claude’s AI video game clones",
@@ -66,8 +129,8 @@
   },
   {
    "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC TECH",
+   "topic": "tech",
    "published": "2026-11-02T18:25:01Z",
    "link": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss"
   },
@@ -137,7 +200,7 @@
   {
    "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-02T17:51:19Z",
    "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
   },
@@ -150,8 +213,8 @@
   },
   {
    "title": "Shop freezers in seven European countries hit by cyber-attack",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-02T17:38:11Z",
    "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
   },
@@ -163,39 +226,11 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Key questions as Pocognoli names Scotland squad",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T17:35:14Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-02T17:34:58Z",
    "link": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-02T17:33:19Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Apple’s ‘Ultra’ smart home robot might have to wait until 2028",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-02T17:06:10Z",
-   "link": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay"
-  },
-  {
-   "title": "Squarespace is laying off 19 percent of employees",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-02T16:50:47Z",
-   "link": "https://www.theverge.com/tech/1024447/squarespace-layoffs-19-percent"
   },
   {
    "title": "COD Modern Warfare 4 has seemingly answered DMZ players' PvE calls with new Story Mission changes - but there are major caveats",
@@ -245,13 +280,6 @@
    "topic": "business",
    "published": "2026-11-02T13:40:36Z",
    "link": "https://www.bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Over a decade later, Bloodborne remains so popular it reportedly sold a quarter of a million copies this year alone",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-02T13:35:31Z",
-   "link": "https://www.eurogamer.net/bloodborne-251-000-sales-in-2016-ps4"
   },
   {
    "title": "Former transport minister used phone while driving",
@@ -336,20 +364,6 @@
    "topic": "science",
    "published": "2026-11-02T06:16:34Z",
    "link": "https://www.bbc.co.uk/news/articles/cq9vz2jj409vo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Don't get caught out by new Buy Now Pay Later rules",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-01T23:34:49Z",
-   "link": "https://www.bbc.co.uk/news/articles/crpdgp4y017go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "North Carolina voters weigh up Trump's track record on cost of living",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-01T22:25:51Z",
-   "link": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'Fascinating' rare beetle found in Wales again after 60 years",
@@ -478,13 +492,6 @@
    "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
   },
   {
-   "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-10-30T17:38:04Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
-  },
-  {
    "title": "NEW 'POKEMON TCG' PREMIUM TOURNAMENT COLLECTION INBOUND",
    "source": "ICV2",
    "topic": "pokemon",
@@ -497,13 +504,6 @@
    "topic": "tech",
    "published": "2026-10-30T12:04:02Z",
    "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Who could be behind the Binance hack and what we know so far",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-10-30T11:57:33Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm5yn8eqg3npo?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
