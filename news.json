@@ -1,12 +1,131 @@
 {
- "updated": "2026-11-02T17:45:01.211493Z",
+ "updated": "2026-11-02T18:40:30.117483Z",
  "items": [
+  {
+   "title": "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T18:35:05Z",
+   "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T18:34:24Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Apple’s roaming home robot may do FaceTime, switch lights on, and yell at your cat",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-11-02T18:32:21Z",
+   "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+  },
+  {
+   "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-02T18:25:01Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Tenerife player in intensive care with injury",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T18:18:55Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "MP Carla Lockhart quits DUP in Drumcree row",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T18:17:31Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm87zn1vy28zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Smyth in contention as Saints evaluate kicker slot",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T18:16:13Z",
+   "link": "https://www.bbc.co.uk/sport/american-football/articles/cv2d6k463j6ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-11-02T18:05:31Z",
+   "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/"
+  },
+  {
+   "title": "Reform council leader quits after staff comments leaked",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T18:04:51Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6n4en89nd2xo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Nintendo tried adding fast travel to The Legend of Zelda: Ocarina of Time remake, before devs realised \"we were missing out on the moments of discovery\"",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-02T18:01:38Z",
+   "link": "https://www.eurogamer.net/nintendo-fast-travel-legend-of-zelda-ocarina-of-time-remake"
+  },
+  {
+   "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T18:01:30Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+  },
+  {
+   "title": "Labour ends power-sharing with Greens in 11 councils over Zionism row",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T17:59:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/c63dj21yvjd3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Almost 8.4m ticket requests for India-Pakistan World Cup tie",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T17:59:02Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/cr2ke7gy8q1go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What are the planned changes to immigration rules?",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-02T17:55:32Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6ly052pdx4no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-02T17:51:19Z",
+   "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+  },
+  {
+   "title": "England call up Spencer and Randall as injuries hit",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T17:48:54Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cvp8gxldn304o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Shop freezers in seven European countries hit by cyber-attack",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-11-02T17:38:11Z",
    "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Key questions as Pocognoli prepares to name Scotland squad",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-02T17:35:14Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
@@ -21,13 +140,6 @@
    "topic": "world",
    "published": "2026-11-02T17:33:19Z",
    "link": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Dutch police offer record €2m reward in hunt for drug lord",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-02T17:29:49Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Hunt for attackers after Halloween party stabbings",
@@ -58,20 +170,6 @@
    "link": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay"
   },
   {
-   "title": "Teen had leg amputated after stabbing on beach on bank holiday, court hears",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T16:59:46Z",
-   "link": "https://www.bbc.co.uk/news/articles/cj5ynvekl92ko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Reform council leader quits after staff comments leaked",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T16:55:42Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6n4en89nd2xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Boulter wins despite incident getting under her skin",
    "source": "BBC SPORT",
    "topic": "sport",
@@ -84,20 +182,6 @@
    "topic": "tech",
    "published": "2026-11-02T16:50:47Z",
    "link": "https://www.theverge.com/tech/1024447/squarespace-layoffs-19-percent"
-  },
-  {
-   "title": "Labour ends power-sharing with Greens in 11 councils over Zionism row",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T16:38:56Z",
-   "link": "https://www.bbc.co.uk/news/articles/c63dj21yvjd3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Can Alcaraz's ex-coach help Shelton challenge his former protege?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T16:21:12Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/crz654jdzdqpo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "COD Modern Warfare 4 has seemingly answered DMZ players' PvE calls with new Story Mission changes - but there are major caveats",
@@ -114,32 +198,11 @@
    "link": "https://www.bbc.co.uk/news/articles/ck0e0jwye4y4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "'I decided I was going to be Taylor Swift' - singer goes from busking to The Voice UK winner",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-02T16:01:28Z",
-   "link": "https://www.bbc.co.uk/news/articles/cked3j989ex0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Carrick says it's 'crazy' but he's looking forward to Roma game",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T16:00:07Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c933x04ryz4do?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Why Peacock is making a huge bet on YouTube",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-11-02T16:00:00Z",
    "link": "https://www.theverge.com/podcast/1024228/matt-strauss-nbc-univerisal-versant-comcast-peacock-streaming-tv"
-  },
-  {
-   "title": "Borthwick turned down my offer to work with England - Edwards",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T15:47:55Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g0j2dvklo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "One World of Warcraft: Forever player is working on a first-person mod that's a love letter to retro RPGs like Hexen and Morrowind",
@@ -163,41 +226,6 @@
    "link": "https://www.bbc.co.uk/news/videos/cm369dep8jwno?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Could data center backlash flip Florida?",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-02T15:05:00Z",
-   "link": "https://www.theverge.com/policy/1024357/florida-governors-race-donalds-jolly-data-centers"
-  },
-  {
-   "title": "YouTuber Druski is going to make exclusive content for Netflix",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-02T15:00:00Z",
-   "link": "https://www.theverge.com/streaming/1023777/youtube-druski-netflix-deal"
-  },
-  {
-   "title": "Stokell in 'voluntary' ban after medication error",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T14:44:30Z",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c6n9rngrplggo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-02T14:35:38Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-02T14:35:01Z",
-   "link": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "As the controversy around AI-created video game copies continues, Anthropic seemingly restricts Claude's cloning abilities",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -210,13 +238,6 @@
    "topic": "local",
    "published": "2026-11-02T14:16:50Z",
    "link": "https://www.bbc.co.uk/news/articles/c370pgzv70nxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "To dive or not to dive? Football's big dilemma",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-02T14:06:47Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Poundland's former owner offers to invest as minister prepares to meet board",
@@ -266,13 +287,6 @@
    "topic": "local",
    "published": "2026-11-02T11:42:10Z",
    "link": "https://www.bbc.co.uk/news/articles/c6pqg8zzj2pro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Soulframe to launch into free open beta this week, as Warframe devs go head-to-head with WoW: Forever",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-02T11:17:46Z",
-   "link": "https://www.eurogamer.net/soulframe-open-prelude-date-verse-of-the-veillands"
   },
   {
    "title": "Pokemon TCG Pocket: Best Alolan Exeggutor ex deck guide",
@@ -471,25 +485,11 @@
    "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission"
   },
   {
-   "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-10-30T17:38:19Z",
-   "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
-  },
-  {
    "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
    "source": "THE VERGE",
    "topic": "ai",
    "published": "2026-10-30T17:38:04Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru"
-  },
-  {
-   "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-10-30T16:53:49Z",
-   "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/"
   },
   {
    "title": "Google value plunges by $500bn as its own AI search hits ad sales",
