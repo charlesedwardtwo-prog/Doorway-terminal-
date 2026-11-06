@@ -1,47 +1,187 @@
 {
- "updated": "2026-11-06T01:55:02.331140Z",
+ "updated": "2026-11-06T08:45:31.891491Z",
  "items": [
   {
-   "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+   "title": "Russell Brand being investigated over rape allegations from two more women, police say",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T08:30:44Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Seven arrested and police car set alight during Bonfire Night violence in Scotland",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T08:18:22Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm0ldd8kyn36o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Somalia's top court rejects president's term extension amid political crisis",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-11-06T01:44:03Z",
+   "published": "2026-11-06T08:18:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/c977ppnezep6o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Lampard looks for Coventry progress as belief grows",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T08:11:03Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Australia recruit Hussey for Ashes build-up",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T08:05:05Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/c9y7lln8vyglo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ireland's home straight to World Cup starts with Pumas",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T08:02:48Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cve8rx3yxg2eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-06T07:56:19Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Scotland can be best & worst team in world - Dempsey",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T07:53:44Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmd934jpg59yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Firms told to publish salaries in job adverts ahead of new law",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T07:36:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-06T07:33:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-06T07:27:26Z",
    "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+   "title": "From street fighter to world champion - Bentley's rise to top",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T07:16:34Z",
+   "link": "https://www.bbc.co.uk/sport/boxing/articles/cr4g1lp8947eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokemon Center",
+   "source": "THE GEEKIARY",
+   "topic": "pokemon",
+   "published": "2026-11-06T07:15:27Z",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTUlJvNkx6ZDFrWGl5UTFJd3ZaUE9VNEowNnRtLXk3bFFlN19lYlZvR245Ny1RbmRBZEFraHlQWk9sRVE4alVMNlJqMXVZZVk2OXJlZA?oc=5"
+  },
+  {
+   "title": "Why managers can learn a lot from leaders like Napoleon - Pulis",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T06:53:56Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ck98z2r17e6po?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Dolly Parton's scheme to send free books to children brought back",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T06:49:07Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g1kne2y5wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Macau jails pro-democracy campaigner in city's first national security case",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-11-06T01:28:03Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss"
+   "published": "2026-11-06T06:46:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Cut to college transport unforgivable - councillor",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-06T06:30:09Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60e03p9g5y8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Chances to protect teen killed by her dad 'missed'",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-06T06:28:50Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6n9rwv8wqp0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Major milestone' as beavers released into Loch Ness area",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T06:26:33Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckjwe5xw0jy3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Glasgow children's hospital begins robot-assisted surgeries in world first",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T06:17:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/c8x23z3wqwppo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Extra special' tamarin twins born at zoo",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-06T06:15:18Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmx23zzlezp8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'I've taken an extra job to pay for heating oil'",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-11-06T06:06:00Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Did a data centre revolt affect the US mid-term election results?",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-06T06:01:13Z",
+   "link": "https://www.bbc.co.uk/news/articles/crvg9yyz5437o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "A wildfire killed their loved ones in Spain. These British families demand to know why",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-06T06:00:46Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm3vq4wyeld1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokémon TCG: 30th Celebration Ultra-Premium Collections—Day & Night",
+   "source": "POKEMON.COM",
+   "topic": "pokemon",
+   "published": "2026-11-06T05:54:19Z",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkRFYnZZVl9kSU8yV213NnFsRFc3c0tfOHNkZUpFYnRVaFU0Sl8zU2E5dmU5a3JUbW9zdWZlZmxmaHBBUmN2T3RFYm96UGxESEl4cmtkQTA0WUktZ3RsUml2djdiejk2cVcwVmZmS19ibjZCVURPWldhejlDQzk2cDhrbHQxZFRaRGJjMUd5Q09TUkZraGwwWE5kRE5venRwMGE5U2dQS3B1U0E?oc=5"
   },
   {
    "title": "Could the earliest weakening of the polar vortex on record bring UK snow?",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC SCIENCE",
+   "topic": "science",
    "published": "2026-11-06T01:22:39Z",
    "link": "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Met chief warns policing 'heading for failure' without reform",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-06T01:13:53Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvglww2r307ko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The Papers: 'Justice' and 'Predatory' Brand faces jail",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-06T01:10:12Z",
-   "link": "https://www.bbc.co.uk/news/articles/c8ly00v3qwpdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Andrew received up to £2,000 per month from sub-letting, watchdog reports",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-06T00:39:18Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6m2d7vpd0meo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "OpenAI is stepping back from NDAs for data center projects",
@@ -49,20 +189,6 @@
    "topic": "tech",
    "published": "2026-11-06T00:37:56Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
-  },
-  {
-   "title": "Duran & Osmand spark Celtic into life - but where does that leave Hogh?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T00:10:28Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwd099ez7z4yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Thatcher's Right to Buy split my estate. Now its days could be numbered",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-06T00:09:56Z",
-   "link": "https://www.bbc.co.uk/news/articles/c699zde85xn7o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Airbnb is working on an AI travel agent",
@@ -79,25 +205,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-06T00:02:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "'I was asked if I was a crier': Your worst job interviews revealed",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-06T00:02:52Z",
    "link": "https://www.bbc.co.uk/news/articles/c3j4751pqnj8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokémon TCG: 30th Celebration Ultra-Premium Collections—Day & Night",
-   "source": "POKEMON.COM",
-   "topic": "pokemon",
-   "published": "2026-11-05T23:51:10Z",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkRFYnZZVl9kSU8yV213NnFsRFc3c0tfOHNkZUpFYnRVaFU0Sl8zU2E5dmU5a3JUbW9zdWZlZmxmaHBBUmN2T3RFYm96UGxESEl4cmtkQTA0WUktZ3RsUml2djdiejk2cVcwVmZmS19ibjZCVURPWldhejlDQzk2cDhrbHQxZFRaRGJjMUd5Q09TUkZraGwwWE5kRE5venRwMGE5U2dQS3B1U0E?oc=5"
   },
   {
    "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
@@ -105,13 +217,6 @@
    "topic": "tech",
    "published": "2026-11-05T23:45:10Z",
    "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report"
-  },
-  {
-   "title": "Anderson could be given chance to join Surrey",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-05T23:33:52Z",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c6wyvvdx2xe9o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "T-Mobile owner on Elon Musk launching a wireless carrier: ‘Welcome to the party’",
@@ -122,38 +227,17 @@
   },
   {
    "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC SCIENCE",
+   "topic": "science",
    "published": "2026-11-05T23:16:53Z",
    "link": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "California governor commutes sentences for state's 548 death row inmates",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-05T23:09:33Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Deschamps not interested in Man Utd job - Friday's gossip",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-05T22:49:23Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Firms told to publish salaries in job adverts ahead of new law",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-05T22:32:02Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Forest need balance between Woodstock and military - Glasner",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-05T22:30:07Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwg5jj6nvmnyo?at_medium=RSS&at_campaign=rss"
+   "title": "Pokemon cards can now be delivered in 15 minutes with massive discounts on rare cards",
+   "source": "DEXERTO",
+   "topic": "pokemon",
+   "published": "2026-11-05T22:54:22Z",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUZZYUV1SEtWZk5BS1dIMTVheDlOUjdxcG5wdFRfeG9Zam9OS3Q1d1NHWGNrWFQyYUpPc1k2NzdOR2VQSjFQZ2Rsd1liNHpPMU1GdmRjLWNkdDBwelJmRmFRbldBTWRISklrdE9jUGZob3I5cEdNaDgyQ3VUYTFVempmUTdMV3A5cWwxeFBzcjRMM2lCb2hQWVBJTzdLNHBLdDlCSVlYUko3Ymhvb0VHNkhqQ1hKV0dTbWJicGdaeEZydmVx?oc=5"
   },
   {
    "title": "Perplexity launches its own take on AI agents for work",
@@ -161,13 +245,6 @@
    "topic": "tech",
    "published": "2026-11-05T22:26:50Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
-  },
-  {
-   "title": "Keep or sell Konsa? - FPL gameweek 10 dilemmas",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-05T22:26:23Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm4g112qp051o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Salon is shutting down after 31 years",
@@ -205,13 +282,6 @@
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfd0g0LWltX3NhbDJEVUtfZFdQT3dOYUhfQmgwQzdhWXJYc090WnlsUWJEVFR6NGh0MTNBVHI2cUN6WTJRcjZTeUVDNXA4NmxQSkxJS1RlVEhCMmRIM2ZOSEZBZ3Z4ZG5jb0pFR2FCYlVMR292UFY2d0wtRTg4QQ?oc=5"
   },
   {
-   "title": "Antonelli says 2027 preparation starts now",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-05T21:19:56Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cx0544g2n1jdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "2026 National Toy Hall of Fame embraces Care Bears, collects Pokemon Cards, slides and shouts BINGO!",
    "source": "NERDVANA MEDIA",
    "topic": "pokemon",
@@ -226,32 +296,11 @@
    "link": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokemon cards can now be delivered in 15 minutes with massive discounts on rare cards",
-   "source": "DEXERTO",
-   "topic": "pokemon",
-   "published": "2026-11-05T20:57:52Z",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUZZYUV1SEtWZk5BS1dIMTVheDlOUjdxcG5wdFRfeG9Zam9OS3Q1d1NHWGNrWFQyYUpPc1k2NzdOR2VQSjFQZ2Rsd1liNHpPMU1GdmRjLWNkdDBwelJmRmFRbldBTWRISklrdE9jUGZob3I5cEdNaDgyQ3VUYTFVempmUTdMV3A5cWwxeFBzcjRMM2lCb2hQWVBJTzdLNHBLdDlCSVlYUko3Ymhvb0VHNkhqQ1hKV0dTbWJicGdaeEZydmVx?oc=5"
-  },
-  {
-   "title": "Pokemon TCG Report Reveals New Mega Evolution Card Coming in Next Set",
-   "source": "COMICBOOK.COM",
-   "topic": "pokemon",
-   "published": "2026-11-05T20:03:52Z",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd0JPMEViUHFnckpfUURHRzdSb2FOem50bFhKNHp0bEItVXhzWUlIbVNVQkJDY0s0Ni1YbXhqcU1nS3RsQlRFcl9sOXlaT05mNW1jZ2lSVDFreXgtZGxfdDJZMHBacnRlcW9NNE5KWW9qVFpDVmJJeTMwM3FoQlRHdWR3?oc=5"
-  },
-  {
    "title": "Over 1,000 tonnes of sewage seen at landfill site",
    "source": "BBC SCIENCE",
    "topic": "science",
    "published": "2026-11-05T20:01:05Z",
    "link": "https://www.bbc.co.uk/news/articles/cmp8ggn9gpjjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Who could be behind hoax bomb threats to European air travel?",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-05T19:58:40Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Muse has a voice mode now",
@@ -366,13 +415,6 @@
    "link": "https://www.eurogamer.net/queens-domain-now-playing"
   },
   {
-   "title": "Faisal Islam: How high will interest rates go?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-05T13:17:10Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Mass Effect petition has enough signatures for the Canadian Government to potentially save BioWare",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -408,39 +450,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cmvg6yy4j7q6o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Google refused 54K-name petition, say campaigners",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-05T11:30:03Z",
-   "link": "https://www.bbc.co.uk/news/articles/c5ev3wm3ng42o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Midwives concerned over possible baby unit closures",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-11-05T11:21:55Z",
    "link": "https://www.bbc.co.uk/news/articles/cqe9l7lv9j58o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Developer says £1.2bn data centre will boost city",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-05T10:20:06Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvp8gdxpdrkxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Triple killing suspect's knife left in woods for days",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-05T06:31:38Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq0ldgjdxpd8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-04T23:12:47Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
@@ -462,13 +476,6 @@
    "topic": "tech",
    "published": "2026-11-04T16:26:15Z",
    "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "William meets firefighters who tackled summer blazes",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-04T11:35:08Z",
-   "link": "https://www.bbc.co.uk/news/videos/c94g1m232pgyo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Graduates are managing AI - but are they learning much else?",
@@ -497,13 +504,6 @@
    "topic": "ai",
    "published": "2026-11-03T17:54:43Z",
    "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
-  },
-  {
-   "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-03T16:19:29Z",
-   "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
