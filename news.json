@@ -1,19 +1,124 @@
 {
- "updated": "2026-11-06T21:42:36.018407Z",
+ "updated": "2026-11-07T01:27:21.946459Z",
  "items": [
+  {
+   "title": "The Papers: 'Meghan's father charged' and 'Brand investigation widens'",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T00:51:09Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqly00plnegdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What happens if all the lights go out? This is the plan for a 'Black Sky' event",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T00:31:54Z",
+   "link": "https://www.bbc.co.uk/news/articles/ck5ynnj05z8no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokémon TCG: 30th Celebration Ultra-Premium Collections—Day & Night",
+   "source": "POKEMON.COM",
+   "topic": "pokemon",
+   "published": "2026-11-07T00:00:05Z",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkRFYnZZVl9kSU8yV213NnFsRFc3c0tfOHNkZUpFYnRVaFU0Sl8zU2E5dmU5a3JUbW9zdWZlZmxmaHBBUmN2T3RFYm96UGxESEl4cmtkQTA0WUktZ3RsUml2djdiejk2cVcwVmZmS19ibjZCVURPWldhejlDQzk2cDhrbHQxZFRaRGJjMUd5Q09TUkZraGwwWE5kRE5venRwMGE5U2dQS3B1U0E?oc=5"
+  },
+  {
+   "title": "Six tries and a big win - but were Ireland ruthless?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T23:57:05Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmde88ppx39go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T23:53:06Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-06T23:46:18Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+  },
+  {
+   "title": "Leicester hold nerve to knock out sixth-tier Oxford City",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T23:37:23Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c8qlnn4dvp3yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Bristol Rovers shock Cambridge United to reach round two",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T23:26:39Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cxdd88g97lm7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Lampard feels hair pull should have led to Coventry penalty",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T23:22:21Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Whole Australia team knew of sandpaper use - Khawaja",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-06T23:11:56Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/cjdx33kyzk3lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-06T23:00:44Z",
+   "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+  },
+  {
+   "title": "Man, 41, and boy, 16, arrested after car damaged by gunshots",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T22:50:53Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw0k00rp2e35o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Starlink Mobile: All the news on SpaceX’s major mobile carrier ambitions",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-06T22:45:43Z",
+   "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news"
+  },
   {
    "title": "Pokemon Center is selling collectible music box dioramas and framed maps for all nine regions",
    "source": "DEXERTO",
    "topic": "pokemon",
-   "published": "2026-11-06T21:08:56Z",
+   "published": "2026-11-06T22:39:01Z",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPajZJWGhlcmJ2bFM5NU5Iek54QTlBelppVnJmYWZlTENlYUFyV3hIZW90NUJINUdFWS12WExScHhDNTlvTjZoUUlndm0wLWJWZ1NtT1o4dzFwWVBaUTdwZzQ0NkdUMzZuSF8wNU9BWGR6VG1Ib1FfcXdGejR1MlVDQktsaVJFcmVuazlmdE1KMVFrUHhaTmJ3Z21Cbi1oWG5ESy1aUnZzTEVId0xLM0dfSkpzMDFhZld3cnA1dzZpNWRac090NHc?oc=5"
   },
   {
-   "title": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T21:08:04Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss"
+   "title": "Man, 35, charged with murder of Carrie Mullane",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-06T22:30:07Z",
+   "link": "https://www.bbc.co.uk/news/articles/c54g11430n7ro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-06T21:50:32Z",
+   "link": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale"
+  },
+  {
+   "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-06T21:49:50Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "AI stocks climb after trillions wiped from market values",
@@ -21,13 +126,6 @@
    "topic": "world",
    "published": "2026-11-06T21:06:25Z",
    "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T20:52:24Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "See photos of shoppers lining up for latest Pokemon release (again)",
@@ -65,13 +163,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c9zrdd60zxk2o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Buatsi booed at weigh-in before world title bout",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T19:01:33Z",
-   "link": "https://www.bbc.co.uk/sport/boxing/articles/c6lylr5lnggvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Manhunt after boy injured by sword, sparking Gloucester school lockdowns",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -86,25 +177,11 @@
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdHFUU2l3X3BCYVRWeldsVGlqRUtIR083QjZQSk01ZlYxdlhPNXZrbERieXFDVnJoRjM2TXZXZnZEQVJWc2lUT2Z6TWtnb0JWY0JCWDRCY3RueHdQYzE5M1RFWkFhMFVpejA4azNYSVZJVWdDWjNaM1hPajlJa3gybDdXWFhlT01OWXV5VFFzLWg1eUF3?oc=5"
   },
   {
-   "title": "Lame-duck Congress might actually do something: speed up energy projects",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-06T18:42:30Z",
-   "link": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote"
-  },
-  {
    "title": "Mass Effect-like RPG The Expanse: Osiris Reborn ropes in David Gaider, the original lead writer of Bioware's Dragon Age series",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-06T18:40:40Z",
    "link": "https://www.eurogamer.net/mass-effect-expanse-rpg-david-gaider"
-  },
-  {
-   "title": "'Unexplained neurological symptoms' behind Henderson absence",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T18:39:33Z",
-   "link": "https://www.bbc.co.uk/sport/american-football/articles/cw0733x400yro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Why the US midterms sparked an AI stock selloff",
@@ -114,23 +191,9 @@
    "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Player-coach rift report will only galvanise England - George",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T18:30:57Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx2qqyz4p1po?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Scotland come full circle for another crack at All Blacks",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T18:29:09Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cw62yy06dejzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-06T18:10:10Z",
    "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
   },
@@ -142,25 +205,18 @@
    "link": "https://www.bbc.co.uk/news/articles/cm62yywyp4vno?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokémon TCG: 30th Celebration Ultra-Premium Collections—Day & Night",
-   "source": "POKEMON.COM",
-   "topic": "pokemon",
-   "published": "2026-11-06T17:57:12Z",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkRFYnZZVl9kSU8yV213NnFsRFc3c0tfOHNkZUpFYnRVaFU0Sl8zU2E5dmU5a3JUbW9zdWZlZmxmaHBBUmN2T3RFYm96UGxESEl4cmtkQTA0WUktZ3RsUml2djdiejk2cVcwVmZmS19ibjZCVURPWldhejlDQzk2cDhrbHQxZFRaRGJjMUd5Q09TUkZraGwwWE5kRE5venRwMGE5U2dQS3B1U0E?oc=5"
-  },
-  {
-   "title": "Amazon is now making a Melania Trump TV series",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-06T17:56:58Z",
-   "link": "https://www.theverge.com/tech/1028854/amazon-melania-the-series-mgm-studios-prime-video"
-  },
-  {
    "title": "Bringing Bloodborne back is tricky because \"there's a lot of involved rights associated,\" according to former PlayStation boss",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-06T17:49:40Z",
    "link": "https://www.eurogamer.net/bloodborne-involved-rights-former-playstation-boss"
+  },
+  {
+   "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-06T17:44:02Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
@@ -170,13 +226,6 @@
    "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/"
   },
   {
-   "title": "Just about anyone can rent access to White House IP addresses",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-06T17:40:06Z",
-   "link": "https://www.theverge.com/tech/1028835/white-house-residential-proxy"
-  },
-  {
    "title": "Nigerian court rules opposition candidate cannot stand in elections",
    "source": "BBC NEWS",
    "topic": "world",
@@ -184,23 +233,9 @@
    "link": "https://www.bbc.co.uk/news/articles/cw8rzzx46jd5o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Bonfire Night violence condemned as six arrested",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-06T17:25:45Z",
-   "link": "https://www.bbc.co.uk/news/articles/c61wvv8w9wevo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Jail and health board admit criminal charges over Covid death prisoner",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-06T17:20:16Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmwy445n9dw2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-06T17:19:38Z",
    "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss"
   },
@@ -224,13 +259,6 @@
    "topic": "world",
    "published": "2026-11-06T16:51:01Z",
    "link": "https://www.bbc.co.uk/news/articles/cx8dzzy8n713o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Tube drivers to stage strikes in Christmas run-up",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-06T16:50:22Z",
-   "link": "https://www.bbc.co.uk/news/articles/ck7vpplgvrjqo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "How climate change worsens heatwaves, droughts, wildfires and floods",
@@ -308,20 +336,6 @@
    "topic": "world",
    "published": "2026-11-06T16:12:22Z",
    "link": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Two dead after bus crashes in France, officials say",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-06T15:33:52Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-06T15:30:42Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Wales scraps controversial Uganda tree-planting scheme",
@@ -415,20 +429,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-06T09:57:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "How does it affect me if share prices fall?",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-06T09:21:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Cut to college transport unforgivable - councillor",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -441,13 +441,6 @@
    "topic": "local",
    "published": "2026-11-06T06:28:50Z",
    "link": "https://www.bbc.co.uk/news/articles/c6n9rwv8wqp0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "OpenAI is stepping back from NDAs for data center projects",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-06T00:37:56Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
   },
   {
    "title": "The engine parts that 'fight the laws of the universe'",
@@ -504,6 +497,13 @@
    "topic": "tech",
    "published": "2026-11-04T16:26:15Z",
    "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Graduates are managing AI - but are they learning much else?",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-04T00:04:35Z",
+   "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
