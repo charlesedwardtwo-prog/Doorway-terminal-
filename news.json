@@ -1,26 +1,187 @@
 {
- "updated": "2026-11-07T07:30:54.025474Z",
+ "updated": "2026-11-07T14:30:24.493163Z",
  "items": [
   {
-   "title": "I had to play regularly for my mental wellbeing - Trafford on summer move",
+   "title": "Scotland lose Welsh and call up Porteous",
    "source": "BBC SPORT",
    "topic": "sport",
-   "published": "2026-11-07T07:27:40Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cq62yyveznrro?at_medium=RSS&at_campaign=rss"
+   "published": "2026-11-07T13:57:46Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cxyvrdyzrvgro?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Paraguay's President Santiago Peña impeached and arrested after bank collapse",
+   "title": "Zelda is back and better than ever",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-07T13:49:01Z",
+   "link": "https://www.theverge.com/tech/1028930/zelda-ocarina-godzilla-minus-zero-affinity-installer"
+  },
+  {
+   "title": "Kiwis reap rewards of gamble on 'freak of nature' Ponga",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-07T13:43:08Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cj20vqpk2z33o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokemon TCG: Best Mega Rayquaza ex deck guide (Delta Reign)",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-11-07T13:41:00Z",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOTNMNDhTRHhuZkdpTEhjbmlVdWxzRlBDa0k0OFkyLWJ3aVBxUkpJck92ZXd1d25kSWNEVC1kbXFSTzhlSnB1UnRMX18tWVpaMk45VkR5SFg0NjFrQ2FzR2JjM3ZuZ0s1WFlsRmEtVVVsTGgwd0NFTDRVWjcwMUI5SUdBcE8wRXZBemFFQnlyMWZaY3lZLXNZ?oc=5"
+  },
+  {
+   "title": "Man, 41, and boy, 16, arrested after car damaged by gunshots",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T13:22:32Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw0k00rp2e35o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ireland going from strength to strength - Murray",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-07T13:17:24Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmqxn5j87rrro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T13:02:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man arrested after leaving 6-year-old daughter sleeping in line for Pokemon cards",
+   "source": "DEXERTO",
+   "topic": "pokemon",
+   "published": "2026-11-07T12:55:38Z",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSHNaaHlzQURIRWRyb2VxaHNhenh1QmZETERWdUR4NDYyZTRTMkRsUFF0TmJ4Nk1nczZ1OXJ3RlpkanBSMUZjVEd6S1B4ejZkSmpHSFFSeG9WVTZFM0R5UTNRQ1h2MVluaU5KVkdhdTkyN1JtTGNvYjlsdVRlY2tXN1pXU1J1Zm52MHZEMWxKUTkwamVEdElkV0hWeFh5MDl4dXptcjhDMmp1cVBlWHROSnZFMUJEcGpfTkFiMnl6QQ?oc=5"
+  },
+  {
+   "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-07T12:49:36Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Five takeaways from Norwich City's latest accounts",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-07T12:38:24Z",
+   "link": "https://www.bbc.co.uk/news/articles/c84g11n4epv3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Xbox is testing a way to use your phone as a controller on smart TVs",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-07T12:30:10Z",
+   "link": "https://www.eurogamer.net/xbox-cloud-gaming-phone-controller-smart-tv-nano-cloud-connect"
+  },
+  {
+   "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-07T12:30:00Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+  },
+  {
+   "title": "My dream is to win Ballon d'Or - Gabriel",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-07T12:25:14Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmy4x9yq3xg3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Four things we learned this week about 2028 White House race",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-07T12:23:28Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Relief, tears and sadness: Married at First Sight UK cast react to show being axed",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T11:31:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Store hires overnight guards after thieves steal $50,000 worth of Pokemon cards",
+   "source": "DEXERTO",
+   "topic": "pokemon",
+   "published": "2026-11-07T11:16:21Z",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYzZxWVBMNU1CRTZVTnV5ZWlocDI2amp4Y0xZSjJRQ0J6amFaQ0FqVWxZZ2pqWFhTb2xHVVRlZDFiVlZtdWNqZ3NLay1TZzgwV1JUY0I1MVF0ZC1rQ1dNYnpxRXUxMTExVUVkR1gtWldGeldzMzAxSHFrZzR3RDRrSk4xMkQzR1ZKZS1tOGUzWlJVeW94UDFlakczSnhIMm1ybmhhcEZsQ29Ld3NPZzNuOWliVnpHcXd1T1E?oc=5"
+  },
+  {
+   "title": "5 top chase cards from the Pokemon TCG Delta Reign expansion, ranked",
+   "source": "SPORTSKEEDA",
+   "topic": "pokemon",
+   "published": "2026-11-07T11:14:00Z",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYUk5MDFYUFUzSXNhUkdjMDJZWjNpWkxKbVJlUkszWUpkM1p3STFlT2ZTZ0F4NTd4c2l6cTlKdGlabk03d3dKelE4R1hLdTVfc1NMeFlXNFR2eUs4UXdjNmFlLXFhNW02NXFGWlUzSTFEV2IzWlNXdG9lVVZ1NmtXaHE4YUxUd3RWd0Z2ZDN2RUt6ZktyX0dhN09B?oc=5"
+  },
+  {
+   "title": "Victims in rape cases must not feel like they are on trial, Burnham says",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T11:04:28Z",
+   "link": "https://www.bbc.co.uk/news/articles/crgj99j8y998o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Two men arrested after boy injured in sword attack",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T10:38:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmwy99yzd0v9o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "From young offender to resident doctor: 'I wrote a plan and stuck to it'",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-07T09:23:39Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm9qz9r8d9wlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "New Zealand sweep aside Samoa to reach Women's World Cup final",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-07T08:32:15Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c680zz8k3nvvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What we've been playing - \"Sniffing out the warehouses on Prawn Island\"",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-07T08:02:00Z",
+   "link": "https://www.eurogamer.net/what-weve-been-playing-vice-city-zelda-world-of-warcraft-forever"
+  },
+  {
+   "title": "Buatsi v Hutchinson 2 - world light-heavyweight title fight predictions",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-07T08:00:59Z",
+   "link": "https://www.bbc.co.uk/sport/boxing/articles/c674pek0yd2jo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Holy grail' long lost board game found in Norfolk attic",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-07T07:44:16Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6vg7ly3105qo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Retiree's $2.6m Pokemon cards sale drives surge in rare trading card prices at auction, World News",
+   "source": "ASIAONE.COM",
+   "topic": "pokemon",
+   "published": "2026-11-07T07:29:48Z",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQjM0RXNkNXpGTFlncEVuRk53NklPMHRIcEFmYnJEZjVMRU80bEJXV0lIRVQ4TkdyQzdKaU5XWlNfRU5rR3g4Mk9XQUVvdnlLZzJ2YlNBYzVDM28xWlhCS2RLYm1IbzdfZU5qTjgzWktpOTJOSjQtWFNQaGNjdmtIQ0picGd2aXlKYzRYQjN4cjRfN2ZmdjhSSkpTdzcwQ1lMTEJDNTM2X2tCQ1U?oc=5"
+  },
+  {
+   "title": "Paraguay's president impeached and under house arrest after bank collapse",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-11-07T07:20:00Z",
    "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Not playing at Man City 'horrendous' - Trafford",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-07T07:16:37Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "New Forest wildfire restoration work begins",
@@ -37,32 +198,11 @@
    "link": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Who am I? Plus today's other quizzes",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-07T06:53:35Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwg5jj21e519o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Non-league's greatest giant-killers eye another scalp",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-07T06:45:56Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqev332mv1lyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Beach homes face demolition months after being sold",
    "source": "BBC NORFOLK",
    "topic": "local",
    "published": "2026-11-07T06:26:15Z",
    "link": "https://www.bbc.co.uk/news/articles/cjr4yvgl320go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Japan date starts pivotal month for Welsh rugby",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-07T06:25:09Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cq8ez336g0r1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Driving an hour in labour would be terrifying, say mums",
@@ -72,51 +212,16 @@
    "link": "https://www.bbc.co.uk/news/articles/cmx288r16e56o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Parliament restoration delays 'frustrating', says Commons Speaker",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-07T06:04:32Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm89zznj21ylo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The Papers: 'Meghan's father charged' and 'Brand investigation widens'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-07T05:44:52Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqly00plnegdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Relief, tears and sadness: Married at First Sight UK cast react to show being axed",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-07T05:12:52Z",
-   "link": "https://www.bbc.co.uk/news/articles/crx233lx94n7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokémon TCG: 30th Celebration Ultra-Premium Collections—Day & Night",
-   "source": "POKEMON.COM",
-   "topic": "pokemon",
-   "published": "2026-11-07T02:59:02Z",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkRFYnZZVl9kSU8yV213NnFsRFc3c0tfOHNkZUpFYnRVaFU0Sl8zU2E5dmU5a3JUbW9zdWZlZmxmaHBBUmN2T3RFYm96UGxESEl4cmtkQTA0WUktZ3RsUml2djdiejk2cVcwVmZmS19ibjZCVURPWldhejlDQzk2cDhrbHQxZFRaRGJjMUd5Q09TUkZraGwwWE5kRE5venRwMGE5U2dQS3B1U0E?oc=5"
-  },
-  {
    "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC SCIENCE",
+   "topic": "science",
    "published": "2026-11-07T02:03:28Z",
    "link": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Skepta: 'I'm what it looks like if you give an immigrant child a chance'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-07T01:58:00Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6n499d3ykgwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-07T01:41:36Z",
    "link": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss"
   },
@@ -135,32 +240,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cq0k0lg48705o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Six tries and a big win - but were Ireland ruthless?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-06T23:57:05Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmde88ppx39go?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-11-06T23:46:18Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
-  },
-  {
-   "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-06T23:46:08Z",
-   "link": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "With Stephen Miller pick, Trump readies for a battle",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-06T23:24:15Z",
-   "link": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pokemon Center is selling collectible music box dioramas and framed maps for all nine regions",
@@ -205,16 +289,9 @@
    "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "See photos of shoppers lining up for latest Pokemon release (again)",
-   "source": "RENO GAZETTE JOURNAL",
-   "topic": "pokemon",
-   "published": "2026-11-06T20:47:00Z",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOXZjYTNhLU1qVE5GXzI0OURQcTEwWHd2enRpRkFTZjAwcUp5WHI2V0hoeFRpUDhncEhoRzlYTThjVU1tTVJVdjdXU3RrVW10NEoxYVA0UVoteDhoNUxyaTV6YzhGTlExOFlnZGJrczVEb1RpLVVlcjlTNDRzN0dnSG1ISENyZ2JhbUtzZER6ektPdnA4N0dNSUU0TnRScHlFZHZzRmpYLUJ4eC02cW1rM0E4QXZMMU0tVWctVHdfSDVYWXFmaHBGUzdOXzNkM1RkS2h0SlhnNkVVUS1P?oc=5"
-  },
-  {
    "title": "All the latest updates on AI data centers",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-06T20:02:22Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy"
   },
@@ -224,20 +301,6 @@
    "topic": "gaming",
    "published": "2026-11-06T19:58:20Z",
    "link": "https://www.eurogamer.net/updated-xbox-pc-app-faster-asha-sharma"
-  },
-  {
-   "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-06T19:47:02Z",
-   "link": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale"
-  },
-  {
-   "title": "'POKEMON TCG' GETS INDUCTED INTO NATIONAL TOY HALL OF FAME",
-   "source": "ICV2",
-   "topic": "pokemon",
-   "published": "2026-11-06T18:55:48Z",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdHFUU2l3X3BCYVRWeldsVGlqRUtIR083QjZQSk01ZlYxdlhPNXZrbERieXFDVnJoRjM2TXZXZnZEQVJWc2lUT2Z6TWtnb0JWY0JCWDRCY3RueHdQYzE5M1RFWkFhMFVpejA4azNYSVZJVWdDWjNaM1hPajlJa3gybDdXWFhlT01OWXV5VFFzLWg1eUF3?oc=5"
   },
   {
    "title": "Mass Effect-like RPG The Expanse: Osiris Reborn ropes in David Gaider, the original lead writer of Bioware's Dragon Age series",
@@ -287,13 +350,6 @@
    "topic": "business",
    "published": "2026-11-06T17:19:38Z",
    "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Pokemon Center In Japan Has Gorgeous New Music Box Dioramas And Framed Maps",
-   "source": "THEGAMER",
-   "topic": "pokemon",
-   "published": "2026-11-06T17:11:14Z",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeG9Ia0Zfeno0ckZNNGNlaWVFYTc4OEplR2djOUN6aVU3Wmx6SmtoejNfSXczdkFWNFdLVjZHclBuVU1KV29SQ19PbDd6V2dRbFZpTkdDSExDcXZRMHZvLW5vR2NiU05hX2EtNGozWHBHUTVGMWdrVFNDRm54N1MybzhHaXRBdWZuNXpTdXh2TllKMVdu?oc=5"
   },
   {
    "title": "AI is the new dating dealbreaker",
@@ -366,20 +422,6 @@
    "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/"
   },
   {
-   "title": "Five essential rules for Pokemon TCG deckbuilding from pros",
-   "source": "GAMESRADAR+",
-   "topic": "pokemon",
-   "published": "2026-11-06T16:14:24Z",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTDR5NWFEQUZfeHhNalh0MGZvc215a25EWjZBVHViVHFtRElvSElLZ1dZbUh2NXV3YzNXRll2S3oxVl9zNjd1b3VvX1JqdTVkdmZpYTFzTGFFNmxOV0U0elJ4ajJHa0FTYXFQX2JBa0lrM3NEZERsWnR3OXZWa0xLLUFzRjFfSFF0b19jMTZVS2JiTmJJcDVtYUxRbkVYYk5yRk42VGRJRQ?oc=5"
-  },
-  {
-   "title": "Wales scraps controversial Uganda tree-planting scheme",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-06T15:27:44Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqm26m2l4p7eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "PM tells firms to publish salaries in job adverts ahead of new law",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -420,48 +462,6 @@
    "topic": "tech",
    "published": "2026-11-06T13:25:50Z",
    "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Married couple in their 70s sentenced for growing cannabis in their home",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-06T13:05:18Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6ly334x5z33o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "In Charting the Unknown, Crimson Desert doubles down on its maximalism in audacious, faintly sinister style",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-06T12:32:20Z",
-   "link": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-now-playing"
-  },
-  {
-   "title": "Square Enix accidentally botches a Nier: Automata update, balloons required file size from 50GB to 366GB on PC",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-06T12:28:10Z",
-   "link": "https://www.eurogamer.net/square-enix-nier-automata-update-required-file-size-366gb"
-  },
-  {
-   "title": "Protesters break into Microsoft data center site in Amsterdam",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-06T11:55:19Z",
-   "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
-  },
-  {
-   "title": "'I've taken an extra job to pay for heating oil'",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-06T11:40:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Cut to college transport unforgivable - councillor",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-06T06:30:09Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60e03p9g5y8o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The engine parts that 'fight the laws of the universe'",
