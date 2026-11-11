@@ -1,12 +1,208 @@
 {
- "updated": "2026-11-10T19:13:38.078729Z",
+ "updated": "2026-11-11T00:07:43.409489Z",
  "items": [
   {
-   "title": "Senior US soldier arrested by UK counter-terror police",
+   "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-11-11T00:02:07Z",
+   "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-10T23:59:03Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Arsenal eye Real's Endrick - Wednesday's gossip",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-10T23:08:35Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cq8jzjz9x23jo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-10T22:52:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-11-10T22:35:01Z",
+   "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
+  },
+  {
+   "title": "Injured Feyi-Waboso is our Robinson - Sinfield",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-10T22:32:41Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cq9vw88v8p80o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-10T22:17:45Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man City thrash Inter to claim first CL win of season",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-10T22:05:15Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Census should include black English and Asian English options, says MP",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-11-10T19:12:31Z",
+   "published": "2026-11-10T22:04:54Z",
+   "link": "https://www.bbc.co.uk/news/articles/c3lylyy24xl5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-10T22:00:00Z",
+   "link": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies"
+  },
+  {
+   "title": "Oura is acquiring medical AI chatbot startup Counsel Health",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-10T21:40:31Z",
+   "link": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition"
+  },
+  {
+   "title": "Law on 'holiday hunger' passed by Stormont assembly",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-11-10T21:24:06Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmewewgvrwpqo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-10T21:22:36Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "First day of Ukraine peace talks constructive, Zelensky says",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-10T21:21:55Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Why does Australia want Brits to swap Sydney for the outback?",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-10T21:17:00Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm1j3jdp7w54o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-11-10T21:12:59Z",
+   "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
+  },
+  {
+   "title": "Sony cancels live-service shooter Fairgames",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-10T21:06:12Z",
+   "link": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled"
+  },
+  {
+   "title": "Pocognoli to lean on Scotland's 'captain group of five'",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-10T20:49:11Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Spain's king and queen attend memorial service for rail crash victims",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-10T20:46:40Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckjwew54yd4wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "US federal authorities could have prevented Epstein crimes, report finds",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-10T20:36:58Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq5ynyn8zyr8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What happens to mathematics when AI becomes an oracle?",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-11-10T20:30:01Z",
+   "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/"
+  },
+  {
+   "title": "Tech Life",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-10T20:30:00Z",
+   "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyv?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "David Walliams accused of sexual misconduct after losing injunction bid",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-10T20:20:11Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "US Army soldier suspected of spying for Russia arrested in UK",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-10T20:20:04Z",
    "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Chelsea play out goalless draw with Hacken",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-10T20:07:12Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c62keklwjpe0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The PlayStation Plus PC app is shutting down next month",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-10T19:40:52Z",
+   "link": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down"
+  },
+  {
+   "title": "Florida woman arrested after targeting ex’s Pokemon cards because he wasn’t giving her attention",
+   "source": "DEXERTO",
+   "topic": "pokemon",
+   "published": "2026-11-10T19:36:29Z",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbDV0VjJMMkUwY1ZJYVRROHk2WlVBbHZCWHZvY1dTcjZ3YjUwVnhTczN3QnRGWmxNeGNVYzJzTlJadTFCUldBNHY3cDF6TDAyYjVHSktPQTVFSXg1Nm1GdUxpMVFxYnVrcXRKd2ltYjhXVmEwWDU5elF0dVh2LWJVLXNIUlRCV3plNzFtcEpSVERtdk5aZ2hmb1YtZ3hvd3hxZEVCcll3ZTFkMmxkSVYyWGdaM3U1dU8zUjdER285U1RNZ1duUHpXRzFrblhRLTdU?oc=5"
+  },
+  {
+   "title": "What we know about the allegations against David Walliams",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-10T19:35:17Z",
+   "link": "https://www.bbc.co.uk/news/videos/cmn9r90wyq2lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Starlink Mini 2 adds a swappable battery",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-10T19:19:12Z",
+   "link": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery"
   },
   {
    "title": "The US is winning the AI race. Jensen Huang could have blown it",
@@ -14,20 +210,6 @@
    "topic": "tech",
    "published": "2026-11-10T19:04:05Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy"
-  },
-  {
-   "title": "Google’s Pixel Tag tracker is now available",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-10T19:00:00Z",
-   "link": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding"
-  },
-  {
-   "title": "Google is making Pixel HiLight slightly more useful",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-10T19:00:00Z",
-   "link": "https://www.theverge.com/tech/1031089/google-pixel-drop-november-2026-hilight"
   },
   {
    "title": "Train attack driver's '10 seconds' to change line",
@@ -44,13 +226,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c63elellg05lo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "One of our favorite multi-filament 3D printers is $100 off",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-10T18:42:03Z",
-   "link": "https://www.theverge.com/gadgets/1030970/bambu-p2s-combo-3d-printer-deal-sale"
-  },
-  {
    "title": "Mayor will be elected to help run Norfolk and Suffolk",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -58,60 +233,11 @@
    "link": "https://www.bbc.co.uk/news/articles/ckx2d2znx6leo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Meet the Peaky Blinders, Ukraine's drone unit protecting a devastated front-line city",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-10T18:35:35Z",
-   "link": "https://www.bbc.co.uk/news/videos/cm2l4l59gjp7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-10T18:33:51Z",
-   "link": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The Monaco summit that will decide the future of Carrick and Man Utd",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-10T18:12:02Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Anti-homosexuality laws in Trinidad and Tobago overturned",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-10T18:04:18Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm0e0evlpp87o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Why are these purple flowers shutting down streets in Sydney?",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-10T18:03:52Z",
-   "link": "https://www.bbc.co.uk/news/videos/c862y2dxdq45o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Johnson says definitely more to come after 50 caps",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-10T18:01:03Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c58jzj8k08lzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "ChatGPT is getting verified AI ‘Business Agents’",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-10T18:00:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
-  },
-  {
-   "title": "US federal authorities could have prevented Epstein crimes, report finds",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-10T17:59:02Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq5ynyn8zyr8o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
@@ -119,13 +245,6 @@
    "topic": "tech",
    "published": "2026-11-10T17:56:12Z",
    "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ableton Live 13 announced with a step sequencer, new drum synth, and more",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-10T17:43:49Z",
-   "link": "https://www.theverge.com/tech/1030846/ableton-live-13-announced-step-sequencer-looplet-daw"
   },
   {
    "title": "The indie game community is in disarray over AI and Big Walk",
@@ -142,27 +261,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
   },
   {
-   "title": "First day of Ukraine peace talks constructive, Zelensky says",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-10T17:29:36Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "More than 12 US military aircraft leave second UK base",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-10T17:22:14Z",
-   "link": "https://www.bbc.co.uk/news/articles/c32l4lw12z7po?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Teens found guilty of murdering boy, 15, in park",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-10T17:17:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwdd8dejj4edo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Here's our second wave of PS Plus games for November 2026 - and Sony's scrapping its barely used PC app",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -170,25 +268,11 @@
    "link": "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
   },
   {
-   "title": "US pilot arrested at Heathrow admits drugs offence",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-10T17:08:01Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmj4747le5kdo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
    "source": "BBC BUSINESS",
    "topic": "business",
    "published": "2026-11-10T17:04:55Z",
    "link": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "McTominay reveals heart treatment at World Cup",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-10T16:46:31Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Some pupils 'struggling just to get a hot meal'",
@@ -205,13 +289,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cmdxwxpd0yy5o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "England hammer Australia to reach final",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-10T16:32:17Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-league/videos/cm5ynyez127xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Grand Theft Auto 6 becomes the most pre-ordered game in PlayStation Store history",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -224,13 +301,6 @@
    "topic": "ai",
    "published": "2026-11-10T16:20:30Z",
    "link": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping"
-  },
-  {
-   "title": "Pochettino, Howe, Emery... or Carrick? Man Utd's managerial options",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-10T16:17:10Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Thousands of 'off-grid' homes eligible for £250 to help with heating bills",
@@ -250,7 +320,7 @@
    "title": "Father Accused of Leaving 6-Year-Old Daughter Alone in Line to Buy Pokemon Cards",
    "source": "OPENCRITIC",
    "topic": "pokemon",
-   "published": "2026-11-10T15:42:06Z",
+   "published": "2026-11-10T15:41:28Z",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNei1oLVhhMmc4ZmpYaDBhR2Q4SmJLUFl3U1NyUS1jNFFqMjhYaTluakZpWWZ2cDlsYmx5NW5tR09QRUxIUlNmWTRGcVlSM3JhcENSTTZWNHFsT2ZrcFBlX1BfRVVnSGhfRzloZ0JsdHFuUHJxRXJfa29RelFxbWtPVEVuSHAwci0xYnBkYm9VNTJOLVZLWXR6cXlNVlBPamttU1E4STlQMHNCUVBJTWVpU29WQjg?oc=5"
   },
   {
@@ -259,13 +329,6 @@
    "topic": "science",
    "published": "2026-11-10T15:10:20Z",
    "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Formula 1 to finish season in Middle East",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-10T15:04:46Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c53989e97lxwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Rockstar details Grand Theft Auto 6 PS5 Pro enhancements, but it'll still only run at 30FPS",
@@ -322,27 +385,6 @@
    "topic": "gaming",
    "published": "2026-11-10T14:06:10Z",
    "link": "https://www.eurogamer.net/warhammer-survivors-now-playing"
-  },
-  {
-   "title": "Adobe is going all in on agentic AI",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-10T14:00:00Z",
-   "link": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates"
-  },
-  {
-   "title": "New regulation for heating oil market, but no price controls",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-10T13:42:29Z",
-   "link": "https://www.bbc.co.uk/news/articles/cv70p0d3d686o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Civil servant who secretly held five jobs found guilty of fraud",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-10T13:39:28Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Villagers say 550-home scheme risks urban sprawl",
@@ -436,25 +478,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-09T23:51:22Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "man leaves daughter in line for pokemon cards",
    "source": "WFXG",
    "topic": "pokemon",
    "published": "2026-11-09T22:10:00Z",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQVpEaVlOOTd4RkY3ZmczYldHdWxONllnSmpqcjRQUWtrNUhEZ0llb0RldVgwMlVnb0Naa2J4U3BDblRUaHZ5SFRzQkcyNVo1Q3hlMmxBdGdrNmVLZVEyWk9wWldGanBiM3liM1RKdDBVeWNURGxUVzRiYUEtZjdEUUhHQUlHTDFfY0RVZU1KRlRxcld4WThhWFFqcUlsUjZuemVuajY2ZTZPTEtSV0NrSXlDbnJBVnBwM1Zn?oc=5"
-  },
-  {
-   "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-09T21:52:28Z",
-   "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pokemon TCG Prices Could Drop by 80%, Expert Says",
@@ -464,13 +492,6 @@
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBYWWhpSmdGV1hSNHJxTFAzVnFNZDR2bHJHT3g0dElvcDIyWHMzOUQ1MTJUTzFQcUhrcEp2aktvNlk3dXJKNEFCX1FwX1dtZDlfalNmeko0LWRUU0ZTSGpIcl9GVFBwc0pnTjJN?oc=5"
   },
   {
-   "title": "Black Friday Brings Rare Savings on Pokemon TCG Box Sets and Booster Packs",
-   "source": "CNET",
-   "topic": "pokemon",
-   "published": "2026-11-09T17:35:00Z",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nSDRucDdpNC1tc3BfM0o3WlpRMVBEbkhOM2hvZ3p4MUxYNXowWkRadXhGbS0yTkpCNlAxU1EyYklBUEZSWEQ5NEdCLTh0UldkYTdQd2hLMGU5blZlTGRBVVhlaHBXZVpzRzRSY2lnekltZ2JMTWVmM1VFOFpGRzA?oc=5"
-  },
-  {
    "title": "Claude Code is accidentally exposing secrets all over GitHub",
    "source": "ARS TECHNICA",
    "topic": "ai",
@@ -478,32 +499,11 @@
    "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
   },
   {
-   "title": "Nvidia CEO's affair becomes a national security problem",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-11-09T15:23:20Z",
-   "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
-  },
-  {
    "title": "Birds return to waterfowl park after oil vandalism",
    "source": "BBC SCIENCE",
    "topic": "science",
    "published": "2026-11-09T14:52:07Z",
    "link": "https://www.bbc.co.uk/news/articles/c6gqwq1x85e0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-11-06T17:43:02Z",
-   "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/"
-  },
-  {
-   "title": "Could potential AI clones of GTA VI force a quicker official port?",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-11-06T16:19:12Z",
-   "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/"
   }
  ]
 }
