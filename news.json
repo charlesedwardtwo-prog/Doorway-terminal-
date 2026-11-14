@@ -1,12 +1,208 @@
 {
- "updated": "2026-11-13T19:56:01.805694Z",
+ "updated": "2026-11-14T00:35:38.978756Z",
  "items": [
   {
-   "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+   "title": "Brand, Walliams and MAFS: Is this a reckoning for the entertainment industry?",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-14T00:29:38Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqn70lz71lg8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Bluetongue virus confirmed on County Down farm",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-14T00:17:45Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Police launch investigation' into Walliams and Piddington asylum 'betrayal'",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-14T00:09:02Z",
+   "link": "https://www.bbc.co.uk/news/articles/cx4gn4y1q906o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-11-13T19:53:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+   "published": "2026-11-14T00:03:56Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-14T00:03:52Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Setback for SpaceX Starship rocket's double-catch test",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-14T00:01:01Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Amazon has a plan to index the world’s online shopping data",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-13T23:49:11Z",
+   "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+  },
+  {
+   "title": "FAA ground stop shuts down flights nationwide",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-13T23:47:27Z",
+   "link": "https://www.theverge.com/news/1033489/faa-ground-stop"
+  },
+  {
+   "title": "France edge past South Africa after thriller in Nations Championship",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-13T23:43:05Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/videos/c6eq4npqy7e0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Miracle on Mississippi' - All rescued after cruise ship hit by tanker in New Orleans",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-13T23:40:45Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "France hold nerve to edge past South Africa in thriller",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-13T23:03:36Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-13T23:00:31Z",
+   "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Watch: Children in Need 2026... in 90 seconds",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-13T22:57:51Z",
+   "link": "https://www.bbc.co.uk/news/videos/cqdr1jvylv1xo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fitness obsessed & 'control freak' - what can Man Utd expect from Pochettino?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-13T22:53:17Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c85y13pv69xwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Pokemon cards drew overnight lines for a $179.99 anniversary box",
+   "source": "IMDB",
+   "topic": "pokemon",
+   "published": "2026-11-13T22:43:44Z",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjX21KVUEweVVkR1hxWjB2WkdYNFgzc21CMDk5Tk9nUEhzSmpIdjhmakFyXzlBYUE2TmpnTWFoVjBtbXFoa3d6TGxjbDQ2ZHNSSzRVOUJtMzdXcmhJOEVvQmlQa1JaS00?oc=5"
+  },
+  {
+   "title": "Probation officers to take industrial action over pay and early release scheme",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-13T22:39:33Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6pv92pl02kpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Goalkeeper involved in fatal collision gets 12-game ban",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-13T22:37:30Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm98xy2j8k1ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'If that penalty is given against you, you're furious'",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-13T22:34:20Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c34gn5k2lk9lo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "New Pokémon TCG Release Unveiled For January 2027, Before Flowing Fists",
+   "source": "SCREENRANT",
+   "topic": "pokemon",
+   "published": "2026-11-13T22:18:10Z",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFc1p3ZVE4a09LcjNNX0s1a0NKd1IyMzg2VjdlSVBoZjczb0tya1h6UzBYamdBMFRab1dxNEJlaWxPQkVkeVdVR1FNbUI0ckphMDY5WjNLdnJKTnFfQVhXZlJvcmllcjhtbk81ZXJjZVBwYnJ2YXc?oc=5"
+  },
+  {
+   "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-13T22:12:33Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-13T22:11:27Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Dept Q crew member dies after being injured at Edinburgh film studio",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-13T21:23:46Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqr7g5l4z9zeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-11-13T21:20:47Z",
+   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+  },
+  {
+   "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-13T21:15:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-13T21:15:24Z",
+   "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-13T21:14:22Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The Blood of Dawnwalker is getting a New Game Plus mode in next week's update",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-13T20:49:20Z",
+   "link": "https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus"
+  },
+  {
+   "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-13T20:45:10Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+  },
+  {
+   "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-13T20:30:00Z",
+   "link": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale"
   },
   {
    "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
@@ -37,27 +233,6 @@
    "link": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale"
   },
   {
-   "title": "Ronaldinho, 46, to play first game since 2015",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-13T19:12:37Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqz0k4e00v0mo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man who transported Omagh bomb was an MI5 and Garda agent, inquiry told",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-13T19:04:47Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr0jxwv1v266o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Democratic Senate leader Schumer set to face leadership challenge",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-13T19:03:10Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "What could El Niño mean for winter weather in the US and Canada?",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -65,25 +240,11 @@
    "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Tories pay artist for Burnham images after legal threat",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-13T18:41:13Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr5y139wplppo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC TECH",
+   "topic": "tech",
    "published": "2026-11-13T18:36:57Z",
    "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The Peruvian city that has embraced Pope Leo as one of its own",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-13T18:34:45Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Crimson Desert studio is implementing AI \"throughout our entire development pipeline,\" and expects DokeV to launch in 2028",
@@ -93,13 +254,6 @@
    "link": "https://www.eurogamer.net/crimson-desert-ai-pipeline-dokev-2028"
   },
   {
-   "title": "EFL warns clubs over social media posts",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-13T18:20:17Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmqj5r8edvneo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
    "source": "THE VERGE",
    "topic": "tech",
@@ -107,46 +261,11 @@
    "link": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable"
   },
   {
-   "title": "How Wales can win without making history v All Blacks",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-13T18:01:03Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c50md0pgw8dlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Are board games making a comeback this Christmas?",
    "source": "BBC BUSINESS",
    "topic": "business",
    "published": "2026-11-13T18:00:40Z",
    "link": "https://www.bbc.co.uk/news/videos/ckp80l667rdjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Estonia latest country to ban Russian athletes",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-13T17:54:33Z",
-   "link": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Beirne leads Ireland bid to build on strong start",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-13T17:54:11Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3qj5r9nx5lpo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Jensen Huang was reckless with the environment, too",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-13T17:44:22Z",
-   "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution"
-  },
-  {
-   "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-13T17:38:19Z",
-   "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Courts, spies and MPs: How the Microsoft outage has been felt around the world",
@@ -160,56 +279,7 @@
    "source": "ARS TECHNICA",
    "topic": "ai",
    "published": "2026-11-13T17:25:45Z",
-   "link": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/"
-  },
-  {
-   "title": "Eleanor Donaldson given supervision order and placed on sex offenders' register",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-13T17:19:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/cme87dnngnwjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Eight sentenced to jail over Nurmagomedov-Dvalishvili brawl",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-13T17:15:52Z",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm3wgpl28yzgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-13T17:12:56Z",
-   "link": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain"
-  },
-  {
-   "title": "Man jailed for grooming at least 70 girls online",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-13T17:10:27Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckqx5r3j2j4xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Mother whose newborn died after failed hospital checks was 'terrified and alone'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-13T17:07:11Z",
-   "link": "https://www.bbc.co.uk/news/articles/cv62pdgj9g77o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The new Apple TV has a YouTube problem",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-13T16:55:57Z",
-   "link": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error"
-  },
-  {
-   "title": "Police investigating David Walliams over reports alleging serious sexual offences",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-13T16:53:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwx2emg4xe72o?at_medium=RSS&at_campaign=rss"
+   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/"
   },
   {
    "title": "Family pay tribute to 'loving and caring' man",
@@ -217,13 +287,6 @@
    "topic": "local",
    "published": "2026-11-13T16:43:23Z",
    "link": "https://www.bbc.co.uk/news/articles/cmewv1z8xewqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-13T16:40:31Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "What are people emergency stockpiling?",
@@ -240,13 +303,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c6ly7vz0704xo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Microsoft’s massive Outlook outage might be over",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-13T16:17:11Z",
-   "link": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage"
-  },
-  {
    "title": "Tell us your favourite Grand Theft Auto gaming memory and win a copy of GTA 6",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -261,25 +317,11 @@
    "link": "https://www.eurogamer.net/introducing-gta-and-not-gta-theme-weeks"
   },
   {
-   "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-13T15:42:52Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "A new report reckons 40% of developers in the video games industry are using generative AI - but even more think it's harmful",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-13T15:34:20Z",
    "link": "https://www.eurogamer.net/gdc-report-40-percent-developers-generative-ai"
-  },
-  {
-   "title": "One week from launch, GTA 6's physical map reportedly leaks online thanks to the £350 collector's edition on show in a UK department store",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-13T15:13:40Z",
-   "link": "https://www.eurogamer.net/gta-6-map-leak-online-collectors-edition"
   },
   {
    "title": "What’s really at stake in the Jensen Huang saga",
@@ -339,8 +381,8 @@
   },
   {
    "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-   "source": "BBC TECH",
-   "topic": "tech",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-13T12:22:30Z",
    "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss"
   },
@@ -357,13 +399,6 @@
    "topic": "ai",
    "published": "2026-11-13T12:00:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
-  },
-  {
-   "title": "What we know so far about the Microsoft outage",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-13T11:43:27Z",
-   "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Heat pumps: How much heat does your home really need?",
@@ -413,27 +448,6 @@
    "topic": "business",
    "published": "2026-11-13T06:23:37Z",
    "link": "https://www.bbc.co.uk/news/articles/cqj9mjl8jy4no?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Cider makers fear future for orchards as costs grow",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-13T06:21:34Z",
-   "link": "https://www.bbc.co.uk/news/articles/c5zjxjzx2dpwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Flood victim, 95, lived in Wetherspoons until she died after her home was destroyed",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-13T06:05:49Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-11-12T22:28:47Z",
-   "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
   },
   {
    "title": "Google’s new Gemini model is better at understanding complicated questions",
@@ -490,20 +504,6 @@
    "topic": "ai",
    "published": "2026-11-12T14:50:17Z",
    "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
-  },
-  {
-   "title": "This is your best chance of getting good deals on Pokemon cards and NeeDoh, but you don’t have long",
-   "source": "GAMESRADAR+",
-   "topic": "pokemon",
-   "published": "2026-11-12T11:49:34Z",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeHhKdmE2dzVINlFsZDdJUHJycktVVnpCNmZqWndHUEsweTRObjBoOFF4dDg4blUxZlBHT1ZBTERpa3d5NFNFcFdKcUwtRlFxcmJnSy1GN2w2eUtHSkpac0lHOUNGZkJZODdXWDlOR0NPNG84QWtzZHdiVUVycUZsWGRGWEd2YlkwQlZGczhpbHVyYzgwNmxIeUp6TG1LUGk0OS1XR1J1TW1iWmJnREJ3RmROWFZyRW4wWGlkNGdSaWNmd0hKM0VzVWxIUHpUZEFuVVA2ZTA2VVQ?oc=5"
-  },
-  {
-   "title": "Man seeks help after over $10k in Pokemon cards stolen – FOX31 Denver",
-   "source": "KDVR",
-   "topic": "pokemon",
-   "published": "2026-11-12T05:40:16Z",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzh4akx2b1IyVHVqNU1MbHY1b1hZZmFDczl2UmY3U2l1M3pOaTRBME5KOUxXLTNmWlV0MXh0WC1lTXNfTWRiOWZwRTh5MElkQ3RfcVFsZFF3YXM1WFpnXzNlbFZRX25VTm03QzBiY09MSVVXMUk0UEI5ZGRtTEpkRW03ZUlueWVHeGNVLVFRRQ?oc=5"
   }
  ]
 }
