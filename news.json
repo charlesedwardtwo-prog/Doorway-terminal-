@@ -1,117 +1,222 @@
 {
- "updated": "2026-11-15T10:09:48.446191Z",
+ "updated": "2026-11-15T17:18:07.656645Z",
  "items": [
   {
-   "title": "The Big Question: What's the best GTA?",
+   "title": "Staggered age of consent to be discussed after Brand case, minister says",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T17:15:46Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Chapecoense crash survivor wins promotion in final game",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T17:10:24Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Trident submarine returns home after record-breaking undersea patrol",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T17:00:50Z",
+   "link": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T17:00:00Z",
+   "link": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale"
+  },
+  {
+   "title": "Apple’s first smart glasses are coming together",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T16:59:16Z",
+   "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together"
+  },
+  {
+   "title": "Tenerife return to action after death of De Miguel",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T16:38:51Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Czechs rally against plan to switch funding of public media",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T16:36:42Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'They reign supreme!' - Australia beat NZ to lift World Cup again",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T16:29:23Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-league/videos/cw07492d8gv3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Why Northern Ireland won't focus on point they need in Hungary",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T16:04:45Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm1ew79gnxnxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T16:00:00Z",
+   "link": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview"
+  },
+  {
+   "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T15:57:03Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "McIlroy wins Race to Dubai after thrilling final day",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T15:34:04Z",
+   "link": "https://www.bbc.co.uk/sport/golf/videos/c5lyk087yxjko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Zverev claims first win as world number one at ATP Finals",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T15:29:34Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Treyarch lays off lead Call of Duty writer and Zombies veteran after \"approximately 20 years\" of service",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-15T15:14:10Z",
+   "link": "https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs"
+  },
+  {
+   "title": "How telecoms upgrade work sparked US flight chaos",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T14:57:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T14:56:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Aftermath of deadly Leeds car crash during police pursuit",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T14:54:12Z",
+   "link": "https://www.bbc.co.uk/news/videos/ck5y1pzzny10o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Blade Runner 2099 bosses hint at a possible \"triple-A\" Blade Runner game in the future - just don't expect it any time soon",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-15T14:43:00Z",
+   "link": "https://www.eurogamer.net/blade-runner-2099-triple-a-talks"
+  },
+  {
+   "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T14:33:59Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T14:25:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-15T14:03:50Z",
+   "link": "https://www.eurogamer.net/gta-6-tracklist-leak"
+  },
+  {
+   "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T14:00:00Z",
+   "link": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale"
+  },
+  {
+   "title": "The Sony Aibo was a robot revolution dressed like a dog",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T13:57:30Z",
+   "link": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history"
+  },
+  {
+   "title": "Man in life-threatening state after shop robbery",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T13:45:58Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqrlgnj33knwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Iran targets US military base in Bahrain with drone attack",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T13:42:58Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-15T13:37:45Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man dies after being hit by ambulance",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T13:26:24Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6wy492w3wpwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Minister backs legal right to job support for young people",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-11-15T13:06:15Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "An overview of Jensen Huang’s messy days",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T13:00:00Z",
+   "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+  },
+  {
+   "title": "How to spot November's planetary parade in the pre-dawn sky",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-15T10:49:57Z",
+   "link": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What's the best GTA?",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-15T10:00:00Z",
    "link": "https://www.eurogamer.net/the-big-question-whats-the-best-gta"
-  },
-  {
-   "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T09:57:25Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man and woman die in police pursuit crash",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T09:53:11Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm3eg8x9zkvno?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Australia's Sayers 'took sandpaper from field' & rejects Cummins' claims",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T09:33:33Z",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c9ly4jm8djy7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T09:26:37Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ruthless Australia win record fourth Women's World Cup",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T09:12:00Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Reality dawns after Wales dared to dream",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T08:58:32Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cvx2xnyxl85ko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "England are favourites against All Blacks, and fearless Wales are an inspiration",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T08:47:46Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6wy41738nv7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Milder day in store before more cold health alerts take effect",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T08:24:45Z",
-   "link": "https://www.bbc.co.uk/weather/articles/cqe879916895o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T08:17:41Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Sea of phones at Christmas event prompts backlash",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T08:06:58Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq782l2992dno?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Harrison shocks Nunes on UFC return to retain title",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T08:02:48Z",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c5742819x9n3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Sabalenka apologises & says viral comment 'not directed at Svitolina'",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T07:51:33Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/ck62p9ge4d76o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Alleged Russell Brand rape victim wants age of consent law changed",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T07:19:52Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm3rgx9p583zo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Call to review sentence for driver who killed boy and fled to Latvia",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T07:10:40Z",
-   "link": "https://www.bbc.co.uk/news/articles/cjy5xln5nq34o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T07:10:31Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Residents join Hollywood stars in Parkinson's film",
@@ -135,32 +240,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cm5y134x87wgo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Ex-Met Police inspector lied about wife's death in Barbados hotel room, BBC learns",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T06:01:46Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6jd7k7g57x5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "10 Most Valuable Mega Evolution Pokémon Cards, Ranked by Price",
    "source": "COMIC BOOK RESOURCES",
    "topic": "pokemon",
    "published": "2026-11-15T03:45:00Z",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdllRSTR5SkpuWjlKY2dHMU95UFNta056NE5VY1JCcGM5RW1BdEd4ZmE2X3A3VUxINFh3TGFKd0M1RkdpR3JFMkhtUnFXbExUdFJBWm9VNU1CWTlXd3ZIVUdRUkh1X1B3S2dFWEEtMUZzd2hGRzdPblBUUm43SXcyaFJKRWp1QQ?oc=5"
-  },
-  {
-   "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T03:21:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T00:06:55Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Beauty advent calendars can cost hundreds but are they value for money?",
@@ -198,25 +282,11 @@
    "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-14T21:44:44Z",
-   "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
-  },
-  {
    "title": "Man seeks help after over $10k in Pokemon cards stolen – FOX31 Denver",
    "source": "KDVR",
    "topic": "pokemon",
    "published": "2026-11-14T21:36:18Z",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzh4akx2b1IyVHVqNU1MbHY1b1hZZmFDczl2UmY3U2l1M3pOaTRBME5KOUxXLTNmWlV0MXh0WC1lTXNfTWRiOWZwRTh5MElkQ3RfcVFsZFF3YXM1WFpnXzNlbFZRX25VTm03QzBiY09MSVVXMUk0UEI5ZGRtTEpkRW03ZUlueWVHeGNVLVFRRQ?oc=5"
-  },
-  {
-   "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-14T19:47:40Z",
-   "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series"
   },
   {
    "title": "Protest over plan for data centre near nature site",
@@ -233,32 +303,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Work to replace old copper wire led to the FAA’s ground stop",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-14T17:44:28Z",
-   "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire"
-  },
-  {
-   "title": "Here are our favorite deals from REI’s giant Holiday Sale",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-14T15:00:00Z",
-   "link": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026"
-  },
-  {
    "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-14T15:00:00Z",
    "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
-  },
-  {
-   "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-14T14:18:36Z",
-   "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print"
   },
   {
    "title": "Recapping the recent Pokemon TCG PH Controversy",
@@ -303,39 +352,11 @@
    "link": "https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans"
   },
   {
-   "title": "How to spot November's planetary parade in the pre-dawn sky",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-14T11:07:51Z",
-   "link": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Magic: The Gathering animated series Planeswalker is coming to Netflix in 2027",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-14T10:39:50Z",
-   "link": "https://www.eurogamer.net/magic-the-gathering-planeswalker-netflix-animated-series-2027"
-  },
-  {
-   "title": "Vice City was the GTA that established Rockstar's killer formula - and 24 years on, it's still one of the best games ever made",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-14T10:00:00Z",
-   "link": "https://www.eurogamer.net/gta-vice-city-retrospective"
-  },
-  {
    "title": "Football kit giveaway aims to boost participation",
    "source": "BBC BUSINESS",
    "topic": "business",
    "published": "2026-11-14T08:13:40Z",
    "link": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "What we've been playing - \"Whether he means to or not, he serves sass all over town\"",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-14T08:00:00Z",
-   "link": "https://www.eurogamer.net/what-weve-been-playing-sass-all-over-town-link-ocarina"
   },
   {
    "title": "The rise of 'housefishing' by estate agents",
@@ -429,25 +450,11 @@
    "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
   },
   {
-   "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-13T21:15:41Z",
-   "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
    "source": "THE VERGE",
    "topic": "ai",
    "published": "2026-11-13T20:45:10Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
-  },
-  {
-   "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-13T19:53:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
@@ -469,13 +476,6 @@
    "topic": "ai",
    "published": "2026-11-13T14:00:00Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
-  },
-  {
-   "title": "Let’s talk about Jensen Huang’s many affairs!",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-13T12:00:00Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
   },
   {
    "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
