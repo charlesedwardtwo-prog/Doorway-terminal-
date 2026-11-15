@@ -1,26 +1,145 @@
 {
- "updated": "2026-11-15T17:18:07.656645Z",
+ "updated": "2026-11-15T21:55:59.351892Z",
  "items": [
+  {
+   "title": "Listen to this: Armand Hammer’s Snakes & Ladders",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T21:49:22Z",
+   "link": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review"
+  },
+  {
+   "title": "Trident submarine returns home after record-breaking undersea patrol",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T21:48:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T21:05:02Z",
+   "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+  },
+  {
+   "title": "Czechs rally against plan to switch funding of public media",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T21:03:40Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Townsend hails Scotland's defence in Australia 'arm wrestle'",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T20:53:34Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg25x1zqrro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man Utd target Fulham's Bassey - Monday's gossip",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T20:47:44Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cklyegvq86w8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T20:43:49Z",
+   "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+  },
+  {
+   "title": "McDonald’s x Pokémon collab is live: How to collect 15 new toys and 15 trading cards",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-11-15T20:43:08Z",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zNDJZLWJ5TkJFTVIwNzNmMFRiVFAxcGFveml4dGFsZDhQeTE3TzdGVGYxbVBUMlY3Z1pvVDdkcXBTdXIzZzdTNGQyZXpvLWtwWmNSUFpYenhPb3JwNENKZ19YQWRNQXJwZ0ZhY014WEREcTFjODRGbXFn?oc=5"
+  },
+  {
+   "title": "London City's 'bravery' paying off in top three pursuit",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T20:03:08Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Aston Villa beat Birmingham in WSL derby",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T19:47:37Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cjp3v5pndyz1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Struggling Charlton make WSL history after defeat at West Ham",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T19:43:57Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c6kg7rpkr3jlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T19:32:39Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ronaldinho makes comeback in Ravenna win",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T19:31:48Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Ronaldinho, 46, makes comeback for Ravenna",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T19:31:48Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T19:20:53Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-15T19:15:43Z",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+  },
+  {
+   "title": "Pope Leo rides in helicopter cockpit during Peru trip",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T18:38:11Z",
+   "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Police arrest suspect after drive-by shooting at office campus housing Xbox studio inXile",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-15T17:47:40Z",
+   "link": "https://www.eurogamer.net/inxile-office-shooting-tustin-suspect-arrested"
+  },
+  {
+   "title": "Cyberpunk 2077 mod Torrent adds 3D rain, lightning storms, and tyre spray to Night City",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-15T17:39:20Z",
+   "link": "https://www.eurogamer.net/cyberpunk-2077-torrent-rain-weather-mod"
+  },
   {
    "title": "Staggered age of consent to be discussed after Brand case, minister says",
    "source": "BBC NEWS",
    "topic": "uk",
    "published": "2026-11-15T17:15:46Z",
    "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Chapecoense crash survivor wins promotion in final game",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T17:10:24Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Trident submarine returns home after record-breaking undersea patrol",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T17:00:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
@@ -37,60 +156,11 @@
    "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together"
   },
   {
-   "title": "Tenerife return to action after death of De Miguel",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T16:38:51Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Czechs rally against plan to switch funding of public media",
+   "title": "Clothing factories shut in Bangladesh as workers strike over pay",
    "source": "BBC NEWS",
    "topic": "world",
-   "published": "2026-11-15T16:36:42Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'They reign supreme!' - Australia beat NZ to lift World Cup again",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T16:29:23Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-league/videos/cw07492d8gv3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Why Northern Ireland won't focus on point they need in Hungary",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T16:04:45Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm1ew79gnxnxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-15T16:00:00Z",
-   "link": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview"
-  },
-  {
-   "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T15:57:03Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "McIlroy wins Race to Dubai after thrilling final day",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T15:34:04Z",
-   "link": "https://www.bbc.co.uk/sport/golf/videos/c5lyk087yxjko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Zverev claims first win as world number one at ATP Finals",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T15:29:34Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss"
+   "published": "2026-11-15T16:15:20Z",
+   "link": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Treyarch lays off lead Call of Duty writer and Zombies veteran after \"approximately 20 years\" of service",
@@ -100,16 +170,9 @@
    "link": "https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs"
   },
   {
-   "title": "How telecoms upgrade work sparked US flight chaos",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T14:57:15Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC TECH",
+   "topic": "tech",
    "published": "2026-11-15T14:56:21Z",
    "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
   },
@@ -128,13 +191,6 @@
    "link": "https://www.eurogamer.net/blade-runner-2099-triple-a-talks"
   },
   {
-   "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T14:33:59Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
    "source": "BBC NEWS",
    "topic": "uk",
@@ -149,32 +205,11 @@
    "link": "https://www.eurogamer.net/gta-6-tracklist-leak"
   },
   {
-   "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-15T14:00:00Z",
-   "link": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale"
-  },
-  {
-   "title": "The Sony Aibo was a robot revolution dressed like a dog",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-15T13:57:30Z",
-   "link": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history"
-  },
-  {
    "title": "Man in life-threatening state after shop robbery",
    "source": "BBC NEWS",
    "topic": "uk",
    "published": "2026-11-15T13:45:58Z",
    "link": "https://www.bbc.co.uk/news/articles/cqrlgnj33knwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Iran targets US military base in Bahrain with drone attack",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T13:42:58Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "South Korea's top scorer in tax accountancy exam admits cheating",
@@ -200,7 +235,7 @@
   {
    "title": "An overview of Jensen Huang’s messy days",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-15T13:00:00Z",
    "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
   },
@@ -324,13 +359,6 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/ckdd106e9q1lo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Ubisoft is reportedly making a new Rainbow Six Vegas game, nearly two decades after Vegas 2",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-14T12:19:50Z",
-   "link": "https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report"
-  },
-  {
    "title": "Jensen Huang and the decline of the visionary showman founder CEO",
    "source": "THE VERGE",
    "topic": "ai",
@@ -345,13 +373,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cmgj34zgg77do?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Call of Duty Endowment marks Remembrance Day with veterans' Valor Pack push",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-14T11:15:00Z",
-   "link": "https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans"
-  },
-  {
    "title": "Football kit giveaway aims to boost participation",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -364,13 +385,6 @@
    "topic": "business",
    "published": "2026-11-14T07:45:50Z",
    "link": "https://www.bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "McDonald’s x Pokémon collab is live: How to collect 15 new toys and 15 trading cards",
-   "source": "MASHABLE",
-   "topic": "pokemon",
-   "published": "2026-11-14T07:39:21Z",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zNDJZLWJ5TkJFTVIwNzNmMFRiVFAxcGFveml4dGFsZDhQeTE3TzdGVGYxbVBUMlY3Z1pvVDdkcXBTdXIzZzdTNGQyZXpvLWtwWmNSUFpYenhPb3JwNENKZ19YQWRNQXJwZ0ZhY014WEREcTFjODRGbXFn?oc=5"
   },
   {
    "title": "Extreme weather leaves gardeners hedging their bets",
@@ -436,13 +450,6 @@
    "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
   },
   {
-   "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-13T23:00:31Z",
-   "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
    "source": "ARS TECHNICA",
    "topic": "ai",
@@ -469,13 +476,6 @@
    "topic": "ai",
    "published": "2026-11-13T14:47:16Z",
    "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
-  },
-  {
-   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-13T14:00:00Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
   },
   {
    "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
