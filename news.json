@@ -1,19 +1,159 @@
 {
- "updated": "2026-11-15T21:55:59.351892Z",
+ "updated": "2026-11-16T01:30:08.285183Z",
  "items": [
+  {
+   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-16T01:26:56Z",
+   "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
+  },
+  {
+   "title": "Brand moved from Wandsworth to category C prison, his wife confirms on podcast",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-16T01:22:50Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm7024p1ded3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Clothing factories shut in Bangladesh as workers strike over pay",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-16T01:05:44Z",
+   "link": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Black Friday and tax return scams - don't fall for these",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-16T00:50:39Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Cancer 'sponge' tests could be offered to more people with bad indigestion",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-16T00:47:04Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm5y13q0gx97o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Russia's mega-rich are already imagining a future after Putin",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-16T00:13:14Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60733mxm0x0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Much still to do on F1 diversity - Hamilton",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-16T00:04:45Z",
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-16T00:03:29Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "How did England cling on against Spain and what did Tuchel do differently?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-16T00:02:22Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6742l4z91lwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "60 minutes of perfection, 30 minutes of chaos - an England win for the ages",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T23:52:43Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T23:52:10Z",
+   "link": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "McDonald’s x Pokémon collab is live: How to collect 15 new toys and 15 trading cards",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-11-15T23:43:39Z",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zNDJZLWJ5TkJFTVIwNzNmMFRiVFAxcGFveml4dGFsZDhQeTE3TzdGVGYxbVBUMlY3Z1pvVDdkcXBTdXIzZzdTNGQyZXpvLWtwWmNSUFpYenhPb3JwNENKZ19YQWRNQXJwZ0ZhY014WEREcTFjODRGbXFn?oc=5"
+  },
+  {
+   "title": "Teenager Andreeva caps stunning week with WTA Finals title",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T23:18:38Z",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "First win for Duncan after 12 years & 222 attempts",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T23:13:54Z",
+   "link": "https://www.bbc.co.uk/sport/golf/articles/cq39gn9zy4v9o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Wilson survives Wakelin comeback for third consecutive title",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-15T23:13:15Z",
+   "link": "https://www.bbc.co.uk/sport/snooker/articles/cmx29l9lzxn8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T22:57:27Z",
+   "link": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T22:30:03Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Police ban protests near 10 schools and five universities in Paris",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-15T22:28:54Z",
+   "link": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-15T22:24:20Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Tories pledge to halt screen-based school exams and cut coursework",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T22:00:37Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwr7gnkd7m04o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-15T22:00:24Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "Listen to this: Armand Hammer’s Snakes & Ladders",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-11-15T21:49:22Z",
    "link": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review"
-  },
-  {
-   "title": "Trident submarine returns home after record-breaking undersea patrol",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T21:48:10Z",
-   "link": "https://www.bbc.co.uk/news/articles/c32l5ny1r7x9o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
@@ -23,27 +163,6 @@
    "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
   },
   {
-   "title": "Czechs rally against plan to switch funding of public media",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T21:03:40Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Townsend hails Scotland's defence in Australia 'arm wrestle'",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T20:53:34Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg25x1zqrro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man Utd target Fulham's Bassey - Monday's gossip",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T20:47:44Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cklyegvq86w8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
    "source": "THE VERGE",
    "topic": "tech",
@@ -51,74 +170,11 @@
    "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
   },
   {
-   "title": "McDonald’s x Pokémon collab is live: How to collect 15 new toys and 15 trading cards",
-   "source": "MASHABLE",
-   "topic": "pokemon",
-   "published": "2026-11-15T20:43:08Z",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zNDJZLWJ5TkJFTVIwNzNmMFRiVFAxcGFveml4dGFsZDhQeTE3TzdGVGYxbVBUMlY3Z1pvVDdkcXBTdXIzZzdTNGQyZXpvLWtwWmNSUFpYenhPb3JwNENKZ19YQWRNQXJwZ0ZhY014WEREcTFjODRGbXFn?oc=5"
-  },
-  {
-   "title": "London City's 'bravery' paying off in top three pursuit",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T20:03:08Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Aston Villa beat Birmingham in WSL derby",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T19:47:37Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cjp3v5pndyz1o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Struggling Charlton make WSL history after defeat at West Ham",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T19:43:57Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c6kg7rpkr3jlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T19:32:39Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ronaldinho makes comeback in Ravenna win",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T19:31:48Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Ronaldinho, 46, makes comeback for Ravenna",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-15T19:31:48Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T19:20:53Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-11-15T19:15:43Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
-  },
-  {
-   "title": "Pope Leo rides in helicopter cockpit during Peru trip",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T18:38:11Z",
-   "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Police arrest suspect after drive-by shooting at office campus housing Xbox studio inXile",
@@ -135,32 +191,11 @@
    "link": "https://www.eurogamer.net/cyberpunk-2077-torrent-rain-weather-mod"
   },
   {
-   "title": "Staggered age of consent to be discussed after Brand case, minister says",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T17:15:46Z",
-   "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-11-15T17:00:00Z",
    "link": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale"
-  },
-  {
-   "title": "Apple’s first smart glasses are coming together",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-15T16:59:16Z",
-   "link": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together"
-  },
-  {
-   "title": "Clothing factories shut in Bangladesh as workers strike over pay",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-15T16:15:20Z",
-   "link": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Treyarch lays off lead Call of Duty writer and Zombies veteran after \"approximately 20 years\" of service",
@@ -170,32 +205,11 @@
    "link": "https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs"
   },
   {
-   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-15T14:56:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Aftermath of deadly Leeds car crash during police pursuit",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T14:54:12Z",
-   "link": "https://www.bbc.co.uk/news/videos/ck5y1pzzny10o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Blade Runner 2099 bosses hint at a possible \"triple-A\" Blade Runner game in the future - just don't expect it any time soon",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-15T14:43:00Z",
    "link": "https://www.eurogamer.net/blade-runner-2099-triple-a-talks"
-  },
-  {
-   "title": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T14:25:04Z",
-   "link": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "The latest GTA 6 leak comes in the form of a 34-song tracklist for GTA 6: The Album, featuring Dua Lipa, Lana Del Rey, Rina Sawayama, and more",
@@ -205,25 +219,11 @@
    "link": "https://www.eurogamer.net/gta-6-tracklist-leak"
   },
   {
-   "title": "Man in life-threatening state after shop robbery",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T13:45:58Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqrlgnj33knwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "South Korea's top scorer in tax accountancy exam admits cheating",
    "source": "BBC TECH",
    "topic": "tech",
    "published": "2026-11-15T13:37:45Z",
    "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man dies after being hit by ambulance",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-15T13:26:24Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6wy492w3wpwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Minister backs legal right to job support for young people",
