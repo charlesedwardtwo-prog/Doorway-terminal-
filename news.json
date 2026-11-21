@@ -1,19 +1,110 @@
 {
- "updated": "2026-11-21T17:42:54.546925Z",
+ "updated": "2026-11-21T22:35:49.732921Z",
  "items": [
+  {
+   "title": "Match of the Day",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-22T09:00:00Z",
+   "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Watch all 29 of Saturday's Scottish Premiership goals",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-21T23:52:45Z",
+   "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Scotland kept 'foot on throat' in ruthless display - captain McDowall",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-21T22:28:55Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm62pz9xkvd7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Kim holds one-shot lead at LPGA finale as Korda closes in",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-21T22:28:26Z",
+   "link": "https://www.bbc.co.uk/sport/golf/articles/c3ewvg08gjggo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Can win over All Blacks finally break England's boom-bust cycle?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-21T22:27:36Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregx71gjro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Australia hold on for narrow win against Wales",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-21T22:25:36Z",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-21T22:19:43Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Lock of former US President George Washington's hair sells for $4,000",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-21T22:01:19Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Amazon is complaining about NYC Council on shipping labels, too",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-21T21:59:31Z",
+   "link": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label"
+  },
+  {
+   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-21T21:05:29Z",
+   "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The UN fails to agree on rules regulating ‘killer robots’",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-21T20:03:37Z",
+   "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+  },
+  {
+   "title": "Village votes to 'leave UK' over migrant plan",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-21T19:51:08Z",
+   "link": "https://www.bbc.co.uk/news/articles/cvze71y6g85yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "UK should only rejoin EU if it innovates on technology, Blair warns",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-21T19:33:49Z",
+   "link": "https://www.bbc.co.uk/news/articles/c893r4923wngo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Russia-bound ship attacked in Gulf of Finland",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-21T19:20:22Z",
+   "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "The FBI and USDA were reportedly hacked",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-11-21T17:42:27Z",
    "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked"
-  },
-  {
-   "title": "Alcaraz battles back against Shelton to reach final",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-21T17:36:28Z",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Unannounced Nioh 3 Complete Edition has been rated in Korea",
@@ -30,32 +121,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cmkgd515jp47o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Ex-captain Moody joins England in emotional haka response",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-21T16:42:55Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c5vg2ppp90w8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "FBI reportedly investigating apparent hack of its criminal database",
    "source": "BBC NEWS",
    "topic": "world",
    "published": "2026-11-21T16:35:15Z",
    "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "England beat New Zealand by record margin",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-21T16:28:09Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/videos/c6742znzggeyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "McConnell shines as 11-try Scotland dismantle Japan",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-21T16:23:11Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx2x00w08keo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Hormuz swim highlights environmental cost of war",
@@ -70,20 +140,6 @@
    "topic": "uk",
    "published": "2026-11-21T16:08:59Z",
    "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Superb England run up record win over New Zealand",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-21T16:08:59Z",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Fernandez dropped, Anderson scores - Man City's £327m midfield dilemma",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-21T16:07:19Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cxe8944j188yo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
@@ -121,18 +177,11 @@
    "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
   },
   {
-   "title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-21T14:55:28Z",
-   "link": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale"
-  },
-  {
-   "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-21T14:54:24Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
+   "title": "New Lucario Pokemon TCG Set Changes Competitive Gameplay",
+   "source": "TECHNOSPORTS MEDIA GROUP",
+   "topic": "pokemon",
+   "published": "2026-11-21T14:23:36Z",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rS0hXUGtZM3ZsYXE4WEFSSmFnOFpoY1ZoX2s3WTZtem1lLWk2MDg5dGRrWlNLaGE0Q2h4aWFKVG5XQy1PTktaeDQyV2EyVnd4WVVnN2dac1VHWVlRVTVXeGRMS1liQQ?oc=5"
   },
   {
    "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
@@ -144,7 +193,7 @@
   {
    "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-21T14:00:00Z",
    "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
   },
@@ -163,13 +212,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-21T13:15:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
    "source": "EUROGAMER",
    "topic": "gaming",
@@ -182,20 +224,6 @@
    "topic": "science",
    "published": "2026-11-21T12:18:55Z",
    "link": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Bad Girls star Helen Fraser dies aged 84",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-21T12:17:46Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqlyjwng3xdwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Catherine's cancer journey depicted in new documentary",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-21T12:17:45Z",
-   "link": "https://www.bbc.co.uk/news/videos/cwe85gyedjp5o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Sessions offer advice on rising energy costs",
@@ -219,13 +247,6 @@
    "link": "https://www.eurogamer.net/grand-theft-auto-6-vampire-survivors-maniac-interview"
   },
   {
-   "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-21T09:40:55Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Why were turkeys taken on a 3-month walk to London for Christmas?",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -240,13 +261,6 @@
    "link": "https://www.bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-21T08:10:25Z",
-   "link": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "MP opposing data centre joins government committee",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -259,6 +273,13 @@
    "topic": "local",
    "published": "2026-11-21T06:35:01Z",
    "link": "https://www.bbc.co.uk/news/articles/cmn4kz0d0gp0o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Best Pokémon TCG Flowing Fists: Where to buy and best deals so far",
+   "source": "MASHABLE",
+   "topic": "pokemon",
+   "published": "2026-11-21T05:09:47Z",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hVWFGbzJ3VW9oMXZfZ054S1lmM3ZGZDB0d3VQc1VqVmdSMjV1RkFzLUh0aVhFclVXX2hOZGV4Qk5LU0Y2blZEamRTYW1paXNYUml6NklHdW1jUk9oY2pJaFR2QkV0RVg2ejFTT0lZc1FVR0RobE9QMkpDQk1oQQ?oc=5"
   },
   {
    "title": "Gambling authority aware of Singapore influencers promoting Oripas site linked to Pokemon cards",
@@ -338,13 +359,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Pokemon TCG: The Most Valuable 30th Celebration Cards",
-   "source": "PHRASEMAKER",
-   "topic": "pokemon",
-   "published": "2026-11-20T22:36:44Z",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVWxpb0FhSDdrSjZ6a1BncGw4S0ZzOWpna0QwbTdVNkEtNU5zb3pYMG1rMEx0OHpCdy1PY2V3UUJjUHZHVGxwaTJVbW9vd2c4bTYyMDE0T0liaFNqSnFGUkZGaExpTklXQnQ3TlE5aEJWMElNZzRFaFJFdzBzcHpRdUNmYTRPN3NieDhCMVFqN0M?oc=5"
-  },
-  {
    "title": "Google rolls out new search homepage with AI chat history and no search button",
    "source": "ARS TECHNICA",
    "topic": "ai",
@@ -408,13 +422,6 @@
    "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
   },
   {
-   "title": "Woman Charged With Theft Of More Than $2,000 In Pokemon Cards",
-   "source": "WHKY",
-   "topic": "pokemon",
-   "published": "2026-11-20T16:21:28Z",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORFFCNm95NHhyRXlST1pnbGlNX1pZa2NidU9pN2ZFdkpndXc3cXprNlFJNXdjOG1HUDFDdzRuUl9XRV9RTnllRFhNZWdNV0kyU1RPbXBNaW16WG9sVGdvTldWcHJ6Z0ZTLWdXYkR1bW9JaFlJeS1YT2lJUFNYY2MwZkVCaw?oc=5"
-  },
-  {
    "title": "Airbnb's divisive new house rules come into force",
    "source": "BBC BUSINESS",
    "topic": "business",
@@ -476,13 +483,6 @@
    "topic": "ai",
    "published": "2026-11-19T22:31:41Z",
    "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
-  },
-  {
-   "title": "A brief history of Nvidia’s recent stock fluctuations",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-19T21:59:35Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
   },
   {
    "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
