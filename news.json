@@ -1,40 +1,229 @@
 {
- "updated": "2026-11-22T10:30:10.871568Z",
+ "updated": "2026-11-22T18:08:26.115347Z",
  "items": [
+  {
+   "title": "'Russell is living rent free in Verstappen's head!'",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-22T18:05:40Z",
+   "link": "https://www.bbc.co.uk/sport/formula1/videos/cr2klvl8zz8jo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-22T17:57:43Z",
+   "link": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The red card that changed Liverpool-Man Utd: correct call?",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-22T17:55:54Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Spurs deny Man City top spot with statement win",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-22T17:54:36Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Man United score dramatic late winner to extend record run",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-22T17:54:32Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Big wins as Celtic, Rangers, City & Hearts progress",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-22T17:53:41Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8zx91z9xe9yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Delta flights in and out of Atlanta delayed due to system outage",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-22T17:46:44Z",
+   "link": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
+  },
+  {
+   "title": "Arsenal frustrations grow as winless home run continues",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-22T17:30:45Z",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-22T17:25:20Z",
+   "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+  },
+  {
+   "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-22T17:18:26Z",
+   "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-22T17:16:47Z",
+   "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-22T17:00:00Z",
+   "link": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale"
+  },
+  {
+   "title": "Russell Brand's wife says she'll honour prison rules after message row",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-22T16:51:57Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq8e0pzp43w4o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-22T16:33:29Z",
+   "link": "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review"
+  },
+  {
+   "title": "GTA 6's strong and silent Jason was inspired by Steve McQueen and former Army Rangers, says Rockstar",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-22T16:11:00Z",
+   "link": "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers"
+  },
+  {
+   "title": "Third case of bird flu found in commercial poultry",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-22T15:22:39Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6rrgz40gw07o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Protesters storm Meta offices in India",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-22T15:15:07Z",
+   "link": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india"
+  },
+  {
+   "title": "RAF's next fighter jet could be last crewed combat plane, air chief says",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-22T14:19:06Z",
+   "link": "https://www.bbc.co.uk/news/articles/c68x08nzpk9no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Three killed and dozens missing after fire at Indonesian factory",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-22T14:05:20Z",
+   "link": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Nintendo’s Switch 2 console is $50 off for Black Friday",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-22T14:00:00Z",
+   "link": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale"
+  },
+  {
+   "title": "Boss of British Gas owners Centrica 'hugely concerned' over impact of soaring energy bills",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-22T13:50:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-11-22T13:50:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Centrica boss 'hugely concerned' over impact of soaring energy bills",
+   "source": "BBC BUSINESS",
+   "topic": "business",
+   "published": "2026-11-22T13:50:21Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "BBC apologises after noise disruption during Strictly",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-22T13:46:00Z",
+   "link": "https://www.bbc.co.uk/news/videos/ck782j066elvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Binding of Isaac dev pulls AI-generated music from Repentance+ after players expose it",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-22T13:19:20Z",
+   "link": "https://www.eurogamer.net/binding-of-isaac-repentance-plus-ai-music-removed"
+  },
+  {
+   "title": "Tories would scrap Burnham's deal with EU, deputy leader says",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-22T13:15:57Z",
+   "link": "https://www.bbc.co.uk/news/articles/cr868jnlllpgo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The vibe-coding revolution is coming to all the gadgets",
+   "source": "THE VERGE",
+   "topic": "ai",
+   "published": "2026-11-22T13:00:00Z",
+   "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+  },
+  {
+   "title": "Man dies in M42 crash near Birmingham Airport",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-22T12:38:03Z",
+   "link": "https://www.bbc.co.uk/news/articles/c61k94ype8keo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Over half of all console players active on GTA 6's launch day played it, says Circana",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-22T12:02:30Z",
+   "link": "https://www.eurogamer.net/gta-6-launch-day-engagement-circana"
+  },
+  {
+   "title": "GTA 6 player gets 30-day PSN ban for sharing in-game nudist photo with a friend",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-22T11:22:10Z",
+   "link": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort"
+  },
+  {
+   "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-22T10:44:12Z",
+   "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss"
+  },
   {
    "title": "\"It stayed alive for so long\" - Behind the wheel with the Last Riders saying goodbye to GTA Online, amidst GTA 6's world-changing launch",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-22T10:00:10Z",
    "link": "https://www.eurogamer.net/gta-6-grand-theft-auto-online-last-ride"
-  },
-  {
-   "title": "Injured Jacks out of T20 Australia tour",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-22T10:00:04Z",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Verstappen wins extraordinary race as Ferraris collide",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-22T09:49:15Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cqx2ex25pvn9o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "My son donated his body to science and became a 'silent teacher'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-22T09:38:08Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmj6l75zwzkjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Verstappen's superb racecraft & Russell's costly mistake - driver ratings",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-22T09:35:05Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c83vg92x21vzo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "South Korea education minister resigns over exam cheating scandal",
@@ -44,46 +233,11 @@
    "link": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Hamilton-Leclerc collision completely unacceptable, says Ferrari boss",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-22T09:07:15Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c6j9mepj0j1go?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "I've never known a moment like this in video games",
    "source": "EUROGAMER",
    "topic": "gaming",
    "published": "2026-11-22T09:00:00Z",
    "link": "https://www.eurogamer.net/gta-6-video-games-biggest-moment"
-  },
-  {
-   "title": "M42 near Birmingham Airport reopens after crash",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-22T08:50:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/c8e39qp01l29o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'Not the right time' - Fernandes pauses Man Utd contract talks",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-22T08:41:20Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "‘Showing off for Selena Gomez’ - Wembanyama hits 50 points in Spurs win",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-22T07:42:24Z",
-   "link": "https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Man who studied drama in young offenders' institution now a West End actor",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-22T07:32:21Z",
-   "link": "https://www.bbc.co.uk/news/articles/cry869dq271zo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "MP criticises Guernsey and Jersey company ownership register plans",
@@ -121,13 +275,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c6jrey28gvqxo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Village vote 'sent powerful message', say politicians",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-22T06:35:00Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6vg270pw9ydo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Village's independence vote 'sent powerful message', say politicians",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -142,13 +289,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cm0evwe9gypjo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Three killed and dozens missing after fire at Indonesian factory",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-22T06:05:00Z",
-   "link": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "From twig-like to wonky: the Christmas trees that sparked controversy",
    "source": "BBC NORFOLK",
    "topic": "local",
@@ -156,32 +296,11 @@
    "link": "https://www.bbc.co.uk/news/articles/c6pw4djv540vo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "'Move on!' Former PMs pile in with advice for Andy Burnham, but will he listen?",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-22T06:01:49Z",
-   "link": "https://www.bbc.co.uk/news/articles/cjn5023e6ez4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Theresa May 'aghast' at Burnham's EU plans and says 'Brexit is done'",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-22T06:01:14Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The Pokémon TCG Hop's Zacian ex Box is 20% off with coupon code — shop for close to market price",
+   "title": "Best Pokémon TCG deal: Get almost $10 off the Hop’s Zacian ex Box",
    "source": "MASHABLE",
    "topic": "pokemon",
    "published": "2026-11-22T01:30:27Z",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pdTg1TzM3TnFmZUZ2TVlySGFwdlVMZ0xPYjcyeHdrLUNRVE5yaFBhbExTSUJhd1BkSzJQWkZwQTVuZnRRRkdlNnhrZVZoaWY0STU4anNVRTdyLVo1RDRmQ0pJRlg1WndmaG9mcUxjZjRKSDV1Q1VZ?oc=5"
-  },
-  {
-   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-22T01:25:03Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pokemon TCG Flowing Fists Set Leaks; All the Hits Revealed So Far",
@@ -196,20 +315,6 @@
    "topic": "pokemon",
    "published": "2026-11-22T00:26:00Z",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mM3NCLWU1NUktTk5pbDBlcFlLU0hnUVhvc0dSRnZDWGdjdkZ2WTJNdjZEZWZLZ3VvNGhsZzBMMDNHTXExX0htR3R1anlMaHY4aGJfZ3kyT2N2WHQ3a2tJTjZ6WUNWT2xwTktsck5R?oc=5"
-  },
-  {
-   "title": "FBI reportedly investigating apparent hack of its criminal database",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-22T00:10:44Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-22T00:10:37Z",
-   "link": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Employers are being asked to give interview feedback - here's what applicants want",
@@ -233,16 +338,9 @@
    "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Amazon is complaining about NYC Council on shipping labels, too",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-21T21:59:31Z",
-   "link": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label"
-  },
-  {
    "title": "The UN fails to agree on rules regulating ‘killer robots’",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-21T20:03:37Z",
    "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
   },
@@ -254,20 +352,6 @@
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZWVjQVNTVktpOWtoU3NuTm5ydXdWSDR0NjJOVFhjempFcVpTSnd6N3diMkpqaWZoSnU4M2x6anRFSHN4eGtGcTVkSTRpNUtYaXRNbW1LbTljellIWXhTbFh6dkptdUphX2tkLUpuYkw3blM3X281YWFwS1BKTUJ2enBiOFZ0RDdDS1B2YmhKTVdLNmVHSXJWVHVjc3ZHOHgzeWlSZm0xQzNuTktEVVhzelNsSkpvVU0?oc=5"
   },
   {
-   "title": "The FBI and USDA were reportedly hacked",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-21T17:42:27Z",
-   "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked"
-  },
-  {
-   "title": "Unannounced Nioh 3 Complete Edition has been rated in Korea",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-21T17:19:50Z",
-   "link": "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea"
-  },
-  {
    "title": "Hormuz swim highlights environmental cost of war",
    "source": "BBC SCIENCE",
    "topic": "science",
@@ -275,37 +359,9 @@
    "link": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-21T16:00:00Z",
-   "link": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview"
-  },
-  {
-   "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
-   "source": "THE VERGE",
-   "topic": "tech",
-   "published": "2026-11-21T16:00:00Z",
-   "link": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale"
-  },
-  {
-   "title": "Phasmophobia's next update lets you ask ghosts to throw things and it's out next week",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-21T15:56:10Z",
-   "link": "https://www.eurogamer.net/phasmophobia-resonance-update-release-date-dowsing-rods-unity-6"
-  },
-  {
-   "title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-21T15:03:50Z",
-   "link": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix"
-  },
-  {
    "title": "Can Anthropic afford to put safety first?",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-21T15:00:00Z",
    "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
   },
@@ -317,25 +373,11 @@
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rS0hXUGtZM3ZsYXE4WEFSSmFnOFpoY1ZoX2s3WTZtem1lLWk2MDg5dGRrWlNLaGE0Q2h4aWFKVG5XQy1PTktaeDQyV2EyVnd4WVVnN2dac1VHWVlRVTVXeGRMS1liQQ?oc=5"
   },
   {
-   "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-21T14:19:40Z",
-   "link": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score"
-  },
-  {
    "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
    "source": "THE VERGE",
    "topic": "ai",
    "published": "2026-11-21T14:00:00Z",
    "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
-  },
-  {
-   "title": "How red squirrels made island their home",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-21T12:18:55Z",
-   "link": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Sessions offer advice on rising energy costs",
@@ -350,13 +392,6 @@
    "topic": "local",
    "published": "2026-11-21T08:28:23Z",
    "link": "https://www.bbc.co.uk/news/articles/c94gn34kdn18o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "'Somebody has to stand up to that guy' - Verstappen-Russell rivalry blows up again",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-21T08:13:58Z",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Gambling authority aware of Singapore influencers promoting Oripas site linked to Pokemon cards",
@@ -443,46 +478,11 @@
    "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-20T16:41:52Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
    "source": "THE VERGE",
    "topic": "ai",
    "published": "2026-11-20T16:34:13Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
-  },
-  {
-   "title": "Airbnb's divisive new house rules come into force",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-20T15:48:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "The week everything fell apart",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-20T14:06:59Z",
-   "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast"
-  },
-  {
-   "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-20T12:30:47Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
-  },
-  {
-   "title": "Apple is hiring engineers to build its own AI agent",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-19T22:31:41Z",
-   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
   },
   {
    "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
