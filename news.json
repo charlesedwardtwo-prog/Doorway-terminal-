@@ -1,52 +1,283 @@
 {
- "updated": "2026-11-24T02:41:10.844773Z",
+ "updated": "2026-11-24T13:04:30.885461Z",
  "items": [
   {
-   "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-24T01:11:54Z",
+   "title": "Baby P's mother given open prison recommendation",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-24T13:02:41Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Uber, Nuro, and Lucid kick off fully driverless robotaxi testing",
+   "source": "THE VERGE",
+   "topic": "tech",
+   "published": "2026-11-24T13:00:00Z",
+   "link": "https://www.theverge.com/transportation/1040676/uber-nuro-lucid-driverless-robotaxi-testing-bay-area"
+  },
+  {
+   "title": "'The rest of the world noticed' - Welshman Donald demolishes Aussies",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-24T12:58:20Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/ck30g8ed598no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Donald & Salt demolish Australia as England level series",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-24T12:58:20Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/ck30g8ed598no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Irish schools law blocked as unionists deploy Stormont veto",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-24T12:47:49Z",
+   "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Russian governor detained in rare criminal case against regional leader",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-24T12:45:43Z",
+   "link": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Sooryavanshi, 15, breaks sixes record after scoring 204 off 53 balls",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-24T12:38:39Z",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/c6y9709xx4qwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Non-league player injured falling down badger hole",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-24T12:31:12Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cw0k636m0vr3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+   "source": "ARS TECHNICA",
+   "topic": "ai",
+   "published": "2026-11-24T12:30:05Z",
+   "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+  },
+  {
+   "title": "Palace docked points for using four sub windows in win",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-24T12:14:19Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8wy5vy160kpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-24T12:12:48Z",
+   "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Historic England objects to missile motor factory",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-24T12:07:55Z",
+   "link": "https://www.bbc.co.uk/news/articles/c60741p4y72po?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Badger cull ruled out by Welsh government after speculation",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-24T12:01:32Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Triple killer admits murdering Ian Huntley in jail",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-24T11:59:53Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Rockstar is actively shopping Read Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-24T11:54:00Z",
+   "link": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta"
+  },
+  {
+   "title": "GTA 6 players are already starting to get very good at heists, despite all the new challenges Rockstar has added to the game",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-24T11:47:40Z",
+   "link": "https://www.eurogamer.net/gta-6-players-getting-very-good-at-heists-despite-challenges"
+  },
+  {
+   "title": "Car bomb tears through Colombian city wounding more than 20",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-24T11:45:52Z",
+   "link": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-24T11:40:46Z",
+   "link": "https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Prince William meets Burnham on first Downing Street visit",
+   "source": "BBC NEWS",
+   "topic": "uk",
+   "published": "2026-11-24T11:37:53Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm5y1xk1gpqvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Glens boss Ferguson apologises after seven-game ban",
+   "source": "BBC SPORT",
+   "topic": "sport",
+   "published": "2026-11-24T11:36:18Z",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm0evqv7nyq5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Warhammer 40,000: Boltgun 2 captures the franchise's bloody absurdity like nothing else",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-24T11:31:10Z",
+   "link": "https://www.eurogamer.net/warhammer-40000-boltgun-2-now-playing"
+  },
+  {
+   "title": "Pope Francis' diary reveals claims he saw the devil three times",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-24T11:10:57Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm78270l4z7no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Delia Smith joins opponents of £1.2bn data centre",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-24T11:04:36Z",
+   "link": "https://www.bbc.co.uk/news/articles/c678200xklgzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-24T10:58:51Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+   "source": "BBC NEWS",
+   "topic": "world",
+   "published": "2026-11-24T10:53:37Z",
    "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "UK papers: 'Huang returns to Nvidia hotseat' and 'Burnham opens door to second referendum'",
+   "title": "Inquiry expected into housing scheme 'exploitation'",
    "source": "BBC NEWS",
    "topic": "uk",
-   "published": "2026-11-24T01:08:32Z",
-   "link": "https://www.bbc.co.uk/news/articles/c69vwg0kxvy9o?at_medium=RSS&at_campaign=rss"
+   "published": "2026-11-24T10:47:53Z",
+   "link": "https://www.bbc.co.uk/news/articles/cm0rk19kl52do?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Benefits review to suggest quicker payment for some disabled people",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-24T00:53:31Z",
-   "link": "https://www.bbc.co.uk/news/articles/cvx2xjed2r3ro?at_medium=RSS&at_campaign=rss"
+   "title": "More than 39 million people have played GTA 6 on PlayStation alone, Sony says, as the game breaks all-time player numbers on the platform",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-24T10:08:20Z",
+   "link": "https://www.eurogamer.net/more-than-39-million-people-have-played-gta-6-on-playstation-alone-sony-says-as-the-game-breaks-all-time-player-numbers-on-the-platform"
   },
   {
-   "title": "Chris Mason: Can Burnham turn volume down on EU debate?",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-24T00:45:53Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6pw47jyyz5no?at_medium=RSS&at_campaign=rss"
+   "title": "Rockstar Games reveals 23 extra tracks in GTA 6's deluxe edition soundtrack, featuring Denzel Curry, HEALTH, and more",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-24T10:03:50Z",
+   "link": "https://www.eurogamer.net/gta-6-deluxe-edition-soundtrack-23-extra-tracks"
   },
   {
-   "title": "No 10 North will face greater scrutiny as Burnham's 10-year plan looms",
-   "source": "BBC NEWS",
-   "topic": "uk",
-   "published": "2026-11-24T00:31:28Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6rrg7jx5gdgo?at_medium=RSS&at_campaign=rss"
+   "title": "Microsoft reportedly looked into killing paid multiplayer for next-gen Xbox Helix consoles",
+   "source": "EUROGAMER",
+   "topic": "gaming",
+   "published": "2026-11-24T10:02:10Z",
+   "link": "https://www.eurogamer.net/xbox-live-helix-killing-paid-membership"
   },
   {
-   "title": "Britain's landlords are getting bigger. A two-tier rental market may follow",
+   "title": "Coldest spell of autumn continues with risk of hill snow, ice and heavy rain",
    "source": "BBC NEWS",
    "topic": "uk",
+   "published": "2026-11-24T10:00:54Z",
+   "link": "https://www.bbc.co.uk/weather/articles/cmz9dyk4y8xdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
+   "source": "BBC TECH",
+   "topic": "tech",
+   "published": "2026-11-24T09:33:00Z",
+   "link": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "'Urgent action' needed to protect lake",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-24T09:10:43Z",
+   "link": "https://www.bbc.co.uk/news/articles/cr78271e5j91o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Add More Pokemon Cards to Your Collection Without Spending More This Black Friday",
+   "source": "CNET",
+   "topic": "pokemon",
+   "published": "2026-11-24T08:54:00Z",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FdXQ3dlMzQVA1YlpoNThQTnBJM191MWotMWpyOTJVamtpWks0ZzdZLW1LWXIwYmpYSFh1V2w5MGRic0VmbU13MF94ZllWbFFxYXE3VDNFSnQ2MTRMbmlnQUp5S2xMMWdHcFhtZi1TeDI4aGRyaVE4?oc=5"
+  },
+  {
+   "title": "Watch: Delia Smith says data centre will be bad for county",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-24T08:21:46Z",
+   "link": "https://www.bbc.co.uk/news/videos/ck879jz0vyqgo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Woman ignites explosives outside BBC, McDonald's and Starbucks",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-24T07:55:03Z",
+   "link": "https://www.bbc.co.uk/news/videos/cm1wr3xxj225o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "What next for Suffolk village that voted to leave UK over migrant plans?",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-24T06:46:48Z",
+   "link": "https://www.bbc.co.uk/news/articles/cj3vg5zdqvz6o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Goats drafted in to tame Greenwich Park slope",
+   "source": "BBC SCIENCE",
+   "topic": "science",
+   "published": "2026-11-24T06:16:51Z",
+   "link": "https://www.bbc.co.uk/news/articles/cq4gn2vde8m8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Women steal from domestic violence charity shop",
+   "source": "BBC NORFOLK",
+   "topic": "local",
+   "published": "2026-11-24T06:13:59Z",
+   "link": "https://www.bbc.co.uk/news/articles/cwzd9npy45qvo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "The shake-up facing renters as a new kind of landlord emerges",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-24T00:28:48Z",
    "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
-   "source": "BBC NEWS",
-   "topic": "uk",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-24T00:11:08Z",
    "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss"
   },
@@ -65,13 +296,6 @@
    "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Who has made Troy's Premier League team of the week?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-23T23:26:35Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c34gn2p5d0zwo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
    "source": "THE VERGE",
    "topic": "tech",
@@ -80,8 +304,8 @@
   },
   {
    "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC TECH",
+   "topic": "tech",
    "published": "2026-11-23T23:16:08Z",
    "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
   },
@@ -93,46 +317,11 @@
    "link": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026"
   },
   {
-   "title": "Key questions as Rangers host Aberdeen & Dundee visit Hibs",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-23T23:07:48Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqe9kvdr2mmyo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Andrews praises 'versatile' Lewis-Potter",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-23T22:59:14Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c6z0kdgz39p3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Moyes questions Tarkowski red in Brentford loss",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-23T22:54:51Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cq4gnk062y8go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Tarkowski's first Premier League red ruins Moyes' night - was it deserved?",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-23T22:43:39Z",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmqx5eynvpqno?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Ladybird, the first new browser engine in years, is now available to test",
    "source": "THE VERGE",
    "topic": "tech",
    "published": "2026-11-23T22:38:09Z",
    "link": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
-  },
-  {
-   "title": "Janelt scores stunner as Brentford beat 10-man Everton",
-   "source": "BBC SPORT",
-   "topic": "sport",
-   "published": "2026-11-23T22:31:27Z",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c5gm3jlw7l7xo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Trump engineered a risky comeback for Jensen Huang",
@@ -144,7 +333,7 @@
   {
    "title": "Nvidia CEO Jensen Huang is back. What happens next?",
    "source": "THE VERGE",
-   "topic": "tech",
+   "topic": "ai",
    "published": "2026-11-23T22:10:32Z",
    "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
   },
@@ -184,20 +373,6 @@
    "link": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit"
   },
   {
-   "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-23T20:48:35Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Deltarune Chapter 6 is playable \"from the beginning to the end,\" Toby Fox says, but the RPG's final part has \"only just started\"",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-23T20:04:50Z",
-   "link": "https://www.eurogamer.net/deltarune-chapter-6-playable-toby-fox"
-  },
-  {
    "title": "Claude AI can review pull requests and ship fixes on its own now",
    "source": "THE VERGE",
    "topic": "ai",
@@ -212,13 +387,6 @@
    "link": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return"
   },
   {
-   "title": "Activision calls Banjo-Kazooie one of its \"iconic gaming franchises,\" raising hopes for long-awaited new game",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-23T19:22:30Z",
-   "link": "https://www.eurogamer.net/activision-banjo-kazooie-iconic-gaming-franchise"
-  },
-  {
    "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
    "source": "THE VERGE",
    "topic": "ai",
@@ -227,31 +395,10 @@
   },
   {
    "title": "'Biggest U-turn in economic history': Experts react to Jensen Huang's return to Nvidia",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC BUSINESS",
+   "topic": "business",
    "published": "2026-11-23T18:43:00Z",
    "link": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
-   "source": "THE VERGE",
-   "topic": "ai",
-   "published": "2026-11-23T18:26:47Z",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit"
-  },
-  {
-   "title": "God of War Laufey's Faye actor jumps from games to live-action, as Amazon casts Deborah Ann Woll in upcoming series",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-23T18:09:50Z",
-   "link": "https://www.eurogamer.net/god-of-war-laufey-faye-amazon-series"
-  },
-  {
-   "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-23T18:04:20Z",
-   "link": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pip assessments need 'fundamental overhaul', report to say",
@@ -262,24 +409,10 @@
   },
   {
    "title": "What failure of COP31 reveals about a divided world",
-   "source": "BBC NEWS",
-   "topic": "world",
+   "source": "BBC SCIENCE",
+   "topic": "science",
    "published": "2026-11-23T17:24:25Z",
    "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
-   "source": "BBC NEWS",
-   "topic": "world",
-   "published": "2026-11-23T17:14:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-23T17:11:58Z",
-   "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
@@ -287,20 +420,6 @@
    "topic": "science",
    "published": "2026-11-23T17:07:25Z",
    "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Dawn of War 4's newest trailer teases the appearance of a fan-favourite character in the game's post-launch DLC",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-23T17:06:40Z",
-   "link": "https://www.eurogamer.net/dawn-of-war-4-trailer-vashtorr-chaos-tease"
-  },
-  {
-   "title": "Woman jailed for 10 years for explosives offences",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-23T17:03:57Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm0jx74nvvnlo?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "How important are Nvidia and Jensen Huang to the US economy?",
@@ -317,13 +436,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Village's concern over sewage discharge in dry river",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-23T15:48:07Z",
-   "link": "https://www.bbc.co.uk/news/articles/c60rkq78g05vo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
    "source": "ARS TECHNICA",
    "topic": "ai",
@@ -331,46 +443,11 @@
    "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
   },
   {
-   "title": "GTA 6 just got a patch that fixed a progression bug on PS5 and Xbox Series X/S",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-23T15:22:30Z",
-   "link": "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette"
-  },
-  {
-   "title": "Nvidia makes stunning decision to reinstate Jensen Huang as CEO",
-   "source": "EUROGAMER",
-   "topic": "gaming",
-   "published": "2026-11-23T15:01:00Z",
-   "link": "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair"
-  },
-  {
-   "title": "Nvidia reinstates CEO after affair with alleged spy",
-   "source": "BBC BUSINESS",
-   "topic": "business",
-   "published": "2026-11-23T14:51:05Z",
-   "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "These Pokemon Black Friday Deals Bring More Cards to Your Collection for Less",
-   "source": "CNET",
-   "topic": "pokemon",
-   "published": "2026-11-23T14:25:00Z",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FdXQ3dlMzQVA1YlpoNThQTnBJM191MWotMWpyOTJVamtpWks0ZzdZLW1LWXIwYmpYSFh1V2w5MGRic0VmbU13MF94ZllWbFFxYXE3VDNFSnQ2MTRMbmlnQUp5S2xMMWdHcFhtZi1TeDI4aGRyaVE4?oc=5"
-  },
-  {
    "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
    "source": "BBC TECH",
    "topic": "tech",
    "published": "2026-11-23T14:08:50Z",
    "link": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Cost of maintaining council's former HQ soars",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-23T14:01:23Z",
-   "link": "https://www.bbc.co.uk/news/articles/c63rgp92g8n4o?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pokemon Reveals 30 Pure Gold Pikachu Cards",
@@ -387,34 +464,6 @@
    "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/"
   },
   {
-   "title": "Science centre revamp will 'rocket boost' economy",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-23T06:35:53Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqm2jemjx30no?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "New homes pose sewage risk, warns water firm",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-23T06:35:01Z",
-   "link": "https://www.bbc.co.uk/news/articles/c5n4eyv3x971o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Five takeaways from the failed climate talks COP31",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-23T06:33:50Z",
-   "link": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-23T05:15:06Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Best Pokémon TCG deal: Get almost $10 off the Hop’s Zacian ex Box",
    "source": "MASHABLE",
    "topic": "pokemon",
@@ -422,46 +471,11 @@
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pdTg1TzM3TnFmZUZ2TVlySGFwdlVMZ0xPYjcyeHdrLUNRVE5yaFBhbExTSUJhd1BkSzJQWkZwQTVuZnRRRkdlNnhrZVZoaWY0STU4anNVRTdyLVo1RDRmQ0pJRlg1WndmaG9mcUxjZjRKSDV1Q1VZ?oc=5"
   },
   {
-   "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-23T00:08:00Z",
-   "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "The Pokémon Company Officially Confirms Pokémon TCG Releases Are Changing",
    "source": "GAMERANT",
    "topic": "pokemon",
    "published": "2026-11-22T23:29:06Z",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE43QmVmbGI4bEJxcHNRTk5TbjFBVXF3VWk2Yzh5SEp2d2J5RXN6d1N4d1h4d21YNVNGQXNOTzNscDY5aERtNzVOVE53bjVzMy1yaWNaTGV2Wjd4N2tSeVVGLVg4aFBOLXBadEFRZG5yTW5hdw?oc=5"
-  },
-  {
-   "title": "Armed police arrest man after city incident",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-22T18:44:25Z",
-   "link": "https://www.bbc.co.uk/news/articles/c64gn7n59xryo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "What's next after no deal at COP31 climate summit?",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-22T18:28:48Z",
-   "link": "https://www.bbc.co.uk/news/videos/cx987g7q019go?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Third case of bird flu found in commercial poultry",
-   "source": "BBC NORFOLK",
-   "topic": "local",
-   "published": "2026-11-22T15:22:39Z",
-   "link": "https://www.bbc.co.uk/news/articles/c6rrgz40gw07o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
-   "source": "BBC SCIENCE",
-   "topic": "science",
-   "published": "2026-11-22T10:44:12Z",
-   "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss"
   },
   {
    "title": "Pokemon TCG Flowing Fists Set Leaks; All the Hits Revealed So Far",
@@ -478,13 +492,6 @@
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mM3NCLWU1NUktTk5pbDBlcFlLU0hnUVhvc0dSRnZDWGdjdkZ2WTJNdjZEZWZLZ3VvNGhsZzBMMDNHTXExX0htR3R1anlMaHY4aGJfZ3kyT2N2WHQ3a2tJTjZ6WUNWT2xwTktsck5R?oc=5"
   },
   {
-   "title": "Tech Now",
-   "source": "BBC TECH",
-   "topic": "tech",
-   "published": "2026-11-21T01:00:00Z",
-   "link": "https://www.bbc.co.uk/iplayer/episode/m0034tjc?at_medium=RSS&at_campaign=rss"
-  },
-  {
    "title": "Google rolls out new search homepage with AI chat history and no search button",
    "source": "ARS TECHNICA",
    "topic": "ai",
@@ -497,13 +504,6 @@
    "topic": "ai",
    "published": "2026-11-20T21:47:10Z",
    "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
-  },
-  {
-   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-   "source": "ARS TECHNICA",
-   "topic": "ai",
-   "published": "2026-11-20T20:59:08Z",
-   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
   }
  ]
 }
